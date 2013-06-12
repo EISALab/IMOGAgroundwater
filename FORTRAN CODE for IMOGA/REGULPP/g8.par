@@ -1,0 +1,17 @@
+                  Parameters for GAMV
+                  *******************
+
+START OF PARAMETERS:
+a:f1g8var.dat               \file with data
+1   2   0                         \   columns for X, Y, Z coordinates
+1   3                         \   number of varables,column numbers
+-1.0e21     1.0e21                \   trimming limits
+a:f1g8var.out                          \file for variogram output
+4                                \number of lags
+200.0                               \lag separation distance
+100.0                               \lag tolerance
+1                                 \number of directions
+0.0 180.0 1000.0   0.0  90.0  50.0  \azm,atol,bandh,dip,dtol,bandv
+0                                 \standardize sills? (0=no, 1=yes)
+1                                 \number of variograms
+1   1   1                         \tail var., head var., variogram type

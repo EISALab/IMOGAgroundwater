@@ -1,0 +1,51 @@
+
+		Port Names used in D2K
+
+In an attempt to use consistent names for D2K input and output ports (as 
+much as is reasonably possible), please consult and update this document
+as you update your user modules.   These port names are the input and output 
+display names returned by "getInputName()" and "getOutputName()".   Try to 
+be consistent when possible so the user isn't overwhelmed with 15 names for
+the 'same' information.
+
+Please use the format shown (commas separating different pieces of information)
+so that we can sort & manage the information at a later date.  Thanks!
+
+
+Port Name, Port Object Type, Input or Output, Description of Information, Module Name (Common Name)
+
+
+File Name,   java.lang.String, Output, A file name - possibly with path,               Input1FileName (Input File Name)
+File Name 1, java.lang.String, Output, First file name - possibly with path,           Input2FileNames (Input 2 File Names)
+File Name 2, java.lang.String, Output, Second file name - possibly with path,          Input2FileNames (Input 2 File Names)
+File Name,   java.lang.String, Input,  A file name where serialized object is read,    InputSerializedObject (Input Serialized Object)
+File Name,   java.lang.String, Input,  A file name where serialized object is written, OutputSerializedObject (Output Serialized Object)
+File Name,   java.lang.String, Input,  Absolute path to and ARFF  file, 	       CreateARFFParser (Create ARFF File Parser)
+File Name,   java.lang.String, Input,  A file name where table is written,             WriteTableToFile (Write Table To File)
+
+File Parser, d2k.modules.core.io.file.input.ARFFFileParser, Output,  An ARFF File Parser, CreateARFFParser (Create ARFF File Parser)
+
+Java Object, java.lang.Object, Output, The object that was deserialized, InputSerializedObject (Input Serialized Object)
+Java Object, java.lang.Object, Input,  The object to be serialized,      OutputSerializedObject (Output Serialized Object)
+
+Input Table,  d2k.modules.core.datatype.table.basic.TableImpl, Input,  Original Table to be operated on,   MergeTableRows (Merge Table Rows)
+Output Table, d2k.modules.core.datatype.table.basic.TableImpl, Output, Resulting Table after merges,       MergeTableRows (Merge Table Rows)
+First Table,  ncsa.d2k.modules.core.datatype.table.Table,      Input,  First table to combine,             AppendTables (Append Tables)
+Second Table, ncsa.d2k.modules.core.datatype.table.Table,      Input,  Second table to combine,            AppendTables (Append Tables)
+Result Table, ncsa.d2k.modules.core.datatype.table.eTable,     Output, Table resulting from combination,   AppendTables (Append Tables)
+Table,        ncsa.d2k.modules.core.datatype.table.Table,      Input,  Table to write, 		           WriteTableToFile (Write Table To File)
+Table,	      ncsa.d2k.modules.core.datatype.table.Table,      Input,  A Table with columns to bin,        BinColumns (Bin Columns)
+Table,        ncsa.d2k.modules.core.datatype.table.Table,      Input,  Table with examples,                NFoldTrainTest (N-Fold TrainTest )
+
+TrainTable,   ncsa.d2k.modules.core.datatype.table.TrainTable, Output, Training Set,                       NFoldTrainTest (N-FoldTrainTest)
+TestTable,   ncsa.d2k.modules.core.datatype.table.TestTable, Output, Testing Set,                       NFoldTrainTest (N-FoldTrainTest)
+
+Example Table, ncsa.d2k.modules.core.datatype.table.ExampleTable, Input, Example Table containing the names of the input/output features, CreateBinTree (Create Bin Tree)
+
+Binning Transformation, ncsa.d2k.modules.core.datatype.table.transformations.BinTransform, Output, A Binning Transformation...,  BinColumns (Bin Columns)
+Binning Transformation, ncsa.d2k.modules.core.datatype.table.transformations.BinTransform, Input, Binning Transformation containing..., CreateBinTree (Create Bin Tree)
+
+Bin Tree, ncsa.d2k.modules.core.transform.binning.BinTree, Output, Bin Tree structure without counts, CreateBinTree (Create Bin Tree)
+
+Number of Folds,  java.lang.Integer, Output, The number of Folds, NFoldTrainTest (N-FoldTrainTest)
+

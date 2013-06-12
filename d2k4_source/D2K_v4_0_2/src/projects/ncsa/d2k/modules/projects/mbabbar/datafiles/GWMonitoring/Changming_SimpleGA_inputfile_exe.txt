@@ -1,0 +1,5 @@
+Fitnessid,exepathname,inputfilename,numoutputfiles,outputfilename
+integer,string,string,integer,string
+0,C:/D_backup/Meghna/jbproject/d2k_original/d2kgassc.exe,C:/D_backup/Meghna/jbproject/d2k_original/GENES.TXT,1,C:/D_backup/Meghna/jbproject/d2k_original/FITNESS1.TXT
+
+

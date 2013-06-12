@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AABHdwgAAAAlAAAALHQADUlHQXRlc3RfRmFuSW5zcgAbbmNzYS5kMmsuY29yZS5SZXNvdXJjZUVu
+dHJ51S4sIEIDJtICAAJMAAxjYWNoZWRPYmplY3R0ABJMamF2YS9sYW5nL09iamVjdDtMAA9vYmpl
+Y3RDbGFzc05hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHB0ACFuY3NhLmQyay5jb3JlLm1vZHVs
+ZXMuRmFuSW5Nb2R1bGV0ACdJR0E6IEh1bWFuIEZpdG5lc3MgUHJlZGljdG9yIChBdmcgS05OKTFz
+cQB+AARwdABMbmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5tYmFiYmFyLm9wdGltaXplLmdhLmln
+YS5wcmVkaWN0b3JzLkF2Z0hGUHJlZGljdGlvbnQAE0lHQTogV2VsY29tZSBXaW5kb3dzcQB+AARw
+dABGbmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5tYmFiYmFyLm9wdGltaXplLmdhLmlnYS52aXMu
+SUdBV2VsY29tZVdpbmRvd3QAJ0lHQXRlc3RfSUdBOiBFdmFsdWF0ZU1PNENvbG9yUG9wdWxhdGlv
+bnNxAH4ABHB0AFluY3NhLmQyay5tb2R1bGVzLnByb2plY3RzLm1iYWJiYXIub3B0aW1pemUuZ2Eu
+aWdhLmV4YW1wbGVzLklHQUV2YWx1YXRlTU9QNENvbG9yUG9wdWxhdGlvbnQAIElHQXRlc3RfU2lt
+dWxhdGVkQmluYXJ5Q3Jvc3NvdmVyc3EAfgAEcHQARG5jc2EuZDJrLm1vZHVsZXMuY29yZS5vcHRp
+bWl6ZS5nYS5jcm9zc292ZXIuU2ltdWxhdGVkQmluYXJ5Q3Jvc3NvdmVydAAUSUdBIE9iamVjdGl2
+ZXMgVG8gVlRzcQB+AARwdABFbmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5tYmFiYmFyLm9wdGlt
+aXplLmdhLmlnYS5Qb3BUb0lHQVZpc1doZW5Eb25ldAAdUmFuZG9tVHJhZGVvZmZTZWxlY3Rpb25G
+aWx0ZXJzcQB+AARwdABZbmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5tYmFiYmFyLm9wdGltaXpl
+LmdhLmlnYS5zZWxlY3RvcnMuUmFuZG9tVHJhZGVvZmZTZWxlY3Rpb25GaWx0ZXJ0ACtJR0E6IFNv
+bHV0aW9ucyBSYW5raW5nIFNlY3Rpb24gKFBORyBmb3JtYXQpc3EAfgAEcHQAUW5jc2EuZDJrLm1v
+ZHVsZXMucHJvamVjdHMubWJhYmJhci5vcHRpbWl6ZS5nYS5pZ2EudmlzLklHQVNvbHV0aW9uUmFu
+a2luZ1dpbmRvd1BOR3QAH0lHQXRlc3RfSUdBTm9uRG9taW5hdGlvbkVsaXRpc21zcQB+AARwdABJ
+bmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5tYmFiYmFyLm9wdGltaXplLmdhLmlnYS5JR0FOb25E
+b21pbmF0aW9uRWxpdGlzbXQAGFNpbXVsYXRlZEJpbmFyeUNyb3Nzb3ZlcnNxAH4ABHB0AERuY3Nh
+LmQyay5tb2R1bGVzLmNvcmUub3B0aW1pemUuZ2EuY3Jvc3NvdmVyLlNpbXVsYXRlZEJpbmFyeUNy
+b3Nzb3ZlcnQAFUlHQXRlc3RfVGFibGUgVmlld2VyMXNxAH4ABHB0ACVuY3NhLmQyay5tb2R1bGVz
+LmNvcmUudmlzLlRhYmxlVmlld2VydAAUSUdBdGVzdF9NdXRhdGVNb2R1bGVzcQB+AARwdAA3bmNz
+YS5kMmsubW9kdWxlcy5jb3JlLm9wdGltaXplLmdhLm11dGF0aW9uLk11dGF0ZU1vZHVsZXQANElH
+QXRlc3RfT2JqZWN0aXZlcyBUbyBWVCBhbmQgSUdBIFNlc3Npb24gSW5pdGlhdGlvbjFzcQB+AARw
+dABFbmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5tYmFiYmFyLm9wdGltaXplLmdhLmlnYS5Qb3BU
+b0lHQVZpc1doZW5Eb25ldAAMTXV0YXRlTW9kdWxlc3EAfgAEcHQAN25jc2EuZDJrLm1vZHVsZXMu
+Y29yZS5vcHRpbWl6ZS5nYS5tdXRhdGlvbi5NdXRhdGVNb2R1bGV0AA5JR0F0ZXN0X0Zhbk91dHNx
+AH4ABHB0ACJuY3NhLmQyay5jb3JlLm1vZHVsZXMuRmFuT3V0TW9kdWxldAAbSUdBdGVzdF9JR0E6
+IFdlbGNvbWUgV2luZG93c3EAfgAEcHQARm5jc2EuZDJrLm1vZHVsZXMucHJvamVjdHMubWJhYmJh
+ci5vcHRpbWl6ZS5nYS5pZ2EudmlzLklHQVdlbGNvbWVXaW5kb3d0AAZGYW5JbjJzcQB+AARwdAAh
+bmNzYS5kMmsuY29yZS5tb2R1bGVzLkZhbkluTW9kdWxldAATSUdBOiBDbG9zaW5nIFdpbmRvd3Nx
+AH4ABHB0AEZuY3NhLmQyay5tb2R1bGVzLnByb2plY3RzLm1iYWJiYXIub3B0aW1pemUuZ2EuaWdh
+LnZpcy5JR0FDbG9zaW5nV2luZG93dAAPTWVhc3VyZSBTdWNjZXNzc3EAfgAEcHQAL25jc2EuZDJr
+Lm1vZHVsZXMuY29yZS5vcHRpbWl6ZS5nYS5NZWFzdXJlTW9kdWxldAAGRmFuSW4xc3EAfgAEcHQA
+IW5jc2EuZDJrLmNvcmUubW9kdWxlcy5GYW5Jbk1vZHVsZXQAL0lHQXRlc3RfSUdBOiBIdW1hbiBG
+aXRuZXNzIFByZWRpY3RvciAoQXZnIEtOTikxc3EAfgAEcHQATG5jc2EuZDJrLm1vZHVsZXMucHJv
+amVjdHMubWJhYmJhci5vcHRpbWl6ZS5nYS5pZ2EucHJlZGljdG9ycy5BdmdIRlByZWRpY3Rpb250
+ABVJR0F0ZXN0X01lYXN1cmVNb2R1bGVzcQB+AARwdAAvbmNzYS5kMmsubW9kdWxlcy5jb3JlLm9w
+dGltaXplLmdhLk1lYXN1cmVNb2R1bGV0ABtJR0F0ZXN0X0lHQTogQ2xvc2luZyBXaW5kb3dzcQB+
+AARwdABGbmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5tYmFiYmFyLm9wdGltaXplLmdhLmlnYS52
+aXMuSUdBQ2xvc2luZ1dpbmRvd3QAKElHQXRlc3RfSUdBOiBPYmplY3RpdmVzIFRyYWRlb2ZmIFNl
+Y3Rpb25zcQB+AARwdABTbmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5tYmFiYmFyLm9wdGltaXpl
+LmdhLmlnYS52aXMuSUdBT2JqZWN0aXZlU2NhdHRlclBsb3RXaW5kb3d0AChJR0F0ZXN0X0lHQTog
+R2VuZXJhdGVNT1A0Q29sb3JQb3B1bGF0aW9uc3EAfgAEcHQAWW5jc2EuZDJrLm1vZHVsZXMucHJv
+amVjdHMubWJhYmJhci5vcHRpbWl6ZS5nYS5pZ2EuZXhhbXBsZXMuSUdBR2VuZXJhdGVNT1A0Q29s
+b3JQb3B1bGF0aW9udAAIVlRWaWV3ZXJzcQB+AARwdAAibmNzYS5kMmsubW9kdWxlcy5jb3JlLnZp
+cy5WVFZpZXdlcnQAHElHQXRlc3RfSUdBIE9iamVjdGl2ZXMgVG8gVlRzcQB+AARwcQB+ACx0ABpJ
+R0E6IENvbG9yIEltYWdlIFByb2Nlc3NvcnNxAH4ABHB0AFVuY3NhLmQyay5tb2R1bGVzLnByb2pl
+Y3RzLm1iYWJiYXIub3B0aW1pemUuZ2EuaWdhLmltYWdlcHJvY2Vzc29ycy5Db2xvckltYWdlUHJv
+Y2Vzc29ydAAXSUdBTm9uRG9taW5hdGlvbkVsaXRpc21zcQB+AARwdABJbmNzYS5kMmsubW9kdWxl
+cy5wcm9qZWN0cy5tYmFiYmFyLm9wdGltaXplLmdhLmlnYS5JR0FOb25Eb21pbmF0aW9uRWxpdGlz
+bXQAKUlHQTogT2JqZWN0aXZlcyhGaXRuZXNzKSBUcmFkZW9mZiBTZWN0aW9uc3EAfgAEcHQASm5j
+c2EuZDJrLm1vZHVsZXMucHJvamVjdHMubWJhYmJhci5vcHRpbWl6ZS5nYS5pZ2EudmlzLklHQUZp
+dG5lc3NQbG90V2luZG93dAAuSUdBdGVzdF9JR0E6IEh1bWFuIEZpdG5lc3MgUHJlZGljdG9yIChB
+dmcgS05OKXNxAH4ABHBxAH4ARHQAFElHQXRlc3RfVGFibGUgVmlld2Vyc3EAfgAEcHEAfgAmdAAO
+SUdBdGVzdF9GYW5JbjFzcQB+AARwcQB+AAh0AAxUYWJsZSBWaWV3ZXJzcQB+AARwdAAlbmNzYS5k
+MmsubW9kdWxlcy5jb3JlLnZpcy5UYWJsZVZpZXdlcnQAEklHQXRlc3RfVHJ1bmNhdGlvbnNxAH4A
+BHB0ADZuY3NhLmQyay5tb2R1bGVzLmNvcmUub3B0aW1pemUuZ2Euc2VsZWN0aW9uLlRydW5jYXRp
+b250ACBJR0E6IEdlbmVyYXRlTU9QNENvbG9yUG9wdWxhdGlvbnNxAH4ABHB0AFluY3NhLmQyay5t
+b2R1bGVzLnByb2plY3RzLm1iYWJiYXIub3B0aW1pemUuZ2EuaWdhLmV4YW1wbGVzLklHQUdlbmVy
+YXRlTU9QNENvbG9yUG9wdWxhdGlvbnQAClRydW5jYXRpb25zcQB+AARwdAA2bmNzYS5kMmsubW9k
+dWxlcy5jb3JlLm9wdGltaXplLmdhLnNlbGVjdGlvbi5UcnVuY2F0aW9udAAGRmFuT3V0c3EAfgAE
+cHQAIm5jc2EuZDJrLmNvcmUubW9kdWxlcy5GYW5PdXRNb2R1bGV0ACZJR0E6IEh1bWFuIEZpdG5l
+c3MgUHJlZGljdG9yIChBdmcgS05OKXNxAH4ABHBxAH4AC3QAIklHQXRlc3RfSUdBOiBDb2xvciBJ
+bWFnZSBQcm9jZXNzb3JzcQB+AARwdABVbmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5tYmFiYmFy
+Lm9wdGltaXplLmdhLmlnYS5pbWFnZXByb2Nlc3NvcnMuQ29sb3JJbWFnZVByb2Nlc3NvcnQAJ0lH
+QXRlc3RfSUdBOiBTb2x1dGlvbnMgUmFua2luZyBTZWN0aW9uIHNxAH4ABHB0AE5uY3NhLmQyay5t
+b2R1bGVzLnByb2plY3RzLm1iYWJiYXIub3B0aW1pemUuZ2EuaWdhLnZpcy5JR0FTb2x1dGlvblJh
+bmtpbmdXaW5kb3d0ACVJR0F0ZXN0X1JhbmRvbVRyYWRlb2ZmU2VsZWN0aW9uRmlsdGVyc3EAfgAE
+cHQAWW5jc2EuZDJrLm1vZHVsZXMucHJvamVjdHMubWJhYmJhci5vcHRpbWl6ZS5nYS5pZ2Euc2Vs
+ZWN0b3JzLlJhbmRvbVRyYWRlb2ZmU2VsZWN0aW9uRmlsdGVydAAsT2JqZWN0aXZlcyBUbyBWVCBh
+bmQgSUdBIFNlc3Npb24gSW5pdGlhdGlvbjFzcQB+AARwdABFbmNzYS5kMmsubW9kdWxlcy5wcm9q
+ZWN0cy5tYmFiYmFyLm9wdGltaXplLmdhLmlnYS5Qb3BUb0lHQVZpc1doZW5Eb25ldAAfSUdBOiBF
+dmFsdWF0ZU1PNENvbG9yUG9wdWxhdGlvbnNxAH4ABHB0AFluY3NhLmQyay5tb2R1bGVzLnByb2pl
+Y3RzLm1iYWJiYXIub3B0aW1pemUuZ2EuaWdhLmV4YW1wbGVzLklHQUV2YWx1YXRlTU9QNENvbG9y
+UG9wdWxhdGlvbng=" label="IGAtest.itn">
+    <annotation><![CDATA[<?xml version="1.0" encoding="UTF-8"?><D2K>  <Info>    <Text>Solves ZDT2 from "A Fast and Elitist Multi-Objective Genetic Algorithm: NSGA-II" by Deb et al. </Text>  </Info></D2K>]]></annotation>
+    <module alias="IGA: GenerateMOP4ColorPopulation" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.examples.IGAGenerateMOP4ColorPopulation" xloc="13" yloc="10">
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="FanIn1" index="0"/>
+      </output>
+      <property name="targetFitness" value="0.01"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="worstFitness" value="1.0"/>
+      <property name="numberGenerations" value="10"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+      <property name="bestFitness" value="0.0"/>
+      <property name="populationSize" value="100"/>
+    </module>
+    <module alias="FanOut" classname="ncsa.d2k.core.modules.FanOutModule" xloc="308" yloc="196">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.IGANsgaPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.IGANsgaPopulation">
+        <destination alias="IGA Objectives To VT" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.optimize.ga.IGANsgaPopulation">
+        <destination alias="FanIn2" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA="/>
+    </module>
+    <module alias="MutateModule" classname="ncsa.d2k.modules.core.optimize.ga.mutation.MutateModule" xloc="775" yloc="16">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="FanIn1" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAFA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAMv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAFA=="/>
+      <property name="mutationRate" value="5.0E-4"/>
+      <property name="debugging" value="false"/>
+    </module>
+    <module alias="Table Viewer" classname="ncsa.d2k.modules.core.vis.TableViewer" xloc="22" yloc="397">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <property name="maxFractionDigits" value="-1"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="windowName" value="Table Viewer"/>
+    </module>
+    <module alias="IGANonDominationElitism" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANonDominationElitism" xloc="145" yloc="192">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.IGANsgaPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.IGANsgaPopulation">
+        <destination alias="FanOut" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAFQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAABpv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAFQ=="/>
+    </module>
+    <module alias="IGA: Solutions Ranking Section (PNG format)" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.vis.IGASolutionRankingWindowPNG" xloc="430" yloc="205">
+      <input index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation">
+        <destination alias="IGA: Human Fitness Predictor (Avg KNN)1" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAg=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAI="/>
+      <property name="windowName" value="IGA: Solutions Ranking Section (PNG format)"/>
+    </module>
+    <module alias="SimulatedBinaryCrossover" classname="ncsa.d2k.modules.core.optimize.ga.crossover.SimulatedBinaryCrossover" xloc="710" yloc="107">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="MutateModule" index="0"/>
+      </output>
+      <property name="generationGap" value="0.6"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAFA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAABI///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAFA=="/>
+      <property name="crossoverRate" value="0.25"/>
+      <property name="n" value="2.0"/>
+      <property name="debugging" value="false"/>
+    </module>
+    <module alias="Truncation" classname="ncsa.d2k.modules.core.optimize.ga.selection.Truncation" xloc="582" yloc="133">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="SimulatedBinaryCrossover" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAFA=="/>
+      <property name="tournamentSize" value="4"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAjP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAFA=="/>
+    </module>
+    <module alias="IGA: Welcome Window" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.vis.IGAWelcomeWindow" xloc="113" yloc="282">
+      <input index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation">
+        <destination alias="IGA: Objectives(Fitness) Tradeoff Section" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAg=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAg=="/>
+      <property name="windowName" value="IGA: Welcome Window"/>
+    </module>
+    <module alias="IGA: Color Image Processor" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.imageprocessors.ColorImageProcessor" xloc="381" yloc="411">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="IGA: Solutions Ranking Section (PNG format)" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.datatype.table.Table">
+        <destination alias="IGA: Solutions Ranking Section (PNG format)" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAgAAAAI="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAMev//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAgAAAAIAAAAC"/>
+    </module>
+    <module alias="IGA Objectives To VT" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.PopToIGAVisWhenDone" xloc="5" yloc="291">
+      <input index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.IGANsgaPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation">
+        <destination alias="IGA: Welcome Window" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.datatype.table.basic.TableImpl">
+        <destination alias="Table Viewer" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAABAAAAAQ="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAABkf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAABAAAAAQ="/>
+    </module>
+    <module alias="Objectives To VT and IGA Session Initiation1" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.PopToIGAVisWhenDone" xloc="691" yloc="308">
+      <input index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.IGANsgaPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation">
+        <destination alias="IGA: Closing Window" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.datatype.table.basic.TableImpl"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAgAAAAA="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAgv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAgAAAAA="/>
+    </module>
+    <module alias="IGA: EvaluateMO4ColorPopulation" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.examples.IGAEvaluateMOP4ColorPopulation" xloc="276" yloc="19">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="IGA: Human Fitness Predictor (Avg KNN)" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAFQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAFQ=="/>
+    </module>
+    <module alias="IGA: Objectives(Fitness) Tradeoff Section" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.vis.IGAFitnessPlotWindow" xloc="116" yloc="383">
+      <input index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation">
+        <destination alias="RandomTradeoffSelectionFilter" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.datatype.table.Table">
+        <destination alias="RandomTradeoffSelectionFilter" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAgAAAAI="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAgAAAAI="/>
+      <property name="windowName" value="IGA: Objectives(Fitness) Tradeoff Section"/>
+    </module>
+    <module alias="Measure Success" classname="ncsa.d2k.modules.core.optimize.ga.MeasureModule" xloc="463" yloc="130">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="Truncation" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAFAAAAAA="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAACv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAFAAAAAA="/>
+      <property name="debugging" value="false"/>
+    </module>
+    <module alias="FanIn1" classname="ncsa.d2k.core.modules.FanInModule" xloc="235" yloc="34">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <input index="1" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="IGA: EvaluateMO4ColorPopulation" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+    </module>
+    <module alias="FanIn2" classname="ncsa.d2k.core.modules.FanInModule" xloc="397" yloc="157">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <input index="1" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="Measure Success" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+    </module>
+    <module alias="IGA: Human Fitness Predictor (Avg KNN)" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.predictors.AvgHFPrediction" xloc="15" yloc="161">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="IGANonDominationElitism" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="knn" value="1"/>
+    </module>
+    <module alias="RandomTradeoffSelectionFilter" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.selectors.RandomTradeoffSelectionFilter" xloc="278" yloc="282">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="IGA: Color Image Processor" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.datatype.table.Table">
+        <destination alias="IGA: Color Image Processor" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAgAAAAI="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAUP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAgAAAAIAAAAC"/>
+    </module>
+    <module alias="IGA: Closing Window" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.vis.IGAClosingWindow" xloc="747" yloc="211">
+      <input index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation">
+        <destination alias="FanIn2" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+      <property name="windowName" value="IGA: Closing Window"/>
+    </module>
+    <module alias="IGA: Human Fitness Predictor (Avg KNN)1" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.predictors.AvgHFPrediction" xloc="495" yloc="347">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="Objectives To VT and IGA Session Initiation1" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="knn" value="1"/>
+    </module>
+  </itinerary>
+</toolkit>

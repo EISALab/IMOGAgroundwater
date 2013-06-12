@@ -1,0 +1,493 @@
+package ncsa.d2k.modules.projects.dtcheng;
+
+import ncsa.d2k.modules.projects.dtcheng.io.*;
+import ncsa.d2k.core.modules.ComputeModule;
+
+import java.util.*;
+import java.io.*;
+
+public class ClusterSequences
+    extends ComputeModule {
+
+  //////////////////
+  //  PROPERTIES  //
+  //////////////////
+
+   //private String clustalWCommadString = "c:\\cygwin\\bin\\bash.exe";
+  private String clustalWCommadString = "bash";
+
+  public void setclustalWCommadString(String value) {
+    this.clustalWCommadString = value;
+  }
+
+  public String getclustalWCommadString() {
+    return this.clustalWCommadString;
+  }
+
+
+  private String clustalWDirectory = "";
+
+  public void setClustalWDirectory(String value) {
+    this.clustalWDirectory = value;
+  }
+
+  public String getClustalWDirectory() {
+    return this.clustalWDirectory;
+  }
+
+
+
+  private String Alignment = "full";
+
+  public void setAlignment(String value) {
+    this.Alignment = value;
+  }
+
+  public String getAlignment() {
+    return this.Alignment;
+  }
+
+  private String KTUP = "def";
+
+  public void setKTUP(String value) {
+    this.KTUP = value;
+  }
+
+  public String getKTUP() {
+    return this.KTUP;
+  }
+
+  private String WindowLength = "def";
+
+  public void setWindowLength(String value) {
+    this.WindowLength = value;
+  }
+
+  public String getWindowLength() {
+    return this.WindowLength;
+  }
+
+  private String ScoreType = "percent";
+
+  public void setScoreType(String value) {
+    this.ScoreType = value;
+  }
+
+  public String getScoreType() {
+    return this.ScoreType;
+  }
+
+  private String TopDiag = "def";
+
+  public void setTopDiag(String value) {
+    this.TopDiag = value;
+  }
+
+  public String getTopDiag() {
+    return this.TopDiag;
+  }
+
+  private String PairGap = "def";
+
+  public void setPairGap(String value) {
+    this.PairGap = value;
+  }
+
+  public String getPairGap() {
+    return this.PairGap;
+  }
+
+  private String Matrix = "def";
+
+  public void setMatrix(String value) {
+    this.Matrix = value;
+  }
+
+  public String getMatrix() {
+    return this.Matrix;
+  }
+
+  private String GapOpen = "def";
+
+  public void setGapOpen(String value) {
+    this.GapOpen = value;
+  }
+
+  public String getGapOpen() {
+    return this.GapOpen;
+  }
+
+
+  private String EndGaps = "def";
+
+  public void setEndGaps(String value) {
+    this.EndGaps = value;
+  }
+
+  public String getEndGaps() {
+    return this.EndGaps;
+  }
+
+
+  private String GapExtension = "def";
+
+  public void setGapExtension(String value) {
+    this.GapExtension = value;
+  }
+
+  public String getGapExtension() {
+    return this.GapExtension;
+  }
+
+
+  private String GapDistances = "def";
+
+  public void setGapDistances(String value) {
+    this.GapDistances = value;
+  }
+
+  public String getGapDistances() {
+    return this.GapDistances;
+  }
+
+  private boolean enableClustering = true;
+
+  public void setEnableClustering(boolean value) {
+    this.enableClustering = value;
+  }
+
+  public boolean getEnableClustering() {
+    return this.enableClustering;
+  }
+
+  //
+
+  ///////////////////
+  //  Module Info  //
+  ///////////////////
+
+  public String getModuleName() {
+    return "ClusterSequences";
+  }
+
+  public String getModuleInfo() {
+    return "<p>Overview: This module formates teh output for the clustalW program, executes that remote, then waits for the results. The results are placed in a data structure and passed on.</p>";
+  }
+
+  public String getInputName(int i) {
+    switch (i) {
+      case 0:
+        return "motifList";
+    }
+    return "";
+  }
+
+  public String[] getInputTypes() {
+    String[] types = {
+        "java.util.List",
+    };
+    return types;
+  }
+
+  public String getInputInfo(int i) {
+    switch (i) {
+      case 0:
+        return "motifList";
+    }
+    return "";
+  }
+
+  public String getOutputName(int i) {
+    switch (i) {
+      case 0:
+        return "ClustalW Results";
+      default:
+        return "No such output";
+    }
+  }
+
+  public String[] getOutputTypes() {
+    String[] types = {
+        "ncsa.d2k.modules.projects.dtcheng.ClustalWResults",
+    };
+    return types;
+  }
+
+  public String getOutputInfo(int i) {
+    switch (i) {
+      case 0:
+        return "This class contains the restuls of the ClustalW in three string arrays, sequences, alignments and counts.";
+      default:
+        return "No such output";
+    }
+  }
+
+  //
+  //
+  //
+  //
+
+  int MaxBufferSize = 1000000;
+  byte[] OutputBuffer = new byte[MaxBufferSize];
+  int OutputBufferIndex = 0;
+  public void beginExecution() {
+    OutputBufferIndex = 0;
+  }
+
+  //
+
+  void ProcessInputStream(InputStream inputStream) throws Exception {
+    int numBytes = 0;
+
+    while (true) {
+      int numBytesAvailable = 0;
+      try {
+        numBytesAvailable = inputStream.available();
+      }
+      catch (Exception e) {
+        Failure.report("inputStream.available() error!!!");
+      }
+
+      if (numBytesAvailable == 0)
+        break;
+
+      try {
+        numBytes = inputStream.read(OutputBuffer, OutputBufferIndex, numBytesAvailable);
+        if (numBytes != numBytesAvailable) {
+          Failure.report("numBytes != numBytesAvailable");
+        }
+      }
+      catch (Exception e) {
+        Failure.report("inputStream.read() error!!!");
+      }
+
+      if (true) {
+        System.out.print(new String(OutputBuffer, OutputBufferIndex, numBytesAvailable));
+      }
+
+      OutputBufferIndex += numBytesAvailable;
+    }
+  }
+
+  void IgnoreInputStream(InputStream inputStream) throws Exception {
+    byte[] buffer = new byte[1000];
+    int numBytes = 0;
+
+    while (true) {
+      int numBytesAvailable = 0;
+      try {
+        numBytesAvailable = inputStream.available();
+      }
+      catch (Exception e) {
+        System.out.println("inputStream.available() error!!!");
+      }
+
+      if (numBytesAvailable == 0)
+        break;
+
+      while (numBytesAvailable > 0) {
+        try {
+          numBytes = inputStream.read(buffer, 0, 1);
+        }
+        catch (Exception e) {
+          System.out.println("inputStream.read() error!!!");
+          throw e;
+        }
+
+        System.out.print(new String(buffer, 0, numBytes));
+
+        numBytesAvailable = numBytesAvailable - numBytes;
+      }
+    }
+  }
+
+//
+
+  public void doit() throws Exception {
+
+    byte LineFeedByte = (byte) 10;
+
+    String[] out = new String[1000000];
+    int out_i = 0;
+
+    List motifList = (List)this.pullInput(0);
+
+    //byte[][] SelectedSequences = (byte[][])this.pullInput(0);
+    //String[] SequenceNames = (String[])this.pullInput(1);
+
+    if (motifList.size() == 0) {
+      out[out_i++] = "Error!!!  No sequences match motif querry";
+      return;
+    }
+
+    ClustalWResults cwr = new ClustalWResults();
+
+    if (enableClustering) {
+      cwr.didClustering = true;
+
+      // write sequence file
+      int bufferSize = 1000000;
+      FlatFile ff = new FlatFile(clustalWDirectory + "seq.txt", "w", bufferSize, true /* readWholeLines */);
+
+      ExtractMotif extractor = new ExtractMotif();
+
+      ff.println(extractor.toClustalFormat(motifList));
+
+      ff.close();
+
+      String[] InputStreamLines = new String[6];
+
+      InputStreamLines[0] = "rm seq.aln >& /dev/null";
+      InputStreamLines[1] = "touch seq.aln";
+      InputStreamLines[2] = "rm seq.dnd >& /dev/null";
+      InputStreamLines[3] = "touch seq.dnd";
+      //InputStreamLines[4] = "./clustalw -infile=seq.txt > seq.out";
+      InputStreamLines[4] = "./clustalw /infile=seq.txt > seq.out";
+      //InputStreamLines[4] = "./clustalw seq.txt > seq.out";
+      InputStreamLines[5] = "exit";
+      /*
+       */
+      /*
+           String[] InputStreamLines = new String[2];
+           InputStreamLines[0] = "pwd";
+           InputStreamLines[1] = "exit";
+       */
+//String[] InputStreamLines = new String[0];
+
+      System.out.println("CommandString = " + clustalWCommadString);
+      System.out.println("ClustalWDirectory = " + clustalWDirectory);
+
+      File directory = new File(clustalWDirectory);
+
+      Runtime runtime = Runtime.getRuntime();
+      Process process = null;
+      try {
+        //String[] CommandArray = new String[] {CommandString, ClustalWDirectory};
+        String[] CommandArray = new String[] {clustalWCommadString};
+        String[] Environment = new String[0];
+        process = runtime.exec(CommandArray, null, directory);
+      }
+      catch (Exception e) {
+        System.out.println("exec error!!!");
+      }
+      System.out.println("process = " + process);
+
+      OutputStream outputStream = process.getOutputStream();
+      InputStream inputStream = process.getInputStream();
+      //InputStream errorStream = process.getErrorStream();
+
+      byte[] lineFeed = {
+          LineFeedByte};
+
+      for (int i = 0; i < InputStreamLines.length; i++) {
+
+        byte[] values = InputStreamLines[i].getBytes();
+
+        System.out.println("command = " + InputStreamLines[i]);
+
+        for (int j = 0; j < values.length; j++) {
+          try {
+            //wait(1000);
+            outputStream.write(values[j]);
+            outputStream.flush();
+          }
+          catch (Exception e) {
+            System.out.println("write error!!!");
+          }
+        }
+
+        try {
+          outputStream.write(lineFeed);
+          outputStream.flush();
+        }
+        catch (Exception e) {
+          System.out.println("write error!!!");
+          throw e;
+        }
+
+        ProcessInputStream(inputStream);
+        //IgnoreInputStream(errorStream);
+      }
+
+      /////////////////////////////
+      // wait for process to end //
+      /////////////////////////////
+
+      int returnValue = process.waitFor();
+      System.out.println("returnValue = " + returnValue);
+
+      if (false) {
+        int waitTime = 1000;
+        while (true) {
+          int exitValue = -1;
+          try {
+            exitValue = process.exitValue();
+            System.out.println("exitValue = " + exitValue);
+          }
+          catch (Exception e) {
+          }
+          if (exitValue != -1)
+            break;
+          //if (exitValue != -1)
+          //break;
+          //this.wait(waitTime);
+        }
+      }
+
+      ProcessInputStream(inputStream);
+      //IgnoreInputStream(errorStream);
+
+      String[] ResultFiles = new String[] {
+          clustalWDirectory + "seq.aln",
+          clustalWDirectory + "seq.dnd",
+      };
+
+      int NumResultFiles = ResultFiles.length;
+
+      // write sequence file
+      FlatFile in = null;
+      for (int i = 0; i < NumResultFiles; i++) {
+
+        in = new FlatFile(ResultFiles[i], "r", bufferSize, true /* readWholeLines */);
+
+        byte[] buffer = in.Buffer;
+
+        while (in.EOF == false) {
+
+          in.readLine();
+
+          if (in.EOF == true) {
+            break;
+          }
+
+          String string = new String(buffer, in.LineStart, in.LineNumBytes);
+
+          out[out_i++] = string;
+        }
+
+        String[] results = new String[out_i];
+        System.arraycopy(out, 0, results, 0, out_i);
+        switch (i) {
+          case 0:
+            cwr.alignments = results;
+            break;
+          case 1:
+            cwr.tree = results;
+            break;
+        }
+        out_i = 0;
+
+        in.close();
+        File file = new File(ResultFiles[i]);
+        file.delete();
+      }
+
+    } else
+      cwr.didClustering = false;
+
+	cwr.sequences = ExtractMotif.toSequenceDisplay(motifList);
+	cwr.counts = ExtractMotif.toCountsDisplay(motifList);
+	cwr.summary = ExtractMotif.toProteinSummary(motifList);
+    this.pushOutput(cwr, 0);
+  }
+}

@@ -1,0 +1,24 @@
+                  Parameters for GAMV
+                  *******************
+
+START OF PARAMETERS:
+PollutionTrans.prn               \file with data
+2   3   0                         \   columns for X, Y, Z coordinates
+1   4                         \   number of varables,column numbers
+0.0     200                \   trimming limits
+TransShortVarAni2.out                          \file for variogram output
+6                                \number of lags
+2.5                               \lag separation distance
+1.25                               \lag tolerance
+8                                 \number of directions
+0.0 22.5 10.0 0.0 90.0 50.0
+22.5 22.5 10.0 0.0 90.0 50.0
+45.0 22.5 10.0 0.0 90.0 50.0
+67.5 22.5 10.0 0.0 90.0 50.0
+90.0 22.5 10.0 0.0 90.0 50.0
+112.5 22.5 10.0 0.0 90.0 50.0
+135.0 22.5 10.0 0.0 90.0 50.0
+157.5 22.5 10.0 0.0 90.0 50.0
+0                                 \standardize sills? (0=no, 1=yes)
+1                                 \number of variograms
+1   1   1                         \tail var., head var., variogram type

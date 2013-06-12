@@ -1,0 +1,493 @@
+package ncsa.d2k.modules.projects.pgroves.bp;
+
+
+import ncsa.d2k.core.modules.*;
+import ncsa.d2k.modules.projects.i2k.common.*;
+import java.awt.*;
+import javax.swing.*;
+
+import ncsa.d2k.modules.projects.i2k.display.*;
+import ncsa.d2k.modules.projects.i2k.common.*;
+
+/**
+	Applies a false, or pseudo, coloring to a grayscale image. 
+
+	@author pgroves
+	@date 01/21/04
+	*/
+
+public class FalseColor extends DataPrepModule 
+	implements java.io.Serializable {
+
+	//////////////////////
+	//d2k Props
+	////////////////////
+	
+	boolean debug=false;		
+	/////////////////////////
+	/// other fields
+	////////////////////////
+
+	//////////////////////////
+	///d2k control methods
+	///////////////////////
+
+	public boolean isReady(){
+		return super.isReady();
+	}
+	public void endExecution(){
+		wipeFields();
+		super.endExecution();
+	}
+	public void beginExecution(){
+		wipeFields();
+		super.beginExecution();
+	}
+	public void wipeFields(){
+	}
+	
+	/////////////////////
+	//work methods
+	////////////////////
+	/*
+		does it
+	*/
+	public void doit() throws Exception{
+		if(debug){
+			System.out.println(getAlias()+":Firing");
+		}
+		ImageObject img = (ImageObject)pullInput(0);
+		pushOutput(getFalseColorPanel(img), 0);
+		
+	}
+		
+	/**
+		Does the main work of creating the entire false color vis
+		panel from an ImageObject. This is the method that
+		should be used directly
+		
+	*/	
+
+	public JPanel getFalseColorPanel(ImageObject img) throws Exception{
+
+		int bandIndex = 0;
+		JPanel fc = new JPanel();
+		fc.setLayout(new BoxLayout(fc, BoxLayout.X_AXIS));
+		
+		double[] range = this.getRange(img, bandIndex);
+		ColorBar cb = new ColorBar(range[0], range[1]);
+		//cb.setVisible(true);
+		//cb.show();
+		fc.add(cb);
+
+		ImageObject fcImg=this.createFalseColorImg(img, bandIndex, cb);
+		ImagePanel iPan = (ImagePanel)SimpleImagePanel.getImagePanel(fcImg);
+		iPan.SetImageObject(fcImg);
+		fc.add(iPan);
+		
+		return fc;
+		
+	}
+
+	/**
+		Creates a false color image from a single given band in the given
+		image.
+
+		@param img Any image object
+		@param band The index of the band to create the new image from.
+						Use 0 if the image is grayscale
+		@param colorInfo the ColorBar with the information of how to map
+								the grayscale values to colors				
+		@return A 3-band image of bytes				
+	*/
+
+	public ImageObject createFalseColorImg(ImageObject img, int band, 
+		ColorBar colorInfo){
+
+		ImageObject colorImg = 
+			new ImageObject(img.numrows,img.numcols,3,"INT");
+
+		int imgLength = (int)img.size;
+		Color c;
+		double val=0.0d;
+		
+		for(int i=0; i<imgLength; i++) {
+			val=getValue(img, i);
+			c = colorInfo.getColor(val);
+
+			colorImg.imageInt[3*i] = c.getRed();
+			colorImg.imageInt[3*i+1] = c.getGreen();
+			colorImg.imageInt[3*i+2] = c.getBlue();
+		}
+
+		return colorImg;
+	}
+	
+	/** Simply casts the value from the native type of the ImageObject
+		to a <code>double</code>.
+	*/		
+	public double getValue(ImageObject inImObj, int index) {
+		double val;
+		if(inImObj.sampType.equalsIgnoreCase("BYTE"))
+			val = (double)inImObj.image[index];
+		else if(inImObj.sampType.equalsIgnoreCase("SHORT"))
+			val = (double)inImObj.imageShort[index];
+		else if(inImObj.sampType.equalsIgnoreCase("INT"))
+			val = (double)inImObj.imageInt[index];
+		else if(inImObj.sampType.equalsIgnoreCase("LONG"))
+			val = (double)inImObj.imageLong[index];
+		else if(inImObj.sampType.equalsIgnoreCase("FLOAT"))
+			val = (double)inImObj.imageFloat[index];
+		else if(inImObj.sampType.equalsIgnoreCase("DOUBLE"))
+			val = (double)inImObj.imageDouble[index];
+		else {
+			System.err.println("Invalid Data Type");
+		return 0;
+		}
+		//return Math.log(val);
+		return val;
+	}	
+	
+	/**
+		finds the min and max of the intensity values of a particular
+		band in an image. Will return the range as <code>double</code>'s,
+		regardless of the primitive type of the image.
+
+		@param img the ImageObject to scan
+		@param bandIndex the band index of img to scan
+
+		@return a double array where [0] is the min and [1] is the max
+	*/
+
+	public double[] getRange(ImageObject img, int bandIndex){
+		
+		double[] range = new double[2];
+		int min = 0;
+		int max = 1;
+		range[min]=Double.MAX_VALUE;
+		range[max]=Double.MIN_VALUE;
+
+		double val;
+		for(int i=0; i<img.size; i++){
+			val = this.getValue(img, i);
+			if(val<range[min]){
+				range[min]=val;
+			}
+			if(val>range[max]){
+				range[max]=val;
+			}
+		}
+		if(debug){
+			System.out.println(getAlias()+" Min:"+range[min]+" Max:"+range[max]);
+		}
+		return range;
+	}
+			
+		
+	////////////////////////
+	/// D2K Info Methods
+	/////////////////////
+
+
+	public String getModuleInfo(){
+		return 	
+			"<html><head></head><body><p></p>"+
+			""+
+			""+
+			""+
+			""+
+			"</body></html>";
+	}
+	
+   	public String getModuleName() {
+		return "";
+	}
+	public String[] getInputTypes(){
+		String[] types = {
+			"ncsa.d2k.modules.projects.i2k.common.ImageObject"};
+		return types;
+	}
+
+	public String getInputInfo(int index){
+		switch (index) {
+			case 0: 
+				return "";
+			case 1: 
+				return "";
+			case 2: 
+				return "";
+			default: return "No such input";
+		}
+	}
+	
+	public String getInputName(int index) {
+		switch(index) {
+			case 0:
+				return "";
+			case 1:
+				return "";
+			case 2:
+				return "";
+			default: return "No such input";
+		}
+	}
+	public String[] getOutputTypes(){
+		String[] types = {
+			"javax.swing.JPanel"};
+		return types;
+	}
+
+	public String getOutputInfo(int index){
+		switch (index) {
+			case 0: 
+				return "";
+			case 1:
+				return "";
+			case 2:
+				return "";
+			default: return "No such output";
+		}
+	}
+	public String getOutputName(int index) {
+		switch(index) {
+			case 0:
+				return "";
+			case 1:
+				return "";
+			case 2:
+				return "";
+			default: return "No such output";
+		}
+	}		
+	////////////////////////////////
+	//D2K Property get/set methods
+	///////////////////////////////
+	public void setDebug(boolean b){
+		debug=b;
+	}
+	public boolean getDebug(){
+		return debug;
+	}
+	/*
+	public boolean get(){
+		return ;
+	}
+	public void set(boolean b){
+		=b;
+	}
+	public double  get(){
+		return ;
+	}
+	public void set(double d){
+		=d;
+	}
+	public int get(){
+		return ;
+	}
+	public void set(int i){
+		=i;
+	}
+
+	public String get(){
+		return ;
+	}
+	public void set(String s){
+		=s;
+	}
+	*/
+
+public class ColorBar extends JComponent {
+
+	/**the range of intensities the band of the image being viewed*/
+	double imgMin, imgMax;
+	double imgRange;
+	
+	/**the range of intensities that indicate the most extreme colors.
+	these are the values the sliders (will) set, and also the ones that
+	will actually decide how the coloring will be done.*/
+	double sliderMin, sliderMax;
+	double sliderRange;
+	
+	float saturation = 0.7f;// 0.7f;
+	float brightness = 1.0f;
+	
+	/**the preferred width the color bar will take on.*/ 
+	int colorbarWidth = 20;
+
+	/** which band in the image should be considered*/
+	int band = 0;
+
+	/** dimensions of this component*/
+	int preferredWidth=100;
+	int preferredHeight=300;
+
+	/** hold the rgb values of the base colors for the gradient
+		[i][j], where i = colorid, j=red, green, blue
+		[0]=red
+		[1]=green
+		[2]=blue*/
+	int[][] baseColors;
+	int numCols;
+	final int redComp = 0;
+	final int greenComp = 1;
+	final int blueComp = 2;
+	/**
+		initialize given the range of intensity values from the image
+	*/
+	public ColorBar(double min, double max) {
+		this.setPreferredSize(new Dimension(preferredWidth, preferredHeight));
+		//this.setBackground(Color.white);
+		imgMin = sliderMin = min;
+		imgMax = sliderMax = max;
+		sliderRange = sliderMax - sliderMin;
+		imgRange = imgMax - imgMin;
+		initColorBase();
+	}
+
+	/** currently using d2k module colors*/
+	private void initColorBase(){
+		numCols = 4;
+		baseColors= new int[numCols][3];
+		//red
+		baseColors[3][redComp] = 183;
+		baseColors[3][greenComp] = 106;
+		baseColors[3][blueComp] = 85;
+
+		//yellow 
+		baseColors[2][redComp] = 196;
+		baseColors[2][greenComp] = 194;
+		baseColors[2][blueComp] = 103;
+		
+		//green
+		baseColors[1][redComp] = 82;
+		baseColors[1][greenComp] = 132;
+		baseColors[1][blueComp] = 19;
+
+		//blue
+		baseColors[0][redComp] = 0;
+		baseColors[0][greenComp] = 119;
+		baseColors[0][blueComp] = 158;
+	}
+
+	
+	public void setSliderMin(double d){
+		sliderMin = d;
+		sliderRange = sliderMax - sliderMin;
+	}
+	public void setSliderMax(double d){
+		sliderMax = d;
+		sliderRange = sliderMax - sliderMin;
+	}
+	
+
+
+	/**
+		Given an intensity value from an image, returns a Color object
+		based on the current range
+
+		@param val a pixel's intensity values
+	*/
+	public Color getColor(double val) {
+		
+		
+		if(val >= sliderMax) {
+			int col=numCols-1;
+			return new Color(baseColors[col][redComp],
+				baseColors[col][greenComp],baseColors[col][blueComp]);
+		}else if(val <= sliderMin) {
+			int col=0;
+			return new Color(baseColors[col][redComp],
+				baseColors[col][greenComp],baseColors[col][blueComp]);
+		}
+		
+		//find the two base colors our value falls between
+		double norm = (val-sliderMin)/sliderRange;
+		norm *= (numCols-1);
+
+		int colLow = (int)norm;
+		int colHigh = colLow+1;
+
+		//interpolate between the two colors
+
+		double frac = norm - (double)colLow;
+		int[] rgb = new int[3];
+		for(int i=0; i<3; i++){
+			try{
+			rgb[i] = baseColors[colHigh][i] - baseColors[colLow][i];
+			rgb[i] = (int)(rgb[i] * frac);
+			rgb[i] += baseColors[colLow][i];
+			}catch(Exception e){
+				System.out.println("Slider Min:"+sliderMin);
+				System.out.println("Slider Max:"+sliderMax);
+				System.out.println("val:"+val);
+			}
+		
+
+		}
+		return new Color(rgb[redComp], rgb[greenComp], rgb[blueComp]);
+
+		//Color c = Color.getHSBColor(hue,saturation,brightness);
+		//return c;
+
+		//int a = (int)(255);
+		//return (new Color(c.getRed(),c.getGreen(),c.getBlue(),a));
+	}
+
+	/** draws the color bar itself, as well as the axis labels.
+
+	*/
+	protected void paintComponent(Graphics g) {
+		Graphics2D g2d = (Graphics2D)g.create();
+		//System.out.println("In paint");
+		int x0 = (int)this.getLocation().getX();
+		int y0 = (int)this.getLocation().getY();
+		
+		int width = this.getWidth();
+		int height = this.getHeight();
+		//System.out.println("Height: "+height);
+
+		g2d.clearRect(x0,y0,x0+width,y0+height);
+
+		int x1,x2,y1,y2;
+		x1 = x0 + width - this.colorbarWidth;
+		x2 = x0 + width;
+		double v = 0;
+
+		for(int i=0; i<=height; i++) {
+			y1 = y0+(height-i);
+			y2 = y1;
+			v = (((double)i/(double)height) * imgRange) + imgMin;
+
+			g2d.setColor(getColor(v));
+			g2d.drawLine(x1,y1,x2,y2);
+			
+			if(i%((int)(height/3)) == 0 /*|| i == height*/) {
+				g2d.setColor(Color.black);
+				//System.out.println("label");
+				String s = String.valueOf((float)v);
+				if(i == 0) {
+					y1 = height;
+					String s1 = String.valueOf(imgMin);
+					g2d.drawString(s1+"-",x0,y1);
+				}else if (i == height) {
+					y1 = 10;
+					String s1 = String.valueOf(imgMax);
+					g2d.drawString(s1+"+",x0,y1);
+				}else {
+					g2d.drawString(s,x0,y1);
+				}
+			}
+
+		}
+
+	}
+
+}//ColorBar	
+}//FalseColor
+			
+					
+
+			
+
+								
+	

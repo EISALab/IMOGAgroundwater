@@ -1,0 +1,5 @@
+1) For each gene read PP data
+2) Set koption = 2 (jack knife)
+3) creat data file with PP data
+4) Set FreybergObs file as the jacknife file
+5) Run 

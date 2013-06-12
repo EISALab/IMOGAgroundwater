@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAAIdwgAAAALAAAAAXQAGURlZmluZSBEZWNpc2lvbiBWYXJpYWJsZXNzcgAbbmNzYS5kMmsuY29y
+ZS5SZXNvdXJjZUVudHJ51S4sIEIDJtICAAJMAAxjYWNoZWRPYmplY3R0ABJMamF2YS9sYW5nL09i
+amVjdDtMAA9vYmplY3RDbGFzc05hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHB0AEFuY3NhLmQy
+ay5tb2R1bGVzLmNvcmUub3B0aW1pemUuZ2EuZW1vLmd1aS5EZWZpbmVEZWNpc2lvblZhcmlhYmxl
+c3g=" label="DefineDecisionVariables.itn">
+    <annotation><![CDATA[<p>
+      Overview: Define the decision variables in EMO.
+    </p>
+    <p>
+      Detailed Description: An interface to input the decision variables in 
+      EMO. In addition to specifying the number of decision variables, the 
+      user can specify the name, minimum, maximum, and precision of each of 
+      the variables.
+    </p>
+    <p>
+      The variables can be read from a file. The file must be comma-delimited, 
+      with one variable specified on each line of the file. There must be four 
+      values on each line (in this order): the name, the minimum value, the 
+      maximum value, and the precision.
+    </p>
+    <p>
+      The population can be seeded with values for the decision variables. 
+      These seeded values are read in from a file. The file must be 
+      comma-delimited, with one individual in the population fully described 
+      on one line. Thus, the number of values on one line must equal the 
+      number of decision variables used in the problem. In addition, the 
+      values must appear in the same order as the variables are defined.
+    </p>]]></annotation>
+    <module alias="Define Decision Variables" classname="ncsa.d2k.modules.core.optimize.ga.emo.gui.DefineDecisionVariables" xloc="65" yloc="110">
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAA"/>
+      <property name="windowName" value="Define Decision Variables"/>
+    </module>
+  </itinerary>
+</toolkit>

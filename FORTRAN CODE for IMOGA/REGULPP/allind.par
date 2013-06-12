@@ -1,0 +1,27 @@
+                  Parameters for GAMV
+                  *******************
+
+START OF PARAMETERS:
+d:\nres401\wfalln.out            \file with data
+1   2   0                          \   columns for X, Y, Z coordinates
+1   12                             \   number of varables,column numbers
+-1.0e21     240.                 \   trimming limits
+d:\nres401\wfallind.var             \file for variogram output
+75                                 \number of lags
+10.00                              \lag separation distance
+5.                                 \lag tolerance
+1                                  \number of directions
+0.0 180.0 1600.0   0.0  90.0  50.0  \azm,atol,bandh,dip,dtol,bandv
+0                                  \standardize sills? (0=no, 1=yes)
+11                                 \number of variograms
+1   1   9  -1.65                     \tail var., head var., variogram type
+1   1   9  -1.28                     \tail var., head var., variogram type
+1   1   9  -0.84                     \tail var., head var., variogram type
+1   1   9  -0.525                     \tail var., head var., variogram type
+1   1   9  -0.253                     \tail var., head var., variogram type
+1   1   9   0.0                       \tail var., head var., variogram type
+1   1   9   0.253                     \tail var., head var., variogram type
+1   1   9   0.525                     \tail var., head var., variogram type1   1   9   0.253                     \tail var., head var., variogram type
+1   1   9   0.84                      \tail var., head var., variogram type
+1   1   9   1.28                      \tail var., head var., variogram type
+1   1   9   1.65                      \tail var., head var., variogram type

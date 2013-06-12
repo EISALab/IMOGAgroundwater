@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAAIdwgAAAALAAAAAXQAHkRlZmluZUV4dGVybmFsRml0bmVzc0Z1bmN0aW9uc3NyABtuY3NhLmQy
+ay5jb3JlLlJlc291cmNlRW50cnnVLiwgQgMm0gIAAkwADGNhY2hlZE9iamVjdHQAEkxqYXZhL2xh
+bmcvT2JqZWN0O0wAD29iamVjdENsYXNzTmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwcHQASG5j
+c2EuZDJrLm1vZHVsZXMuY29yZS5vcHRpbWl6ZS5nYS5lbW8uZ3VpLkRlZmluZUV4dGVybmFsRml0
+bmVzc0Z1bmN0aW9uc3g=" label="DefineExternalFitnessFunctions.itn">
+    <annotation><![CDATA[<p>
+      Overview: Input fitness functions that are calculated by an executable.
+    </p>
+    <p>
+      Detailed Description: Input all the properties needed to call an 
+      executable to evaluate the fitness functions for a population.
+    </p>
+    <p>
+      First, input the name of the fitness function. Next, input the path to 
+      the executable. Next, input the paths to the input and output files.
+    </p>
+    <p>
+      Finally, choose whether the fitness function is minimizing or maximizing.
+    </p>
+    <p>
+      An executable must read the genes in from a file and write out a file 
+      containing the values of the fitness functions. The format of the input 
+      file is fixed. The first line contains the size of the population. The 
+      second line contains the number of traits. Every following line will 
+      contain the values for an individual, space-delimited.
+    </p>
+    <p>
+      The output file must also follow a specific format. Each row of the file 
+      must contain the value for this fitness function on the associated 
+      individual in the genes file. Order is preserved.
+    </p>]]></annotation>
+    <module alias="DefineExternalFitnessFunctions" classname="ncsa.d2k.modules.core.optimize.ga.emo.gui.DefineExternalFitnessFunctions" xloc="144" yloc="109">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="windowName" value="DefineExternalFitnessFunctions"/>
+    </module>
+  </itinerary>
+</toolkit>

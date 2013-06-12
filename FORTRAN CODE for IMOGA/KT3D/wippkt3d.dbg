@@ -1,0 +1,6 @@
+ Encountered a location where there were too few data 
+ to estimate all of the drift terms but there would be
+ enough data for OK or SK.   KT3D currently leaves 
+ these locations unestimated.
+ This message is only written once - the first time.
+

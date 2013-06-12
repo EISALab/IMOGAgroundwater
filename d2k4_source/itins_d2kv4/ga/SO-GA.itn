@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAARdwgAAAAKAAAADnQAEFBlcmZvcm1TZWxlY3Rpb25zcgAbbmNzYS5kMmsuY29yZS5SZXNvdXJj
+ZUVudHJ51S4sIEIDJtICAAJMAAxjYWNoZWRPYmplY3R0ABJMamF2YS9sYW5nL09iamVjdDtMAA9v
+YmplY3RDbGFzc05hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHB0AEBuY3NhLmQyay5tb2R1bGVz
+LmNvcmUub3B0aW1pemUuZ2EuZW1vLnNlbGVjdGlvbi5QZXJmb3JtU2VsZWN0aW9udAAQUGVyZm9y
+bUNyb3Nzb3ZlcnNxAH4ABHB0AEBuY3NhLmQyay5tb2R1bGVzLmNvcmUub3B0aW1pemUuZ2EuZW1v
+LmNyb3Nzb3Zlci5QZXJmb3JtQ3Jvc3NvdmVydAAPUG9wdWxhdGlvbkZhbkluc3EAfgAEcHQAOm5j
+c2EuZDJrLm1vZHVsZXMuY29yZS5vcHRpbWl6ZS5nYS5lbW8udXRpbC5Qb3B1bGF0aW9uRmFuSW50
+ABROb25Eb21pbmF0aW9uRWxpdGlzbXNxAH4ABHB0ADtuY3NhLmQyay5tb2R1bGVzLmNvcmUub3B0
+aW1pemUuZ2EubnNnYS5Ob25Eb21pbmF0aW9uRWxpdGlzbXQAEE1lYXN1cmUgU3VjY2VzczFzcQB+
+AARwdAAvbmNzYS5kMmsubW9kdWxlcy5jb3JlLm9wdGltaXplLmdhLk1lYXN1cmVNb2R1bGV0AA5F
+dmFsdWF0ZUVNT1BvcHNxAH4ABHB0ACxuY3NhLmQyay5jb3JlLm1vZHVsZXMuYWdlbmRhLkl0aW5l
+cmFyeU1vZHVsZXQAFVBhcmFtU3BhY2VUb0VNT1BhcmFtc3NxAH4ABHB0AERuY3NhLmQyay5tb2R1
+bGVzLnByb2plY3RzLnBncm92ZXMub3B0aW1pemUuZW1vLlBhcmFtU3BhY2VUb0VNT1BhcmFtc3QA
+D1BlcmZvcm1NdXRhdGlvbnNxAH4ABHB0AD5uY3NhLmQyay5tb2R1bGVzLmNvcmUub3B0aW1pemUu
+Z2EuZW1vLm11dGF0aW9uLlBlcmZvcm1NdXRhdGlvbnQAEkdlbmVyYXRlUG9wdWxhdGlvbnNxAH4A
+BHB0ADhuY3NhLmQyay5tb2R1bGVzLmNvcmUub3B0aW1pemUuZ2EuZW1vLkdlbmVyYXRlUG9wdWxh
+dGlvbnQAD0lucHV0UGFyYW1ldGVyc3NxAH4ABHB0ADluY3NhLmQyay5tb2R1bGVzLmNvcmUub3B0
+aW1pemUuZ2EuZW1vLmd1aS5JbnB1dFBhcmFtZXRlcnN0ABBHZXRCZXN0UGFyYW1ldGVyc3EAfgAE
+cHQAO25jc2EuZDJrLm1vZHVsZXMucHJvamVjdHMucGdyb3Zlcy5vcHRpbWl6ZS5HZXRCZXN0UGFy
+YW1ldGVydAAFTU9WaXNzcQB+AARwdAAvbmNzYS5kMmsubW9kdWxlcy5jb3JlLm9wdGltaXplLmdh
+LmVtby5ndWkuTU9WaXN0ABZQb3B1bGF0aW9uVG9QYXJhbUFycmF5c3EAfgAEcHQARW5jc2EuZDJr
+Lm1vZHVsZXMucHJvamVjdHMucGdyb3Zlcy5vcHRpbWl6ZS5lbW8uUG9wdWxhdGlvblRvUGFyYW1B
+cnJheXQAGERlZmluZSBGaXRuZXNzIEZ1bmN0aW9uc3NxAH4ABHB0AEBuY3NhLmQyay5tb2R1bGVz
+LmNvcmUub3B0aW1pemUuZ2EuZW1vLmd1aS5EZWZpbmVGaXRuZXNzRnVuY3Rpb25zeA==" label="SO-GA.itn">
+    <annotation><![CDATA[<p>
+      Run a GA with mulitple objectives.
+    </p>]]></annotation>
+    <module alias="ParamSpaceToEMOParams" classname="ncsa.d2k.modules.projects.pgroves.optimize.emo.ParamSpaceToEMOParams" xloc="39" yloc="597">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.parameters.ParameterSpace"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters">
+        <destination alias="InputParameters" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="PerformSelection" classname="ncsa.d2k.modules.core.optimize.ga.emo.selection.PerformSelection" xloc="641" yloc="266">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+        <destination alias="PerformCrossover" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="Measure Success1" classname="ncsa.d2k.modules.core.optimize.ga.MeasureModule" xloc="470" yloc="268">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="PerformSelection" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="PopulationToParamArray" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA="/>
+      <property name="debugging" value="false"/>
+    </module>
+    <module alias="PerformMutation" classname="ncsa.d2k.modules.core.optimize.ga.emo.mutation.PerformMutation" xloc="918" yloc="251">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+        <destination alias="PopulationFanIn" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="InputParameters" classname="ncsa.d2k.modules.core.optimize.ga.emo.gui.InputParameters" xloc="170" yloc="457">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters">
+        <destination alias="Define Fitness Functions" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="windowName" value="InputParameters"/>
+    </module>
+    <module alias="EvaluateEMOPop" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="213" yloc="28">
+      <input index="0" classname="java.lang.Object"/>
+      <input index="1" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.nsga.NsgaPopulation">
+        <destination alias="NonDominationElitism" index="0"/>
+      </output>
+      <output index="1" classname="java.lang.Object"/>
+      <itinerary label="EvaluateEMOPop">
+        <module alias="EvaluateEMOPop_Object Array Iterator" classname="ncsa.d2k.modules.projects.pgroves.util.Array2Objects" xloc="192" yloc="306">
+          <input index="0" classname="[Ljava.lang.Object:"/>
+          <output index="0" classname="java.lang.Object"/>
+          <output index="1" classname="java.lang.Integer">
+            <destination alias="EvaluateEMOPop_Object Compiler" index="1"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA="/>
+        </module>
+        <module alias="EvaluateEMOPop_Object Compiler" classname="ncsa.d2k.modules.projects.pgroves.util.Objects2Array" xloc="421" yloc="324">
+          <input index="0" classname="java.lang.Object"/>
+          <input index="1" classname="java.lang.Integer"/>
+          <output index="0" classname="[Ljava.lang.Object">
+            <destination alias="EvaluateEMOPop_ObjectArrayToPrimitiveArray" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+        </module>
+        <module alias="EvaluateEMOPop_AssignParamsToPopulation" classname="ncsa.d2k.modules.projects.pgroves.optimize.emo.AssignParamsToPopulation" xloc="571" yloc="160">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.nsga.NsgaPopulation"/>
+          <input index="1" classname="[Lncsa.d2k.modules.core.datatype.parameter.ParameterPoint:"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.nsga.NsgaPopulation">
+            <destination alias="EvaluateEMOPop" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+        </module>
+        <module alias="EvaluateEMOPop_ObjectArrayToPrimitiveArray" classname="ncsa.d2k.modules.projects.pgroves.util.ObjectArrayToPrimitiveArray" xloc="620" yloc="282">
+          <input index="0" classname="[Ljava.lang.Object:"/>
+          <output index="0" classname="java.lang.Object">
+            <destination alias="EvaluateEMOPop_AssignParamsToPopulation" index="1"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+          <property name="usePrimitiveArrays" value="false"/>
+        </module>
+        <module alias="EvaluateEMOPop_PopulationToParamArray" classname="ncsa.d2k.modules.projects.pgroves.optimize.emo.PopulationToParamArray" xloc="83" yloc="179">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+          <output index="0" classname="[Lncsa.d2k.modules.core.datatype.parameter.ParameterPoint">
+            <destination alias="EvaluateEMOPop_Object Array Iterator" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+        </module>
+        <module alias="EvaluateEMOPop_PopulationFanOut" classname="ncsa.d2k.modules.core.optimize.ga.emo.util.PopulationFanOut" xloc="90" yloc="57">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+            <destination alias="EvaluateEMOPop_AssignParamsToPopulation" index="0"/>
+          </output>
+          <output index="1" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+            <destination alias="EvaluateEMOPop_PopulationToParamArray" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA="/>
+        </module>
+      </itinerary>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAgAAAAAAAAAA"/>
+    </module>
+    <module alias="Define Fitness Functions" classname="ncsa.d2k.modules.core.optimize.ga.emo.gui.DefineFitnessFunctions" xloc="167" yloc="342">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters">
+        <destination alias="GeneratePopulation" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="windowName" value="Define Fitness Functions"/>
+      <property name="supressGui" value="false"/>
+    </module>
+    <module alias="GetBestParameter" classname="ncsa.d2k.modules.projects.pgroves.optimize.GetBestParameter" xloc="706" yloc="427">
+      <input index="0" classname="[Lncsa.d2k.modules.core.datatype.parameter.ParameterPoint:"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+      <property name="debug" value="false"/>
+      <property name="objParameterIndex" value="-1"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="isMaximizing" value="false"/>
+    </module>
+    <module alias="PopulationToParamArray" classname="ncsa.d2k.modules.projects.pgroves.optimize.emo.PopulationToParamArray" xloc="514" yloc="389">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="[Lncsa.d2k.modules.core.datatype.parameter.ParameterPoint">
+        <destination alias="GetBestParameter" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="PerformCrossover" classname="ncsa.d2k.modules.core.optimize.ga.emo.crossover.PerformCrossover" xloc="765" yloc="255">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+        <destination alias="PerformMutation" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="NonDominationElitism" classname="ncsa.d2k.modules.core.optimize.ga.nsga.NonDominationElitism" xloc="338" yloc="20">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.NsgaPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.NsgaPopulation">
+        <destination alias="MOVis" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAABkA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAABkA=="/>
+    </module>
+    <module alias="GeneratePopulation" classname="ncsa.d2k.modules.core.optimize.ga.emo.GeneratePopulation" xloc="249" yloc="227">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+        <destination alias="PopulationFanIn" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="PopulationFanIn" classname="ncsa.d2k.modules.core.optimize.ga.emo.util.PopulationFanIn" xloc="53" yloc="23">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <input index="1" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="EvaluateEMOPop" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAABkA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAZA="/>
+    </module>
+    <module alias="MOVis" classname="ncsa.d2k.modules.core.optimize.ga.emo.gui.MOVis" xloc="513" yloc="19">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="Measure Success1" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAADAAABjwAAAAAAAAAA"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAADAAABjwAAAAAAAAAA"/>
+      <property name="windowName" value="MOVis"/>
+    </module>
+  </itinerary>
+</toolkit>

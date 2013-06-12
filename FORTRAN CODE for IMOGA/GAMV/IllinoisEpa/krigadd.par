@@ -1,0 +1,10 @@
+                  Parameters for ADDCOORD
+                  ***********************
+
+START OF PARAMETERS:
+kriggrid.out                      \file with data
+krggrda.dat                      \file for output
+1                                 \realization number
+40   10.0    20.0                   \nx,xmn,xsiz
+20   10.0    20.0                   \ny,ymn,ysiz
+30   610.0   1.0                   \nz,zmn,zsiz

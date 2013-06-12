@@ -1,0 +1,46 @@
+package ncsa.d2k.modules.projects.pgroves.geostat;
+
+/**
+ * Forces the numbers in a column into a guassian distribution. Actually,
+ * It first forces it into a uniform distribution by doing a 
+ * Quantile transformation and then transforms that into a gaussian
+ * distribution with a mean of zero and standard deviation of 1
+ *
+ * @author pgroves
+ * @date 04/09/04
+*/
+
+public class MultiGaussianTransformation extends QuantileTransformation{
+
+	/**
+	 * replaces QuantileTransforms's method of returning the rank
+	 * with one that returns the rank's value transformed into
+	 * the gaussian distribution
+	 */
+	public double mapForward(Table tbl, int row, int transColIdx){
+		double rank = super.mapForward(tbl, row, transColIdx);
+		double d = rankToDistribution(rank);
+		return d;
+	}
+
+
+	/**
+	 *
+	 */
+	public double rankToDistribution(double rank){
+		int numRows = this.sortedColumns.getNumRows();
+		
+	}
+
+	/**
+	 * does the reverse transform on a particular number back to
+	 * the original. The 'rank' that is input isn't really a rank,
+	 * the name is a side effect of subclassing the RankingTransform
+	 */
+	public double reverseMap(double rank, int transColIdx){
+		double realRank = distributionToRank(rank);
+		double untransformedVal = super.reverseMap(realRank, transColIdx);
+		return untransformedVal;
+	}
+
+	

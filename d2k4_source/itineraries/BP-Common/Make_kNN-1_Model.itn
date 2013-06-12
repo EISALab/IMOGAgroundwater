@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAAIdwgAAAAFAAAAB3QABkZhbk91dHNyABtuY3NhLmQyay5jb3JlLlJlc291cmNlRW50cnnVLiwg
+QgMm0gIAAkwADGNhY2hlZE9iamVjdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wAD29iamVjdENsYXNz
+TmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwcHQAIm5jc2EuZDJrLmNvcmUubW9kdWxlcy5GYW5P
+dXRNb2R1bGV0AA9QYXNzIFRyYWluIERhdGFzcQB+AARwdAAqbmNzYS5kMmsubW9kdWxlcy5jb3Jl
+LmNvbnRyb2wuT2JqZWN0UGFzc2VydAAUUGFzcyBQYXJhbWV0ZXIgUG9pbnRzcQB+AARwcQB+AAt0
+AApJQk1vZGVsR2Vuc3EAfgAEcHQARW5jc2EuZDJrLm1vZHVsZXMucHJvamVjdHMucGdyb3Zlcy5p
+bnN0YW5jZWJhc2VkLkluc3RhbmNlQmFzZWRNb2RlbEdlbnQAFlBhc3NJZlBhcmFtZXRlck1hdGNo
+ZXNzcQB+AARwdABBbmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5wZ3JvdmVzLm9wdGltaXplLlBh
+c3NJZlBhcmFtZXRlck1hdGNoZXN0AA5TcGxpdFBhcmFtZXRlcnNxAH4ABHB0ADVuY3NhLmQyay5t
+b2R1bGVzLnByb2plY3RzLnBncm92ZXMudXRpbC5TcGxpdFBhcmFtZXRlcnQAF1Bhc3NJZlBhcmFt
+ZXRlck1hdGNoZXMxc3EAfgAEcHEAfgATeA==" label="Make_kNN-1_Model.itn">
+    <annotation><![CDATA[<HTML>
+</HTML>]]></annotation>
+    <module alias="Pass Train Data" classname="ncsa.d2k.modules.core.control.ObjectPasser" xloc="147" yloc="220">
+      <input index="0" classname="java.lang.Object"/>
+      <output index="0" classname="java.lang.Object">
+        <destination alias="PassIfParameterMatches1" index="0"/>
+      </output>
+      <property name="output_Name" value="Object Out"/>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="input_Name" value="Train Data"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="FanOut" classname="ncsa.d2k.core.modules.FanOutModule" xloc="399" yloc="324">
+      <input index="0" classname="ncsa.d2k.modules.datatype.parameter.impl.ParameterPointImpl"/>
+      <output index="0" classname="ncsa.d2k.modules.datatype.parameter.impl.ParameterPointImpl">
+        <destination alias="PassIfParameterMatches1" index="1"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.datatype.parameter.impl.ParameterPointImpl">
+        <destination alias="PassIfParameterMatches" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA="/>
+    </module>
+    <module alias="IBModelGen" classname="ncsa.d2k.modules.projects.pgroves.instancebased.InstanceBasedModelGen" xloc="689" yloc="292">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.pgroves.instancebased.InverseDistanceWeightingModel"/>
+      <property name="debug" value="false"/>
+      <property name="threadCount" value="1"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+      <property name="scaleInputs" value="true"/>
+      <property name="makeModelAvailable" value="false"/>
+    </module>
+    <module alias="Pass Parameter Point" classname="ncsa.d2k.modules.core.control.ObjectPasser" xloc="133" yloc="357">
+      <input index="0" classname="java.lang.Object"/>
+      <output index="0" classname="java.lang.Object">
+        <destination alias="SplitParameter" index="0"/>
+      </output>
+      <property name="output_Name" value="Object Out"/>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="input_Name" value="Parameters"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="PassIfParameterMatches" classname="ncsa.d2k.modules.projects.pgroves.optimize.PassIfParameterMatches" xloc="495" yloc="364">
+      <input index="0" classname="java.lang.Object"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+      <output index="0" classname="java.lang.Object">
+        <destination alias="IBModelGen" index="1"/>
+      </output>
+      <property name="parameterValue" value="1.0"/>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+      <property name="parameterIndex" value="0"/>
+    </module>
+    <module alias="PassIfParameterMatches1" classname="ncsa.d2k.modules.projects.pgroves.optimize.PassIfParameterMatches" xloc="436" yloc="213">
+      <input index="0" classname="java.lang.Object"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+      <output index="0" classname="java.lang.Object">
+        <destination alias="IBModelGen" index="0"/>
+      </output>
+      <property name="parameterValue" value="1.0"/>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+      <property name="parameterIndex" value="0"/>
+    </module>
+    <module alias="SplitParameter" classname="ncsa.d2k.modules.projects.pgroves.util.SplitParameter" xloc="277" yloc="356">
+      <input index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+      <output index="0" classname="ncsa.d2k.modules.datatype.parameter.impl.ParameterPointImpl">
+        <destination alias="FanOut" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.datatype.parameter.impl.ParameterPointImpl">
+        <destination alias="PassIfParameterMatches" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA="/>
+      <property name="splitIndex" value="1"/>
+    </module>
+  </itinerary>
+</toolkit>

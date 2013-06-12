@@ -1,0 +1,891 @@
+sources/core/ncsa/d2k/modules/
+
+PredictionModelModule		done
+TransformationModule		remove -- Tried 4/5 but things won't build 
+
+--------------------------
+
+Following are all under source/core/ncsa/d2k/modules/core/...
+
+--------------------------
+/control:
+DummyOutput.java		save
+InvSwitchPasser.java		save
+MultiPusher.java		move to basic (RENAME)
+ObjectBlocker.java		save
+ObjectHolder.java		save
+ObjectPasser.java		save
+SaveLastObject.java		save
+SaveNthObject.java		save
+SwitchPasser.java		save
+SwitchPasserOdd.java		save
+TriggerPushB.java		save
+TriggerPush.java		save
+
+---------------------
+
+./datatype:
+ADTree.java			done
+AsciiHashMap.java		removed 4/5
+CloneBinTransform.java		save
+ExpressionException.java	move
+Expression.java			move
+ExpressionListener.java		move
+HashLookupTable.java		save, Greg, Time Series Vis
+HTMLDocumentWrapper.java	save
+Node.java			done
+StaticDocument.java		removed 4/5
+
+./datatype/array:
+Mean.java			removed 4/5
+Median.java			removed 4/5
+Mode.java			removed 4/5
+Variance.java			removed 4/5
+
+./datatype/conversion:
+BinTreeToVT.java		?
+ExampleToTestTable.java		removed 4/5
+ListToTable.java		?
+MapToTable.java			?
+VTtoHashLookupTable.java	save, Greg, Time Series Vis
+
+./datatype/model:
+Model.java			submitted
+ModelPrintOptions.java		submitted
+PrintModel.java			submitted (this should be in another pkg)
+
+./datatype/parameter:
+ParameterPoint.java		submitted
+ParameterSpace.java		submitted
+TestParamSpaceImpl.java		removed 4/5
+
+./datatype/parameter/basic:
+ParameterPointImpl.java		save, Dave T.s implementation
+ParameterSpaceImpl.java		save, Dave T.s implementation
+
+./datatype/parameter/impl:
+ParameterPointImpl.java		submitted
+ParameterSpaceImpl.java		submitted
+
+./datatype/table:
+AbstractTable.java		submitted
+ColumnTypes.java		submitted
+Example.java			submitted
+ExampleTable.java		submitted
+MutableExample.java		submitted
+MutableTable.java		submitted
+PredictionExample.java		submitted
+PredictionTable.java		submitted
+ReversibleTransformation.java	submitted
+TableFactory.java		submitted
+Table.java			submitted
+TestTable.java			submitted
+TrainTable.java			submitted
+Transformation.java		submitted
+WeightedExample.java		save
+WeightedPredictionExample.java	save
+
+./datatype/table/basic:
+AbstractColumn.java		submitted
+BooleanColumn.java		submitted
+ByteArrayColumn.java		submitted
+ByteColumn.java			submitted
+CharArrayColumn.java		submitted
+CharColumn.java			submitted
+Column.java			submitted
+ColumnUtilities.java		submitted
+ContinuousByteArrayColumn.java	submitted
+ContinuousCharArrayColumn.java	submitted
+ContinuousStringColumn.java	submitted
+DefaultTableFactory.java	submitted
+DoubleColumn.java		submitted
+ExampleTableImpl.java		submitted
+FloatColumn.java		submitted
+IntColumn.java			submitted
+LongColumn.java			submitted
+MutableTableImpl.java		submitted
+NumericColumn.java		submitted
+ObjectColumn.java		submitted
+PredictionTableImpl.java	submitted
+ShortColumn.java		submitted
+StringColumn.java		submitted
+StringObjectColumn.java		submitted
+TableImpl.java			submitted
+TestTableImpl.java		submitted
+TextualColumn.java		submitted
+TrainTableImpl.java		submitted
+
+./datatype/table/continuous:
+ContinuousDoubleExample.java		save
+ContinuousDoubleExampleTable.java	save
+ContinuousFloatExample.java		save
+ContinuousFloatExampleTable.java	save
+ConvertToContinuousExampleTable.java	save
+DoubleExample.java			save
+ReadContinuousDoubleExampleTable.java	save
+ReadContinuousFloatExampleTable.java	save
+
+./datatype/table/db:     Dora says these were developed by summer student and will need additional work.  Will not be in basic release.However, Duane needs these for his DSTP stuff, so they will go in. He has used and tested them a little anyway.
+
+CacheFactory.java		submitted
+Cache.java			submitted
+CacheMissException.java		submitted
+DBDataSource.java		submitted
+DBExampleTable.java		submitted
+DBPredictionTable.java		submitted
+DBTable.java			submitted
+DBTestTable.java		submitted
+DBTrainTable.java		submitted
+FixedRowCache.java		submitted
+LocalDBPredictionTable.java	submitted
+LocalDBTestTable.java		submitted
+
+./datatype/table/db/dstp:
+DSTPDataSource.java		almost ready
+
+./datatype/table/db/sql:	Dora says these were developed by summer student and will need additional work.  Duaune uses this stuff and says it works though.
+CachedSQLDataSource.java	submitted
+MutableResultSetDataSource.java	submitted
+ResultSetDataSource.java	submitted
+
+./datatype/table/double:
+<Empty>
+
+./datatype/table/examples:
+ExampleImpl.java			submitted
+PrintExample.java			submitted
+PrintExampleTable.java			submitted
+ShallowExample.java			submitted
+ShallowPredictionExample.java		submitted
+WeightedShallowExample.java		submitted
+WeightedShallowPredictionExample.java	submitted
+
+./datatype/table/paging:
+Lock.java			submitted
+MutablePagingTable.java		submitted
+Page.java			submitted
+PageManager.java		submitted
+PagingExampleTable.java		submitted
+PagingPredictionTable.java	submitted
+PagingTableFactory.java		submitted
+PagingTable.java		submitted
+PagingTestTable.java		submitted
+PagingTrainTable.java		submitted
+
+./datatype/table/sparse:
+SparseExampleTable.java		move
+SparseMutableTable.java		move
+SparsePredictionTable.java	move
+SparseTableFactory.java		move
+SparseTable.java		move
+SparseTestTable.java		move
+SparseTrainTable.java		move
+
+./datatype/table/sparse/columns:
+AbstractSparseColumn.java	move
+SparseBooleanColumn.java	move
+SparseByteArrayColumn.java	move
+SparseByteColumn.java		move
+SparseCharArrayColumn.java	move
+SparseCharColumn.java		move
+SparseDoubleColumn.java		move
+SparseFloatColumn.java		move
+SparseIntColumn.java		move
+SparseLongColumn.java		move
+SparseObjectColumn.java		move
+SparseShortColumn.java		move
+SparseStringColumn.java		move
+SparseStringObjectColumn.java	move
+
+./datatype/table/sparse/examples:
+SparseExample.java			move
+SparsePredictionExample.java		move
+SparseShallowExample.java		move
+SparseShallowPredictionExample.java	move
+
+./datatype/table/sparse/primitivehash:
+IndicesRemover.java		move
+VBooleanFunction.java		move
+VBooleanProcedure.java		move
+VByteFunction.java		move
+VByteProcedure.java		move
+VCharFunction.java		move
+VCharProcedure.java		move
+VHashMap.java			move
+VHashService.java		move
+VIntBooleanHashMap.java		move
+VIntBooleanProcedure.java	move
+VIntByteHashMap.java		move
+VIntByteProcedure.java		move
+VIntCharHashMap.java		move
+VIntCharProcedure.java		move
+VIntDoubleHashMap.java		move
+VIntFloatHashMap.java		move
+VIntHashSet.java		move
+VIntIntHashMap.java		move
+VIntLongHashMap.java		move
+VIntObjectHashMap.java		move
+VIntShortHashMap.java		move
+VIntShortProcedure.java		move
+VObjectIntHashMap.java		move
+VShortFunction.java		move
+VShortProcedure.java		move
+
+./datatype/table/transformations:
+BinTransform.java				done
+ReplaceNominalWithIntsTransform.java	done
+ScalingTransformation.java			submitted 
+
+./datatype/table/util:
+ByteUtils.java			submitted
+ScalarStatistics.java		submitted
+TableUtilities.java		submitted
+
+./datatype/table/weighted:
+WeightedExampleTable.java	save
+WeightedPredictionTable.java	save
+WeightedTable.java		save
+WeightedTestTable.java		save
+WeightedTrainTable.java		save
+
+----------------
+
+./discovery/bioinformatics
+FindInteractions.java		noticed this new file 4/10  - put there by david T.
+
+./discovery/cluster:
+ClusterModel.java				submitted
+
+./discovery/cluster/eval:
+MinEncodingLenClusterModelEvaluator.java	will be submitted soon
+
+./discovery/cluster/gui/properties:
+BuckshotParams_Props.java			submitted
+ClusterAssignment_Props.java			done
+CoverageParams_Props.java			submitted
+CoverageSampler_Props.java			submitted
+FractionationParams_Props.java			submitted
+FractionationSampler_Props.java			submitted
+HierAgglomClusterer_Props.java			submitted
+KMeansParams_Props.java				done
+
+./discovery/cluster/hac:
+HAC.java					submitted
+HierAgglomClusterer.java			submitted
+HierAgglomClustererOPT.java			submitted
+HierAgglomClustererParamSpaceGenerator.java	submitted
+
+./discovery/cluster/kmeans:
+<Empty>
+
+./discovery/cluster/sample:
+BuckshotParams.java				submitted
+BuckshotParamsOPT.java				submitted
+BuckshotParamSpaceGenerator.java		submitted
+ClusterAssignment.java				done
+ClusterAssignmentOPT.java			done
+ClusterParameterDefns.java			done
+ClusterRefinement.java				done
+Coverage.java					submitted
+CoverageParams.java				submitted
+CoverageParamsOPT.java				submitted
+CoverageParamSpaceGenerator.java		submitted
+CoverageSampler.java				submitted
+CoverageSamplerOPT.java				submitted
+FractionationParams.java			submitted
+FractionationParamsOPT.java			submitted
+FractionationParamSpaceGenerator.java	submitted
+FractionationSampler.java			submitted
+FractionationSamplerOPT.java			submitted
+KMeansParams.java					done
+KMeansParamsOPT.java				done
+KMeansParamSpaceGenerator.java		done
+OneTimeInputBroker.java				submitted
+SampleTableRowsOPT.java				done
+
+./discovery/cluster/util:
+AddClusterAssignmentsToTable.java		done
+ClusterModelSelector.java			submitted
+CreateTableOfClusterCentroids.java		submitted
+TableCluster.java				submitted
+TableColumnTypeException.java			submitted
+TableMissingValuesException.java		submitted
+
+.discovery/cluster/vis/dendogram
+BaseGraph.java            to be submitted
+DendogramPanel.java	  to be submitted
+DendogramClusterVis.java  to be submitted
+GraphSettings.java	  to be submitted
+RectWrapper.java	  to be submitted
+RectGraph.java		  to be submitted
+
+./discovery/cvs:
+<Empty>
+
+./discovery/ruleassociation:
+FreqItemSet.java			done
+ItemSets.java				done
+LabelCellRenderer.java			done
+ReadRuleAssocPMML.java			next release
+RuleCellRenderer.java			done
+RuleDataModel.java			removed 4/5
+RulePMMLTags.java			next release
+RuleTable.java				done
+RuleVis.java				done
+SortButtonCellEditor.java		done
+SortButtonCellRenderer.java		done
+SQLGetRuleAsscFromCube.java		submitted
+SQLRuleAsscReport.java			done
+TableToItemSets.java			done
+ValueCellRenderer.java			done
+WriteRuleAssocPMML.java			next release
+
+./discovery/ruleassociation/apriori:
+Apriori.java				done
+ComputeConfidence.java			done
+MutableIntegerArray.java		done
+
+./io/console:
+ETPrint.java				save
+PrintObjectModule.java			move
+
+./io/dstp:		heard from Duane that this will be turned over 3/31
+DSTPSelect.java			move
+DSTPTree.java			move
+DSTPTreeModel.java		move
+DSTPTreeNodeData.java		move
+DSTPTreePanel.java		move
+DSTPView.java			move
+ProgressQueryable.java		move
+ProgressViewer.java		move
+
+./io/file:
+FlatFile.java			move
+
+./io/file/gui:
+<Empty>
+
+./io/file/input:
+AbstractDelimitedReader.java	removed 4/5
+ARFFFileParser.java		done
+CreateARFFParser.java  		done
+CreateDelimitedParser.java	done
+CreateFixedParser.java		done
+DelimitedFileParser.java	done
+FixedFileParser.java		done
+FixedFormatParser.java		removed
+FlatFileParser.java		done
+Input1FileName.java		done
+Input2FileNames.java		done
+InputSerializedObject.java	done
+ParsedLine.java			move
+ParseFileToADTree.java		done
+ParseFileToPagingTable.java	done
+ParseFileToSparseExamples.java	save
+ParseFileToSparseTable.java	waiting
+ParseFileToTable.java		done
+ReadDelimited2ADT.java		removed 
+ReadDelimitedFormat.java	removed 4/5
+ReadDelimitedFormatWithSampling.java	removed 4/5
+ReadFixed2ADT.java		removed 
+ReadFixedFormat.java		removed 4/5
+ReadSerializedTable.java	save, check with David T.
+ReadTransposedVT.java		removed 4/5
+
+./io/file/output:
+OutputSerializedObject.java	done
+WriteBytesModule.java		removed 4/5
+WriteSerializedTable.java	removed 4/5 (but above I see Read Serialized was suppose to be saved?)
+WriteTableToFile.java		done
+
+./io/grid:
+LaunchGramJob.java		not this release
+
+./io/javaspaces:		save all these
+JSJob.java
+JSJobWriter.java
+JSObjectUnwrapper.java
+JSObjectWrapper.java
+JSReader.java
+JSTriggerReader.java
+JSTriggerWriter.java
+JSWriter.java
+SpaceReader.java
+SpaceWriter.java
+
+./io/net:			save
+GetHostNameModule.java
+HTMLFindLinkModule.java
+HTMLReaderModule.java
+MakeNGramDataModule.java
+ReadURLText.java
+SelectURLModule.java
+SelectURLView.java
+StripHTMLModule.java
+URLDispatchModule.java
+URLListModule.java
+
+./io/numeric:			don't know about any of these.
+GetDoubleArray.java
+GetInteger.java
+
+./io/sql:
+AvailableFieldsInput.java	done
+AvailableTablesInput.java	done
+BrowseTables.java		done
+BrowseTablesView.java		done
+ConnectionWrapperImpl.java	done
+ConnectionWrapper.java		done
+ConnectToDB.java		done
+CountResults.java		maybe later release
+DBConnection.java		done
+ExecuteSelect.java		maybe later release
+GenericMatrixModel.java		to be submitted soon
+GetModelFromDB.java		to be submitted soon
+MatchModelWithData.java		to be submitted soon
+MetaTableModel.java		done
+MySQLDBConnection.java		maybe later release
+OracleDBConnection.java		done
+OracleURLInput.java		replaced by OracleDBConnection; will be removed
+QueryCondition.java	        move
+ReadQueryResults.java		done
+ResultSetTableModel.java	done (support for SaveFileToDB)
+SaveFileToDB.java		done
+SaveModelToDB.java		to be submitted soon
+SelectDBTables.java		maybe later release
+SelectFields.java		done
+SelectTable.java		done
+SQLChooseIOFields.java		to be replaced by SQLChooseAttributes to be submitted soon
+SQLDBConnection.java		done
+SQLServerDBConnection.java	maybe later release
+TrainDataTable.java		maybe later release
+URLInput.java			replaced by DBConnection; will be removed
+WriteVTToDB.java		maybe later release
+
+./optimize:
+CreateExample.java			submitted
+MultiTrainTestBiasEvaluator.java	submitted
+ObjectiveSpaceGenerator.java		ask Dave T.
+SimpleModelEvaluator.java		submitted
+
+./optimize/ga:			save
+AssignFitness.java
+BinaryIndividual.java
+ConvergenceDisplay.java
+EvaluateModule.java
+GAFieldSelection.java
+GAFieldSelectionPrep.java
+GenPopulationPrep.java
+Individual.java
+IntIndividual.java
+MeasureModule.java
+MutateModule.java
+NumericIndividual.java
+PopToVTWhenDone.java
+Population.java
+PopulationPrep.java
+PopulationToVT.java
+PrintPopulation.java
+RealMutation.java
+SelectionModule.java
+SOPopulation.java
+
+./optimize/ga/crossover:	save
+CrossoverModule.java
+SimulatedBinaryCrossover.java
+
+./optimize/ga/emo:		save
+ConstrainedNsgaPopulation.java
+DisplayFront.java
+MOBinaryIndividual.java
+MONumericIndividual.java
+NonDominationElitism.java
+NsgaPopulation.java
+NsgaSolution.java
+ParetoFront.java
+UnconstrainedNsgaPopulation.java
+
+./optimize/ga/emo/examples:	save
+EvalFinancialPopulation.java
+EvaluateE6Population.java
+EvaluateLoadFunction.java
+EvaluateMOP4Population.java
+EvaluateSCHPopulation.java
+GenerateEC6Population.java
+GenerateFinancialPopulation.java
+GenerateLoadFunctionPop.java
+GenerateMOP4Population.java
+GenerateSCHPopulation.java
+LoadProblemScatterPlot.java
+LoadScatterPlotModule.java
+
+./optimize/ga/examples:		save
+EvaluateF1NumericPop.java
+EvaluateSimplePopulation.java
+F1GenerateNumericPopulation.java
+GenerateSimplePopulation.java
+
+./optimize/ga/niching:
+DeterministicCrowding.java
+
+./optimize/ga/selection:	save
+RankSelection.java
+StochasticUniversalSampling.java
+TournamentWithoutReplacement.java
+TournamentWithReplacement.java
+Truncation.java
+
+./optimize/random:
+RandomBatch.java		save
+RandomOptimizer.java		save
+UniformSampling.java		submitted
+
+./optimize/simplex:		save
+SimplexOptimizer.java
+
+./optimize/util:		save
+BinaryRange.java
+BinarySolution.java
+DoubleRange.java
+DoubleSolution.java
+IntRange.java
+IntSolution.java
+MixedSolution.java
+MOBinarySolution.java
+MODoubleSolution.java
+MOIntSolution.java
+MOMixedSolution.java
+MOSolution.java
+MOSolutionSpace.java
+NamedRange.java
+ObjectiveConstraintsFactory.java
+ObjectiveConstraints.java
+Range.java
+SOBinarySolution.java
+SODoubleSolution.java
+SOIntSolution.java
+Solution.java
+SolutionSpace.java
+SOMixedSolution.java
+SOSolution.java
+SOSolutionSpace.java
+
+./optimize/util/gui:		save
+ParameterSpaceGenerator.java
+ParamListPanel.java
+ParamPanel.java
+RangeEditor.java
+RangeListPanel.java
+RangePanel.java
+SolutionMaker.java
+
+./optimize/util/reconstruct:	save
+AssignMO.java
+AssignSO.java
+GetBestSolution.java
+Solutions2Space.java
+Space2Solutions.java
+
+
+--------------------
+
+./prediction:
+AbstractParamSpaceGenerator.java		submitted
+ApplyFunctionInducer.java			submitted
+CatchModel.java					replaces SimpleModelSelector; needs updates
+ErrorFunctionGenerator.java			submitted
+ErrorFunctionGeneratorOpt.java			save
+ErrorFunction.java				submitted
+FunctionInducer.java				ask David T.
+FunctionInducerOpt.java				submitted
+GenerateFunctionInducer.java			submitted
+GetDefaultParamPoint.java			move
+ModelPredict.java				submitted (renamed perhaps)
+PMMLTags.java					submitted  (may delay all PMML to next rel)
+SensitivityAnalysis.java			?
+SetParameterSpace.java				Submitted
+SimpleModelSelector.java			will be renamed CatchModel
+
+./prediction/compound:				This is Peter G SC01 stuff
+AssignModelScore.java				save
+CompoundModelGen.java				save
+ModelScore.java					save
+
+./prediction/decisiontree:
+CastToDTModel.java				move
+CategoricalDecisionTreeNode.java		submitted
+CategoricalViewableDTNode.java			submitted
+ClearDTTallies.java				?, ask David C.
+CreateDecisionTreeFromPMML.java			submitted - may wait for next rel on PMML
+CreateDTModel.java				submitted
+DecisionTreeModel.java				submitted
+DecisionTreeNode.java				submitted
+DecisionTreePMMLTags.java			submitted - may wait for next rel on PMML
+DecisionTreeViewer.java				will be submitted soon
+DecisionTreeVis.java				submitted
+NumericDecisionTreeNode.java			submitted
+NumericViewableDTNode.java			submitted
+TableSorter.java				?, Dora
+ViewableDTModel.java				submitted
+ViewableDTNode.java				submitted
+WriteDecisionTreePMML.java			submitted - may wait to next rel for PMML
+
+./prediction/decisiontree/c45:
+C45ParamSpaceGenerator.java			done
+C45TreeBuilder.java				done
+C45TreeBuilderOPT.java				done
+C45TreePruner.java				done
+
+./prediction/decisiontree/continuous:
+CreateDecisionTreeParameterPoint.java		submitted
+CreateDecisionTreeParameterSpace.java		submitted
+DecisionTreeInducerOpt.java			submitted
+DecisionTreeModel.java				submitted
+DecisionTreeNode.java				submitted
+Decomposition.java				submitted
+
+./prediction/decisiontree/rainforest:		will be submitted soon (all in this dir)
+CategoricalDecisionForestNode.java
+DecisionForestModel.java
+DecisionForestNode.java
+NumericDecisionForestNode.java
+SQLRainForest.java
+SQLRainForestParamSpaceGenerator.java
+
+./prediction/decisiontree/widgets:
+BrushPanel.java					submitted
+DecisionTreeScheme.java				submitted
+ExpandedGraph.java				submitted
+NavigatorPanel.java				submitted
+RectangleBorder.java				submitted
+ScaledNode.java					submitted
+SearchPanel.java				submitted
+TreeScrollPane.java				submitted
+ViewNode.java					submitted
+
+./prediction/evaluators:
+MeanAbsoluteError.java				save
+MeanPercentError.java				save
+NFoldErrorReport.java				removed 4/5
+NFoldPTCollector.java				removed 4/5
+PercentErrorClassification.java			save
+RootMeanSquared.java				save
+
+./prediction/instancebased:			
+CreateInstanceBasedParameterPoint.java		save
+CreateInstanceBasedParameterSpace.java		save
+InstanceBasedParamSpaceGenerator.java		move
+InstanceBasedInducer.java			submitted
+InstanceBasedInducerOpt.java			submitted
+InstanceBasedModel.javaA			submitted
+
+./prediction/LWR:		save
+DoubleNode.java			save
+LWRModelGen.java		save
+LWRModel.java			save
+LWRParamSpaceGenerator.java	save
+LWRPlotVis.java			save
+
+./prediction/markov:		save
+GenerateMarkovBias.java
+MarkovDataTransform.java
+MarkovLearning.java
+MarkovModelGenerator.java
+MarkovModel.java
+MarkovReport.java
+
+./prediction/mean:		save
+MeanModelGenerator.java
+
+./prediction/mean/continuous:
+CreateMeanOutputParameterPoint.java		save
+CreateMeanOutputParameterSpace.java		save
+MeanOutputParamSpaceGenerator.java		submitted
+MeanOutputInducer.java				submitted
+MeanOutputInducerOpt.java			submitted
+MeanOutputModel.java				submitted
+
+./prediction/naivebayes:
+CastToNBModel.java				received
+CreateNBModelFromPMML.java			done or wait till next release for all PMML
+CreateNBModel.java				done
+NaiveBayesModel.java				done
+NaiveBayesPieChartData.java			done
+NaiveBayesPMMLTags.java				doen or wait till next release for all PMML
+NaiveBayesVis.java				done
+PrepareForVis.java				done
+WriteNaiveBayesPMML.java			done or wait till next release for all PMML
+
+./prediction/neuralnet:
+BackPropModelGenerator.java.notready		submitted
+BackPropModel.java.notready			submitted
+BackPropParamSpaceGenerator.java.notready	submitted
+
+./prediction/neuralnet/activationFunctions:
+<Empty>						can be removed
+
+./prediction/neuralnet/learnFunctions:
+<Empty>						can be removed
+
+./prediction/neuralnet/updateFunctions:
+<Empty>						can be removed
+
+./prediction/regression:			save
+RegressionModelGenerator.java
+RegressionModel.java
+
+./prediction/regression/continuous:
+CreateStepwiseLinearParameterPoint.java		save
+CreateStepwiseLinearParameterSpace.java		save
+StepwiseLinearParamSpaceGenerator.java		submitted
+StepwiseLinearInducer.java			submitted
+StepwiseLinearInducerOpt.java			submitted
+StepwiseLinearModel.java			submitted
+
+./transform:
+ApplyTransformation.java			move
+
+./transform/attribute:
+ChooseAttributes.java		done
+ChooseAttributeTypes.java	done (may allow bad choices)
+ColumnConstruction.java		remove - replaced by AttributeConstruction 4/5/03
+AttributeConstruction.java	done
+ColumnExpression.java		move
+CombinePredictionTables.java	? ask Peter G.
+Continuous2Discrete.java	?, ask Peter G.
+DistFunctions.java		?, ask Peter G.
+InsertAtEnd.java		?, ask Peter G.
+MatchFields.java		?, ask Peter G.
+Normalize.java			submitted
+OutputAtATime.java		?, ask Peter G.
+RandomGenerator.java		?, ask Peter G.
+RenamePredictionColumn.java	?, ask Peter G.
+ReplaceNominalsWithInts.java	done
+ScalarizeNominals.java		submitted
+Scale.java			submitted
+SelectAttribute.java		removed 4/5
+SelectAttributeOrdered.java	save, Greg, Time Series Vis
+VTColumnSelect.java		save, Greg, Time Series Vis
+VTReference.java		save, Greg, Time Series Vis
+VTReferenceModule.java		save, Greg, Time Series Vis
+SQLCodeBook.java		???
+
+./transform/binning:
+ADTAutoBin.java			submitted
+ADTBinColumns.java		submitted
+ADTCreateBinTree.java		submitted
+AutoBin.java			done
+AutoBinOPT.java			done
+AutoBinParamSpaceGenerator.java done
+BinColumns.java			done
+BinCounts.java			done
+BinDescriptorFactory.java	done
+BinDescriptor.java		done
+BinTree.java			done  
+CreateBinTree.java		done
+NumericBinDescriptor.java	done
+SQLAutoBin.java			done
+SQLBinColumns.java		done
+SQLCreateBinTree.java		submitted
+TextualBinDescriptor.java	done
+ValidateBinCounts.java		save - for testing purposes only
+
+./transform/sort:
+QuickSort.java			submitted
+
+./transform/summarization:
+SQLArrayCube.java			save
+SQLGetBarChartFromCube.java		save
+SQLHTree.java				done
+
+./transform/table:
+AppendColumnsByKey.java			done
+AppendTables.java			done
+CopyTable.java				submitted (moved from core.datatype.table)
+FilterConstruction.java			done
+FilterExpression.java			done
+FilterTable.java			removed 4/5
+MergeTableRows.java			done
+NFoldCrossValidation.java		replaced by NFoldTrainTest
+NFoldExTable.java			remove; Tried 4/5 but then NFoldStatified won't build
+NFoldStatified.java			save
+NFoldTrainTest.java			done
+NFoldTTables_inplace.java		?, ask Peter G.
+RandomizeTableColumns.java		?, ask Peter G.
+RandomizeTableRows.java			done
+RemoveDuplicateRows.java		done
+RotateVerticalTable.java		?, ask Peter G.
+SampleTableRows.java			done
+SetTrainOrTest.java			save
+SimpleTrainTest.java			done
+SortTable.java				done
+SQLFilterConstruction.java		done
+UntransformModule.java			removed 4/5
+VTQuickSort.java			save
+VTRandomSubset.java			move
+VTStats.java				save
+
+./vis:
+BarChart2D.java				submitted
+BoxPlot.java				submitted
+ClusterBarChart2D.java			will be submitted soon
+ETFunctionPlot.java			submitted
+ETLinearRegression.java			submitted
+ETScatterPlot.java			submitted
+FilterBoxPlot.java			submitted
+LinearRegression2D.java			submitted
+LineGraph2D.java			submitted
+LineGraphAppModule.java			save, this is the TimeSeriesVis.
+OptimizerReport.java			removed 4/5
+ParallelCoordinateVis.java		submitted
+PieChart2D.java				submitted
+PredictionTableReport.java		David C working on this one
+ScatterPlot2D.java			submitted
+ScatterPlot3D.java			submitted
+SurfacePlot3D.java			still being worked on
+TableEditor.java			done
+TableViewer.java			done
+
+./vis/widgets:
+BarChart.java				submitted
+BoxPlotGroup.java			submitted
+BoxPlotPane.java			submitted
+Chart.java				submitted
+ClusterBarChart.java			will be submitted soon
+ComputationalGeometry.java		submitted
+ConfusionMatrix.java			?
+DataSet.java				submitted
+ETFunctionPlotWidget.java		submitted
+ETLinearRegressionWidget.java		submitted
+ETScatterPlotWidget.java		submitted
+ExpressionGUI.java			done
+FilterBoxPlotPane.java			submitted
+FunctionPlot.java			submitted
+FunctionPlotSmall.java			submitted
+GradientColorScatterPlot.java		save
+GradientColorScatterPlotSmall.java	save
+GraphEditor.java			submitted.
+Graph.java				submitted
+GraphSettings.java			submitted
+Histogram.java				done
+IntervalHistogram.java			done
+LinearRegression.java			submitted
+LinearRegressionSmall.java		submitted
+LineGraph.java				submitted
+LinePlot.java				save
+PCView.java				submitted
+PieChart.java				submitted
+RangeHistogram.java			done
+ScatterAndLinePlot.java			save
+ScatterPlot.java			submitted
+ScatterPlotSmall.java			submitted
+ScatterPlotUserPane.java		submitted
+ShadedScatterPlot.java			save
+ShadedScatterPlotSmall.java		save
+TableEditorModel.java			move
+TableMatrix.java			done
+TableViewerModel.java			move
+UniformHistogram.java			done
+
+
+

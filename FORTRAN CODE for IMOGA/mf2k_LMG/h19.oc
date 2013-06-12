@@ -1,0 +1,194 @@
+HEAD PRINT FORMAT 0
+HEAD SAVE UNIT 17
+HEAD SAVE FORMAT (10g11.4)
+DRAWDOWN SAVE UNIT 19
+COMPACT BUDGET FILES
+
+period 7 step 1
+ save drawdown
+ 
+period 7 step 2
+  save drawdown
+ 
+period 7 step 3
+ save drawdown
+ 
+period 7 step 4
+ save drawdown
+ 
+period 7 step 5
+ save drawdown
+ 
+period 7 step 6
+ save drawdown
+
+period 7 step 7
+ save drawdown
+ 
+period 7 step 8
+ save drawdown
+ 
+period 8 step 1
+ save drawdown
+ 
+period 8 step 2
+ save drawdown
+ 
+period 8 step 3
+ save drawdown
+ 
+period 9 step 1
+ save drawdown
+ 
+period 9 step 2
+ save drawdown
+ 
+period 9 step 3
+ save drawdown
+ 
+period 10 step 1
+ save drawdown
+ 
+period 10 step 2
+ save drawdown
+ 
+period 10 step 3
+ save drawdown
+ 
+period 11 step 1
+ save drawdown
+
+period 11 step 2
+ save drawdown
+
+period 11 step 3
+ save drawdown
+
+period 11 step 4
+ save drawdown
+
+period 11 step 5
+ save drawdown 
+
+period 11 step 6
+ save drawdown 
+
+period 11 step 7
+ save drawdown 
+
+period 11 step 8
+ save drawdown 
+
+period 12 step 1
+ save drawdown
+ 
+period 12 step 2
+ save drawdown
+ 
+period 12 step 3
+ save drawdown
+ 
+period 13 step 1
+ save drawdown
+ 
+period 13 step 2
+ save drawdown
+ 
+period 13 step 3
+ save drawdown
+ 
+period 14 step 1
+ save drawdown
+ 
+period 14 step 2
+ save drawdown
+ 
+period 14 step 3
+ save drawdown
+ 
+period 14 step 4
+ save drawdown
+ 
+period 14 step 5
+ save drawdown
+ 
+period 14 step 6
+ save drawdown
+ 
+period 14 step 7
+ save drawdown
+ 
+period 14 step 8
+ save drawdown
+ 
+period 15 step 1
+ save drawdown
+ 
+period 15 step 2
+ save drawdown
+ 
+period 15 step 3
+ save drawdown
+ 
+period 15 step 4
+ save drawdown
+ 
+period 15 step 5
+ save drawdown
+ 
+period 15 step 6
+ save drawdown
+ 
+period 15 step 7
+ save drawdown
+ 
+period 15 step 8
+ save drawdown
+ 
+period 16 step 1
+ save drawdown
+ 
+period 16 step 2
+ save drawdown
+ 
+period 16 step 3
+ save drawdown
+ 
+period 16 step 4
+ save drawdown
+ 
+period 16 step 5
+ save drawdown
+ 
+period 16 step 6
+ save drawdown
+ 
+period 16 step 7
+ save drawdown
+ 
+period 16 step 8
+ save drawdown
+ 
+period 17 step 1
+ save drawdown
+ 
+period 17 step 2
+ save drawdown
+ 
+period 17 step 3
+ save drawdown
+ 
+period 17 step 4
+ save drawdown
+ 
+period 17 step 5
+ save drawdown
+
+period 17 step 6
+ save drawdown
+
+period 17 step 7
+ save drawdown
+
+period 17 step 8
+ save drawdown

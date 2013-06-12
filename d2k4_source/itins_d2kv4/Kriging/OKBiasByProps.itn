@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAAvdwgAAAANAAAADnQAGE5laWdoYm9yaG9vZCBQYXJhbSBTcGFjZXNyABtuY3NhLmQyay5jb3Jl
+LlJlc291cmNlRW50cnnVLiwgQgMm0gIAAkwADGNhY2hlZE9iamVjdHQAEkxqYXZhL2xhbmcvT2Jq
+ZWN0O0wAD29iamVjdENsYXNzTmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwcHQAQG5jc2EuZDJr
+Lm1vZHVsZXMucHJvamVjdHMucGdyb3Zlcy5nZW9zdGF0Lk5laWdoYm9yaG9vZFBhcmFtU3BhY2V0
+ABBNZXJnZVBhcmFtZXRlcnMxc3EAfgAEcHQANm5jc2EuZDJrLm1vZHVsZXMucHJvamVjdHMucGdy
+b3Zlcy51dGlsLk1lcmdlUGFyYW1ldGVyc3QAI1JlYWRFVF9DcmVhdGUgRGVsaW1pdGVkIEZpbGUg
+UGFyc2Vyc3EAfgAEcHQAOW5jc2EuZDJrLm1vZHVsZXMuY29yZS5pby5maWxlLmlucHV0LkNyZWF0
+ZURlbGltaXRlZFBhcnNlcnQAGERlZmF1bHQgUGFyYW1ldGVyIFBvaW50MXNxAH4ABHB0ADVuY3Nh
+LmQyay5tb2R1bGVzLmNvcmUucHJlZGljdGlvbi5HZXREZWZhdWx0UGFyYW1Qb2ludHQAHVJlYWRF
+VF9DaG9vc2UgQXR0cmlidXRlIFR5cGVzc3EAfgAEcHQAPm5jc2EuZDJrLm1vZHVsZXMuY29yZS50
+cmFuc2Zvcm0uYXR0cmlidXRlLkNob29zZUF0dHJpYnV0ZVR5cGVzdAAbT3V0bGllciBSZW1vdmFs
+IFBhcmFtIFNwYWNlc3EAfgAEcHQAQm5jc2EuZDJrLm1vZHVsZXMucHJvamVjdHMucGdyb3Zlcy5n
+ZW9zdGF0Lk91dGxpZXJSZW1vdmFsUGFyYW1TcGFjZXQAF0RlZmF1bHQgUGFyYW1ldGVyIFBvaW50
+c3EAfgAEcHQANW5jc2EuZDJrLm1vZHVsZXMuY29yZS5wcmVkaWN0aW9uLkdldERlZmF1bHRQYXJh
+bVBvaW50dAAaUmVhZEVUX1BhcnNlIEZpbGUgVG8gVGFibGVzcQB+AARwdAA0bmNzYS5kMmsubW9k
+dWxlcy5jb3JlLmlvLmZpbGUuaW5wdXQuUGFyc2VGaWxlVG9UYWJsZXQAD01lcmdlUGFyYW1ldGVy
+c3NxAH4ABHBxAH4AC3QAFlZhcmlvZ3JhbSBQYXJhbSBTcGFjZTFzcQB+AARwdAA9bmNzYS5kMmsu
+bW9kdWxlcy5wcm9qZWN0cy5wZ3JvdmVzLmdlb3N0YXQuVmFyaW9ncmFtUGFyYW1TcGFjZXQADUJp
+bm5pbmcgUGFyYW1zcQB+AARwdAAsbmNzYS5kMmsuY29yZS5tb2R1bGVzLmFnZW5kYS5JdGluZXJh
+cnlNb2R1bGV0ABZSZWFkRVRfSW5wdXQgRmlsZSBOYW1lc3EAfgAEcHQAMm5jc2EuZDJrLm1vZHVs
+ZXMuY29yZS5pby5maWxlLmlucHV0LklucHV0MUZpbGVOYW1ldAAUTWVyZ2VQYXJhbWV0ZXJTcGFj
+ZXNzcQB+AARwdAA7bmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5wZ3JvdmVzLnV0aWwuTWVyZ2VQ
+YXJhbWV0ZXJTcGFjZXN0ABhSZWFkRVRfQ2hvb3NlIEF0dHJpYnV0ZXNzcQB+AARwdAA6bmNzYS5k
+MmsubW9kdWxlcy5jb3JlLnRyYW5zZm9ybS5hdHRyaWJ1dGUuQ2hvb3NlQXR0cmlidXRlc3g=" label="OKBiasByProps.itn">
+    <annotation><![CDATA[<HTML>
+</HTML>]]></annotation>
+    <module alias="Binning Param" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="80" yloc="124">
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterPointImpl">
+        <destination alias="MergeParameters" index="1"/>
+      </output>
+      <itinerary label="Binning Param">
+        <module alias="GenParam_DoubleFromProps" classname="ncsa.d2k.modules.projects.pgroves.util.DoubleProps" xloc="89" yloc="191">
+          <output index="0" classname="java.lang.Double">
+            <destination alias="GenParam_CreateParameter" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="double" value="12.0"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+        </module>
+        <module alias="GenParam_GenerateString" classname="ncsa.d2k.modules.projects.pgroves.util.file.GenerateString" xloc="103" yloc="284">
+          <output index="0" classname="java.lang.String">
+            <destination alias="GenParam_CreateParameter" index="1"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="stringData" value="Num Bins"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+        </module>
+        <module alias="GenParam_CreateParameter" classname="ncsa.d2k.modules.projects.pgroves.util.CreateParameter" xloc="327" yloc="231">
+          <input index="0" classname="java.lang.Number"/>
+          <input index="1" classname="java.lang.String"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterPointImpl">
+            <destination alias="Binning Param" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAHP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+        </module>
+      </itinerary>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAA"/>
+    </module>
+    <module alias="Default Parameter Point" classname="ncsa.d2k.modules.core.prediction.GetDefaultParamPoint" xloc="353" yloc="227">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterSpace"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint">
+        <destination alias="MergeParameters1" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+    </module>
+    <module alias="MergeParameters" classname="ncsa.d2k.modules.projects.pgroves.util.MergeParameters" xloc="462" yloc="80">
+      <input index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+      <input index="1" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+      <output index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint">
+        <destination alias="MergeParameters1" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+    </module>
+    <module alias="Default Parameter Point1" classname="ncsa.d2k.modules.core.prediction.GetDefaultParamPoint" xloc="251" yloc="50">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterSpace"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint">
+        <destination alias="MergeParameters" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+    </module>
+    <module alias="MergeParameters1" classname="ncsa.d2k.modules.projects.pgroves.util.MergeParameters" xloc="594" yloc="128">
+      <input index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+      <input index="1" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+      <output index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+    </module>
+    <module alias="Variogram Param Space1" classname="ncsa.d2k.modules.projects.pgroves.geostat.VariogramParamSpace" xloc="44" yloc="344">
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterSpace">
+        <destination alias="MergeParameterSpaces" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAA"/>
+      <property name="currentSpace" binaryValue="rO0ABXNyAEBuY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUucGFyYW1ldGVyLmltcGwuUGFy
+YW1ldGVyU3BhY2VJbXBsZRQO1/7qA7gCAANJAAludW1TcGFjZXNbAA5wYXJhbWV0ZXJDb3VudHQA
+AltJWwADcmVzcQB+AAF4cgA7bmNzYS5kMmsubW9kdWxlcy5jb3JlLmRhdGF0eXBlLnRhYmxlLmJh
+c2ljLkV4YW1wbGVUYWJsZUltcGzK3t8Hk4cCSgIACFsADGlucHV0Q29sdW1uc3EAfgABWwAKaW5w
+dXROYW1lc3QAE1tMamF2YS9sYW5nL1N0cmluZztbAANpbnN0ADRbTG5jc2EvZDJrL21vZHVsZXMv
+Y29yZS9kYXRhdHlwZS90YWJsZS9iYXNpYy9Db2x1bW47WwANb3V0cHV0Q29sdW1uc3EAfgABWwAL
+b3V0cHV0TmFtZXNxAH4AA1sABG91dHNxAH4ABFsAB3Rlc3RTZXRxAH4AAVsACHRyYWluU2V0cQB+
+AAF4cgA6bmNzYS5kMmsubW9kdWxlcy5jb3JlLmRhdGF0eXBlLnRhYmxlLmJhc2ljLlN1YnNldFRh
+YmxlSW1wbPQ2I9Spqn+/AgABWwAGc3Vic2V0cQB+AAF4cgA7bmNzYS5kMmsubW9kdWxlcy5jb3Jl
+LmRhdGF0eXBlLnRhYmxlLmJhc2ljLk11dGFibGVUYWJsZUltcGwd6qDekZ1LAwIAAUwAD3RyYW5z
+Zm9ybWF0aW9uc3QAFUxqYXZhL3V0aWwvQXJyYXlMaXN0O3hyADRuY3NhLmQyay5tb2R1bGVzLmNv
+cmUuZGF0YXR5cGUudGFibGUuYmFzaWMuVGFibGVJbXBsAFs5XSd+004CAANbAAdjb2x1bW5zcQB+
+AARMAAdjb21tZW50dAASTGphdmEvbGFuZy9TdHJpbmc7TAAFbGFiZWxxAH4ACXhyAD5uY3NhLmQy
+ay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuRGVmYXVsdE1pc3NpbmdWYWx1ZXNUYWJsZc1h
+FmXqF+tcAgAIWgAVZGVmYXVsdE1pc3NpbmdCb29sZWFuQgASZGVmYXVsdE1pc3NpbmdCeXRlQwAS
+ZGVmYXVsdE1pc3NpbmdDaGFyRAAUZGVmYXVsdE1pc3NpbmdEb3VibGVJABFkZWZhdWx0TWlzc2lu
+Z0ludFsAF2RlZmF1bHRNaXNzaW5nQnl0ZUFycmF5dAACW0JbABdkZWZhdWx0TWlzc2luZ0NoYXJB
+cnJheXQAAltDTAAUZGVmYXVsdE1pc3NpbmdTdHJpbmdxAH4ACXhwAAAAAAAAAAAAAAAAAAAAAHVy
+AAJbQqzzF/gGCFTgAgAAeHAAAAABAHVyAAJbQ7AmZrDiXYSsAgAAeHAAAAABAAB0AAE/dXIANFtM
+bmNzYS5kMmsubW9kdWxlcy5jb3JlLmRhdGF0eXBlLnRhYmxlLmJhc2ljLkNvbHVtbjtrR/cz+7Fm
+NAIAAHhwAAAACXNyADduY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuYmFzaWMu
+RG91YmxlQ29sdW1urr+2vrr9auoCAAREAANtYXhEAANtaW5bAAVlbXB0eXQAAltaWwAIaW50ZXJu
+YWx0AAJbRHhyAD5uY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuYmFzaWMuTWlz
+c2luZ1ZhbHVlc0NvbHVtbucDpQ17ODYfAgACSQAQbnVtTWlzc2luZ1ZhbHVlc1sAB21pc3Npbmdx
+AH4AFnhyADluY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuYmFzaWMuQWJzdHJh
+Y3RDb2x1bW79CAiJgxdCcAIABVoACWlzTm9taW5hbFoACGlzU2NhbGFySQAEdHlwZUwAB2NvbW1l
+bnRxAH4ACUwABWxhYmVscQB+AAl4cAABAAAAAnB0ABJOdWdnZXQgQ29lZmZpY2llbnQAAAAAdXIA
+AltaV48gORS4XeICAAB4cAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAdXEAfgAcAAAAAwAAAHVyAAJb
+RD6mjBSrY1oeAgAAeHAAAAADAAAAAAAAAABAWQAAAAAAAH/4AAAAAAAAc3EAfgAVAAEAAAACcHQA
+FVNwaGVyaWNhbCBDb2VmZmljaWVudAAAAAB1cQB+ABwAAAADAAAAAAAAAAAAAAAAAAAAAAAAAHVx
+AH4AHAAAAAMAAAB1cQB+AB8AAAADAAAAAAAAAABAWQAAAAAAAH/4AAAAAAAAc3EAfgAVAAEAAAAC
+cHQAD1NwaGVyaWNhbCBSYW5nZQAAAAB1cQB+ABwAAAADAAAAAAAAAAAAAAAAAAAAAAAAAHVxAH4A
+HAAAAAMAAAB1cQB+AB8AAAADAAAAAAAAAABAWQAAAAAAAH/4AAAAAAAAc3EAfgAVAAEAAAACcHQA
+F0V4cG9uZW50aWFsIENvZWZmaWNpZW50AAAAAHVxAH4AHAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAA
+dXEAfgAcAAAAAwAAAHVxAH4AHwAAAAMAAAAAAAAAAEBZAAAAAAAAf/gAAAAAAABzcQB+ABUAAQAA
+AAJwdAARRXhwb25lbnRpYWwgUmFuZ2UAAAAAdXEAfgAcAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAB1
+cQB+ABwAAAADAAAAdXEAfgAfAAAAAwAAAAAAAAAAQFkAAAAAAAB/+AAAAAAAAHNxAH4AFQABAAAA
+AnB0ABRHYXVzc2lhbiBDb2VmZmljaWVudAAAAAB1cQB+ABwAAAADAAAAAAAAAAAAAAAAAAAAAAAA
+AHVxAH4AHAAAAAMAAAB1cQB+AB8AAAADAAAAAAAAAABAWQAAAAAAAH/4AAAAAAAAc3EAfgAVAAEA
+AAACcHQADkdhdXNzaWFuIFJhbmdlAAAAAHVxAH4AHAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAdXEA
+fgAcAAAAAwAAAHVxAH4AHwAAAAMAAAAAAAAAAEBZAAAAAAAAf/gAAAAAAABzcQB+ABUAAQAAAAJw
+dAARUG93ZXIgQ29lZmZpY2llbnQAAAAAdXEAfgAcAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAB1cQB+
+ABwAAAADAAAAdXEAfgAfAAAAAwAAAAAAAAAAQFkAAAAAAAB/+AAAAAAAAHNxAH4AFQABAAAAAnB0
+AA5Qb3dlciBFeHBvbmVudAAAAAB1cQB+ABwAAAADAAAAAAAAAAAAAAAAAAAAAAAAAHVxAH4AHAAA
+AAMAAAB1cQB+AB8AAAADAAAAAAAAAABAAAAAAAAAAH/4AAAAAAAAcHBzcgATamF2YS51dGlsLkFy
+cmF5TGlzdHiB0h2Zx2GdAwABSQAEc2l6ZXhwAAAAAHcEAAAACnh1cgACW0lNumAmduqypQIAAHhw
+AAAAAwAAAAAAAAABAAAAAnVxAH4ASwAAAAB1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtH
+AgAAeHAAAAAAcHVxAH4ASwAAAAB1cQB+AE4AAAAAcHVxAH4ASwAAAAB1cQB+AEsAAAAAAAAAAXVx
+AH4ASwAAAAEAAAAJdXEAfgBLAAAACQAAA+gAAAPoAAAD6AAAA+gAAAPoAAAD6AAAA+gAAAPoAAAA
+Cg=="/>
+    </module>
+    <module alias="MergeParameterSpaces" classname="ncsa.d2k.modules.projects.pgroves.util.MergeParameterSpaces" xloc="170" yloc="273">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterSpace"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterSpace"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterSpaceImpl">
+        <destination alias="Default Parameter Point" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+    </module>
+    <module alias="Neighborhood Param Space" classname="ncsa.d2k.modules.projects.pgroves.geostat.NeighborhoodParamSpace" xloc="40" yloc="205">
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterSpace">
+        <destination alias="MergeParameterSpaces" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+      <property name="currentSpace" binaryValue="rO0ABXNyAEBuY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUucGFyYW1ldGVyLmltcGwuUGFy
+YW1ldGVyU3BhY2VJbXBsZRQO1/7qA7gCAANJAAludW1TcGFjZXNbAA5wYXJhbWV0ZXJDb3VudHQA
+AltJWwADcmVzcQB+AAF4cgA7bmNzYS5kMmsubW9kdWxlcy5jb3JlLmRhdGF0eXBlLnRhYmxlLmJh
+c2ljLkV4YW1wbGVUYWJsZUltcGzK3t8Hk4cCSgIACFsADGlucHV0Q29sdW1uc3EAfgABWwAKaW5w
+dXROYW1lc3QAE1tMamF2YS9sYW5nL1N0cmluZztbAANpbnN0ADRbTG5jc2EvZDJrL21vZHVsZXMv
+Y29yZS9kYXRhdHlwZS90YWJsZS9iYXNpYy9Db2x1bW47WwANb3V0cHV0Q29sdW1uc3EAfgABWwAL
+b3V0cHV0TmFtZXNxAH4AA1sABG91dHNxAH4ABFsAB3Rlc3RTZXRxAH4AAVsACHRyYWluU2V0cQB+
+AAF4cgA6bmNzYS5kMmsubW9kdWxlcy5jb3JlLmRhdGF0eXBlLnRhYmxlLmJhc2ljLlN1YnNldFRh
+YmxlSW1wbPQ2I9Spqn+/AgABWwAGc3Vic2V0cQB+AAF4cgA7bmNzYS5kMmsubW9kdWxlcy5jb3Jl
+LmRhdGF0eXBlLnRhYmxlLmJhc2ljLk11dGFibGVUYWJsZUltcGwd6qDekZ1LAwIAAUwAD3RyYW5z
+Zm9ybWF0aW9uc3QAFUxqYXZhL3V0aWwvQXJyYXlMaXN0O3hyADRuY3NhLmQyay5tb2R1bGVzLmNv
+cmUuZGF0YXR5cGUudGFibGUuYmFzaWMuVGFibGVJbXBsAFs5XSd+004CAANbAAdjb2x1bW5zcQB+
+AARMAAdjb21tZW50dAASTGphdmEvbGFuZy9TdHJpbmc7TAAFbGFiZWxxAH4ACXhyAD5uY3NhLmQy
+ay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuRGVmYXVsdE1pc3NpbmdWYWx1ZXNUYWJsZc1h
+FmXqF+tcAgAIWgAVZGVmYXVsdE1pc3NpbmdCb29sZWFuQgASZGVmYXVsdE1pc3NpbmdCeXRlQwAS
+ZGVmYXVsdE1pc3NpbmdDaGFyRAAUZGVmYXVsdE1pc3NpbmdEb3VibGVJABFkZWZhdWx0TWlzc2lu
+Z0ludFsAF2RlZmF1bHRNaXNzaW5nQnl0ZUFycmF5dAACW0JbABdkZWZhdWx0TWlzc2luZ0NoYXJB
+cnJheXQAAltDTAAUZGVmYXVsdE1pc3NpbmdTdHJpbmdxAH4ACXhwAAAAAAAAAAAAAAAAAAAAAHVy
+AAJbQqzzF/gGCFTgAgAAeHAAAAABAHVyAAJbQ7AmZrDiXYSsAgAAeHAAAAABAAB0AAE/dXIANFtM
+bmNzYS5kMmsubW9kdWxlcy5jb3JlLmRhdGF0eXBlLnRhYmxlLmJhc2ljLkNvbHVtbjtrR/cz+7Fm
+NAIAAHhwAAAAA3NyADduY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuYmFzaWMu
+RG91YmxlQ29sdW1urr+2vrr9auoCAAREAANtYXhEAANtaW5bAAVlbXB0eXQAAltaWwAIaW50ZXJu
+YWx0AAJbRHhyAD5uY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuYmFzaWMuTWlz
+c2luZ1ZhbHVlc0NvbHVtbucDpQ17ODYfAgACSQAQbnVtTWlzc2luZ1ZhbHVlc1sAB21pc3Npbmdx
+AH4AFnhyADluY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuYmFzaWMuQWJzdHJh
+Y3RDb2x1bW79CAiJgxdCcAIABVoACWlzTm9taW5hbFoACGlzU2NhbGFySQAEdHlwZUwAB2NvbW1l
+bnRxAH4ACUwABWxhYmVscQB+AAl4cAABAAAAAnB0AAZSYWRpdXMAAAAAdXIAAltaV48gORS4XeIC
+AAB4cAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAdXEAfgAcAAAAAwAAAHVyAAJbRD6mjBSrY1oeAgAA
+eHAAAAADAAAAAAAAAABAWQAAAAAAAEB8IAAAAAAAc3IANG5jc2EuZDJrLm1vZHVsZXMuY29yZS5k
+YXRhdHlwZS50YWJsZS5iYXNpYy5JbnRDb2x1bW4vbStsFmrjGgIABEkAA21heEkAA21pblsABWVt
+cHR5cQB+ABZbAAhpbnRlcm5hbHEAfgABeHEAfgAYAAEAAAAAcHQAGE1pbmltdW0gTnVtYmVyIE5l
+aWdoYm9ycwAAAAB1cQB+ABwAAAADAAAAAAAAAAAAAAB1cQB+ABwAAAADAAAAdXIAAltJTbpgJnbq
+sqUCAAB4cAAAAAMAAAABAAAADwAAAANzcQB+ACEAAQAAAABwdAAYTWF4aW11bSBOdW1iZXIgTmVp
+Z2hib3JzAAAAAHVxAH4AHAAAAAMAAAAAAAAAAAAAAHVxAH4AHAAAAAMAAAB1cQB+ACYAAAADAAAA
+BQAAAGQAAAAPcHBzcgATamF2YS51dGlsLkFycmF5TGlzdHiB0h2Zx2GdAwABSQAEc2l6ZXhwAAAA
+AHcEAAAACnh1cQB+ACYAAAADAAAAAAAAAAEAAAACdXEAfgAmAAAAAHVyABNbTGphdmEubGFuZy5T
+dHJpbmc7rdJW5+kde0cCAAB4cAAAAABwdXEAfgAmAAAAAHVxAH4AMQAAAABwdXEAfgAmAAAAAHVx
+AH4AJgAAAAAAAAABdXEAfgAmAAAAAQAAAAN1cQB+ACYAAAADAAAAZAAAAA8AAAAK"/>
+    </module>
+    <module alias="Outlier Removal Param Space" classname="ncsa.d2k.modules.projects.pgroves.geostat.OutlierRemovalParamSpace" xloc="44" yloc="47">
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterSpace">
+        <destination alias="Default Parameter Point1" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+      <property name="currentSpace" binaryValue="rO0ABXNyAEBuY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUucGFyYW1ldGVyLmltcGwuUGFy
+YW1ldGVyU3BhY2VJbXBsZRQO1/7qA7gCAANJAAludW1TcGFjZXNbAA5wYXJhbWV0ZXJDb3VudHQA
+AltJWwADcmVzcQB+AAF4cgA7bmNzYS5kMmsubW9kdWxlcy5jb3JlLmRhdGF0eXBlLnRhYmxlLmJh
+c2ljLkV4YW1wbGVUYWJsZUltcGzK3t8Hk4cCSgIACFsADGlucHV0Q29sdW1uc3EAfgABWwAKaW5w
+dXROYW1lc3QAE1tMamF2YS9sYW5nL1N0cmluZztbAANpbnN0ADRbTG5jc2EvZDJrL21vZHVsZXMv
+Y29yZS9kYXRhdHlwZS90YWJsZS9iYXNpYy9Db2x1bW47WwANb3V0cHV0Q29sdW1uc3EAfgABWwAL
+b3V0cHV0TmFtZXNxAH4AA1sABG91dHNxAH4ABFsAB3Rlc3RTZXRxAH4AAVsACHRyYWluU2V0cQB+
+AAF4cgA6bmNzYS5kMmsubW9kdWxlcy5jb3JlLmRhdGF0eXBlLnRhYmxlLmJhc2ljLlN1YnNldFRh
+YmxlSW1wbPQ2I9Spqn+/AgABWwAGc3Vic2V0cQB+AAF4cgA7bmNzYS5kMmsubW9kdWxlcy5jb3Jl
+LmRhdGF0eXBlLnRhYmxlLmJhc2ljLk11dGFibGVUYWJsZUltcGwd6qDekZ1LAwIAAUwAD3RyYW5z
+Zm9ybWF0aW9uc3QAFUxqYXZhL3V0aWwvQXJyYXlMaXN0O3hyADRuY3NhLmQyay5tb2R1bGVzLmNv
+cmUuZGF0YXR5cGUudGFibGUuYmFzaWMuVGFibGVJbXBsAFs5XSd+004CAANbAAdjb2x1bW5zcQB+
+AARMAAdjb21tZW50dAASTGphdmEvbGFuZy9TdHJpbmc7TAAFbGFiZWxxAH4ACXhyAD5uY3NhLmQy
+ay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuRGVmYXVsdE1pc3NpbmdWYWx1ZXNUYWJsZc1h
+FmXqF+tcAgAIWgAVZGVmYXVsdE1pc3NpbmdCb29sZWFuQgASZGVmYXVsdE1pc3NpbmdCeXRlQwAS
+ZGVmYXVsdE1pc3NpbmdDaGFyRAAUZGVmYXVsdE1pc3NpbmdEb3VibGVJABFkZWZhdWx0TWlzc2lu
+Z0ludFsAF2RlZmF1bHRNaXNzaW5nQnl0ZUFycmF5dAACW0JbABdkZWZhdWx0TWlzc2luZ0NoYXJB
+cnJheXQAAltDTAAUZGVmYXVsdE1pc3NpbmdTdHJpbmdxAH4ACXhwAAAAAAAAAAAAAAAAAAAAAHVy
+AAJbQqzzF/gGCFTgAgAAeHAAAAABAHVyAAJbQ7AmZrDiXYSsAgAAeHAAAAABAAB0AAE/dXIANFtM
+bmNzYS5kMmsubW9kdWxlcy5jb3JlLmRhdGF0eXBlLnRhYmxlLmJhc2ljLkNvbHVtbjtrR/cz+7Fm
+NAIAAHhwAAAAAnNyADduY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuYmFzaWMu
+RG91YmxlQ29sdW1urr+2vrr9auoCAAREAANtYXhEAANtaW5bAAVlbXB0eXQAAltaWwAIaW50ZXJu
+YWx0AAJbRHhyAD5uY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuYmFzaWMuTWlz
+c2luZ1ZhbHVlc0NvbHVtbucDpQ17ODYfAgACSQAQbnVtTWlzc2luZ1ZhbHVlc1sAB21pc3Npbmdx
+AH4AFnhyADluY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuYmFzaWMuQWJzdHJh
+Y3RDb2x1bW79CAiJgxdCcAIABVoACWlzTm9taW5hbFoACGlzU2NhbGFySQAEdHlwZUwAB2NvbW1l
+bnRxAH4ACUwABWxhYmVscQB+AAl4cAABAAAAAnB0ABBDaGFuZ2UgVGhyZXNob2xkAAAAAHVyAAJb
+WlePIDkUuF3iAgAAeHAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAHVxAH4AHAAAAAMAAAB1cgACW0Q+
+powUq2NaHgIAAHhwAAAAAwAAAAAAAAAAP/AAAAAAAAA/qZmZmZmZmnNyADRuY3NhLmQyay5tb2R1
+bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuYmFzaWMuSW50Q29sdW1uL20rbBZq4xoCAARJAANtYXhJ
+AANtaW5bAAVlbXB0eXEAfgAWWwAIaW50ZXJuYWxxAH4AAXhxAH4AGAABAAAAAHB0ABpNYXhpbXVt
+IE91dGxpZXJzIHRvIFJlbW92ZQAAAAB1cQB+ABwAAAADAAAAAAAAAAAAAAB1cQB+ABwAAAADAAAA
+dXIAAltJTbpgJnbqsqUCAAB4cAAAAAMAAAABAAAADwAAAAVwcHNyABNqYXZhLnV0aWwuQXJyYXlM
+aXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAAAdwQAAAAKeHVxAH4AJgAAAAMAAAAAAAAAAQAAAAJ1
+cQB+ACYAAAAAdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHB1cQB+ACYA
+AAAAdXEAfgAsAAAAAHB1cQB+ACYAAAAAdXEAfgAmAAAAAAAAAAF1cQB+ACYAAAABAAAAAnVxAH4A
+JgAAAAIAAABkAAAADw=="/>
+    </module>
+  </itinerary>
+</toolkit>

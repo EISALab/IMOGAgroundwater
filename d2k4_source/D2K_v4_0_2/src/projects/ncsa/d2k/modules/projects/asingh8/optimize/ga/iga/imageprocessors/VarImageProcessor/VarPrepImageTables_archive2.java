@@ -1,0 +1,450 @@
+package ncsa.d2k.modules.projects.asingh8.optimize.ga.iga.imageprocessors.VarImageProcessor;
+
+import ncsa.d2k.core.modules.*;
+import ncsa.d2k.modules.core.optimize.ga.*;
+import ncsa.d2k.modules.core.datatype.table.*;
+import ncsa.d2k.modules.core.datatype.table.basic.*;
+import ncsa.d2k.modules.core.datatype.table.transformations.*;
+import ncsa.d2k.modules.core.optimize.util.*;
+import ncsa.d2k.modules.core.optimize.ga.emo.*;
+import ncsa.d2k.modules.core.optimize.ga.nsga.*;
+import ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.*;
+import ncsa.d2k.modules.projects.asingh8.optimize.ga.iga.*;
+import java.io.Serializable;
+
+
+import java.awt.*;
+import java.awt.event.*;
+import java.awt.geom.*;
+import java.awt.image.*;
+import javax.imageio.*;
+import java.io.*;
+import java.util.*;
+import javax.swing.*;
+
+/**
+	Takes in the GA Population, and an IGA Table (table 1) with individuals marked for human ranking.
+        It also takes in an input table that has the information of ALL the wells installed
+        at the site. This module creates a well table (table 2) that stores the X and Y locations of
+        ALL the wells at the site, and a gene table (table 3) that stores the genes of all the individuals
+        marked in table 1. Table 3 is passed into the Interpolation module so that all the marked
+        individuals can be processed for the interpolated grid.
+
+*/
+public class VarPrepImageTables_archive2 extends ncsa.d2k.core.modules.ComputeModule 	{
+
+	//////////////////////////////////
+	// Other Fields
+	//////////////////////////////////
+
+        IGANsgaPopulation pop;
+        MutableTable popTable;
+        MutableTableImpl wellTable;
+        MutableTableImpl geneTable;
+        int [] archivedInds;
+
+
+        // minimum geographic coordinates of the site
+        double xMin = 0;
+        double yMin = 0;
+        // width of grid elements/pixels in the X and Y directions
+        double xPixelWidth = 250;
+        double yPixelWidth = 250;
+
+        boolean showArchivedBest = true;
+	////////////////////////////////
+	//D2K Property get/set methods
+	///////////////////////////////
+        public boolean getShowArchivedBest(){
+		return showArchivedBest;
+	}
+	public void setShowArchivedBest(boolean b){
+		showArchivedBest = b;
+	}
+        public double getXMin(){
+		return xMin;
+	}
+	public void setXMin(double i){
+		xMin=i;
+	}
+        public double getYMin(){
+		return yMin;
+	}
+	public void setYMin(double i){
+		yMin=i;
+	}
+        public double getXPixelWidth(){
+		return xPixelWidth;
+	}
+	public void setXPixelWidth(double i){
+		xPixelWidth=i;
+	}
+        public double getYPixelWidth(){
+		return yPixelWidth;
+	}
+	public void setYPixelWidth(double i){
+		yPixelWidth=i;
+	}
+
+	//////////////////////////////////
+	// Info methods
+	//////////////////////////////////
+        boolean debug=false;
+
+        public void setDebug(boolean b){
+          debug=b;
+	}
+	public boolean getDebug(){
+          return debug;
+	}
+
+
+	public String[] getInputTypes () {
+		String[] types = {"ncsa.d2k.modules.core.optimize.ga.Population",
+                      "ncsa.d2k.modules.core.datatype.table.Table", "ncsa.d2k.modules.core.datatype.table.Table"};
+		return types;
+	}
+
+	public String[] getOutputTypes () {
+		String[] types = {"ncsa.d2k.modules.core.optimize.ga.Population",
+                      "ncsa.d2k.modules.core.datatype.table.Table", "ncsa.d2k.modules.core.datatype.table.Table",
+                      "ncsa.d2k.modules.core.datatype.table.Table", "[I"};
+		return types;
+        }
+        /**
+          This method returns the names of the various inputs.
+          @return the name of the indexed input.
+	*/
+	public String getOutputName (int index) {
+		switch (index) {
+			case 0: return "IGA Nsga Population";
+			case 1: return "IGA Table";
+                        case 2: return "Obs Table";
+                        case 3: return "Genes Table";
+                        case 4: return "Archived individual IDs array";
+                        default: return "No such output";
+		}
+        }
+
+	/**
+		This method returns the names of the various inputs.
+
+		@return the name of the indexed input.
+	*/
+	public String getInputName (int index) {
+		switch (index) {
+			case 0: return "IGA Nsga Population";
+			case 1: return "IGA Table";
+                        case 2: return "Obs Input Table";
+                        default: return "No such input";
+		}
+	}
+
+	/**
+		This method returns the description of the various inputs.
+
+		@return the description of the indexed input.
+	*/
+	public String getOutputInfo (int index) {
+		switch (index) {
+			case 0: return "<?xml version=\"1.0\" encoding=\"UTF-8\"?><D2K>  <Info common=\"population\">    <Text> population. </Text>  </Info></D2K>";
+			case 1: return "<?xml version=\"1.0\" encoding=\"UTF-8\"?><D2K>  <Info common=\"Table\">    <Text>The table with population info: quantitative objectives, selected individuals,  images/applets info for selected individuals. </Text>  </Info></D2K>";
+                        case 2: return "<?xml version=\"1.0\" encoding=\"UTF-8\"?><D2K>  <Info common=\"Table\">    <Text>The table with well info: X and Y grid locations </Text>  </Info></D2K>";
+                        case 3: return "<?xml version=\"1.0\" encoding=\"UTF-8\"?><D2K>  <Info common=\"Table\">    <Text>The table with gene info: The actual individual id of individuals tagged for human ranking in 'IGA Table' and the chromosome for that individual. </Text>  </Info></D2K>";
+                        case 4: return "<?xml version=\"1.0\" encoding=\"UTF-8\"?><D2K>  <Info common=\"population\">    <Text> Integer array containing IDs of archived individuals. </Text>  </Info></D2K>";
+                        default: return "No such output";
+		}
+}
+
+	/**
+		This method returns the description of the various inputs.
+
+		@return the description of the indexed input.
+	*/
+	public String getInputInfo (int index) {
+		switch (index) {
+			case 0: return "<?xml version=\"1.0\" encoding=\"UTF-8\"?><D2K>  <Info common=\"population\">    <Text> population. </Text>  </Info></D2K>";
+			case 1: return "<?xml version=\"1.0\" encoding=\"UTF-8\"?><D2K>  <Info common=\"Table\">    <Text>The table with quantitative fitnesses and updated individuals after passing through a selection filter. </Text>  </Info></D2K>";
+                        case 2: return "<?xml version=\"1.0\" encoding=\"UTF-8\"?><D2K>  <Info common=\"Table\">    <Text>The table with information of well locations and other attributes related to those wells. </Text>  </Info></D2K>";
+                        default: return "No such input";
+		}
+	}
+
+	/**
+		This method returns the description of the module.
+		@return the description of the module.
+	*/
+	public String getModuleInfo () {
+		return "<?xml version=\"1.0\" encoding=\"UTF-8\"?><D2K>  <Info common=\"Image Processing Module\">    <Text> This modules prepares archived solutions (previously human ranked) for visual display. If 'showArchivedBest' is TRUE then it shows only the best solutions, else shows all archived solutions. </Text>  </Info></D2K>";
+	}
+
+	/**
+	 * Return the human readable name of the module.
+	 * @return the human readable name of the module.
+	 */
+	public String getModuleName() {
+		return "IGA: Prep Archive BP Image Tables";
+	}
+
+        //////////////////////////
+	///d2k control methods
+	//////////////////////////
+	public boolean isReady(){
+		if(wellTable == null){
+			return super.isReady();
+		}else{
+			return ((this.getFlags()[0] > 0) && (this.getFlags()[1] > 0) );
+		}
+	}
+
+	/**
+          Do the preparation of tables for imageprocessing of selected individuals. Information of individuals selected
+          for further processing (from tradeoff plots) is in the input table.
+          Overwrite the imageprocessor, which will be specific to your
+          image processing module for your application.
+	*/
+	public void doit () throws Exception {
+		pop = (IGANsgaPopulation) this.pullInput(0);
+                popTable= (MutableTable) this.pullInput(1);
+                if (wellTable == null) {
+                  wellTable= (MutableTableImpl) this.pullInput(2);
+                  this.wellTableEditor ();
+                }
+
+		//this.wellTableEditor ();
+                this.archiveGenesTableCreator ();
+
+		this.pushOutput (pop, 0);
+                this.pushOutput (popTable, 1);
+                this.pushOutput (wellTable, 2);
+                this.pushOutput (geneTable, 3);
+                System.out.println("size of archivedInds in VarPrepImageTables_archive : "+ archivedInds.length);
+                this.pushOutput (archivedInds, 4);
+	}
+
+	/**
+		Processes the wellTable to get rid of extra columns in the well table, so that it stores only the X and Y locations of the wells.
+	*/
+	public void wellTableEditor (){
+                if (debug) {
+                  System.out.println("Number of Columns : " + wellTable.getNumColumns());
+                }
+               // get rid of well IDs
+                wellTable.removeColumn(0);
+                // new number of columns
+                int numcols = wellTable.getNumColumns();
+                // remove extra columns (preserve x loc, y loc, and well conc), if any
+                if (numcols > 3){
+                  wellTable.removeColumns(3,numcols-2);
+                }
+
+                feetToPixelCoordinates(wellTable);
+
+        }
+
+        /**
+         * This method takes in a Table with X and Y coordinates in feet
+         * and then converts the feet coordinates to pixel coordinates
+         * that coincide with the grid elements.
+         */
+        public void feetToPixelCoordinates (MutableTableImpl XYTable){
+
+          // This assumes Column 1 has X coordinates and Column 2 has Y coordinates.
+          for (int i= 0; i < XYTable.getNumRows(); i++){
+            double xCoord = (XYTable.getDouble(i,0)-xMin)/xPixelWidth;
+            XYTable.setDouble(xCoord,i,0);
+
+            double yCoord = (XYTable.getDouble(i,1)-yMin)/yPixelWidth;
+            XYTable.setDouble(yCoord,i,1);
+          }
+
+        }
+
+	/**
+		Creates a gene Table that stores the genes of the tagged individuals in popTable, along with their actual individual ID of the population.
+	*/
+	public void archiveGenesTableCreator (){
+
+                // obtain all the archived individuals from the IGANsgaPopulation
+                MONumericIndividual [] ind = (MONumericIndividual []) pop.getHumanRankedPopulationArchive(); //.humanRankedPopulationArchive ;
+
+                // Testing/////////////////////////////
+                for (int i = 0; i < pop.getTotalNumIndivsRankedInArchive(); i++){
+                      System.out.println("Human in VarPrepImageTables_Archive" + i + " : " + ind[i].toString());
+                }
+                ///////////////////////////////////////
+
+                // obtain the genes (binary for binary coded and double for real coded indivs)
+                int numGenes ;
+                numGenes = pop.getNumGenes();
+
+                // geneTable has # of columns = number of genes + 1 (this is for individual ID in the population)
+                geneTable = new MutableTableImpl(numGenes + 1);
+                // geneTable =   (MutableTableImpl)DefaultTableFactory.getInstance().createTable(numGenes + 1);
+
+
+                // Show all archived solutions
+                if (showArchivedBest == false) {
+                        // array to store the Id and gene combined for all the archived individuals
+                        // along with the all wells solution
+                        double [][] combgene = new double [Math.max(pop.getTotalNumIndivsRankedInArchive(),1)][numGenes+1];
+                        archivedInds = new int [Math.max(pop.getTotalNumIndivsRankedInArchive(),1)];
+                                  
+                                 double [] genes1;
+                                 // if (ind[i] instanceof MONumericIndividual) {
+                                    genes1 = (double []) ((Individual) ind[0]).getGenes ();
+                                 // }
+                                 // else{
+                                    // get the actual gene chromosome in binary format.
+                                 //   genes = (double []) ((MONumericIndividual) ind[i]).toDouble();
+                                  //}
+
+                                  combgene[0][0] = (double) -1;
+                                  archivedInds[0] = -1;
+                                  for (int k = 0; k < numGenes; k++){
+                                    combgene[0][k+1] = genes1[k];
+                                  }
+                        
+                        // setting the very first individual as the 'all wells' solution with
+                        // an ID as -1
+                        //combgene[0][0] = -1;
+                        //archivedInds[0] = -1;
+
+
+                        //for (int k = 0; k < numGenes; k++){
+                        //            combgene[0][k+1] = 1;
+                        //}
+
+                        // assigning other previously human ranked individuals to combgene.
+                        for (int i =0; i < pop.getTotalNumIndivsRankedInArchive(); i++){
+
+                                  // obtain the genes for this chromosome.
+                                  double [] genes;
+                                 // if (ind[i] instanceof MONumericIndividual) {
+                                    genes = (double []) ((Individual) ind[i]).getGenes ();
+                                 // }
+                                 // else{
+                                    // get the actual gene chromosome in binary format.
+                                 //   genes = (double []) ((MONumericIndividual) ind[i]).toDouble();
+                                  //}
+
+                                  combgene[i][0] = (double) i;
+                                  archivedInds[i] = i;
+                                  for (int k = 0; k < numGenes; k++){
+                                    combgene[i][k+1] = genes[k];
+                                  }
+
+                        } // for i
+
+                        // add the combgene to the geneTable
+                        // geneTable.addRow(combgene);
+                        // adding columns one by one
+                        for(int i = 0; i < numGenes+1; i++){
+                                double[] colDat = new double[pop.getTotalNumIndivsRankedInArchive()+1];
+                                for (int j=0; j < pop.getTotalNumIndivsRankedInArchive()+1; j++){
+                                  colDat[j] = combgene[j][i];
+                                }
+                                geneTable.setColumn(new DoubleColumn(colDat), i);
+                        }
+
+                }
+                // show only Best ranked solutions in archive
+                else {
+                        // obtaining the ID of the qualitative objective
+                        // Note: This will work only for one qualitative Objective
+                        int qualId = 0;
+                        boolean [] qualObjFlag = pop.getIgaQualObj();
+                        for (int i= 0; i < qualObjFlag.length ; i++){
+                          if (qualObjFlag[i] == true){
+                            qualId = i;
+                            //System.out.println("Qualitative ID : " + qualId);
+                          }
+                        }
+
+                        // obtaining the number of individuals that have been ranked 'Best'
+                        int numBest = 0;
+                        for (int i =0; i < pop.getTotalNumIndivsRankedInArchive(); i++){
+                          //System.out.println("Objective 0 : " + ind [i].getObjective(0));
+                          //System.out.println("Objective 1 : " + ind [i].getObjective(1));
+                          //System.out.println("Objective 2: " + ind [i].getObjective(2));
+                          if (((int) (ind [i].getObjective(qualId))) == 1){
+                            numBest++ ;
+                          }
+                        }
+
+                        // array to store the Id and gene combined for all the archived individuals
+                        // along with the all wells solution
+                        double [][] combgene = new double [numBest ][numGenes+1];
+
+                        archivedInds = new int [numBest];
+
+                        // setting the very first individual as the 'all wells' solution with
+                        // an ID as -1
+                        //combgene[0][0] = -1;
+                        //archivedInds[0] = -1;
+                        //for (int k = 0; k < numGenes; k++){
+                          //          combgene[0][k+1] = 1;
+                        //}
+                                 double [] genes1;
+                                 // if (ind[i] instanceof MONumericIndividual) {
+                                    genes1 = (double []) ((Individual) ind[0]).getGenes ();
+                                 // }
+                                 // else{
+                                    // get the actual gene chromosome in binary format.
+                                 //   genes = (double []) ((MONumericIndividual) ind[i]).toDouble();
+                                  //}
+
+                                  combgene[0][0] = (double) -1;
+                                  archivedInds[0] = -1;
+                                  for (int k = 0; k < numGenes; k++){
+                                    combgene[0][k+1] = genes1[k];
+                                  }
+
+
+                        int counter = 0;
+                        // assigning other previously human ranked individuals to combgene.
+                        for (int i =0; i < pop.getTotalNumIndivsRankedInArchive(); i++){
+                            // individuals with only 'Best' human ranked qualitative Objective
+                            if (ind[i].getObjective(qualId) == 1){
+                                  // obtain the genes for this chromosome.
+                                  double [] genes;
+                                 // if (ind[i] instanceof MONumericIndividual) {
+                                    genes = (double []) ((Individual) ind[i]).getGenes ();
+                                 // }
+                                 // else{
+                                    // get the actual gene chromosome in binary format.
+                                 //   genes = (double []) ((MOBinaryIndividual) ind[i]).toDouble();
+                                 // }
+
+                                  combgene[counter][0] = (double) i;
+                                  archivedInds[counter] = i;
+                                  for (int k = 0; k < numGenes; k++){
+                                    combgene[counter][k+1] = genes[k];
+                                  }
+                                  counter ++;
+                            }
+                        } // for i
+
+                        // add the combgene to the geneTable
+                        // geneTable.addRow(combgene);
+                        // adding columns one by one
+                        for(int i = 0; i < numGenes+1; i++){
+                                double[] colDat = new double[numBest + 1];
+                                for (int j=0; j < numBest + 1; j++){
+                                  colDat[j] = combgene[j][i];
+                                }
+                                geneTable.setColumn(new DoubleColumn(colDat), i);
+                        }
+
+                }
+        }
+
+}
+
+
+
+
+
+
+
+

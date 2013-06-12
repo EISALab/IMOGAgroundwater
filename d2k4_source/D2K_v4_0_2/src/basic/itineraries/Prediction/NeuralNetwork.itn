@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAARdwgAAAAXAAAADHQAHE5OIFBhcmFtZXRlciBTcGFjZSBHZW5lcmF0b3JzcgAbbmNzYS5kMmsu
+Y29yZS5SZXNvdXJjZUVudHJ51S4sIEIDJtICAAJMAAxjYWNoZWRPYmplY3R0ABJMamF2YS9sYW5n
+L09iamVjdDtMAA9vYmplY3RDbGFzc05hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHB0AEZuY3Nh
+LmQyay5tb2R1bGVzLmNvcmUucHJlZGljdGlvbi5uZXVyYWxuZXQuQmFja1Byb3BQYXJhbVNwYWNl
+R2VuZXJhdG9ydAAPU2ltcGxlVHJhaW5UZXN0c3EAfgAEcHQANW5jc2EuZDJrLm1vZHVsZXMuY29y
+ZS50cmFuc2Zvcm0udGFibGUuU2ltcGxlVHJhaW5UZXN0dAAeQmFjayBQcm9wIE5ldXJhbCBOZXQg
+R2VuZXJhdG9yc3EAfgAEcHQAQW5jc2EuZDJrLm1vZHVsZXMuY29yZS5wcmVkaWN0aW9uLm5ldXJh
+bG5ldC5CYWNrUHJvcE1vZGVsR2VuZXJhdG9ydAATUGFyc2UgRmlsZSBUbyBUYWJsZXNxAH4ABHB0
+ADRuY3NhLmQyay5tb2R1bGVzLmNvcmUuaW8uZmlsZS5pbnB1dC5QYXJzZUZpbGVUb1RhYmxldAAS
+U2NhbGFyaXplIE5vbWluYWxzc3EAfgAEcHQAO25jc2EuZDJrLm1vZHVsZXMuY29yZS50cmFuc2Zv
+cm0uYXR0cmlidXRlLlNjYWxhcml6ZU5vbWluYWxzdAANTW9kZWwgUHJlZGljdHNxAH4ABHB0AC1u
+Y3NhLmQyay5tb2R1bGVzLmNvcmUucHJlZGljdGlvbi5Nb2RlbFByZWRpY3R0AAZGYW5PdXRzcQB+
+AARwdAAibmNzYS5kMmsuY29yZS5tb2R1bGVzLkZhbk91dE1vZHVsZXQAHENyZWF0ZSBEZWxpbWl0
+ZWQgRmlsZSBQYXJzZXJzcQB+AARwdAA5bmNzYS5kMmsubW9kdWxlcy5jb3JlLmlvLmZpbGUuaW5w
+dXQuQ3JlYXRlRGVsaW1pdGVkUGFyc2VydAAXRGVmYXVsdCBQYXJhbWV0ZXIgUG9pbnRzcQB+AARw
+dAA1bmNzYS5kMmsubW9kdWxlcy5jb3JlLnByZWRpY3Rpb24uR2V0RGVmYXVsdFBhcmFtUG9pbnR0
+ABFDaG9vc2UgQXR0cmlidXRlc3NxAH4ABHB0ADpuY3NhLmQyay5tb2R1bGVzLmNvcmUudHJhbnNm
+b3JtLmF0dHJpYnV0ZS5DaG9vc2VBdHRyaWJ1dGVzdAAMVGFibGUgVmlld2Vyc3EAfgAEcHQAJW5j
+c2EuZDJrLm1vZHVsZXMuY29yZS52aXMuVGFibGVWaWV3ZXJ0AA9JbnB1dCBGaWxlIE5hbWVzcQB+
+AARwdAAybmNzYS5kMmsubW9kdWxlcy5jb3JlLmlvLmZpbGUuaW5wdXQuSW5wdXQxRmlsZU5hbWV4
+" label="NeuralNetwork.itn">
+    <annotation><![CDATA[<p>
+      <b>Decision Tree Analysis with C4.5</b>
+    </p>
+    <p>
+      The C4.5 decision tree is a classification approach. This learning 
+      algorithm builds a model (which is a tree) to classify a nominal 
+      attribute based on other data attributes. Each example is routed down 
+      the tree acccording to the attribute values that are tested at each 
+      split node, and upon reaching a leaf node it is assigned the class of 
+      the leaf node. The result of using decision trees is a model that can 
+      classify new examples. A decision tree is built by deciding how to split 
+      the data so that classification error can be reduced. The split nodes 
+      make up the nodes of the decision tree and the leaf nodes represent how 
+      data that follows this path through the tree would be classified.
+    </p>
+    <p>
+      This itinerary creates a Decision Tree Model by asking the user to 
+      select the input and output attributes, splitting the data into a train 
+      set and a test set, builds the model on the train set and tests the 
+      model on the test set. The tree structure in the visualization is based 
+      on the model of the training data while the counts represent the testing 
+      data and the PredictionTableReport is based on the testing data.
+    </p>
+    <p>
+      <b>Modules with Properties</b>
+    </p>
+    <p>
+      The following modules have properties that may need to be adjusted. The 
+      properties can be changed by double clicking on the given module.
+    </p>
+    <p>
+      1 - <b><i>Input File Name</i></b>:
+    </p>
+    <p>
+      This module selects the data set. The file is identified with the 
+      filename property.
+    </p>
+    <p>
+      2 - <b><i>Create Delimited File Parser</i></b>:
+    </p>
+    <p>
+      This module creates a parser for the specified file. The properties of 
+      the module specify the labels row number, the types row number and the 
+      delimiter.
+    </p>
+    <p>
+      3 - <b><i>Parse File To Table</i></b>:
+    </p>
+    <p>
+      This module loads the data from a file to a Table in memory. The 
+      property of this module indicates whether blanks should be interpreted 
+      as missing values.
+    </p>
+    <p>
+      4 - <b><i>SimpleTrainTest</i></b>:
+    </p>
+    <p>
+      This module allows the user to specify how much data should be used for 
+      building the model and testing the model.
+    </p>
+    <p>
+      5 - <b><i>C4.5 Tree Builder</i></b>:
+    </p>
+    <p>
+      This module builds a decision tree by recursively using the information 
+      gain metric to choose the root (the next split node). The criteria for 
+      how big the tree becomes can be controlled by setting the property for 
+      the minimum ratio of records in a leaf to the total number of records in 
+      the tree.
+    </p>
+    <p>
+      <b>Modules without Properties or User Interfaces</b>
+    </p>
+    <p>
+      1 - <b><i>C4.5 Tree Pruner</i></b>:
+    </p>
+    <p>
+      This module prunes a decision tree using a reduced-error pruning 
+      technique. Error estimates for the leaves and subtrees are computed by 
+      classifying all the examples of the Example Table. Both subtree 
+      replacement and subtree raising are used. Subtree replacement will 
+      replace a node by one of its leaves if the induced error of the 
+      replacement is less than the sum of the errors for the leaves of the 
+      node. Subtree raising will lift a subtree if the error for the raised 
+      subtree is less than the original.
+    </p>
+    <p>
+      2 - <b><i>Create Decision Tree Model</i></b>:
+    </p>
+    <p>
+      This module creates a DecisionTreeModel, given a DecisionTreeNode that 
+      is the root of a decision tree.
+    </p>
+    <p>
+      3 - <b><i>ModelPredict</i></b>:
+    </p>
+    <p>
+      This module take a testing set and the model and applies the model to 
+      the testing data. It creates a prediction column with the classification 
+      filled in by applying the model. It outputs a Prediction Table which can 
+      be viewed in the PredictionTableReport. By applying the model to the 
+      testing set, we obtain an estimate of the classification accuracy on 
+      data that was not used to build the model.
+    </p>
+    <p>
+      4 - <b><i>Catch Model</i></b>:
+    </p>
+    <p>
+      This module is used to select a model and return it to the D2K 
+      environment, so that is shows up in the Generate Model Session Pane.
+    </p>
+    <p>
+      <b>Execution</b>
+    </p>
+    <p>
+      Execute the itinerary by clicking on the &quot;Run&quot; button. As the itinerary 
+      runs, the following windows will open for user input.
+    </p>
+    <p>
+      1 - <b><i>Choose Attributes</i></b>:
+    </p>
+    <p>
+      This user interface prompts the user to identify the input and output 
+      attributes. Use Shift to select a range of attributes. Use Control to 
+      select and/or deselect an attribute. Also the File menu allows different 
+      sorting options. For the Iris dataset, the four length and width 
+      attributes can be used for input (the attributes that are used to make 
+      the classification) and the class attribute for output (the 
+      classification).
+    </p>
+    <p>
+      <b>Results</b>
+    </p>
+    <p>
+      Once execution has completed the status bar will disappear. The pane of 
+      the Generated Visualization Session Pane and the Generated Models 
+      Session Pane will turn red when visualization and model glyphs have been 
+      created.
+    </p>
+    <p>
+      1 - <b><i>Decision Tree Visualization</i></b>:
+    </p>
+    <p>
+      Decision Tree Visualization is used to show the results of decision tree 
+      modeling. This window has two panes. The Navigator pane on the left 
+      illustrates the full decision tree, with the viewable window indicated 
+      by a black box outline. This box can be dragged around the tree to 
+      display different parts of the decision tree. The viewable tree is shown 
+      in the right pane. The Node Info pane shows the percentage of the 
+      examples in each class when the mouse brushes a chart in the decision 
+      tree. Clicking on a chart in the right pane, brings up a bar chart that 
+      shows visually the percentage of the examples in each class at this 
+      split point, and the path to get to this node in the tree. The Help 
+      window of this tool describes the functionality of this tool in more 
+      detail.
+    </p>
+    <p>
+      2 - <b><i>Prediction Table Report</i></b>:
+    </p>
+    <p>
+      This report shows the classification error - the number and percentage 
+      of correct and incorrect classifications, and a confusion matrix.
+    </p>]]></annotation>
+    <module alias="NN Parameter Space Generator" classname="ncsa.d2k.modules.core.prediction.neuralnet.BackPropParamSpaceGenerator" xloc="77" yloc="294">
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterSpace">
+        <destination alias="Default Parameter Point" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAA"/>
+    </module>
+    <module alias="Back Prop Neural Net Generator" classname="ncsa.d2k.modules.core.prediction.neuralnet.BackPropModelGenerator" xloc="282" yloc="130">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+      <output index="0" classname="ncsa.d2k.modules.core.prediction.neuralnet.BackPropModel">
+        <destination alias="Model Predict" index="1"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+      <property name="makeModelAvailable" value="true"/>
+    </module>
+    <module alias="FanOut" classname="ncsa.d2k.core.modules.FanOutModule" xloc="158" yloc="207">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.TrainTable"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.TrainTable">
+        <destination alias="Back Prop Neural Net Generator" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="Default Parameter Point" classname="ncsa.d2k.modules.core.prediction.GetDefaultParamPoint" xloc="209" yloc="273">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterSpace"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint">
+        <destination alias="Back Prop Neural Net Generator" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="Parse File To Table" classname="ncsa.d2k.modules.core.io.file.input.ParseFileToTable" xloc="326" yloc="18">
+      <input index="0" classname="ncsa.d2k.modules.core.io.file.input.FlatFileParser"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.MutableTable">
+        <destination alias="Choose Attributes" index="0"/>
+      </output>
+      <property name="useBlanks" value="true"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="Create Delimited File Parser" classname="ncsa.d2k.modules.core.io.file.input.CreateDelimitedParser" xloc="130" yloc="18">
+      <input index="0" classname="java.lang.String"/>
+      <output index="0" classname="ncsa.d2k.modules.core.io.file.input.DelimitedFileParser">
+        <destination alias="Parse File To Table" index="0"/>
+      </output>
+      <property name="typesRow" value="1"/>
+      <property name="hasSpecDelim" value="false"/>
+      <property name="labelsRow" value="0"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="hasTypes" value="true"/>
+      <property name="hasLabels" value="true"/>
+    </module>
+    <module alias="Model Predict" classname="ncsa.d2k.modules.core.prediction.ModelPredict" xloc="418" yloc="220">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+      <input index="1" classname="ncsa.d2k.modules.PredictionModelModule"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable">
+        <destination alias="Table Viewer" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+    </module>
+    <module alias="Table Viewer" classname="ncsa.d2k.modules.core.vis.TableViewer" xloc="559" yloc="220">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <property name="maxFractionDigits" value="-1"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="Choose Attributes" classname="ncsa.d2k.modules.core.transform.attribute.ChooseAttributes" xloc="514" yloc="18">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+        <destination alias="Scalarize Nominals" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="supressGui" value="false"/>
+    </module>
+    <module alias="Input File Name" classname="ncsa.d2k.modules.core.io.file.input.Input1FileName" xloc="23" yloc="18">
+      <output index="0" classname="java.lang.String">
+        <destination alias="Create Delimited File Parser" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="fileName" value="c:/data/UCI/iris.csv"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAA"/>
+    </module>
+    <module alias="Scalarize Nominals" classname="ncsa.d2k.modules.core.transform.attribute.ScalarizeNominals" xloc="43" yloc="109">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.MutableTable"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.MutableTable">
+        <destination alias="SimpleTrainTest" index="0"/>
+      </output>
+      <property name="newTypeBoolean" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="SimpleTrainTest" classname="ncsa.d2k.modules.core.transform.table.SimpleTrainTest" xloc="36" yloc="212">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.TrainTable">
+        <destination alias="FanOut" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.datatype.table.TestTable">
+        <destination alias="Model Predict" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+      <property name="testPercent" value="33"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA="/>
+      <property name="samplingMethod" value="0"/>
+      <property name="seed" value="123"/>
+      <property name="trainPercent" value="67"/>
+    </module>
+  </itinerary>
+</toolkit>

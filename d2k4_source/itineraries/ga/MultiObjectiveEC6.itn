@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAARdwgAAAAPAAAAEXQAClRydW5jYXRpb25zcgAbbmNzYS5kMmsuY29yZS5SZXNvdXJjZUVudHJ5
+1S4sIEIDJtICAAJMAAxjYWNoZWRPYmplY3R0ABJMamF2YS9sYW5nL09iamVjdDtMAA9vYmplY3RD
+bGFzc05hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHB0ADZuY3NhLmQyay5tb2R1bGVzLmNvcmUu
+b3B0aW1pemUuZ2Euc2VsZWN0aW9uLlRydW5jYXRpb250AA1SZWFsIE11dGF0aW9uc3EAfgAEcHQA
+N25jc2EuZDJrLm1vZHVsZXMuY29yZS5vcHRpbWl6ZS5nYS5tdXRhdGlvbi5SZWFsTXV0YXRpb250
+ABNXcml0ZSBUYWJsZSB0byBGaWxlc3EAfgAEcHQANW5jc2EuZDJrLm1vZHVsZXMuY29yZS5pby5m
+aWxlLm91dHB1dC5Xcml0ZVRhYmxlVG9GaWxldAAFRmFuSW5zcQB+AARwdAAhbmNzYS5kMmsuY29y
+ZS5tb2R1bGVzLkZhbkluTW9kdWxldAAIVlRWaWV3ZXJzcQB+AARwdAAibmNzYS5kMmsubW9kdWxl
+cy5jb3JlLnZpcy5WVFZpZXdlcnQAB0Zhbk91dDJzcQB+AARwdAAibmNzYS5kMmsuY29yZS5tb2R1
+bGVzLkZhbk91dE1vZHVsZXQAGlNpbXVsYXRlZCBCaW5hcnkgQ3Jvc3NvdmVyc3EAfgAEcHQARG5j
+c2EuZDJrLm1vZHVsZXMuY29yZS5vcHRpbWl6ZS5nYS5jcm9zc292ZXIuU2ltdWxhdGVkQmluYXJ5
+Q3Jvc3NvdmVydAAHRmFuT3V0MXNxAH4ABHBxAH4AF3QAD1BvcFRvVlRXaGVuRG9uZXNxAH4ABHB0
+ADFuY3NhLmQyay5tb2R1bGVzLmNvcmUub3B0aW1pemUuZ2EuUG9wVG9WVFdoZW5Eb25ldAAPSW5w
+dXQgRmlsZSBOYW1lc3EAfgAEcHQAMm5jc2EuZDJrLm1vZHVsZXMuY29yZS5pby5maWxlLmlucHV0
+LklucHV0MUZpbGVOYW1ldAAMRGlzcGxheUZyb250c3EAfgAEcHQAM25jc2EuZDJrLm1vZHVsZXMu
+Y29yZS5vcHRpbWl6ZS5nYS5uc2dhLkRpc3BsYXlGcm9udHQAFUdlbmVyYXRlRUM2UG9wdWxhdGlv
+bnNxAH4ABHB0AERuY3NhLmQyay5tb2R1bGVzLmNvcmUub3B0aW1pemUuZ2EuZW1vLmV4YW1wbGVz
+LkdlbmVyYXRlRUM2UG9wdWxhdGlvbnQABkZhbk91dHNxAH4ABHBxAH4AF3QAC1RhYmxlVmlld2Vy
+c3EAfgAEcHQAJW5jc2EuZDJrLm1vZHVsZXMuY29yZS52aXMuVGFibGVWaWV3ZXJ0ABROb25Eb21p
+bmF0aW9uRWxpdGlzbXNxAH4ABHB0ADtuY3NhLmQyay5tb2R1bGVzLmNvcmUub3B0aW1pemUuZ2Eu
+bnNnYS5Ob25Eb21pbmF0aW9uRWxpdGlzbXQAFEV2YWx1YXRlRTZQb3B1bGF0aW9uc3EAfgAEcHQA
+Q25jc2EuZDJrLm1vZHVsZXMuY29yZS5vcHRpbWl6ZS5nYS5lbW8uZXhhbXBsZXMuRXZhbHVhdGVF
+NlBvcHVsYXRpb250AA9NZWFzdXJlIFN1Y2Nlc3NzcQB+AARwdAAvbmNzYS5kMmsubW9kdWxlcy5j
+b3JlLm9wdGltaXplLmdhLk1lYXN1cmVNb2R1bGV4" label="MultiObjectiveEC6.itn">
+    <annotation><![CDATA[?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;<d2k><info><text>
+Solves ZDT2 from &quot;A Fast and Elitist Multi-Objective Genetic Algorithm: 
+    NSGA-II&quot; by Deb et al. </text></info></d2k>]]></annotation>
+    <module alias="FanOut" classname="ncsa.d2k.core.modules.FanOutModule" xloc="257" yloc="233">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.NsgaPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.NsgaPopulation">
+        <destination alias="PopToVTWhenDone" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.optimize.ga.NsgaPopulation">
+        <destination alias="Measure Success" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAABLQAAAS0="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAGB///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAABLQAAAS0="/>
+    </module>
+    <module alias="EvaluateE6Population" classname="ncsa.d2k.modules.core.optimize.ga.emo.examples.EvaluateE6Population" xloc="28" yloc="103">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="NonDominationElitism" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAABLQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAEEf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAABLQ=="/>
+    </module>
+    <module alias="Simulated Binary Crossover" classname="ncsa.d2k.modules.core.optimize.ga.crossover.SimulatedBinaryCrossover" xloc="589" yloc="112">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="Real Mutation" index="0"/>
+      </output>
+      <property name="generationGap" value="0.6"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAABLA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAG4v//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAABLA=="/>
+      <property name="crossoverRate" value="0.25"/>
+      <property name="n" value="2.0"/>
+      <property name="debugging" value="false"/>
+    </module>
+    <module alias="TableViewer" classname="ncsa.d2k.modules.core.vis.TableViewer" xloc="571" yloc="323">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table">
+        <destination alias="Write Table to File" index="1"/>
+      </output>
+      <property name="maxFractionDigits" value="-1"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="windowName" value="TableViewer"/>
+    </module>
+    <module alias="FanIn" classname="ncsa.d2k.core.modules.FanInModule" xloc="248" yloc="50">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <input index="1" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="EvaluateE6Population" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAABLQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAACUv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAS0="/>
+    </module>
+    <module alias="PopToVTWhenDone" classname="ncsa.d2k.modules.core.optimize.ga.PopToVTWhenDone" xloc="319" yloc="281">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.TableImpl">
+        <destination alias="FanOut2" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAg=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAZP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAg=="/>
+    </module>
+    <module alias="Input File Name" classname="ncsa.d2k.modules.core.io.file.input.Input1FileName" xloc="666" yloc="225">
+      <output index="0" classname="java.lang.String">
+        <destination alias="Write Table to File" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="fileName" value="C:\D_backup\Meghna\jbproject\tempfiles\output.txt"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+    </module>
+    <module alias="Truncation" classname="ncsa.d2k.modules.core.optimize.ga.selection.Truncation" xloc="494" yloc="96">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="Simulated Binary Crossover" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAABLA=="/>
+      <property name="tournamentSize" value="4"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAEqP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAABLA=="/>
+    </module>
+    <module alias="FanOut1" classname="ncsa.d2k.core.modules.FanOutModule" xloc="390" yloc="192">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="DisplayFront" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="Truncation" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAABLAAAASw="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAFPf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAABLAAAASw="/>
+    </module>
+    <module alias="Real Mutation" classname="ncsa.d2k.modules.core.optimize.ga.mutation.RealMutation" xloc="708" yloc="35">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="FanIn" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAABLA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAFM///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAABLA=="/>
+      <property name="n" value="2.0"/>
+      <property name="mutationRate" value="0.0"/>
+      <property name="debugging" value="false"/>
+    </module>
+    <module alias="DisplayFront" classname="ncsa.d2k.modules.core.optimize.ga.nsga.DisplayFront" xloc="491" yloc="207">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <property name="YMin" value="0.0"/>
+      <property name="XMin" value="0.0"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAAA"/>
+      <property name="XMax" value="1.0"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAAA"/>
+      <property name="windowName" value="DisplayFront"/>
+      <property name="YMax" value="1.0"/>
+    </module>
+    <module alias="FanOut2" classname="ncsa.d2k.core.modules.FanOutModule" xloc="449" yloc="296">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.TableImpl"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.TableImpl">
+        <destination alias="TableViewer" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAg=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAA8f//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAg=="/>
+    </module>
+    <module alias="NonDominationElitism" classname="ncsa.d2k.modules.core.optimize.ga.nsga.NonDominationElitism" xloc="190" yloc="104">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.NsgaPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.NsgaPopulation">
+        <destination alias="FanOut" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAABLQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAgZv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAABLQ=="/>
+    </module>
+    <module alias="Measure Success" classname="ncsa.d2k.modules.core.optimize.ga.MeasureModule" xloc="341" yloc="78">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="FanOut1" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAABLAAAAAA="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAADSP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAABLAAAAAA="/>
+      <property name="debugging" value="false"/>
+    </module>
+    <module alias="Write Table to File" classname="ncsa.d2k.modules.core.io.file.output.WriteTableToFile" xloc="662" yloc="313">
+      <input index="0" classname="java.lang.String"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <property name="useDataTypes" value="true"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAAA"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAA=="/>
+      <property name="useColumnLabels" value="true"/>
+      <property name="delimChar" value="C"/>
+    </module>
+    <module alias="GenerateEC6Population" classname="ncsa.d2k.modules.core.optimize.ga.emo.examples.GenerateEC6Population" xloc="60" yloc="14">
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="FanIn" index="0"/>
+      </output>
+      <property name="targetFitness" value="0.01"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="worstFitness" value="1.0"/>
+      <property name="numberGenerations" value="300"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+      <property name="bestFitness" value="0.0"/>
+      <property name="populationSize" value="100"/>
+    </module>
+  </itinerary>
+</toolkit>

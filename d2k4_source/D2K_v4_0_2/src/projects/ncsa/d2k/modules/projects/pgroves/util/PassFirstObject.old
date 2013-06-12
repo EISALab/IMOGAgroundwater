@@ -1,0 +1,183 @@
+package ncsa.d2k.modules.projects.pgroves.util;
+
+
+import ncsa.d2k.core.modules.*;
+
+
+/**
+	passes the first object it gets, pulls the rest and
+	does nothing with them.
+
+
+	@author pgroves
+	@date 03/13/04
+	*/
+
+public class PassFirstObject extends DataPrepModule 
+	implements java.io.Serializable {
+
+	//////////////////////
+	//d2k Props
+	////////////////////
+	
+	boolean debug=false;		
+	/////////////////////////
+	/// other fields
+	////////////////////////
+	boolean firstRun = true;
+	//////////////////////////
+	///d2k control methods
+	///////////////////////
+
+	public boolean isReady(){
+		return super.isReady();
+	}
+	public void endExecution(){
+		wipeFields();
+		super.endExecution();
+	}
+	public void beginExecution(){
+		wipeFields();
+		super.beginExecution();
+	}
+	public void wipeFields(){
+		firstRun = true;
+	}
+	
+	/////////////////////
+	//work methods
+	////////////////////
+	/*
+		does it
+	*/
+	public void doit() throws Exception{
+		if(debug){
+			System.out.println(getAlias()+":Firing");
+		}
+
+		Object obj = pullInput(0);
+		if(firstRun){
+			pushOutput(obj, 0);
+			firstRun = false;
+		}
+		
+	}
+		
+	
+	////////////////////////
+	/// D2K Info Methods
+	/////////////////////
+
+
+	public String getModuleInfo(){
+		return 	
+			"passes the first object it gets, pulls the rest and "
+			"does nothing with them. Resets itself at the end "+
+			"of the run."+
+			""+
+			"";
+	}
+	
+   	public String getModuleName() {
+		return "PassFirstObject";
+	}
+	public String[] getInputTypes(){
+		String[] types = {"java.lang.Object"};
+		return types;
+	}
+
+	public String getInputInfo(int index){
+		switch (index) {
+			case 0: 
+				return "A stream of objects";
+			case 1: 
+				return "";
+			case 2: 
+				return "";
+			default: return "No such input";
+		}
+	}
+	
+	public String getInputName(int index) {
+		switch(index) {
+			case 0:
+				return "Object";
+			case 1:
+				return "";
+			case 2:
+				return "";
+			default: return "No such input";
+		}
+	}
+	public String[] getOutputTypes(){
+		String[] types = {"java.lang.Object"};
+		return types;
+	}
+
+	public String getOutputInfo(int index){
+		switch (index) {
+			case 0: 
+				return "The first object that is pulled into this modules."+
+				" Therefore, only one output is put ;
+			case 1:
+				return "";
+			case 2:
+				return "";
+			default: return "No such output";
+		}
+	}
+	public String getOutputName(int index) {
+		switch(index) {
+			case 0:
+				return "";
+			case 1:
+				return "";
+			case 2:
+				return "";
+			default: return "No such output";
+		}
+	}		
+	////////////////////////////////
+	//D2K Property get/set methods
+	///////////////////////////////
+	public void setDebug(boolean b){
+		debug=b;
+	}
+	public boolean getDebug(){
+		return debug;
+	}
+	/*
+	public boolean get(){
+		return ;
+	}
+	public void set(boolean b){
+		=b;
+	}
+	public double  get(){
+		return ;
+	}
+	public void set(double d){
+		=d;
+	}
+	public int get(){
+		return ;
+	}
+	public void set(int i){
+		=i;
+	}
+
+	public String get(){
+		return ;
+	}
+	public void set(String s){
+		=s;
+	}
+	*/
+}
+			
+					
+
+			
+
+								
+	

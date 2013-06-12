@@ -1,0 +1,120 @@
+
+ Data for SGSIM: Number of acceptable data  =      571
+                 Number trimmed             =        0
+                 Weighted Average           =       0.3284
+                 Weighted Variance          =       2.1977
+
+
+ Secondary Data: Number of data             =    68768
+                 Equal Weighted Average     =       0.3075
+                 Equal Weighted Variance    =       1.1824
+
+ 
+ Covariance Look up table and search for previously
+ simulated grid nodes.  The maximum range in each 
+ coordinate direction for covariance look up is:
+           X direction:    3500.000    
+           Y direction:    3500.000    
+           Z direction:   0.0000000E+00
+ Node Values are not searched beyond this distance!
+ 
+
+ Realization   1: number   =    68768
+                  mean     =       0.3044 (close to 0.0?)
+                  variance =       1.3467 (close to gammabar(V,V)? approx. 1.0)
+
+
+ Realization   2: number   =    68768
+                  mean     =       0.3195 (close to 0.0?)
+                  variance =       1.3548 (close to gammabar(V,V)? approx. 1.0)
+
+
+ Realization   3: number   =    68768
+                  mean     =       0.3179 (close to 0.0?)
+                  variance =       1.3302 (close to gammabar(V,V)? approx. 1.0)
+
+
+ Realization   4: number   =    68768
+                  mean     =       0.2936 (close to 0.0?)
+                  variance =       1.3338 (close to gammabar(V,V)? approx. 1.0)
+
+
+ Realization   5: number   =    68768
+                  mean     =       0.3304 (close to 0.0?)
+                  variance =       1.3132 (close to gammabar(V,V)? approx. 1.0)
+
+
+ Realization   6: number   =    68768
+                  mean     =       0.3085 (close to 0.0?)
+                  variance =       1.3379 (close to gammabar(V,V)? approx. 1.0)
+
+
+ Realization   7: number   =    68768
+                  mean     =       0.3136 (close to 0.0?)
+                  variance =       1.3029 (close to gammabar(V,V)? approx. 1.0)
+
+
+ Realization   8: number   =    68768
+                  mean     =       0.3137 (close to 0.0?)
+                  variance =       1.3014 (close to gammabar(V,V)? approx. 1.0)
+
+
+ Realization   9: number   =    68768
+                  mean     =       0.3156 (close to 0.0?)
+                  variance =       1.3173 (close to gammabar(V,V)? approx. 1.0)
+
+
+ Realization  10: number   =    68768
+                  mean     =       0.3141 (close to 0.0?)
+                  variance =       1.3363 (close to gammabar(V,V)? approx. 1.0)
+
+
+ Realization  11: number   =    68768
+                  mean     =       0.3027 (close to 0.0?)
+                  variance =       1.3391 (close to gammabar(V,V)? approx. 1.0)
+
+
+ Realization  12: number   =    68768
+                  mean     =       0.3147 (close to 0.0?)
+                  variance =       1.3055 (close to gammabar(V,V)? approx. 1.0)
+
+
+ Realization  13: number   =    68768
+                  mean     =       0.3150 (close to 0.0?)
+                  variance =       1.3060 (close to gammabar(V,V)? approx. 1.0)
+
+
+ Realization  14: number   =    68768
+                  mean     =       0.3364 (close to 0.0?)
+                  variance =       1.3305 (close to gammabar(V,V)? approx. 1.0)
+
+
+ Realization  15: number   =    68768
+                  mean     =       0.3393 (close to 0.0?)
+                  variance =       1.3110 (close to gammabar(V,V)? approx. 1.0)
+
+
+ Realization  16: number   =    68768
+                  mean     =       0.3215 (close to 0.0?)
+                  variance =       1.3061 (close to gammabar(V,V)? approx. 1.0)
+
+
+ Realization  17: number   =    68768
+                  mean     =       0.3203 (close to 0.0?)
+                  variance =       1.3323 (close to gammabar(V,V)? approx. 1.0)
+
+
+ Realization  18: number   =    68768
+                  mean     =       0.3125 (close to 0.0?)
+                  variance =       1.3514 (close to gammabar(V,V)? approx. 1.0)
+
+
+ Realization  19: number   =    68768
+                  mean     =       0.3081 (close to 0.0?)
+                  variance =       1.3367 (close to gammabar(V,V)? approx. 1.0)
+
+
+ Realization  20: number   =    68768
+                  mean     =       0.3136 (close to 0.0?)
+                  variance =       1.3488 (close to gammabar(V,V)? approx. 1.0)
+

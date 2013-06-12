@@ -1,0 +1,90 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: kt3dMf96Err - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ABHISH~1\LOCALS~1\Temp\RSP3B.tmp" with contents
+[
+/check:bounds /compile_only /dbglibs /debug:full /nologo /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" /pdbfile:"Debug/DF60.PDB" 
+"C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\genHeadMf96\kt3dMf96Err.F"
+]
+Creating temporary file "C:\DOCUME~1\ABHISH~1\LOCALS~1\Temp\RSP3C.tmp" with contents
+[
+kernel32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/kt3dMf96Err.pdb" /debug /machine:I386 /out:"Debug/kt3dMf96Err.exe" /pdbtype:sept 
+".\Debug\ACORNI.OBJ"
+".\Debug\BACKTR.OBJ"
+".\Debug\BAS5.OBJ"
+".\Debug\BCF5.OBJ"
+".\Debug\BEYOND.OBJ"
+".\Debug\BLUE.OBJ"
+".\Debug\CHD1.OBJ"
+".\Debug\CHKNAM.OBJ"
+".\Debug\CHKTITLE.OBJ"
+".\Debug\COVA3.OBJ"
+".\Debug\DE45.OBJ"
+".\Debug\DLOCATE.OBJ"
+".\Debug\DPOWINT.OBJ"
+".\Debug\DRN5.OBJ"
+".\Debug\DSORTEM.OBJ"
+".\Debug\EVT5.OBJ"
+".\Debug\FHB1.OBJ"
+".\Debug\GAUINV.OBJ"
+".\Debug\GCUM.OBJ"
+".\Debug\GETINDX.OBJ"
+".\Debug\GETZ.OBJ"
+".\Debug\GFD1.OBJ"
+".\Debug\GHB5.OBJ"
+".\Debug\GREEN.OBJ"
+".\Debug\HEXA.OBJ"
+".\Debug\HFB1.OBJ"
+".\Debug\IBS1.OBJ"
+".\Debug\KSOL.OBJ"
+".\Debug\kt3dMf96Err.obj"
+".\Debug\KTSOL.OBJ"
+".\Debug\LOCATE.OBJ"
+".\Debug\MODFLW96.OBJ"
+".\Debug\NSCORE.OBJ"
+".\Debug\NUMTEXT.OBJ"
+".\Debug\ORDREL.OBJ"
+".\Debug\PCG2.OBJ"
+".\Debug\PICKSUPR.OBJ"
+".\Debug\POWINT.OBJ"
+".\Debug\PSFILL.OBJ"
+".\Debug\PSLINE.OBJ"
+".\Debug\PSTEXT.OBJ"
+".\Debug\RAND.OBJ"
+".\Debug\RCH5.OBJ"
+".\Debug\RED.OBJ"
+".\Debug\RES1.OBJ"
+".\Debug\RESC.OBJ"
+".\Debug\RIV5.OBJ"
+".\Debug\SCAL.OBJ"
+".\Debug\SETROT.OBJ"
+".\Debug\SETSUPR.OBJ"
+".\Debug\SIP5.OBJ"
+".\Debug\SOR5.OBJ"
+".\Debug\SORTEM.OBJ"
+".\Debug\SQDIST.OBJ"
+".\Debug\SRCHSUPR.OBJ"
+".\Debug\STR1.OBJ"
+".\Debug\STRLEN.OBJ"
+".\Debug\TLK1.OBJ"
+".\Debug\UTL5.OBJ"
+".\Debug\WEL5.OBJ"
+]
+Creating command line "link.exe @C:\DOCUME~1\ABHISH~1\LOCALS~1\Temp\RSP3C.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\genHeadMf96\kt3dMf96Err.F
+Linking...
+
+
+
+<h3>Results</h3>
+kt3dMf96Err.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="IGACopyPopulation_NumericIndPPV.java">
+        <attr name="class_dependency_ncsa.d2k.core.modules.ComputeModule" stringvalue="IGACopyPopulation_NumericIndPPV"/>
+    </fileobject>
+    <fileobject name="IGAPoptoFile_NumericIndPPV.java">
+        <attr name="class_dependency_ncsa.d2k.core.modules.ComputeModule" stringvalue="IGAPoptoFile_NumericIndPPV"/>
+    </fileobject>
+    <fileobject name="IGAPoptoFile_NumericIndWIPP.java">
+        <attr name="class_dependency_ncsa.d2k.core.modules.ComputeModule" stringvalue="IGAPoptoFile_NumericIndWIPP"/>
+    </fileobject>
+    <fileobject name="PoptoTable.java">
+        <attr name="class_dependency_ncsa.d2k.core.modules.DataPrepModule" stringvalue="PoptoTable"/>
+    </fileobject>
+</attributes>

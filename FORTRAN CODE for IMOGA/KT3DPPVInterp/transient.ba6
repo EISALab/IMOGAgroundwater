@@ -1,0 +1,8 @@
+#MF2K basic input file
+#WIPP transient model
+#Created 05/08/2003 - Thomas Lowry
+FREE
+EXTERNAL  47  1   (FREE)  -1
+-999.000000
+EXTERNAL  45  1.0 (FREE)  -1
+

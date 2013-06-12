@@ -1,0 +1,339 @@
+                                  MODFLOW-2000
+      U.S. GEOLOGICAL SURVEY MODULAR FINITE-DIFFERENCE GROUND-WATER FLOW MODEL
+                           VERSION 1.17.01 09/22/2006
+
+
+ This model run combines GLOBAL and LIST output into this single file.
+
+ GLOBAL LISTING FILE: steady.lst
+                         UNIT   40
+
+ OPENING steady.hed
+ FILE TYPE:DATA   UNIT   17   STATUS:UNKNOWN
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING steady.drw
+ FILE TYPE:DATA   UNIT   19   STATUS:UNKNOWN
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING steady.bud
+ FILE TYPE:DATA(BINARY)   UNIT   15   STATUS:UNKNOWN
+ FORMAT:BINARY                 ACCESS:SEQUENTIAL          
+#                                                                                                                                                                                                       
+# Global Input Files                                                                                                                                                                                    
+
+ OPENING steady.dis
+ FILE TYPE:DIS   UNIT   41   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING culebra.ihd
+ FILE TYPE:DATA   UNIT   45   STATUS:UNKNOWN
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING culebra.ibd
+ FILE TYPE:DATA   UNIT   47   STATUS:UNKNOWN
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING culebra.top
+ FILE TYPE:DATA   UNIT   33   STATUS:UNKNOWN
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING culebra.bot
+ FILE TYPE:DATA   UNIT   34   STATUS:UNKNOWN
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING Tupdate2.mod
+ FILE TYPE:DATA   UNIT   30   STATUS:UNKNOWN
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+#                                                                                                                                                                                                       
+# Flow Process Input Files                                                                                                                                                                              
+
+ OPENING steady.ba6
+ FILE TYPE:BAS6   UNIT    1   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING steady.bc6
+ FILE TYPE:BCF6   UNIT   11   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING steady.oc
+ FILE TYPE:OC   UNIT   42   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING steady.pcg
+ FILE TYPE:PCG   UNIT    8   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ THE FREE FORMAT OPTION HAS BEEN SELECTED
+
+ DISCRETIZATION INPUT DATA READ FROM UNIT   41
+ # MF2K DISCRETIZATION FILE
+ #
+ #
+ # NLAY NROW NCOL NPER TIMEUNITS LENUNITS
+    1 LAYERS       307 ROWS       224 COLUMNS
+    1 STRESS PERIOD(S) IN SIMULATION
+ MODEL TIME UNIT IS SECONDS
+ MODEL LENGTH UNIT IS METERS
+ THE GROUND-WATER TRANSPORT PROCESS IS INACTIVE
+
+ THE OBSERVATION PROCESS IS INACTIVE
+ THE SENSITIVITY PROCESS IS INACTIVE
+ THE PARAMETER-ESTIMATION PROCESS IS INACTIVE
+
+ MODE: FORWARD
+
+  Confining bed flag for each layer:
+   0
+
+     619443  ELEMENTS OF GX ARRAY USED OUT OF     619443
+      68768  ELEMENTS OF GZ ARRAY USED OUT OF      68768
+      68768  ELEMENTS OF IG ARRAY USED OUT OF      68768
+
+                     DELR =   100.000    
+
+                     DELC =   100.000    
+
+
+
+           TOP ELEVATION OF LAYER 1
+ READING ON UNIT   33 WITH FORMAT: (FREE)              
+
+
+
+             MODEL LAYER BOTTOM EL. FOR LAYER   1
+ READING ON UNIT   34 WITH FORMAT: (FREE)              
+
+
+ STRESS PERIOD     LENGTH       TIME STEPS     MULTIPLIER FOR DELT    SS FLAG
+ ----------------------------------------------------------------------------
+        1         86400.00          1                    1.000         SS
+
+ STEADY-STATE SIMULATION
+
+
+
+
+ PCG2 -- CONJUGATE GRADIENT SOLUTION PACKAGE, VERSION 2.4, 12/29/98
+ MAXIMUM OF     25 CALLS OF SOLUTION ROUTINE
+ MAXIMUM OF     50 INTERNAL ITERATIONS PER CALL TO SOLUTION ROUTINE
+ MATRIX PRECONDITIONING TYPE :    1
+     140036 ELEMENTS IN X ARRAY ARE USED BY PCG
+       8750 ELEMENTS IN IX ARRAY ARE USED BY PCG
+     275072 ELEMENTS IN Z ARRAY ARE USED BY PCG
+
+     140036  ELEMENTS OF X ARRAY USED OUT OF     140036
+     275072  ELEMENTS OF Z ARRAY USED OUT OF     275072
+       8750  ELEMENTS OF IX ARRAY USED OUT OF       8750
+          0  ELEMENTS OF XHS ARRAY USED OUT OF          1
+
+
+
+                                    SOLUTION BY THE CONJUGATE-GRADIENT METHOD
+                                   -------------------------------------------
+                    MAXIMUM NUMBER OF CALLS TO PCG ROUTINE =       25
+                        MAXIMUM ITERATIONS PER CALL TO PCG =       50
+                               MATRIX PRECONDITIONING TYPE =        1
+        RELAXATION FACTOR (ONLY USED WITH PRECOND. TYPE 1) =    0.10000E+01
+ PARAMETER OF POLYNOMIAL PRECOND. = 2 (2) OR IS CALCULATED :        0
+                         HEAD CHANGE CRITERION FOR CLOSURE =    0.10000E-04
+                     RESIDUAL CHANGE CRITERION FOR CLOSURE =    0.10000E-04
+            PCG HEAD AND RESIDUAL CHANGE PRINTOUT INTERVAL =      999
+     PRINTING FROM SOLVER IS LIMITED(1) OR SUPPRESSED (>1) =        0
+                                         DAMPING PARAMETER =    0.10000E+01
+ 
+ #T-Field 100m Uniform Grid                                                      
+ #May 8, 2003 - Thomas Lowry                                                     
+ THE FREE FORMAT OPTION HAS BEEN SELECTED
+    1 LAYERS       307 ROWS       224 COLUMNS
+    1 STRESS PERIOD(S) IN SIMULATION
+
+ BAS6 -- BASIC PACKAGE, VERSION 6, 1/11/2000 INPUT READ FROM UNIT    1
+          5 ELEMENTS IN IR ARRAY ARE USED BY BAS
+
+ BCF6 -- BLOCK-CENTERED FLOW PACKAGE, VERSION 6, 1/11/2000
+         INPUT READ FROM UNIT 11
+ STEADY-STATE SIMULATION
+ CELL-BY-CELL FLOWS WILL BE SAVED ON UNIT 15
+ HEAD AT CELLS THAT CONVERT TO DRY=   999.00    
+ WETTING CAPABILITY IS NOT ACTIVE
+      LAYER  LAYER-TYPE CODE     INTERBLOCK T
+      --------------------------------------------
+         1            0          0 -- HARMONIC    
+      68769 ELEMENTS IN RX ARRAY ARE USED BY BCF
+
+      68769  ELEMENTS OF RX ARRAY USED OUT OF      68769
+          0  ELEMENTS OF RZ ARRAY USED OUT OF          1
+          5  ELEMENTS OF IR ARRAY USED OUT OF          5
+1
+ #T-Field 100m Uniform Grid                                                      
+ #May 8, 2003 - Thomas Lowry                                                     
+
+
+
+                     BOUNDARY ARRAY FOR LAYER   1
+ READING ON UNIT   47 WITH FORMAT: (FREE)              
+
+ AQUIFER HEAD WILL BE SET TO -999.00     AT ALL NO-FLOW NODES (IBOUND=0).
+
+
+
+                       INITIAL HEAD FOR LAYER   1
+ READING ON UNIT   45 WITH FORMAT: (FREE)              
+
+ OUTPUT CONTROL IS SPECIFIED ONLY AT TIME STEPS FOR WHICH OUTPUT IS DESIRED
+ HEADS WILL BE SAVED WITH FORMAT: (250G10.3)          
+ DRAWDOWN WILL BE SAVED WITH FORMAT: (10G11.4)           
+ COMPACT CELL-BY-CELL BUDGET FILES WILL BE WRITTEN
+ HEAD PRINT FORMAT CODE IS   0    DRAWDOWN PRINT FORMAT CODE IS   0
+ HEADS WILL BE SAVED ON UNIT   17    DRAWDOWNS WILL BE SAVED ON UNIT   19
+
+ COLUMN TO ROW ANISOTROPY =   1.00000    
+
+
+
+               TRANSMIS. ALONG ROWS FOR LAYER   1
+ READING ON UNIT   30 WITH FORMAT: (FREE)              
+1
+                            STRESS PERIOD NO.    1, LENGTH =   86400.00    
+                            -----------------------------------------------
+
+                              NUMBER OF TIME STEPS =     1
+
+                               MULTIPLIER FOR DELT =     1.000
+
+                            INITIAL TIME STEP SIZE =   86400.00    
+ 
+ SOLVING FOR HEAD 
+
+
+     3 CALLS TO PCG ROUTINE FOR TIME STEP   1 IN STRESS PERIOD    1
+    83 TOTAL ITERATIONS
+
+ MAXIMUM HEAD CHANGE FOR EACH ITERATION (1 INDICATES THE FIRST INNER ITERATION):
+
+    HEAD CHANGE    HEAD CHANGE    HEAD CHANGE    HEAD CHANGE    HEAD CHANGE 
+   LAYER,ROW,COL  LAYER,ROW,COL  LAYER,ROW,COL  LAYER,ROW,COL  LAYER,ROW,COL
+ ---------------------------------------------------------------------------
+  1   3.658      0  -4.229      0  -3.505      0  -2.782      0  -2.179    
+   (  1,169, 11)  (  1,140,103)  (  1,138,121)  (  1, 40, 73)  (  1, 42, 71)
+  0  -1.756      0  -1.526      0  -1.345      0  -1.001      0 -0.7611    
+   (  1,221,107)  (  1,159, 16)  (  1,206,104)  (  1,238, 58)  (  1,274, 67)
+  0 -0.6224      0 -0.5355      0 -0.4298      0 -0.2926      0 -0.2869    
+   (  1,279, 68)  (  1,284, 69)  (  1,289, 70)  (  1,132,136)  (  1,294, 71)
+  0  0.1753      0  0.1765      0 -0.1752      0  0.1104      0  0.1035    
+   (  1,182,112)  (  1, 99, 65)  (  1,145,113)  (  1,220,113)  (  1,135, 78)
+  0  0.9009E-01  0  0.8743E-01  0  0.6967E-01  0  0.4963E-01  0 -0.4262E-01
+   (  1,127, 18)  (  1, 88,124)  (  1,130, 17)  (  1,166, 21)  (  1,148,104)
+  0  0.3866E-01  0  0.3057E-01  0  0.2690E-01  0  0.2176E-01  0  0.1541E-01
+   (  1, 94, 50)  (  1,130, 35)  (  1, 88, 56)  (  1,151, 44)  (  1,162,  4)
+  0  0.9519E-02  0 -0.1096E-01  0  0.8173E-02  0 -0.5623E-02  0  0.4312E-02
+   (  1,127, 77)  (  1,154, 97)  (  1,127, 73)  (  1,224,189)  (  1,151,  6)
+  0 -0.2909E-02  0 -0.3413E-02  0 -0.2632E-02  0 -0.2078E-02  0  0.2141E-02
+   (  1,150,111)  (  1,144,133)  (  1,174, 73)  (  1,159, 91)  (  1,148, 75)
+  0 -0.1653E-02  0 -0.1255E-02  0 -0.9132E-03  0  0.8404E-03  0 -0.8124E-03
+   (  1,162, 87)  (  1,199, 55)  (  1,149,123)  (  1,160, 35)  (  1,182, 58)
+  0 -0.6242E-03  0 -0.4979E-03  0 -0.3558E-03  0 -0.2976E-03  0 -0.2239E-03
+   (  1, 46, 67)  (  1, 60, 53)  (  1,155,104)  (  1,184, 63)  (  1,195, 45)
+  1  0.1808E-03  0  0.1265E-03  0 -0.1332E-03  0  0.1387E-03  0  0.1105E-03
+   (  1,133, 62)  (  1,215, 84)  (  1,101,145)  (  1,132, 84)  (  1,236,151)
+  0  0.1076E-03  0 -0.9586E-04  0 -0.1191E-03  0  0.6941E-04  0 -0.6460E-04
+   (  1,167, 54)  (  1,146, 38)  (  1,153, 25)  (  1,203, 86)  (  1,148, 32)
+  0 -0.6338E-04  0 -0.4354E-04  0 -0.3458E-04  0 -0.2748E-04  0  0.2202E-04
+   (  1,169, 80)  (  1,150,124)  (  1, 56, 57)  (  1, 41, 71)  (  1,185,110)
+  0 -0.2327E-04  0 -0.1480E-04  0 -0.1575E-04  0  0.1190E-04  0 -0.1392E-04
+   (  1,159, 91)  (  1,177, 73)  (  1, 57, 56)  (  1,114,111)  (  1, 64, 50)
+  0 -0.7952E-05  0 -0.6703E-05  0 -0.5619E-05  0 -0.6738E-05  0  0.5110E-05
+   (  1,191, 57)  (  1, 98,146)  (  1, 24, 91)  (  1,172, 14)  (  1,160,  2)
+  0  0.2783E-05  0  0.2778E-05  0  0.2460E-05  0  0.1605E-05  0  0.1957E-05
+   (  1,149, 53)  (  1, 80,138)  (  1, 69, 75)  (  1,148, 67)  (  1,168,120)
+  0  0.1614E-05  0  0.1813E-05  1 -0.7176E-06
+   (  1,149, 50)  (  1,160,  2)  (  1, 76, 77)
+
+ MAXIMUM RESIDUAL FOR EACH ITERATION (1 INDICATES THE FIRST INNER ITERATION):
+
+    RESIDUAL       RESIDUAL       RESIDUAL       RESIDUAL       RESIDUAL    
+   LAYER,ROW,COL  LAYER,ROW,COL  LAYER,ROW,COL  LAYER,ROW,COL  LAYER,ROW,COL
+ ---------------------------------------------------------------------------
+  1  -11.87      0  -11.02      0  -10.20      0  -9.037      0  -7.985    
+   (  1,153,106)  (  1,153,106)  (  1,153,106)  (  1,153,106)  (  1,153,106)
+  0  -6.736      0  -5.641      0  -4.694      0  -3.818      0  -2.999    
+   (  1,153,106)  (  1,153,106)  (  1,153,106)  (  1,153,106)  (  1,153,106)
+  0  -2.416      0  -1.918      0  -1.524      0  -1.241      0  -1.048    
+   (  1,153,106)  (  1,153,106)  (  1,153,106)  (  1,153,106)  (  1,152,107)
+  0 -0.9484      0 -0.8405      0 -0.7376      0 -0.6357      0 -0.5271    
+   (  1,152,107)  (  1,152,107)  (  1,152,107)  (  1,152,107)  (  1,152,107)
+  0 -0.4338      0 -0.3633      0  0.2878      0  0.2692      0  0.2620    
+   (  1,152,107)  (  1,152,107)  (  1,298, 73)  (  1,302, 74)  (  1,302, 74)
+  0  0.2359      0  0.2035      0  0.1632      0 -0.1282      0 -0.1103    
+   (  1,306, 76)  (  1,306, 76)  (  1,306, 76)  (  1,302, 75)  (  1,303, 75)
+  0 -0.9893E-01  0 -0.7482E-01  0 -0.5120E-01  0 -0.3675E-01  0  0.3311E-01
+   (  1,303, 75)  (  1,303, 75)  (  1,305, 76)  (  1,305, 76)  (  1,301, 75)
+  0  0.2921E-01  0  0.2335E-01  0  0.1766E-01  0  0.1674E-01  0  0.1534E-01
+   (  1,301, 75)  (  1,301, 75)  (  1,305, 77)  (  1,304, 76)  (  1,303, 75)
+  0  0.1263E-01  0  0.9174E-02  0  0.7619E-02  0 -0.5814E-02  0 -0.4481E-02
+   (  1,303, 75)  (  1,303, 75)  (  1,304, 75)  (  1,303, 77)  (  1,304, 77)
+  0 -0.4156E-02  0 -0.3588E-02  0 -0.2469E-02  0  0.2204E-02  0  0.1879E-02
+   (  1,304, 77)  (  1,304, 77)  (  1,304, 77)  (  1,303, 78)  (  1,303, 78)
+  1  0.1766E-02  0  0.1506E-02  0  0.1040E-02  0  0.8614E-03  0  0.6839E-03
+   (  1,303, 78)  (  1,303, 78)  (  1,302, 77)  (  1,  4,223)  (  1,  3,223)
+  0  0.5522E-03  0 -0.4382E-03  0 -0.5295E-03  0 -0.5449E-03  0 -0.5143E-03
+   (  1,  3,223)  (  1,306, 76)  (  1,303, 78)  (  1,303, 78)  (  1,303, 78)
+  0  0.4262E-03  0  0.3644E-03  0  0.2724E-03  0  0.1933E-03  0  0.1582E-03
+   (  1,304, 76)  (  1,304, 76)  (  1,304, 76)  (  1,304, 76)  (  1,  6,222)
+  0  0.1290E-03  0 -0.1077E-03  0 -0.8162E-04  0  0.7123E-04  0 -0.6603E-04
+   (  1,301, 75)  (  1,298, 76)  (  1,  4,223)  (  1,305, 80)  (  1,305, 77)
+  0 -0.6118E-04  0 -0.5332E-04  0 -0.3957E-04  0  0.3275E-04  0  0.2585E-04
+   (  1,305, 77)  (  1,305, 77)  (  1,305, 77)  (  1,306, 76)  (  1,306, 76)
+  0  0.1937E-04  0  0.1538E-04  0 -0.1161E-04  0 -0.1154E-04  0 -0.1099E-04
+   (  1,306, 76)  (  1,302, 74)  (  1,306,223)  (  1,306,223)  (  1,306,223)
+  0 -0.1020E-04  0 -0.8858E-05  1 -0.8456E-05
+   (  1,306,223)  (  1,306,223)  (  1,306,223)
+
+
+
+ OUTPUT CONTROL FOR STRESS PERIOD    1   TIME STEP   1
+    SAVE HEAD FOR ALL LAYERS
+    SAVE BUDGET
+ UBDSV2 SAVING "   CONSTANT HEAD" ON UNIT  15 AT TIME STEP  1, STRESS PERIOD   1
+ UBDSV1 SAVING "FLOW RIGHT FACE " ON UNIT  15 AT TIME STEP  1, STRESS PERIOD   1
+ UBDSV1 SAVING "FLOW FRONT FACE " ON UNIT  15 AT TIME STEP  1, STRESS PERIOD   1
+
+ HEAD WILL BE SAVED ON UNIT   17 AT END OF TIME STEP   1, STRESS PERIOD    1
+1
+  VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP  1 IN STRESS PERIOD   1
+  ------------------------------------------------------------------------------
+
+     CUMULATIVE VOLUMES      L**3       RATES FOR THIS TIME STEP      L**3/T
+     ------------------                 ------------------------
+
+           IN:                                      IN:
+           ---                                      ---
+             STORAGE =           0.0000               STORAGE =           0.0000
+       CONSTANT HEAD =    21000726.0000         CONSTANT HEAD =         243.0640
+
+            TOTAL IN =    21000726.0000              TOTAL IN =         243.0640
+
+          OUT:                                     OUT:
+          ----                                     ----
+             STORAGE =           0.0000               STORAGE =           0.0000
+       CONSTANT HEAD =    21000728.0000         CONSTANT HEAD =         243.0640
+
+           TOTAL OUT =    21000728.0000             TOTAL OUT =         243.0640
+
+            IN - OUT =          -2.0000              IN - OUT =      -1.5259E-05
+
+ PERCENT DISCREPANCY =           0.00     PERCENT DISCREPANCY =           0.00
+
+
+
+
+
+
+          TIME SUMMARY AT END OF TIME STEP   1 IN STRESS PERIOD    1
+                    SECONDS     MINUTES      HOURS       DAYS        YEARS
+                    -----------------------------------------------------------
+   TIME STEP LENGTH  86400.      1440.0      24.000      1.0000     2.73785E-03
+ STRESS PERIOD TIME  86400.      1440.0      24.000      1.0000     2.73785E-03
+         TOTAL TIME  86400.      1440.0      24.000      1.0000     2.73785E-03
+1

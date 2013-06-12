@@ -1,0 +1,102 @@
+package ncsa.d2k.modules.projects.pgroves.vis.falsecolor;
+
+import java.awt.*;
+import java.awt.image.*;
+import java.awt.color.*;
+import javax.swing.*;
+import ncsa.d2k.modules.projects.i2k.common.*;
+/**
+	contains only a false color image. lets you see it
+
+*/
+
+public class ColorImagePanel extends JPanel{
+
+	/** a reused image object */
+	BufferedImage colorImage;
+
+	/** tells how to do the mapping from grayscale to color */
+	FalseColorMap colorMap;
+
+	/** the grayscale image */
+	ImageObject originalImage;
+
+	public ColorImagePanel(ImageObject img, FalseColorMap colorFunction){
+	
+		originalImage = img;
+		//ColorModel colorMod = ColorModel.getRGBdefault();
+		//ColorSpace colorSpc = colorMod.getColorSpace();
+		//int imageType = colorSpc.getType();
+
+		int numRows = originalImage.numrows;
+		int numCols = originalImage.numcols;
+		this.setPreferredSize(new Dimension(numCols, numRows));
+
+		colorImage = new BufferedImage(
+			numCols, numRows, BufferedImage.TYPE_INT_RGB);
+		
+		
+		updateColoring(colorFunction);
+	}	
+
+	/**
+		given the new coloring method, updates the stored BufferedImage
+
+		@param colorFunction a new mapping from grayscale to color
+	*/
+
+	public void updateColoring(FalseColorMap colorFunction){
+		colorMap = colorFunction;
+		
+		WritableRaster rast = colorImage.getRaster();
+		int width = originalImage.numcols;
+		int height = originalImage.numrows;
+
+		double val;
+		int i, j, k;
+		int[] colors;
+		k=0;
+		for(i=0; i < height; i++){
+			for(j=0; j < width; j++){
+				
+				val = getValue(originalImage, k);
+				colors = colorMap.getColorComponents(val);
+				rast.setPixel(j, i, colors);
+				k++;
+			}
+		}
+	}
+
+	/** just draws the image*/
+	
+	protected void paintComponent(Graphics g) {
+		Graphics2D g2d = (Graphics2D)g.create();
+		g2d.drawImage(colorImage, 0, 0, this);
+
+		g2d.dispose();
+	}
+		
+	/** Simply casts the value from the native type of the ImageObject
+		to a <code>double</code>.
+	*/		
+	public double getValue(ImageObject inImObj, int index) {
+		double val;
+		if(inImObj.sampType.equalsIgnoreCase("BYTE"))
+			val = (double)inImObj.image[index];
+		else if(inImObj.sampType.equalsIgnoreCase("SHORT"))
+			val = (double)inImObj.imageShort[index];
+		else if(inImObj.sampType.equalsIgnoreCase("INT"))
+			val = (double)inImObj.imageInt[index];
+		else if(inImObj.sampType.equalsIgnoreCase("LONG"))
+			val = (double)inImObj.imageLong[index];
+		else if(inImObj.sampType.equalsIgnoreCase("FLOAT"))
+			val = (double)inImObj.imageFloat[index];
+		else if(inImObj.sampType.equalsIgnoreCase("DOUBLE"))
+			val = (double)inImObj.imageDouble[index];
+		else {
+			System.err.println("Invalid Data Type");
+		return 0;
+		}
+		return val;
+	}			
+}

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAARdwgAAAAMAAAACHQAEkV2YWx1YXRlUG9wdWxhdGlvbnNyABtuY3NhLmQyay5jb3JlLlJlc291
+cmNlRW50cnnVLiwgQgMm0gIAAkwADGNhY2hlZE9iamVjdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wA
+D29iamVjdENsYXNzTmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwcHQAOG5jc2EuZDJrLm1vZHVs
+ZXMuY29yZS5vcHRpbWl6ZS5nYS5lbW8uRXZhbHVhdGVQb3B1bGF0aW9udAAQUGVyZm9ybVNlbGVj
+dGlvbnNxAH4ABHB0AEBuY3NhLmQyay5tb2R1bGVzLmNvcmUub3B0aW1pemUuZ2EuZW1vLnNlbGVj
+dGlvbi5QZXJmb3JtU2VsZWN0aW9udAAPUGVyZm9ybU11dGF0aW9uc3EAfgAEcHQAPm5jc2EuZDJr
+Lm1vZHVsZXMuY29yZS5vcHRpbWl6ZS5nYS5lbW8ubXV0YXRpb24uUGVyZm9ybU11dGF0aW9udAAQ
+TWVhc3VyZSBTdWNjZXNzMXNxAH4ABHB0ADBuY3NhLmQyay5tb2R1bGVzLmNvcmUub3B0aW1pemUu
+Z2EuZW1vLkVNT01lYXN1cmV0AA9Qb3B1bGF0aW9uRmFuSW5zcQB+AARwdAA6bmNzYS5kMmsubW9k
+dWxlcy5jb3JlLm9wdGltaXplLmdhLmVtby51dGlsLlBvcHVsYXRpb25GYW5JbnQAEFBlcmZvcm1D
+cm9zc292ZXJzcQB+AARwdABAbmNzYS5kMmsubW9kdWxlcy5jb3JlLm9wdGltaXplLmdhLmVtby5j
+cm9zc292ZXIuUGVyZm9ybUNyb3Nzb3ZlcnQAEkdlbmVyYXRlUG9wdWxhdGlvbnNxAH4ABHB0ADhu
+Y3NhLmQyay5tb2R1bGVzLmNvcmUub3B0aW1pemUuZ2EuZW1vLkdlbmVyYXRlUG9wdWxhdGlvbnQA
+BVNPVmlzc3EAfgAEcHQAL25jc2EuZDJrLm1vZHVsZXMuY29yZS5vcHRpbWl6ZS5nYS5lbW8uZ3Vp
+LlNPVmlzeA==" label="RunSingleObjective.itn">
+    <annotation><![CDATA[<p>
+      Run a GA with a single objective.
+    </p>]]></annotation>
+    <module alias="PerformSelection" classname="ncsa.d2k.modules.core.optimize.ga.emo.selection.PerformSelection" xloc="473" yloc="242">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+        <destination alias="PerformCrossover" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="PerformCrossover" classname="ncsa.d2k.modules.core.optimize.ga.emo.crossover.PerformCrossover" xloc="558" yloc="301">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+        <destination alias="PerformMutation" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="Measure Success1" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOMeasure" xloc="295" yloc="253">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+        <destination alias="PerformSelection" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA="/>
+      <property name="debugging" value="false"/>
+    </module>
+    <module alias="SOVis" classname="ncsa.d2k.modules.core.optimize.ga.emo.gui.SOVis" xloc="282" yloc="385">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="Measure Success1" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAADAAAAAAAAAAAAAAAA"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAADAAAAAAAAAAAAAAAA"/>
+      <property name="windowName" value="SOVis"/>
+    </module>
+    <module alias="PerformMutation" classname="ncsa.d2k.modules.core.optimize.ga.emo.mutation.PerformMutation" xloc="672" yloc="292">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+        <destination alias="PopulationFanIn" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="GeneratePopulation" classname="ncsa.d2k.modules.core.optimize.ga.emo.GeneratePopulation" xloc="40" yloc="166">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+        <destination alias="PopulationFanIn" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="EvaluatePopulation" classname="ncsa.d2k.modules.core.optimize.ga.emo.EvaluatePopulation" xloc="151" yloc="347">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+        <destination alias="SOVis" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="PopulationFanIn" classname="ncsa.d2k.modules.core.optimize.ga.emo.util.PopulationFanIn" xloc="64" yloc="268">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <input index="1" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="EvaluatePopulation" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+    </module>
+  </itinerary>
+</toolkit>

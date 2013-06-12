@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAAvdwgAAAAPAAAAEHQAEkNhbGNEaXN0YW5jZU1hdHJpeHNyABtuY3NhLmQyay5jb3JlLlJlc291
+cmNlRW50cnnVLiwgQgMm0gIAAkwADGNhY2hlZE9iamVjdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wA
+D29iamVjdENsYXNzTmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwcHQAQm5jc2EuZDJrLm1vZHVs
+ZXMucHJvamVjdHMucGdyb3Zlcy5pbnN0YW5jZWJhc2VkLkNhbGNEaXN0YW5jZU1hdHJpeHQAGFJl
+YWRFVF9DaG9vc2UgQXR0cmlidXRlc3NxAH4ABHB0ADpuY3NhLmQyay5tb2R1bGVzLmNvcmUudHJh
+bnNmb3JtLmF0dHJpYnV0ZS5DaG9vc2VBdHRyaWJ1dGVzdAAOT2JqZWN0IEhvbGRlcjFzcQB+AARw
+dAAqbmNzYS5kMmsubW9kdWxlcy5jb3JlLmNvbnRyb2wuT2JqZWN0SG9sZGVydAAOU3BsaXRQYXJh
+bWV0ZXJzcQB+AARwdAA1bmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5wZ3JvdmVzLnV0aWwuU3Bs
+aXRQYXJhbWV0ZXJ0ABFPcHRpbWl6ZVZhcmlvZ3JhbXNxAH4ABHB0ACxuY3NhLmQyay5jb3JlLm1v
+ZHVsZXMuYWdlbmRhLkl0aW5lcmFyeU1vZHVsZXQAI1JlYWRFVF9DcmVhdGUgRGVsaW1pdGVkIEZp
+bGUgUGFyc2Vyc3EAfgAEcHQAOW5jc2EuZDJrLm1vZHVsZXMuY29yZS5pby5maWxlLmlucHV0LkNy
+ZWF0ZURlbGltaXRlZFBhcnNlcnQAFlJlYWRFVF9JbnB1dCBGaWxlIE5hbWVzcQB+AARwdAAybmNz
+YS5kMmsubW9kdWxlcy5jb3JlLmlvLmZpbGUuaW5wdXQuSW5wdXQxRmlsZU5hbWV0ABpSZWFkRVRf
+UGFyc2UgRmlsZSBUbyBUYWJsZXNxAH4ABHB0ADRuY3NhLmQyay5tb2R1bGVzLmNvcmUuaW8uZmls
+ZS5pbnB1dC5QYXJzZUZpbGVUb1RhYmxldAAHRmFuT3V0MXNxAH4ABHB0ACJuY3NhLmQyay5jb3Jl
+Lm1vZHVsZXMuRmFuT3V0TW9kdWxldAAXT3JkaW5hcnlLcmlnaW5nTW9kZWxHZW5zcQB+AARwdABB
+bmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5wZ3JvdmVzLmdlb3N0YXQuT3JkaW5hcnlLcmlnaW5n
+TW9kZWxHZW50ABBSYXdTZW1pdmFyaW9ncmFtc3EAfgAEcHQAOm5jc2EuZDJrLm1vZHVsZXMucHJv
+amVjdHMucGdyb3Zlcy5nZW9zdGF0LlJhd1NlbWl2YXJpb2dyYW10AAZGYW5PdXRzcQB+AARwdAAi
+bmNzYS5kMmsuY29yZS5tb2R1bGVzLkZhbk91dE1vZHVsZXQAC1RyYWluIFRhYmxlc3EAfgAEcHQA
+Km5jc2EuZDJrLm1vZHVsZXMuY29yZS5jb250cm9sLk9iamVjdFBhc3NlcnQAHkJpblZhcmlvZ3Jh
+bVdpdGhPdXRsaWVyUmVtb3ZhbHNxAH4ABHB0ACxuY3NhLmQyay5jb3JlLm1vZHVsZXMuYWdlbmRh
+Lkl0aW5lcmFyeU1vZHVsZXQAHVJlYWRFVF9DaG9vc2UgQXR0cmlidXRlIFR5cGVzc3EAfgAEcHQA
+Pm5jc2EuZDJrLm1vZHVsZXMuY29yZS50cmFuc2Zvcm0uYXR0cmlidXRlLkNob29zZUF0dHJpYnV0
+ZVR5cGVzdAAPU3BsaXRQYXJhbWV0ZXIxc3EAfgAEcHQANW5jc2EuZDJrLm1vZHVsZXMucHJvamVj
+dHMucGdyb3Zlcy51dGlsLlNwbGl0UGFyYW1ldGVyeA==" label="OKModelGenerator.itn">
+    <annotation><![CDATA[<HTML>
+</HTML>]]></annotation>
+    <module alias="Train Table" classname="ncsa.d2k.modules.core.control.ObjectPasser" xloc="100" yloc="81">
+      <input index="0" classname="java.lang.Object"/>
+      <output index="0" classname="java.lang.Object">
+        <destination alias="FanOut1" index="0"/>
+      </output>
+      <property name="output_Name" value="Object Out"/>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="input_Name" value="Train Table"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="FanOut" classname="ncsa.d2k.core.modules.FanOutModule" xloc="601" yloc="395">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table">
+        <destination alias="Object Holder1" index="1"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.datatype.table.Table">
+        <destination alias="OptimizeVariogram" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA="/>
+    </module>
+    <module alias="OrdinaryKrigingModelGen" classname="ncsa.d2k.modules.projects.pgroves.geostat.OrdinaryKrigingModelGen" xloc="805" yloc="559">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+      <input index="2" classname="ncsa.d2k.modules.projects.pgroves.geostat.BivariateModel"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.pgroves.geostat.OrdinaryKrigingModel"/>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAADcv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAwAAAAAAAAAAAAAAAHVxAH4AAwAAAAEAAAAB"/>
+    </module>
+    <module alias="OptimizeVariogram" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="683" yloc="435">
+      <input index="0" classname="java.lang.Object"/>
+      <input index="1" classname="java.lang.Object"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.pgroves.geostat.BivariateModel">
+        <destination alias="OrdinaryKrigingModelGen" index="2"/>
+      </output>
+      <itinerary label="OptimizeVariogram">
+        <module alias="OptimizeVariogram_Object Compiler" classname="ncsa.d2k.modules.projects.pgroves.util.Objects2Array" xloc="930" yloc="270">
+          <input index="0" classname="java.lang.Object"/>
+          <input index="1" classname="java.lang.Integer"/>
+          <output index="0" classname="[Ljava.lang.Object">
+            <destination alias="OptimizeVariogram_ObjectArrayToPrimitiveArray" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+        </module>
+        <module alias="OptimizeVariogram_FanOut2" classname="ncsa.d2k.core.modules.FanOutModule" xloc="546" yloc="44">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+            <destination alias="OptimizeVariogram_Trigger Push" index="0"/>
+          </output>
+          <output index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+            <destination alias="OptimizeVariogram_VariogramModelGenerator1" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA="/>
+        </module>
+        <module alias="OptimizeVariogram_Parameters" classname="ncsa.d2k.modules.core.control.ObjectPasser" xloc="29" yloc="432">
+          <input index="0" classname="java.lang.Object"/>
+          <output index="0" classname="java.lang.Object">
+            <destination alias="OptimizeVariogram_Object Holder1" index="0"/>
+          </output>
+          <property name="output_Name" value="Object Out"/>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="input_Name" value="Object In"/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+        </module>
+        <module alias="OptimizeVariogram_FanOut4" classname="ncsa.d2k.core.modules.FanOutModule" xloc="1181" yloc="574">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint">
+            <destination alias="OptimizeVariogram_VariogramModelGenerator1" index="1"/>
+          </output>
+          <output index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint">
+            <destination alias="OptimizeVariogram_Object Holder" index="1"/>
+          </output>
+          <output index="2" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint">
+            <destination alias="OptimizeVariogram_Object Holder1" index="1"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAADAAAAAAAAAAAAAAAA"/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAADAAAAAAAAAAAAAAAA"/>
+        </module>
+        <module alias="OptimizeVariogram_FanOut" classname="ncsa.d2k.core.modules.FanOutModule" xloc="553" yloc="184">
+          <input index="0" classname="java.lang.Object"/>
+          <output index="0" classname="java.lang.Object">
+            <destination alias="OptimizeVariogram_Trigger Push" index="1"/>
+          </output>
+          <output index="1" classname="java.lang.Object">
+            <destination alias="OptimizeVariogram_VariogramModelGenerator" index="1"/>
+          </output>
+          <output index="2" classname="java.lang.Object">
+            <destination alias="OptimizeVariogram_MergeParameters" index="0"/>
+          </output>
+          <output index="3" classname="java.lang.Object">
+            <destination alias="OptimizeVariogram_TriggerPush1" index="1"/>
+          </output>
+          <output index="4" classname="java.lang.Object">
+            <destination alias="OptimizeVariogram_Trigger Push1" index="1"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAA="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAAFAAAAAAAAAAAAAAAAAAAAAAAA
+AAA="/>
+        </module>
+        <module alias="OptimizeVariogram_VariogramResiduals" classname="ncsa.d2k.modules.projects.pgroves.geostat.VariogramResiduals" xloc="623" yloc="341">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable"/>
+          <output index="0" classname="java.lang.Double">
+            <destination alias="OptimizeVariogram_CreateParameter" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+        </module>
+        <module alias="OptimizeVariogram_SetTrain" classname="ncsa.d2k.modules.core.transform.table.SetTrainOrTest" xloc="466" yloc="22">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+            <destination alias="OptimizeVariogram_FanOut2" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+          <property name="trainVsTest" value="true"/>
+        </module>
+        <module alias="OptimizeVariogram_ObjectArrayToPrimitiveArray" classname="ncsa.d2k.modules.projects.pgroves.util.ObjectArrayToPrimitiveArray" xloc="1015" yloc="331">
+          <input index="0" classname="[Ljava.lang.Object:"/>
+          <output index="0" classname="java.lang.Object">
+            <destination alias="OptimizeVariogram_GetBestParameter" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+          <property name="usePrimitiveArrays" value="false"/>
+        </module>
+        <module alias="OptimizeVariogram_Model Predict" classname="ncsa.d2k.modules.core.prediction.ModelPredict" xloc="504" yloc="306">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <input index="1" classname="ncsa.d2k.modules.PredictionModelModule"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable">
+            <destination alias="OptimizeVariogram_VariogramResiduals" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+        </module>
+        <module alias="OptimizeVariogram_TriggerPush" classname="ncsa.d2k.modules.core.control.TriggerPush" xloc="370" yloc="376">
+          <input index="0" classname="java.lang.Object"/>
+          <input index="1" classname="java.lang.Object"/>
+          <output index="0" classname="java.lang.Object">
+            <destination alias="OptimizeVariogram_RandomParamGenerator" index="1"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+        </module>
+        <module alias="OptimizeVariogram_Object Holder" classname="ncsa.d2k.modules.core.control.ObjectHolder" xloc="245" yloc="63">
+          <input index="0" classname="java.lang.Object"/>
+          <input index="1" classname="java.lang.Object"/>
+          <output index="0" classname="java.lang.Object">
+            <destination alias="OptimizeVariogram_FanOut3" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+        </module>
+        <module alias="OptimizeVariogram_VariogramModelGenerator1" classname="ncsa.d2k.modules.projects.pgroves.geostat.VariogramModelGenerator" xloc="1180" yloc="180">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+          <output index="0" classname="ncsa.d2k.modules.projects.pgroves.geostat.BivariateModel">
+            <destination alias="OptimizeVariogram" index="8"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+        </module>
+        <module alias="OptimizeVariogram_TriggerPush1" classname="ncsa.d2k.modules.core.control.TriggerPush" xloc="627" yloc="527">
+          <input index="0" classname="java.lang.Object"/>
+          <input index="1" classname="java.lang.Object"/>
+          <output index="0" classname="java.lang.Object">
+            <destination alias="OptimizeVariogram_CreateParameter" index="1"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+        </module>
+        <module alias="OptimizeVariogram_Variogram Data" classname="ncsa.d2k.modules.core.control.ObjectPasser" xloc="70" yloc="44">
+          <input index="0" classname="java.lang.Object"/>
+          <output index="0" classname="java.lang.Object">
+            <destination alias="OptimizeVariogram_Object Holder" index="0"/>
+          </output>
+          <property name="output_Name" value="Object Out"/>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="input_Name" value="Object In"/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+        </module>
+        <module alias="OptimizeVariogram_Object Array Iterator" classname="ncsa.d2k.modules.projects.pgroves.util.Array2Objects" xloc="401" yloc="202">
+          <input index="0" classname="[Ljava.lang.Object:"/>
+          <output index="0" classname="java.lang.Object">
+            <destination alias="OptimizeVariogram_FanOut" index="0"/>
+          </output>
+          <output index="1" classname="java.lang.Integer">
+            <destination alias="OptimizeVariogram_Object Compiler" index="1"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA="/>
+        </module>
+        <module alias="OptimizeVariogram_GetBestParameter" classname="ncsa.d2k.modules.projects.pgroves.optimize.GetBestParameter" xloc="1118" yloc="251">
+          <input index="0" classname="[Lncsa.d2k.modules.core.datatype.parameter.ParameterPoint:"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint">
+            <destination alias="OptimizeVariogram_FanOut4" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="objParameterIndex" value="9"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+          <property name="isMaximizing" value="false"/>
+        </module>
+        <module alias="OptimizeVariogram_AutoVariogramParamSpace" classname="ncsa.d2k.modules.projects.pgroves.geostat.AutoVariogramParamSpace" xloc="121" yloc="241">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+          <input index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterSpaceImpl">
+            <destination alias="OptimizeVariogram_FanOut1" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+          <property name="allParametersResolution" value="100"/>
+        </module>
+        <module alias="OptimizeVariogram_SetTest" classname="ncsa.d2k.modules.core.transform.table.SetTrainOrTest" xloc="473" yloc="110">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+            <destination alias="OptimizeVariogram_Trigger Push1" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+          <property name="trainVsTest" value="false"/>
+        </module>
+        <module alias="OptimizeVariogram_NumRandomParameters" classname="ncsa.d2k.modules.projects.pgroves.util.IntProps" xloc="187" yloc="503">
+          <output index="0" classname="java.lang.Integer">
+            <destination alias="OptimizeVariogram_TriggerPush" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAA"/>
+          <property name="integer" value="100"/>
+        </module>
+        <module alias="OptimizeVariogram_FanOut1" classname="ncsa.d2k.core.modules.FanOutModule" xloc="243" yloc="320">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterSpaceImpl"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterSpaceImpl">
+            <destination alias="OptimizeVariogram_RandomParamGenerator" index="0"/>
+          </output>
+          <output index="1" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterSpaceImpl">
+            <destination alias="OptimizeVariogram_TriggerPush" index="1"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA="/>
+        </module>
+        <module alias="OptimizeVariogram_GenerateString" classname="ncsa.d2k.modules.projects.pgroves.util.file.GenerateString" xloc="508" yloc="525">
+          <output index="0" classname="java.lang.String">
+            <destination alias="OptimizeVariogram_TriggerPush1" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="stringData" value="Residuals_Score"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAA"/>
+        </module>
+        <module alias="OptimizeVariogram_CreateParameter" classname="ncsa.d2k.modules.projects.pgroves.util.CreateParameter" xloc="705" yloc="429">
+          <input index="0" classname="java.lang.Number"/>
+          <input index="1" classname="java.lang.String"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterPointImpl">
+            <destination alias="OptimizeVariogram_MergeParameters" index="1"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+        </module>
+        <module alias="OptimizeVariogram_VariogramModelGenerator" classname="ncsa.d2k.modules.projects.pgroves.geostat.VariogramModelGenerator" xloc="790" yloc="148">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+          <output index="0" classname="ncsa.d2k.modules.projects.pgroves.geostat.BivariateModel">
+            <destination alias="OptimizeVariogram_Model Predict" index="1"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+        </module>
+        <module alias="OptimizeVariogram_Trigger Push1" classname="ncsa.d2k.modules.core.control.TriggerPushB" xloc="666" yloc="109">
+          <input index="0" classname="java.lang.Object"/>
+          <input index="1" classname="java.lang.Object"/>
+          <output index="0" classname="java.lang.Object">
+            <destination alias="OptimizeVariogram_Model Predict" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+        </module>
+        <module alias="OptimizeVariogram_RandomParamGenerator" classname="ncsa.d2k.modules.projects.pgroves.optimize.RandomParamGenerator" xloc="278" yloc="224">
+          <input index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterSpace"/>
+          <input index="1" classname="java.lang.Integer"/>
+          <output index="0" classname="[Lncsa.d2k.modules.core.datatype.parameter.impl.ParameterPointImpl">
+            <destination alias="OptimizeVariogram_Object Array Iterator" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+          <property name="seed" value="215634"/>
+        </module>
+        <module alias="OptimizeVariogram_Object Holder1" classname="ncsa.d2k.modules.core.control.ObjectHolder" xloc="118" yloc="358">
+          <input index="0" classname="java.lang.Object"/>
+          <input index="1" classname="java.lang.Object"/>
+          <output index="0" classname="java.lang.Object">
+            <destination alias="OptimizeVariogram_AutoVariogramParamSpace" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+        </module>
+        <module alias="OptimizeVariogram_Trigger Push" classname="ncsa.d2k.modules.core.control.TriggerPushB" xloc="664" yloc="11">
+          <input index="0" classname="java.lang.Object"/>
+          <input index="1" classname="java.lang.Object"/>
+          <output index="0" classname="java.lang.Object">
+            <destination alias="OptimizeVariogram_VariogramModelGenerator" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+        </module>
+        <module alias="OptimizeVariogram_FanOut3" classname="ncsa.d2k.core.modules.FanOutModule" xloc="378" yloc="79">
+          <input index="0" classname="java.lang.Object"/>
+          <output index="0" classname="java.lang.Object">
+            <destination alias="OptimizeVariogram_SetTrain" index="0"/>
+          </output>
+          <output index="1" classname="java.lang.Object">
+            <destination alias="OptimizeVariogram_SetTest" index="0"/>
+          </output>
+          <output index="2" classname="java.lang.Object">
+            <destination alias="OptimizeVariogram_AutoVariogramParamSpace" index="1"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAADAAAAAAAAAAAAAAAA"/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAADAAAAAAAAAAAAAAAA"/>
+        </module>
+        <module alias="OptimizeVariogram_MergeParameters" classname="ncsa.d2k.modules.projects.pgroves.util.MergeParameters" xloc="828" yloc="348">
+          <input index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+          <input index="1" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+          <output index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint">
+            <destination alias="OptimizeVariogram_Object Compiler" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+        </module>
+      </itinerary>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+    </module>
+    <module alias="SplitParameter1" classname="ncsa.d2k.modules.projects.pgroves.util.SplitParameter" xloc="58" yloc="596">
+      <input index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+      <output index="0" classname="ncsa.d2k.modules.datatype.parameter.impl.ParameterPointImpl">
+        <destination alias="Object Holder1" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.datatype.parameter.impl.ParameterPointImpl">
+        <destination alias="SplitParameter" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA="/>
+      <property name="splitIndex" value="3"/>
+    </module>
+    <module alias="BinVariogramWithOutlierRemoval" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="408" yloc="345">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+      <input index="2" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table">
+        <destination alias="FanOut" index="0"/>
+      </output>
+      <itinerary label="BinVariogramWithOutlierRemoval">
+        <module alias="BinVariogramWithOutlierRemoval_FanOut5" classname="ncsa.d2k.core.modules.FanOutModule" xloc="396" yloc="389">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.MutableTableImpl"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.MutableTableImpl">
+            <destination alias="BinVariogramWithOutlierRemoval_SortTable" index="0"/>
+          </output>
+          <output index="1" classname="ncsa.d2k.modules.core.datatype.table.basic.MutableTableImpl">
+            <destination alias="BinVariogramWithOutlierRemoval_Trigger Push" index="1"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA="/>
+        </module>
+        <module alias="BinVariogramWithOutlierRemoval_BinVariogram1" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="657" yloc="171">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.TableImpl"/>
+          <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.MutableTableImpl">
+            <destination alias="BinVariogramWithOutlierRemoval_RemoveVariogramOutliers" index="3"/>
+          </output>
+          <itinerary label="BinVariogramWithOutlierRemoval_BinVariogram1">
+            <module alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_ConcatTableArray" classname="ncsa.d2k.modules.projects.pgroves.util.ConcatTableArray" xloc="784" yloc="420">
+              <input index="0" classname="[Lncsa.d2k.modules.core.datatype.table.Table:"/>
+              <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.MutableTableImpl">
+                <destination alias="BinVariogramWithOutlierRemoval_BinVariogram1" index="0"/>
+              </output>
+              <property name="rowVsColumn" value="true"/>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAADg=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAADg=="/>
+            </module>
+            <module alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_ObjectArrayToPrimitiveArray" classname="ncsa.d2k.modules.projects.pgroves.util.ObjectArrayToPrimitiveArray" xloc="666" yloc="313">
+              <input index="0" classname="[Ljava.lang.Object:"/>
+              <output index="0" classname="java.lang.Object">
+                <destination alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_ConcatTableArray" index="0"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAADg=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAEP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAADg=="/>
+              <property name="usePrimitiveArrays" value="false"/>
+            </module>
+            <module alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_FanOut3" classname="ncsa.d2k.core.modules.FanOutModule" xloc="162" yloc="143">
+              <input index="0" classname="java.lang.Object"/>
+              <output index="0" classname="java.lang.Object">
+                <destination alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_TriggerPush" index="1"/>
+              </output>
+              <output index="1" classname="java.lang.Object">
+                <destination alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_NonParametricStatistics" index="0"/>
+              </output>
+              <output index="2" classname="java.lang.Object">
+                <destination alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_TriggerPush2" index="1"/>
+              </output>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAADAAAAAAAAAAAAAAAA"/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAADAAAAAAAAAAAAAAAA"/>
+            </module>
+            <module alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="28" yloc="485">
+              <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterPointImpl">
+                <destination alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_TriggerPush2" index="0"/>
+              </output>
+              <itinerary label="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam">
+                <module alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam_BinVariogram1_GenParam_GenParam_DoubleFromProps" classname="ncsa.d2k.modules.projects.pgroves.util.DoubleProps" xloc="89" yloc="191">
+                  <output index="0" classname="java.lang.Double">
+                    <destination alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam_BinVariogram1_GenParam_GenParam_CreateParameter" index="0"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="double" value="1.0"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+                </module>
+                <module alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam_BinVariogram1_GenParam_GenParam_CreateParameter" classname="ncsa.d2k.modules.projects.pgroves.util.CreateParameter" xloc="327" yloc="231">
+                  <input index="0" classname="java.lang.Number"/>
+                  <input index="1" classname="java.lang.String"/>
+                  <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterPointImpl">
+                    <destination alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam" index="0"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+                </module>
+                <module alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam_BinVariogram1_GenParam_GenParam_GenerateString" classname="ncsa.d2k.modules.projects.pgroves.util.file.GenerateString" xloc="103" yloc="284">
+                  <output index="0" classname="java.lang.String">
+                    <destination alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam_BinVariogram1_GenParam_GenParam_CreateParameter" index="1"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="stringData" value="Param0"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+                </module>
+              </itinerary>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAA"/>
+            </module>
+            <module alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_Object Array Iterator" classname="ncsa.d2k.modules.projects.pgroves.util.Array2Objects" xloc="49" yloc="169">
+              <input index="0" classname="[Ljava.lang.Object:"/>
+              <output index="0" classname="java.lang.Object">
+                <destination alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_FanOut3" index="0"/>
+              </output>
+              <output index="1" classname="java.lang.Integer">
+                <destination alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_Object Compiler" index="1"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAABGAAAAA4="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAIv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAABGAAAAA4="/>
+            </module>
+            <module alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_CopyDoubleVector" classname="ncsa.d2k.modules.projects.pgroves.util.CopyDoubleVector" xloc="347" yloc="163">
+              <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+              <input index="1" classname="java.lang.Integer"/>
+              <output index="0" classname="[D">
+                <destination alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_ArrayToTable" index="0"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAABGA=="/>
+              <property name="rowVsCol" value="false"/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAF///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAARg="/>
+            </module>
+            <module alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_Equi-Width Variogram Partition" classname="ncsa.d2k.modules.projects.pgroves.geostat.PartitionVariogram" xloc="17" yloc="13">
+              <input index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.TableImpl"/>
+              <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+              <output index="0" classname="[Lncsa.d2k.modules.core.datatype.table.basic.SubsetTableImpl">
+                <destination alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_Object Array Iterator" index="0"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAADg=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAALv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAA4="/>
+            </module>
+            <module alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_TriggerPush2" classname="ncsa.d2k.modules.core.control.TriggerPush" xloc="172" yloc="333">
+              <input index="0" classname="java.lang.Object"/>
+              <input index="1" classname="java.lang.Object"/>
+              <output index="0" classname="java.lang.Object">
+                <destination alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_NonParametricStatistics" index="1"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAABGA=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAN///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAARg="/>
+            </module>
+            <module alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_NonParametricStatistics" classname="ncsa.d2k.modules.projects.pgroves.stats.NonParametricStats" xloc="240" yloc="87">
+              <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+              <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+              <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.MutableTableImpl">
+                <destination alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_CopyDoubleVector" index="0"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAABGA=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAABqf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAARg="/>
+            </module>
+            <module alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_TriggerPush" classname="ncsa.d2k.modules.core.control.TriggerPush" xloc="296" yloc="391">
+              <input index="0" classname="java.lang.Object"/>
+              <input index="1" classname="java.lang.Object"/>
+              <output index="0" classname="java.lang.Object">
+                <destination alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_CopyDoubleVector" index="1"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAABGA=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAABf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAARg="/>
+            </module>
+            <module alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_ArrayToTable" classname="ncsa.d2k.modules.projects.pgroves.util.ArrayToTable" xloc="465" yloc="167">
+              <input index="0" classname="[java.lang.Object:"/>
+              <output index="0" classname="ncsa.d2k.modules.datatype.table.basic.MutableTableImpl">
+                <destination alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_Object Compiler" index="0"/>
+              </output>
+              <property name="rowVsColumn" value="true"/>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAABGA=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAF///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAABGA=="/>
+            </module>
+            <module alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_Object Compiler" classname="ncsa.d2k.modules.projects.pgroves.util.Objects2Array" xloc="574" yloc="246">
+              <input index="0" classname="java.lang.Object"/>
+              <input index="1" classname="java.lang.Integer"/>
+              <output index="0" classname="[Ljava.lang.Object">
+                <destination alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_ObjectArrayToPrimitiveArray" index="0"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAADg=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAABP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAA4="/>
+            </module>
+            <module alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_IntFromProps" classname="ncsa.d2k.modules.projects.pgroves.util.IntProps" xloc="155" yloc="436">
+              <output index="0" classname="java.lang.Integer">
+                <destination alias="BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_TriggerPush" index="0"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+              <property name="integer" value="2"/>
+            </module>
+          </itinerary>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+        </module>
+        <module alias="BinVariogramWithOutlierRemoval_SplitParameter" classname="ncsa.d2k.modules.projects.pgroves.util.SplitParameter" xloc="64" yloc="536">
+          <input index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+          <output index="0" classname="ncsa.d2k.modules.datatype.parameter.impl.ParameterPointImpl">
+            <destination alias="BinVariogramWithOutlierRemoval_RemoveVariogramOutliers" index="1"/>
+          </output>
+          <output index="1" classname="ncsa.d2k.modules.datatype.parameter.impl.ParameterPointImpl">
+            <destination alias="BinVariogramWithOutlierRemoval_Trigger Push" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA="/>
+          <property name="splitIndex" value="2"/>
+        </module>
+        <module alias="BinVariogramWithOutlierRemoval_Trigger Push" classname="ncsa.d2k.modules.core.control.TriggerPushB" xloc="490" yloc="425">
+          <input index="0" classname="java.lang.Object"/>
+          <input index="1" classname="java.lang.Object"/>
+          <output index="0" classname="java.lang.Object">
+            <destination alias="BinVariogramWithOutlierRemoval_BinVariogram1" index="1"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+        </module>
+        <module alias="BinVariogramWithOutlierRemoval_SortTable" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="375" yloc="118">
+          <input index="0" classname="java.lang.Object"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.MutableTable">
+            <destination alias="BinVariogramWithOutlierRemoval_BinVariogram1" index="0"/>
+          </output>
+          <itinerary label="BinVariogramWithOutlierRemoval_SortTable">
+            <module alias="BinVariogramWithOutlierRemoval_SortTable_SortTable_Object Compiler" classname="ncsa.d2k.modules.projects.pgroves.util.Objects2Array" xloc="205" yloc="442">
+              <input index="0" classname="java.lang.Object"/>
+              <input index="1" classname="java.lang.Integer"/>
+              <output index="0" classname="[Ljava.lang.Object">
+                <destination alias="BinVariogramWithOutlierRemoval_SortTable_SortTable_ObjectArrayToPrimitiveArray" index="0"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+            </module>
+            <module alias="BinVariogramWithOutlierRemoval_SortTable_SortTable_IntFromProps1" classname="ncsa.d2k.modules.projects.pgroves.util.IntProps" xloc="61" yloc="543">
+              <output index="0" classname="java.lang.Integer">
+                <destination alias="BinVariogramWithOutlierRemoval_SortTable_SortTable_Object Compiler" index="1"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+              <property name="integer" value="1"/>
+            </module>
+            <module alias="BinVariogramWithOutlierRemoval_SortTable_SortTable_Sort Column Index" classname="ncsa.d2k.modules.projects.pgroves.util.IntProps" xloc="46" yloc="400">
+              <output index="0" classname="java.lang.Integer">
+                <destination alias="BinVariogramWithOutlierRemoval_SortTable_SortTable_Object Compiler" index="0"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+              <property name="integer" value="0"/>
+            </module>
+            <module alias="BinVariogramWithOutlierRemoval_SortTable_SortTable_Pass unchanged object" classname="ncsa.d2k.modules.core.control.ObjectPasser" xloc="76" yloc="171">
+              <input index="0" classname="java.lang.Object"/>
+              <output index="0" classname="java.lang.Object">
+                <destination alias="BinVariogramWithOutlierRemoval_SortTable_SortTable_FanOut" index="0"/>
+              </output>
+              <property name="output_Name" value="Object Out"/>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAADg=="/>
+              <property name="input_Name" value="Object In"/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAADg=="/>
+            </module>
+            <module alias="BinVariogramWithOutlierRemoval_SortTable_SortTable_TriggerPush" classname="ncsa.d2k.modules.core.control.TriggerPush" xloc="478" yloc="313">
+              <input index="0" classname="java.lang.Object"/>
+              <input index="1" classname="java.lang.Object"/>
+              <output index="0" classname="java.lang.Object">
+                <destination alias="BinVariogramWithOutlierRemoval_SortTable_SortTable_MultiColumnSort" index="0"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAADg=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAA4="/>
+            </module>
+            <module alias="BinVariogramWithOutlierRemoval_SortTable_SortTable_FanOut" classname="ncsa.d2k.core.modules.FanOutModule" xloc="304" yloc="194">
+              <input index="0" classname="java.lang.Object"/>
+              <output index="0" classname="java.lang.Object">
+                <destination alias="BinVariogramWithOutlierRemoval_SortTable_SortTable_TriggerPush" index="1"/>
+              </output>
+              <output index="1" classname="java.lang.Object">
+                <destination alias="BinVariogramWithOutlierRemoval_SortTable_SortTable_MultiColumnSort" index="1"/>
+              </output>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA="/>
+            </module>
+            <module alias="BinVariogramWithOutlierRemoval_SortTable_SortTable_ObjectArrayToPrimitiveArray" classname="ncsa.d2k.modules.projects.pgroves.util.ObjectArrayToPrimitiveArray" xloc="298" yloc="357">
+              <input index="0" classname="[Ljava.lang.Object:"/>
+              <output index="0" classname="java.lang.Object">
+                <destination alias="BinVariogramWithOutlierRemoval_SortTable_SortTable_TriggerPush" index="0"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+              <property name="usePrimitiveArrays" value="true"/>
+            </module>
+            <module alias="BinVariogramWithOutlierRemoval_SortTable_SortTable_MultiColumnSort" classname="ncsa.d2k.modules.projects.pgroves.util.MultiColumnSort" xloc="598" yloc="197">
+              <input index="0" classname="[I"/>
+              <input index="1" classname="ncsa.d2k.modules.core.datatype.table.MutableTable"/>
+              <output index="0" classname="ncsa.d2k.modules.core.datatype.table.MutableTable">
+                <destination alias="BinVariogramWithOutlierRemoval_SortTable" index="1"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAADg=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAo///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAA4="/>
+            </module>
+          </itinerary>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+        </module>
+        <module alias="BinVariogramWithOutlierRemoval_RemoveVariogramOutliers" classname="ncsa.d2k.modules.projects.pgroves.geostat.RemoveVariogramOutliers" xloc="180" yloc="344">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+          <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+          <input index="2" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <input index="3" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.MutableTableImpl">
+            <destination alias="BinVariogramWithOutlierRemoval_FanOut5" index="0"/>
+          </output>
+          <output index="1" classname="ncsa.d2k.modules.core.datatype.table.Table">
+            <destination alias="BinVariogramWithOutlierRemoval" index="2"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAADgAAAAE="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAABDv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAABAAAAAAAAAAAAAAAAAAAAAB1cQB+AAMAAAACAAAADgAA
+AAE="/>
+        </module>
+      </itinerary>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAwAAAAAAAAAAAAAAAHVxAH4AAwAAAAEAAAAA"/>
+    </module>
+    <module alias="CalcDistanceMatrix" classname="ncsa.d2k.modules.projects.pgroves.instancebased.CalcDistanceMatrix" xloc="246" yloc="193">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.MutableTableImpl">
+        <destination alias="RawSemivariogram" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAF///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+    </module>
+    <module alias="FanOut1" classname="ncsa.d2k.core.modules.FanOutModule" xloc="179" yloc="318">
+      <input index="0" classname="java.lang.Object"/>
+      <output index="0" classname="java.lang.Object">
+        <destination alias="CalcDistanceMatrix" index="0"/>
+      </output>
+      <output index="1" classname="java.lang.Object">
+        <destination alias="RawSemivariogram" index="1"/>
+      </output>
+      <output index="2" classname="java.lang.Object">
+        <destination alias="OrdinaryKrigingModelGen" index="0"/>
+      </output>
+      <output index="3" classname="java.lang.Object">
+        <destination alias="BinVariogramWithOutlierRemoval" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAAEAAAAAAAAAAAAAAAAAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAAEAAAAAAAAAAAAAAAAAAAAAA=="/>
+    </module>
+    <module alias="SplitParameter" classname="ncsa.d2k.modules.projects.pgroves.util.SplitParameter" xloc="448" yloc="663">
+      <input index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+      <output index="0" classname="ncsa.d2k.modules.datatype.parameter.impl.ParameterPointImpl">
+        <destination alias="OrdinaryKrigingModelGen" index="1"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.datatype.parameter.impl.ParameterPointImpl">
+        <destination alias="OptimizeVariogram" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAQAAAAE="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAQAAAAE="/>
+      <property name="splitIndex" value="3"/>
+    </module>
+    <module alias="RawSemivariogram" classname="ncsa.d2k.modules.projects.pgroves.geostat.RawSemivariogram" xloc="364" yloc="236">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+      <output index="0" classname="ncsa.d2k.modules.datatype.table.basic.MutableTableImpl">
+        <destination alias="BinVariogramWithOutlierRemoval" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="variogramOrder" value="2.0"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAABP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+    </module>
+    <module alias="Object Holder1" classname="ncsa.d2k.modules.core.control.ObjectHolder" xloc="224" yloc="496">
+      <input index="0" classname="java.lang.Object"/>
+      <input index="1" classname="java.lang.Object"/>
+      <output index="0" classname="java.lang.Object">
+        <destination alias="BinVariogramWithOutlierRemoval" index="2"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+    </module>
+  </itinerary>
+</toolkit>

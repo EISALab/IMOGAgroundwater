@@ -1,0 +1,133 @@
+<HTML>
+	<HEAD>
+	</HEAD>
+	<BODY BGCOLOR=#FFFFFF>
+	
+<H1>D2K Genetic Algorithm Implementation</H1>
+<p>This package contains those elements which implement the basis of all genetic 
+  algorithms in D2K. This package was designed to be both easy to use and extensible. 
+  In order to solve most problem some development will be required. Many of the 
+  modules implemented in this package will be useful in the great majority of 
+  applications.</p>
+<p>For more information on genetic algorithms, see Goldbergs &quot;Genetic Algorithms 
+  in Search, Optimization, and Machine Learning&quot;.</p>
+<h2>Populations and Individuals</h2>
+<p>There are two classes which are at the core of the GAs functionality: the <code>Population</code> 
+  and the <code>Individual</code>. Population is abstract, it the subclasses which 
+  will determine how the particular experiment is to work. </p>
+<p>The <code>Population</code> object is responsible for managing the population. 
+  There are methods to generate strings which can be printed or written to a file, 
+  to compare the fitnesses of individuals, to define the traits of the genes in 
+  the chromosomes, and so on. There is one abstract method which must be provided 
+  by subclasses. This method, called <code>evalute</code>, will compute the objective 
+  values (usually, this value is considered the fitness value) for the population. 
+  The population also contains a variety of properties which are typically set 
+  by the module that creates the population.</p>
+<p>The <code>Individual</code> is a very simple class that provides methods that 
+  perform crossover, cloning and mutation on the individual. It will also carry 
+  the fitness value for the individual. One existing subclass <code>BinaryIndividual</code> 
+  which is instantiable. This individual is represented by a binary string of 
+  digits as is usually the case in a traditional GA. However, some current implementations 
+  of genetic algorithms are leaning toward a more appropriate representation of 
+  an individual which may consist of some combinary of floating point and integer 
+  values. Such representations will require alternative subclasses of <code>Individual</code>. 
+  <code>NumericIndividual</code> is one such subclass which represents population 
+  members as an array of double precision floating point values.</p>
+<h2>Providing Population Subclasses</h2>
+<p>Step one is to develop a subclass of population which provides the appropriate 
+  methods. In the demos package (ncsa.d2k.modules.demos.ga), we find sublcass 
+  of population called <code>F1Population</code>. Let's disect this class and 
+  see how it works.</p>
+<p><code>F1Population</code> subclasses <code>BinaryPopulation</code>, the superclass 
+  of all populations which represent individuals as a string of bits. This population 
+  also implements the <code>Crowding</code> interface. The crowding interface 
+  requires one method, crowding, which computes the crowding distance between 
+  individuals. Also provided, of course, is the evaluation function evaluateIndividual 
+  which actually computes the objective value (in this problem we can also refer 
+  to this as the fitness value). I won't go into the details of what this evaluation 
+  function is here, but it is important to note that we can either maximize or 
+  minimize this function with equal probabilities of success. The properties of 
+  the module that creates the population typically have properties (best and worst 
+  fitness) which will be used to determine if we max or min the function. For 
+  simple populations of binary individuals this is all we need to do. Notice in 
+  the constructor the number of genes is passed in as a parameter. This parameter 
+  will need to be supplied by the module that creates the population.</p>
+<p>For populations of <code>NumericIndividuals</code>, we provide one additional 
+  method which returns an array of <code>Trait</code> objects. There is one trait 
+  object in the array for each of the genes present in the chromosome, and the 
+  trait defines the range of values (doubles) which this trait may take on. Each 
+  trait also has an increment (currently ignored) which defines the discrete values 
+  the trait may take on within that range. For an example numeric population, 
+  take a look at the <code>F1NumericPopulation</code> class in the demos.</p>
+<h2>Multi-Modal Problems</h2>
+<p>There is a class of problem which may have more that one solution, or solutions 
+  of differing value. For problems like this, populations may converge too rapidly 
+  to traverse the solution space adequately. It is important to be able to provide 
+  some mechanism for maintaining population diversity in cases like this. <i>Niching</i> 
+  techniques can help to maintain populations diversity. Niching techniques typically 
+  provide some mechanism by which like individuals are penalized during selection 
+  so that more dissimilar individuals may flourish.</p>
+<p>So these niching techniques require a method to be provided which measures 
+  the similarity between individuals. There are some standard measures (Hamming 
+  distance for binary individuals, and Euclidean distance for numeric), however 
+  there are a wide variety of techniques that can be employed. The <code>Crowding</code> 
+  interface must be implemented by populations which are to use niching techniques. 
+  The <code>crowding</code> function of this interface is the only requirement.</p>
+<h2>Multi-Objective Problems</h2>
+<p>Even cooler yet is a class of problem where there is no single objective, but 
+  several. For example, imagine that you want to minimize a cost function while 
+  maximizing a value function. Problems of this nature quite often have several 
+  solutions, so as with Multi-modal problems, we need to maintain a diverse population 
+  to more thoroughly explore the decision space.</p>
+<p>We provide a mechanism based on NSGA-II (Deb, et al. &quot;A Fast Elitist Non-Dominated 
+  Sorting Genetic Algorithm for Multi-Objective Optimization: NSGA-II&quot;) which 
+  will search for individuals which are not dominated by other individuals. One 
+  individual dominates another if it is at least as good in all objectives, but 
+  better in at least one. Although interesting and useful information, the details 
+  of this mechanism should not be imperative to the developer in most cases. It 
+  should be sufficient to know that individuals are scored on the basis of how 
+  many individuals dominate them, and that by using this mechanism we maintain 
+  a more diverse population allowing one to more fully examine search space to 
+  find a diverse set of many solutions to multi-objective problems.</p>
+<p><code>NsgaPopulation</code> is a population class which implements most of 
+  the NSGA-II functionality. Subclasses must provide that functionality required 
+  of NumericPopulation abstract class plus one additional method. The <code>defineObjectiveConstraints</code> 
+  method returns a list of <code>ObjectiveConstraint</code> objects. ObjectiveConstraint 
+  objects define the possible range of values an objective can take one, and also 
+  if we are maximizing or minimizing the objective. A public static method of 
+  this class called getObjConstraint will return an instance of the ObjectiveConstraint 
+  object. This is done so that an appropriate subclass can be returned that does 
+  either minimization or maximization. See the ncsa.d2k.modules.demos.ga.emo.ncsa.MOP2Population 
+  object for an example of how to do this.</p>
+<h2>Generating Populations</h2>
+<p>To use the GA modules, a population object will have to be instantiated in 
+  some way. Since the population holds some important properties of the experiment, 
+  namely population size, number of generations and, best fitness, worst fitness 
+  and target fitness) a superclass is provided which includes these properties. 
+  The <code>PopulationPrep</code> module can be subclassed by any module which 
+  is to create a population.</p>
+<p>Subclasses of <code>PopulationPrep</code> will generate a subclass of <code>Population</code> 
+  that implements the evaluation function appropriately for the application the 
+  developer wishes to implement as described above. The subclass may provide a 
+  numeric or binary population, this will note affect the way the other modules 
+  operate on the population. Again, there are several examples in the demo package.</p>
+<h2>Other Pieces</h2>
+<p>Crossover, Mutate, Evaluate and Measure modules should all work for most applications. 
+  How crossover and mutate operations on a individual is hidden in the <code>Individual</code> 
+  implementation, evalute is supported by the <code>Population</code> implementation.</p>
+<p><code>SelectionModule</code> is actually an abstract superclass. In order to 
+  implement some type of selection, the developer must provide an implementation 
+  of an abstract method called <code>compute</code>. This method is passed an 
+  array of integers whose contents are undefined. The returned array should contain 
+  the indices of those individuals which are carried into the next generation. 
+  Note there can be repetition in this array. Several types of selection are provided 
+  in the selection package.</p>
+<p>There is another module in the niching package which warrents mention here. 
+  It is a deterministic crowding module (Mahfoud, 1993), but the important thing 
+  to note here is that it performs it's own selection, crossover and niching to 
+  preserve diversity in multimodal problems (problems with more than one possible 
+  solution).</p>
+<p>There is also a debugging module provided which will print out a population 
+  whenever it is invoked.</p>
+</BODY>
+</HTML>

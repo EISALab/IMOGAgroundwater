@@ -1,0 +1,23 @@
+# MF2K NAME file
+# w13 WIPP transient model
+# Created 05/08/2003 - Thomas Lowry
+# Output Files
+LIST         40 w13.lst
+DATA         17 w13.hed
+DATA(BINARY) 19 w13.drw
+DATA(BINARY) 15 w13.bud
+#
+# Global Input Files
+DIS          41 w13.dis
+DATA         45 h3.hed
+DATA         47 culebra.ibd
+DATA         33 culebra.top
+DATA         34 culebra.bot
+DATA         30 Tupdate.mod
+#
+# Flow Process Input Files
+BAS6          1 transient.ba6
+BCF6         11 transient.bc6
+OC           42 w13.oc
+WEL          10 w13.wel
+LMG           8 transient.lmg

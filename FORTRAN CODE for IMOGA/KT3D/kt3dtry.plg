@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: kt3dtry - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ABHISH~1\LOCALS~1\Temp\RSP1D0.tmp" with contents
+[
+/check:bounds /compile_only /dbglibs /debug:full /nologo /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" /pdbfile:"Debug/DF60.PDB" 
+"C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dtry.f"
+]
+Creating command line "link.exe kernel32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/kt3dtry.pdb" /debug /machine:I386 /out:"Debug/kt3dtry.exe" /pdbtype:sept  ".\Debug\kt3dtry.obj" "
+<h3>Output Window</h3>
+Compiling Fortran...
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dtry.f
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dmix.inc(85) : Error: Syntax error, found END-OF-STATEMENT when expecting one of: <IDENTIFIER> / //
+     +                iktype,ncut,cut,cdf,slfaga,
+-------------------------------------------------^
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dmix.inc(85) : Error: Syntax error, found END-OF-STATEMENT when expecting one of: <IDENTIFIER> / //
+     +                iktype,ncut,cut,cdf,slfaga,
+-------------------------------------------------^
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dtry.f(193) : Error: Syntax error, found END-OF-STATEMENT when expecting one of: ( <IDENTIFIER> <CHAR_CON_KIND_PARAM> <CHAR_NAM_KIND_PARAM> <CHARACTER_CONSTANT> <INTEGER_CONSTANT> ...
+ write(*,*) 'support discretization:',nxdis(i),nydis(i),
+---------------------------------------------------------------^
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dmix.inc(85) : Error: Syntax error, found END-OF-STATEMENT when expecting one of: <IDENTIFIER> / //
+     +                iktype,ncut,cut,cdf,slfaga,
+-------------------------------------------------^
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dtry.f(662) : Error: Syntax error, found END-OF-STATEMENT when expecting one of: ( * , <IDENTIFIER> <CHAR_CON_KIND_PARAM> <CHAR_NAM_KIND_PARAM> <CHARACTER_CONSTANT> ...
+      call cova3(xdb(1,1),ydb(1,1),zdb(1,1),xdb(1,1),ydb(1,1),zdb(1,1),
+-----------------------------------------------------------------------^
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dtry.f(870) : Error: Syntax error, found END-OF-STATEMENT when expecting one of: ( * , <IDENTIFIER> <CHAR_CON_KIND_PARAM> <CHAR_NAM_KIND_PARAM> <CHARACTER_CONSTANT> ...
+                  call cova3(xa(1),ya(1),za(1),xdb(1,1),ydb(1,1),
+-----------------------------------------------------------------^
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dtry.f(881) : Error: Syntax error, found END-OF-STATEMENT when expecting one of: ( * , <IDENTIFIER> <CHAR_CON_KIND_PARAM> <CHAR_NAM_KIND_PARAM> <CHARACTER_CONSTANT> ...
+    call cova3(xx11,yy11,zz11,xdb(1,1),ydb(1,1),zdb(1,1),
+----------------------------------------------------------------^
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dtry.f(893) : Error: Syntax error, found END-OF-STATEMENT when expecting one of: ( * , <IDENTIFIER> <CHAR_CON_KIND_PARAM> <CHAR_NAM_KIND_PARAM> <CHARACTER_CONSTANT> ...
+    call cova3(xa(1),ya(1),za(1),xdb(i,1),ydb(i,1),zdb(i,1),
+-------------------------------------------------------------------^
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dtry.f(912) : Error: Syntax error, found END-OF-STATEMENT when expecting one of: ( * , <IDENTIFIER> <CHAR_CON_KIND_PARAM> <CHAR_NAM_KIND_PARAM> <CHARACTER_CONSTANT> ...
+    call cova3(xx11,yy11,zz11,xdb(jj,1),ydb(jj,1),zdb(jj,1),
+-------------------------------------------------------------------^
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dtry.f(972) : Error: Syntax error, found END-OF-STATEMENT when expecting one of: ( * , <IDENTIFIER> <CHAR_CON_KIND_PARAM> <CHAR_NAM_KIND_PARAM> <CHARACTER_CONSTANT> ...
+    call cova3(xi1,yi1,zi1,xj1,yj1,zj1,
+----------------------------------------------^
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dtry.f(1003) : Error: Syntax error, found END-OF-STATEMENT when expecting one of: ( * , <IDENTIFIER> <CHAR_CON_KIND_PARAM> <CHAR_NAM_KIND_PARAM> <CHARACTER_CONSTANT> ...
+    call cova3(xa(i),ya(i),za(i),xdb(1,1),ydb(1,1),
+-------------------------------------------------------------------------------^
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dtry.f(1015) : Error: Syntax error, found END-OF-STATEMENT when expecting one of: ( * , <IDENTIFIER> <CHAR_CON_KIND_PARAM> <CHAR_NAM_KIND_PARAM> <CHARACTER_CONSTANT> ...
+    call cova3(xx11,yy11,zz11,xdb(1,1),ydb(1,1),zdb(1,1),
+----------------------------------------------------------------^
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dtry.f(1028) : Error: Syntax error, found END-OF-STATEMENT when expecting one of: ( * , <IDENTIFIER> <CHAR_CON_KIND_PARAM> <CHAR_NAM_KIND_PARAM> <CHARACTER_CONSTANT> ...
+    call cova3(xa(i),ya(i),za(i),xdb(ii,1),ydb(ii,1),zdb(ii,1),
+----------------------------------------------------------------------^
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dtry.f(1048) : Error: Syntax error, found END-OF-STATEMENT when expecting one of: ( * , <IDENTIFIER> <CHAR_CON_KIND_PARAM> <CHAR_NAM_KIND_PARAM> <CHARACTER_CONSTANT> ...
+    call cova3(xx11,yy11,zz11,xdb(jj,1),ydb(jj,1),zdb(jj,1),
+-------------------------------------------------------------------^
+Error executing df.exe.
+
+
+
+<h3>Results</h3>
+kt3dtry.exe - 14 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,6 @@
+Fitnessid,exepathname,inputfilename,numoutputfiles,outputfilename
+integer,string,string,integer,string
+0,kt3dV.exe,genesV.txt,1,fitnessV.txt
+1,gamvV.exe,genesV.txt,1,fitnessV2.txt
+
+

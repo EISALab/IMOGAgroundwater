@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="CytoPathGraph.java">
+        <attr name="class_dependency_java.awt.event.ActionListener" stringvalue="CytoPathGraph.CytoPathGraphView"/>
+        <attr name="class_dependency_javax.swing.AbstractAction" stringvalue="CytoPathGraph.CytoPathGraphView.UnHideAction;CytoPathGraph.CytoPathGraphView.NewWindowAction;CytoPathGraph.CytoPathGraphView.ParallelogramAction;CytoPathGraph.CytoPathGraphView.ZoomSelectedAction;CytoPathGraph.CytoPathGraphView.SpringLayoutAction;CytoPathGraph.CytoPathGraphView.SetNegativeColorAction;CytoPathGraph.CytoPathGraphView.StarPlotAction;CytoPathGraph.CytoPathGraphView.ExpressionNodeAction;CytoPathGraph.CytoPathGraphView.PaintSelectedEdgesAction;CytoPathGraph.CytoPathGraphView.DiamondAction;CytoPathGraph.CytoPathGraphView.ZoomToFitAction;CytoPathGraph.CytoPathGraphView.SetPositveColorAction;CytoPathGraph.CytoPathGraphView.GridAction;CytoPathGraph.CytoPathGraphView.LoadGMLFileAction;CytoPathGraph.CytoPathGraphView.RadarAction;CytoPathGraph.CytoPathGraphView.PetalAction;CytoPathGraph.CytoPathGraphView.PrintAction;CytoPathGraph.CytoPathGraphView.HideSelectedAction;CytoPathGraph.CytoPathGraphView.EllipseAction;CytoPathGraph.CytoPathGraphView.PaintSelectedNodesAction"/>
+        <attr name="class_dependency_ncsa.d2k.userviews.swing.JUserPane" stringvalue="CytoPathGraph.CytoPathGraphView"/>
+        <attr name="class_dependency_ncsa.d2k.core.modules.UIModule" stringvalue="CytoPathGraph"/>
+    </fileobject>
+</attributes>

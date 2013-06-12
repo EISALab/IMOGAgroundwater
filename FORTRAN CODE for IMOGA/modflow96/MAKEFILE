@@ -1,0 +1,106 @@
+#
+# Lahey makefile for MODFLOW-96
+# Last modified 01/16/98, rsregan
+#               05/25/00, mcrouse
+
+# Usage:
+# make [BINDIR=path_to_install_to] [install]
+#
+# Examples of values for path_to_install_to are:
+#    make BINDIR=C:\models\bin
+#    make BINDIR=C:\bin
+#
+# If BINDIR is specified, the executables are copied to the specified
+# directory.  The default value of BINDIR is ..\bin.  Note, the installer
+# must have sufficient access rights to delete and then copy the file
+# modflw96.exe in the directory that BINDIR is set to.  If 'install' is
+# specified only the copy is made (the executable must already exist in
+# the modflw96.3_2\bin directory).  If 'install' is not specified, the source
+# is recompiled according to the make dependency rules in this file.
+
+# Fortran compiler flags (Lahey Fortran 90):
+#   [n]chk - check subranges and array bounds
+#   [n]co  - display current settings of compiler options
+#   [n]f90 - generate warning messages for non-standard F90 code
+#   [n]fix - fixed form Fortran code
+#          - default data type for undeclareds is undefined
+#   [n]g   - generate source level symbolic debug information
+#   [n]hed - direct-access files with headers
+#   o0     - optimization
+#   [n]pca - protect constant arguments
+#   [n]sav - save local variables
+#   t3, t4, tp - target processor (386,486,pentium)
+#   [n]wo  - warn about obsolescent F90 code
+#   [no]zui- initialize all data areas in code
+# (Note: set FFLAGS to: OptM to generate optimized code
+#                       DbgF to generate debug code)
+#OptM      = -nco -fix -nhed -o0 -nsav -tp -c -pca
+OptM      = -c -nchk -nin -o3 -tp
+DbgF      = -c -chk -g -nhed -nsav -wo
+FFLAGS    = $(OptM)
+FC        = lf90
+LINKER    = lf90
+#LNKFLGS   = -bind -nomap -nco -fix -nhed -o0 -pca -nsav -tp -NoZUninit -maxr 1024 -minr 128
+LNKFLGS   = -nomap -bind -vm -winconsole
+
+#*******************************************************************
+#***** You should not need to modify anything below this line. *****
+#*******************************************************************
+
+PGM    = modflw96.exe
+OBJS            = modflw96.obj bas5.obj bcf5.obj sip5.obj pcg2.obj \
+                sor5.obj wel5.obj riv5.obj hfb1.obj drn5.obj ghb5.obj \
+                evt5.obj rch5.obj utl5.obj str1.obj ibs1.obj fhb1.obj \
+                chd1.obj gfd1.obj tlk1.obj de45.obj res1.obj
+
+# Default location to link executables on installation
+BINDIR = ..\bin
+BDir   = ..\bin
+EXE    = $(BDir)\$(PGM)
+BIN    = $(BINDIR)\$(PGM)
+
+MAKEFILE  = makefile
+
+# Rules
+all: chkdir $(EXE) install
+        @echo
+        @echo Done making all, files are now up-to-date.
+
+$(EXE): $(OBJS)
+        $(LINKER) $(OBJS) -EXE $@ $(LNKFLGS)
+        cfig386 $@ -nosignon
+
+chkdir:
+# Create ..\bin directory, if necessary
+        !if ! -d $(BDir)
+            @mkdir $(BDir)
+            @echo
+            @echo Created directory $(BDir)
+        !endif
+
+install: $(EXE)
+# Copy executable to BINDIR
+        !if $(BINDIR) != $(BDir)
+           !if -e $(BIN)
+               del $(BIN)
+           !endif
+           !if -e $(EXE)
+               copy $(EXE) $(BIN)
+           !endif
+           @echo Executable $(EXE) has been updated.
+        !endif
+	@echo Be sure directory $(BINDIR) is in your PATH.
+
+clean:
+        !if $(BINDIR) != $(BDir)
+          !if -e $(BIN)
+            del $(BIN)
+          !endif
+        !endif
+        !if -e modflw96.obj
+          @del *.obj
+        !endif
+        !if -e $(EXE)
+          del $(EXE)
+        !endif
+        @echo Make generated files have been deleted

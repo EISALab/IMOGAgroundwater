@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AABHdwgAAAAnAAAAL3QAD0lHQURlY2lzaW9uVHJlZXNyABtuY3NhLmQyay5jb3JlLlJlc291cmNl
+RW50cnnVLiwgQgMm0gIAAkwADGNhY2hlZE9iamVjdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wAD29i
+amVjdENsYXNzTmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwcHQALG5jc2EuZDJrLmNvcmUubW9k
+dWxlcy5hZ2VuZGEuSXRpbmVyYXJ5TW9kdWxldAAOSUdBdGVzdF9GYW5PdXRzcQB+AARwdAAibmNz
+YS5kMmsuY29yZS5tb2R1bGVzLkZhbk91dE1vZHVsZXQAJUlHQXRlc3RfUmFuZG9tVHJhZGVvZmZT
+ZWxlY3Rpb25GaWx0ZXJzcQB+AARwdABZbmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5tYmFiYmFy
+Lm9wdGltaXplLmdhLmlnYS5zZWxlY3RvcnMuUmFuZG9tVHJhZGVvZmZTZWxlY3Rpb25GaWx0ZXJ0
+ABpJR0E6IENvbG9yIEltYWdlIFByb2Nlc3NvcnNxAH4ABHB0AFVuY3NhLmQyay5tb2R1bGVzLnBy
+b2plY3RzLm1iYWJiYXIub3B0aW1pemUuZ2EuaWdhLmltYWdlcHJvY2Vzc29ycy5Db2xvckltYWdl
+UHJvY2Vzc29ydAAdUmFuZG9tVHJhZGVvZmZTZWxlY3Rpb25GaWx0ZXJzcQB+AARwdABZbmNzYS5k
+MmsubW9kdWxlcy5wcm9qZWN0cy5tYmFiYmFyLm9wdGltaXplLmdhLmlnYS5zZWxlY3RvcnMuUmFu
+ZG9tVHJhZGVvZmZTZWxlY3Rpb25GaWx0ZXJ0AAxNdXRhdGVNb2R1bGVzcQB+AARwdAA3bmNzYS5k
+MmsubW9kdWxlcy5jb3JlLm9wdGltaXplLmdhLm11dGF0aW9uLk11dGF0ZU1vZHVsZXQADklHQXRl
+c3RfRmFuSW4xc3EAfgAEcHQAIW5jc2EuZDJrLmNvcmUubW9kdWxlcy5GYW5Jbk1vZHVsZXQAJ0lH
+QXRlc3RfSUdBOiBFdmFsdWF0ZU1PNENvbG9yUG9wdWxhdGlvbnNxAH4ABHB0AFluY3NhLmQyay5t
+b2R1bGVzLnByb2plY3RzLm1iYWJiYXIub3B0aW1pemUuZ2EuaWdhLmV4YW1wbGVzLklHQUV2YWx1
+YXRlTU9QNENvbG9yUG9wdWxhdGlvbnQADFRhYmxlIFZpZXdlcnNxAH4ABHB0ACVuY3NhLmQyay5t
+b2R1bGVzLmNvcmUudmlzLlRhYmxlVmlld2VydAA0SUdBdGVzdF9PYmplY3RpdmVzIFRvIFZUIGFu
+ZCBJR0EgU2Vzc2lvbiBJbml0aWF0aW9uMXNxAH4ABHB0AEVuY3NhLmQyay5tb2R1bGVzLnByb2pl
+Y3RzLm1iYWJiYXIub3B0aW1pemUuZ2EuaWdhLlBvcFRvSUdBVmlzV2hlbkRvbmV0ABtJR0F0ZXN0
+X0lHQTogQ2xvc2luZyBXaW5kb3dzcQB+AARwdABGbmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5t
+YmFiYmFyLm9wdGltaXplLmdhLmlnYS52aXMuSUdBQ2xvc2luZ1dpbmRvd3QAFUlHQXRlc3RfVGFi
+bGUgVmlld2VyMXNxAH4ABHB0ACVuY3NhLmQyay5tb2R1bGVzLmNvcmUudmlzLlRhYmxlVmlld2Vy
+dAAbSUdBdGVzdF9JR0E6IFdlbGNvbWUgV2luZG93c3EAfgAEcHQARm5jc2EuZDJrLm1vZHVsZXMu
+cHJvamVjdHMubWJhYmJhci5vcHRpbWl6ZS5nYS5pZ2EudmlzLklHQVdlbGNvbWVXaW5kb3d0ABJJ
+R0F0ZXN0X1RydW5jYXRpb25zcQB+AARwdAA2bmNzYS5kMmsubW9kdWxlcy5jb3JlLm9wdGltaXpl
+LmdhLnNlbGVjdGlvbi5UcnVuY2F0aW9udAAfSUdBOiBFdmFsdWF0ZU1PNENvbG9yUG9wdWxhdGlv
+bnNxAH4ABHB0AFluY3NhLmQyay5tb2R1bGVzLnByb2plY3RzLm1iYWJiYXIub3B0aW1pemUuZ2Eu
+aWdhLmV4YW1wbGVzLklHQUV2YWx1YXRlTU9QNENvbG9yUG9wdWxhdGlvbnQAFElHQXRlc3RfTXV0
+YXRlTW9kdWxlc3EAfgAEcHQAN25jc2EuZDJrLm1vZHVsZXMuY29yZS5vcHRpbWl6ZS5nYS5tdXRh
+dGlvbi5NdXRhdGVNb2R1bGV0AAVGYW5JbnNxAH4ABHB0ACFuY3NhLmQyay5jb3JlLm1vZHVsZXMu
+RmFuSW5Nb2R1bGV0AAhWVFZpZXdlcnNxAH4ABHB0ACJuY3NhLmQyay5tb2R1bGVzLmNvcmUudmlz
+LlZUVmlld2VydAAUSUdBdGVzdF9UYWJsZSBWaWV3ZXJzcQB+AARwcQB+ACl0AAZGYW5PdXRzcQB+
+AARwdAAibmNzYS5kMmsuY29yZS5tb2R1bGVzLkZhbk91dE1vZHVsZXQAKUlHQTogT2JqZWN0aXZl
+cyhGaXRuZXNzKSBUcmFkZW9mZiBTZWN0aW9uc3EAfgAEcHQASm5jc2EuZDJrLm1vZHVsZXMucHJv
+amVjdHMubWJhYmJhci5vcHRpbWl6ZS5nYS5pZ2EudmlzLklHQUZpdG5lc3NQbG90V2luZG93dAAX
+SUdBTm9uRG9taW5hdGlvbkVsaXRpc21zcQB+AARwdABJbmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0
+cy5tYmFiYmFyLm9wdGltaXplLmdhLmlnYS5JR0FOb25Eb21pbmF0aW9uRWxpdGlzbXQALE9iamVj
+dGl2ZXMgVG8gVlQgYW5kIElHQSBTZXNzaW9uIEluaXRpYXRpb24xc3EAfgAEcHQARW5jc2EuZDJr
+Lm1vZHVsZXMucHJvamVjdHMubWJhYmJhci5vcHRpbWl6ZS5nYS5pZ2EuUG9wVG9JR0FWaXNXaGVu
+RG9uZXQAIklHQXRlc3RfSUdBOiBDb2xvciBJbWFnZSBQcm9jZXNzb3JzcQB+AARwdABVbmNzYS5k
+MmsubW9kdWxlcy5wcm9qZWN0cy5tYmFiYmFyLm9wdGltaXplLmdhLmlnYS5pbWFnZXByb2Nlc3Nv
+cnMuQ29sb3JJbWFnZVByb2Nlc3NvcnQAIElHQXRlc3RfU2ltdWxhdGVkQmluYXJ5Q3Jvc3NvdmVy
+c3EAfgAEcHQARG5jc2EuZDJrLm1vZHVsZXMuY29yZS5vcHRpbWl6ZS5nYS5jcm9zc292ZXIuU2lt
+dWxhdGVkQmluYXJ5Q3Jvc3NvdmVydAAgSUdBOiBHZW5lcmF0ZU1PUDRDb2xvclBvcHVsYXRpb25z
+cQB+AARwdABZbmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5tYmFiYmFyLm9wdGltaXplLmdhLmln
+YS5leGFtcGxlcy5JR0FHZW5lcmF0ZU1PUDRDb2xvclBvcHVsYXRpb250AAZGYW5JbjFzcQB+AARw
+dAAhbmNzYS5kMmsuY29yZS5tb2R1bGVzLkZhbkluTW9kdWxldAAVSUdBdGVzdF9NZWFzdXJlTW9k
+dWxlc3EAfgAEcHQAL25jc2EuZDJrLm1vZHVsZXMuY29yZS5vcHRpbWl6ZS5nYS5NZWFzdXJlTW9k
+dWxldAAcSUdBdGVzdF9JR0EgT2JqZWN0aXZlcyBUbyBWVHNxAH4ABHBxAH4AI3QADUlHQXRlc3Rf
+RmFuSW5zcQB+AARwcQB+ABp0AA1UYWJsZSBWaWV3ZXIzc3EAfgAEcHQAJW5jc2EuZDJrLm1vZHVs
+ZXMuY29yZS52aXMuVGFibGVWaWV3ZXJ0ACtJR0E6IFNvbHV0aW9ucyBSYW5raW5nIFNlY3Rpb24g
+KFBORyBmb3JtYXQpc3EAfgAEcHQAUW5jc2EuZDJrLm1vZHVsZXMucHJvamVjdHMubWJhYmJhci5v
+cHRpbWl6ZS5nYS5pZ2EudmlzLklHQVNvbHV0aW9uUmFua2luZ1dpbmRvd1BOR3QADVRhYmxlIFZp
+ZXdlcjJzcQB+AARwcQB+AF90AA9NZWFzdXJlIFN1Y2Nlc3NzcQB+AARwdAAvbmNzYS5kMmsubW9k
+dWxlcy5jb3JlLm9wdGltaXplLmdhLk1lYXN1cmVNb2R1bGV0AA1UYWJsZSBWaWV3ZXIxc3EAfgAE
+cHQAJW5jc2EuZDJrLm1vZHVsZXMuY29yZS52aXMuVGFibGVWaWV3ZXJ0ABNJR0E6IENsb3Npbmcg
+V2luZG93c3EAfgAEcHQARm5jc2EuZDJrLm1vZHVsZXMucHJvamVjdHMubWJhYmJhci5vcHRpbWl6
+ZS5nYS5pZ2EudmlzLklHQUNsb3NpbmdXaW5kb3d0AApUcnVuY2F0aW9uc3EAfgAEcHQANm5jc2Eu
+ZDJrLm1vZHVsZXMuY29yZS5vcHRpbWl6ZS5nYS5zZWxlY3Rpb24uVHJ1bmNhdGlvbnQAE0lHQTog
+V2VsY29tZSBXaW5kb3dzcQB+AARwdABGbmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5tYmFiYmFy
+Lm9wdGltaXplLmdhLmlnYS52aXMuSUdBV2VsY29tZVdpbmRvd3QAEElHQURlY2lzaW9uVHJlZTFz
+cQB+AARwcQB+AAh0AC5JR0F0ZXN0X0lHQTogSHVtYW4gRml0bmVzcyBQcmVkaWN0b3IgKEF2ZyBL
+Tk4pc3EAfgAEcHQATG5jc2EuZDJrLm1vZHVsZXMucHJvamVjdHMubWJhYmJhci5vcHRpbWl6ZS5n
+YS5pZ2EucHJlZGljdG9ycy5BdmdIRlByZWRpY3Rpb250ACdJR0F0ZXN0X0lHQTogU29sdXRpb25z
+IFJhbmtpbmcgU2VjdGlvbiBzcQB+AARwdABObmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5tYmFi
+YmFyLm9wdGltaXplLmdhLmlnYS52aXMuSUdBU29sdXRpb25SYW5raW5nV2luZG93dAAoSUdBdGVz
+dF9JR0E6IE9iamVjdGl2ZXMgVHJhZGVvZmYgU2VjdGlvbnNxAH4ABHB0AFNuY3NhLmQyay5tb2R1
+bGVzLnByb2plY3RzLm1iYWJiYXIub3B0aW1pemUuZ2EuaWdhLnZpcy5JR0FPYmplY3RpdmVTY2F0
+dGVyUGxvdFdpbmRvd3QAFElHQSBPYmplY3RpdmVzIFRvIFZUc3EAfgAEcHQARW5jc2EuZDJrLm1v
+ZHVsZXMucHJvamVjdHMubWJhYmJhci5vcHRpbWl6ZS5nYS5pZ2EuUG9wVG9JR0FWaXNXaGVuRG9u
+ZXQAL0lHQXRlc3RfSUdBOiBIdW1hbiBGaXRuZXNzIFByZWRpY3RvciAoQXZnIEtOTikxc3EAfgAE
+cHEAfgB4dAAfSUdBdGVzdF9JR0FOb25Eb21pbmF0aW9uRWxpdGlzbXNxAH4ABHB0AEluY3NhLmQy
+ay5tb2R1bGVzLnByb2plY3RzLm1iYWJiYXIub3B0aW1pemUuZ2EuaWdhLklHQU5vbkRvbWluYXRp
+b25FbGl0aXNtdAAYU2ltdWxhdGVkQmluYXJ5Q3Jvc3NvdmVyc3EAfgAEcHQARG5jc2EuZDJrLm1v
+ZHVsZXMuY29yZS5vcHRpbWl6ZS5nYS5jcm9zc292ZXIuU2ltdWxhdGVkQmluYXJ5Q3Jvc3NvdmVy
+dAAoSUdBdGVzdF9JR0E6IEdlbmVyYXRlTU9QNENvbG9yUG9wdWxhdGlvbnNxAH4ABHB0AFluY3Nh
+LmQyay5tb2R1bGVzLnByb2plY3RzLm1iYWJiYXIub3B0aW1pemUuZ2EuaWdhLmV4YW1wbGVzLklH
+QUdlbmVyYXRlTU9QNENvbG9yUG9wdWxhdGlvbng=" label="IGAtest.itn">
+    <annotation><![CDATA[<?xml version="1.0" encoding="UTF-8"?><D2K>  <Info>    <Text>Solves ZDT2 from "A Fast and Elitist Multi-Objective Genetic Algorithm: NSGA-II" by Deb et al. </Text>  </Info></D2K>]]></annotation>
+    <module alias="IGA: GenerateMOP4ColorPopulation" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.examples.IGAGenerateMOP4ColorPopulation" xloc="13" yloc="10">
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="FanIn1" index="0"/>
+      </output>
+      <property name="targetFitness" value="0.01"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="worstFitness" value="1.0"/>
+      <property name="numberGenerations" value="10"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+      <property name="bestFitness" value="0.0"/>
+      <property name="populationSize" value="100"/>
+    </module>
+    <module alias="IGADecisionTree" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="74" yloc="132">
+      <input index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.IGANsgaPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.IGANsgaPopulation">
+        <destination alias="IGANonDominationElitism" index="0"/>
+      </output>
+      <itinerary label="IGADecisionTree">
+        <module alias="IGADecisionTree_IGA: Prepare data for Model (Decision Tree)1" classname="ncsa.d2k.modules.projects.asingh8.optimize.ga.iga.predictors.PrepareDataforModel" xloc="37" yloc="84">
+          <input index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.IGANsgaPopulation"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+            <destination alias="IGADecisionTree_FanOut1" index="0"/>
+          </output>
+          <output index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+            <destination alias="IGADecisionTree_ModelPredict" index="0"/>
+          </output>
+          <output index="2" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.IGANsgaPopulation">
+            <destination alias="IGADecisionTree_IGA: Put data into Pop from Model (Decision Trees)" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAADAAAACwAAAAsAAAAL"/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAABr///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAADAAAACwAAAAsAAAAL"/>
+        </module>
+        <module alias="IGADecisionTree_FanOut" classname="ncsa.d2k.core.modules.FanOutModule" xloc="663" yloc="53">
+          <input index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeModel"/>
+          <output index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeModel">
+            <destination alias="IGADecisionTree_ModelPredict" index="1"/>
+          </output>
+          <output index="1" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeModel">
+            <destination alias="IGADecisionTree_Model Predict" index="1"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAACwAAAAs="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAv///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAACwAAAAs="/>
+        </module>
+        <module alias="IGADecisionTree_ModelPredict" classname="ncsa.d2k.modules.core.prediction.ModelPredict" xloc="507" yloc="184">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <input index="1" classname="ncsa.d2k.modules.PredictionModelModule"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable">
+            <destination alias="IGADecisionTree_IGA: Put data into Pop from Model (Decision Trees)" index="1"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAACw=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAADaf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAs="/>
+        </module>
+        <module alias="IGADecisionTree_CreateDTModel" classname="ncsa.d2k.modules.core.prediction.decisiontree.CreateDTModel" xloc="572" yloc="78">
+          <input index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeNode"/>
+          <input index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <output index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeModel">
+            <destination alias="IGADecisionTree_FanOut" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAACw=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAA5///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAs="/>
+        </module>
+        <module alias="IGADecisionTree_Prediction Table Report" classname="ncsa.d2k.modules.core.vis.PredictionTableReport" xloc="758" yloc="110">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAAA"/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAAA"/>
+          <property name="windowName" value="Prediction Table Report"/>
+        </module>
+        <module alias="IGADecisionTree_Model Predict" classname="ncsa.d2k.modules.core.prediction.ModelPredict" xloc="764" yloc="33">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <input index="1" classname="ncsa.d2k.modules.PredictionModelModule"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable">
+            <destination alias="IGADecisionTree_Prediction Table Report" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAACw=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAALOf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAs="/>
+        </module>
+        <module alias="IGADecisionTree_IGA: Put data into Pop from Model (Decision Trees)" classname="ncsa.d2k.modules.projects.asingh8.optimize.ga.iga.predictors.PutTableinPop" xloc="590" yloc="195">
+          <input index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.IGANsgaPopulation"/>
+          <input index="1" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable"/>
+          <output index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.IGANsgaPopulation">
+            <destination alias="IGADecisionTree" index="1"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAACw=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAABVP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAs="/>
+        </module>
+        <module alias="IGADecisionTree_FanOut1" classname="ncsa.d2k.core.modules.FanOutModule" xloc="256" yloc="57">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+            <destination alias="IGADecisionTree_C45TreeBuilder" index="0"/>
+          </output>
+          <output index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+            <destination alias="IGADecisionTree_Model Predict" index="0"/>
+          </output>
+          <output index="2" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+            <destination alias="IGADecisionTree_CreateDTModel" index="1"/>
+          </output>
+          <output index="3" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+            <destination alias="IGADecisionTree_C4.5 Tree Pruner" index="1"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAAEAAAACwAAAAsAAAALAAAACw=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAABBP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAAEAAAACwAAAAsAAAALAAAACw=="/>
+        </module>
+        <module alias="IGADecisionTree_C45TreeBuilder" classname="ncsa.d2k.modules.core.prediction.decisiontree.c45.C45TreeBuilder" xloc="356" yloc="2">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <output index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeNode">
+            <destination alias="IGADecisionTree_C4.5 Tree Pruner" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAACw=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAACw=="/>
+          <property name="minimumRatioPerLeaf" value="0.0010"/>
+        </module>
+        <module alias="IGADecisionTree_C4.5 Tree Pruner" classname="ncsa.d2k.modules.core.prediction.decisiontree.c45.C45TreePruner" xloc="460" yloc="8">
+          <input index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeNode"/>
+          <input index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <output index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeNode">
+            <destination alias="IGADecisionTree_CreateDTModel" index="0"/>
+          </output>
+          <property name="ordered" value="true"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAACw=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAs="/>
+        </module>
+      </itinerary>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="FanOut" classname="ncsa.d2k.core.modules.FanOutModule" xloc="308" yloc="196">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.IGANsgaPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.IGANsgaPopulation">
+        <destination alias="IGA Objectives To VT" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.optimize.ga.IGANsgaPopulation">
+        <destination alias="Measure Success" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAACwAAAAs="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAyP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAACwAAAAs="/>
+    </module>
+    <module alias="MutateModule" classname="ncsa.d2k.modules.core.optimize.ga.mutation.MutateModule" xloc="707" yloc="58">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="FanIn" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAACg=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAABBf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAACg=="/>
+      <property name="mutationRate" value="5.0E-4"/>
+      <property name="debugging" value="false"/>
+    </module>
+    <module alias="Table Viewer" classname="ncsa.d2k.modules.core.vis.TableViewer" xloc="22" yloc="397">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <property name="maxFractionDigits" value="-1"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="windowName" value="Table Viewer"/>
+    </module>
+    <module alias="Table Viewer1" classname="ncsa.d2k.modules.core.vis.TableViewer" xloc="825" yloc="415">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <property name="maxFractionDigits" value="-1"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="windowName" value="Table Viewer1"/>
+    </module>
+    <module alias="IGANonDominationElitism" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANonDominationElitism" xloc="156" yloc="193">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.IGANsgaPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.IGANsgaPopulation">
+        <destination alias="FanOut" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAACw=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAZP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAACw=="/>
+    </module>
+    <module alias="FanIn" classname="ncsa.d2k.core.modules.FanInModule" xloc="804" yloc="14">
+      <input index="0" classname="java.lang.Object"/>
+      <input index="1" classname="java.lang.Object"/>
+      <output index="0" classname="java.lang.Object">
+        <destination alias="FanIn1" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAACg=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAKP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAo="/>
+    </module>
+    <module alias="IGA: Solutions Ranking Section (PNG format)" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.vis.IGASolutionRankingWindowPNG" xloc="457" yloc="250">
+      <input index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation">
+        <destination alias="IGADecisionTree1" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+      <property name="windowName" value="IGA: Solutions Ranking Section (PNG format)"/>
+    </module>
+    <module alias="SimulatedBinaryCrossover" classname="ncsa.d2k.modules.core.optimize.ga.crossover.SimulatedBinaryCrossover" xloc="642" yloc="136">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="MutateModule" index="0"/>
+      </output>
+      <property name="generationGap" value="0.6"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAACg=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAACg=="/>
+      <property name="crossoverRate" value="0.25"/>
+      <property name="n" value="2.0"/>
+      <property name="debugging" value="false"/>
+    </module>
+    <module alias="Truncation" classname="ncsa.d2k.modules.core.optimize.ga.selection.Truncation" xloc="564" yloc="135">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="SimulatedBinaryCrossover" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAACg=="/>
+      <property name="tournamentSize" value="4"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAABDv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAACg=="/>
+    </module>
+    <module alias="IGA: Welcome Window" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.vis.IGAWelcomeWindow" xloc="113" yloc="282">
+      <input index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation">
+        <destination alias="IGA: Objectives(Fitness) Tradeoff Section" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+      <property name="windowName" value="IGA: Welcome Window"/>
+    </module>
+    <module alias="IGA Objectives To VT" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.PopToIGAVisWhenDone" xloc="6" yloc="313">
+      <input index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.IGANsgaPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation">
+        <destination alias="IGA: Welcome Window" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.datatype.table.basic.TableImpl">
+        <destination alias="Table Viewer" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAgAAAAI="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAA8P//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAgAAAAI="/>
+    </module>
+    <module alias="IGA: Color Image Processor" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.imageprocessors.ColorImageProcessor" xloc="399" yloc="413">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="IGA: Solutions Ranking Section (PNG format)" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.datatype.table.Table">
+        <destination alias="Table Viewer3" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAQAAAAE="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAADK///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAgAAAAEAAAAB"/>
+    </module>
+    <module alias="Objectives To VT and IGA Session Initiation1" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.PopToIGAVisWhenDone" xloc="669" yloc="265">
+      <input index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.IGANsgaPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation">
+        <destination alias="IGA: Closing Window" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.datatype.table.basic.TableImpl">
+        <destination alias="Table Viewer1" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAQAAAAE="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAjP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAQAAAAE="/>
+    </module>
+    <module alias="IGA: EvaluateMO4ColorPopulation" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.examples.IGAEvaluateMOP4ColorPopulation" xloc="272" yloc="44">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="IGADecisionTree" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAACw=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAABI///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAACw=="/>
+    </module>
+    <module alias="IGADecisionTree1" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="619" yloc="368">
+      <input index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.IGANsgaPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.IGANsgaPopulation">
+        <destination alias="Objectives To VT and IGA Session Initiation1" index="0"/>
+      </output>
+      <itinerary label="IGADecisionTree1">
+        <module alias="IGADecisionTree1_FanOut1" classname="ncsa.d2k.core.modules.FanOutModule" xloc="256" yloc="57">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+            <destination alias="IGADecisionTree1_C45TreeBuilder" index="0"/>
+          </output>
+          <output index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+            <destination alias="IGADecisionTree1_Model Predict" index="0"/>
+          </output>
+          <output index="2" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+            <destination alias="IGADecisionTree1_CreateDTModel" index="1"/>
+          </output>
+          <output index="3" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+            <destination alias="IGADecisionTree1_C4.5 Tree Pruner" index="1"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAAEAAAAAQAAAAEAAAABAAAAAQ=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAtP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAAEAAAAAQAAAAEAAAABAAAAAQ=="/>
+        </module>
+        <module alias="IGADecisionTree1_C4.5 Tree Pruner" classname="ncsa.d2k.modules.core.prediction.decisiontree.c45.C45TreePruner" xloc="460" yloc="8">
+          <input index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeNode"/>
+          <input index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <output index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeNode">
+            <destination alias="IGADecisionTree1_CreateDTModel" index="0"/>
+          </output>
+          <property name="ordered" value="true"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+        </module>
+        <module alias="IGADecisionTree1_CreateDTModel" classname="ncsa.d2k.modules.core.prediction.decisiontree.CreateDTModel" xloc="572" yloc="78">
+          <input index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeNode"/>
+          <input index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <output index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeModel">
+            <destination alias="IGADecisionTree1_FanOut" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+        </module>
+        <module alias="IGADecisionTree1_IGA: Put data into Pop from Model (Decision Trees)" classname="ncsa.d2k.modules.projects.asingh8.optimize.ga.iga.predictors.PutTableinPop" xloc="590" yloc="195">
+          <input index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.IGANsgaPopulation"/>
+          <input index="1" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable"/>
+          <output index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.IGANsgaPopulation">
+            <destination alias="IGADecisionTree1" index="1"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAFP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+        </module>
+        <module alias="IGADecisionTree1_ModelPredict" classname="ncsa.d2k.modules.core.prediction.ModelPredict" xloc="507" yloc="184">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <input index="1" classname="ncsa.d2k.modules.PredictionModelModule"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable">
+            <destination alias="IGADecisionTree1_IGA: Put data into Pop from Model (Decision Trees)" index="1"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+        </module>
+        <module alias="IGADecisionTree1_Prediction Table Report" classname="ncsa.d2k.modules.core.vis.PredictionTableReport" xloc="758" yloc="110">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAAA"/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAAA"/>
+          <property name="windowName" value="Prediction Table Report"/>
+        </module>
+        <module alias="IGADecisionTree1_IGA: Prepare data for Model (Decision Tree)1" classname="ncsa.d2k.modules.projects.asingh8.optimize.ga.iga.predictors.PrepareDataforModel" xloc="37" yloc="84">
+          <input index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.IGANsgaPopulation"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+            <destination alias="IGADecisionTree1_FanOut1" index="0"/>
+          </output>
+          <output index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+            <destination alias="IGADecisionTree1_ModelPredict" index="0"/>
+          </output>
+          <output index="2" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.IGANsgaPopulation">
+            <destination alias="IGADecisionTree1_IGA: Put data into Pop from Model (Decision Trees)" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAADAAAAAQAAAAEAAAAB"/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAACv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAADAAAAAQAAAAEAAAAB"/>
+        </module>
+        <module alias="IGADecisionTree1_FanOut" classname="ncsa.d2k.core.modules.FanOutModule" xloc="663" yloc="53">
+          <input index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeModel"/>
+          <output index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeModel">
+            <destination alias="IGADecisionTree1_ModelPredict" index="1"/>
+          </output>
+          <output index="1" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeModel">
+            <destination alias="IGADecisionTree1_Model Predict" index="1"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAQAAAAE="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAQAAAAE="/>
+        </module>
+        <module alias="IGADecisionTree1_Model Predict" classname="ncsa.d2k.modules.core.prediction.ModelPredict" xloc="764" yloc="33">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <input index="1" classname="ncsa.d2k.modules.PredictionModelModule"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable">
+            <destination alias="IGADecisionTree1_Prediction Table Report" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAb///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+        </module>
+        <module alias="IGADecisionTree1_C45TreeBuilder" classname="ncsa.d2k.modules.core.prediction.decisiontree.c45.C45TreeBuilder" xloc="356" yloc="2">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <output index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeNode">
+            <destination alias="IGADecisionTree1_C4.5 Tree Pruner" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+          <property name="minimumRatioPerLeaf" value="0.0010"/>
+        </module>
+      </itinerary>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="IGA: Objectives(Fitness) Tradeoff Section" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.vis.IGAFitnessPlotWindow" xloc="116" yloc="383">
+      <input index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation">
+        <destination alias="RandomTradeoffSelectionFilter" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.datatype.table.Table">
+        <destination alias="RandomTradeoffSelectionFilter" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAQAAAAE="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAQAAAAE="/>
+      <property name="windowName" value="IGA: Objectives(Fitness) Tradeoff Section"/>
+    </module>
+    <module alias="Table Viewer3" classname="ncsa.d2k.modules.core.vis.TableViewer" xloc="498" yloc="329">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table">
+        <destination alias="IGA: Solutions Ranking Section (PNG format)" index="1"/>
+      </output>
+      <property name="maxFractionDigits" value="-1"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+      <property name="windowName" value="Table Viewer3"/>
+    </module>
+    <module alias="FanIn1" classname="ncsa.d2k.core.modules.FanInModule" xloc="233" yloc="37">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <input index="1" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="IGA: EvaluateMO4ColorPopulation" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAACw=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAABGf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAs="/>
+    </module>
+    <module alias="Measure Success" classname="ncsa.d2k.modules.core.optimize.ga.MeasureModule" xloc="401" yloc="131">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="Truncation" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAACgAAAAA="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAABkP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAACgAAAAA="/>
+      <property name="debugging" value="false"/>
+    </module>
+    <module alias="IGA: Closing Window" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.vis.IGAClosingWindow" xloc="780" yloc="154">
+      <input index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation">
+        <destination alias="FanIn" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="windowName" value="IGA: Closing Window"/>
+    </module>
+    <module alias="RandomTradeoffSelectionFilter" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.selectors.RandomTradeoffSelectionFilter" xloc="278" yloc="282">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="IGA: Color Image Processor" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.datatype.table.Table">
+        <destination alias="Table Viewer2" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAQAAAAE="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAMv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAgAAAAEAAAAB"/>
+    </module>
+    <module alias="Table Viewer2" classname="ncsa.d2k.modules.core.vis.TableViewer" xloc="328" yloc="461">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table">
+        <destination alias="IGA: Color Image Processor" index="1"/>
+      </output>
+      <property name="maxFractionDigits" value="-1"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+      <property name="windowName" value="Table Viewer2"/>
+    </module>
+  </itinerary>
+</toolkit>

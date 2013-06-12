@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAAIdwgAAAALAAAAAXQAGURlZmluZUV4dGVybmFsQ29uc3RyYWludHNzcgAbbmNzYS5kMmsuY29y
+ZS5SZXNvdXJjZUVudHJ51S4sIEIDJtICAAJMAAxjYWNoZWRPYmplY3R0ABJMamF2YS9sYW5nL09i
+amVjdDtMAA9vYmplY3RDbGFzc05hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHB0AENuY3NhLmQy
+ay5tb2R1bGVzLmNvcmUub3B0aW1pemUuZ2EuZW1vLmd1aS5EZWZpbmVFeHRlcm5hbENvbnN0cmFp
+bnRzeA==" label="DefineExternalConstraints.itn">
+    <annotation><![CDATA[<p>
+      Overview: Input constraint violation functions that are calculated by an 
+      executable.
+    </p>
+    <p>
+      Detailed Description: Input all the properties needed to call an 
+      executable to evaluate the constraint violation functions for a 
+      population.
+    </p>
+    <p>
+      First, input the name of the constraint. Next, input the path to the 
+      executable. Next, input the paths to the input and output files. 
+      Finally, input a weight to assign to this constraint.&quot;;
+    </p>
+    <p>
+      An executable must read the genes in from a file and write out a file 
+      containing the values of the fitness functions. The format of the input 
+      file is fixed. The first line contains the size of the population. The 
+      second line contains the number of traits. Every following line should 
+      contain the values for an individual, space-delimited.
+    </p>
+    <p>
+      The output file must also follow a specific format. Each row of the file 
+      must contain the value for this constraint violation function on the 
+      associated individual in the genes file. Order is preserved.
+    </p>]]></annotation>
+    <module alias="DefineExternalConstraints" classname="ncsa.d2k.modules.core.optimize.ga.emo.gui.DefineExternalConstraints" xloc="121" yloc="128">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="windowName" value="DefineExternalConstraints"/>
+    </module>
+  </itinerary>
+</toolkit>

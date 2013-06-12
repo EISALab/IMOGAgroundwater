@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAAIdwgAAAALAAAAAXQAGERlZmluZSBGaXRuZXNzIEZ1bmN0aW9uc3NyABtuY3NhLmQyay5jb3Jl
+LlJlc291cmNlRW50cnnVLiwgQgMm0gIAAkwADGNhY2hlZE9iamVjdHQAEkxqYXZhL2xhbmcvT2Jq
+ZWN0O0wAD29iamVjdENsYXNzTmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwcHQAQG5jc2EuZDJr
+Lm1vZHVsZXMuY29yZS5vcHRpbWl6ZS5nYS5lbW8uZ3VpLkRlZmluZUZpdG5lc3NGdW5jdGlvbnN4
+" label="DefineFitnessFunctions.itn">
+    <annotation><![CDATA[<p>
+      Overview: Define functions to be used in the calculation of fitness 
+      functions.
+    </p>
+    <p>
+      Detailed Description: Define the fitness functions that are calculated 
+      by copying the decision variables into a Table and performing 
+      transformations on the Table. This module provides a GUI used to specify 
+      expression strings. These expressions are interpreted as operations on 
+      existing attributes in the table and are used to construct new 
+      attributes. When the GUI is dismissed, the information needed to 
+      construct these new attributes is encapsulated in a Transformation 
+      object that is applied when evaluating a population.
+    </p>
+    <p>
+      The available operations on numeric attributes are addition, 
+      subtraction, multiplication, division, and modulus. The operations 
+      available on boolean attributes are AND and OR.
+    </p>]]></annotation>
+    <module alias="Define Fitness Functions" classname="ncsa.d2k.modules.core.optimize.ga.emo.gui.DefineFitnessFunctions" xloc="155" yloc="141">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="windowName" value="Define Fitness Functions"/>
+      <property name="supressGui" value="false"/>
+    </module>
+  </itinerary>
+</toolkit>

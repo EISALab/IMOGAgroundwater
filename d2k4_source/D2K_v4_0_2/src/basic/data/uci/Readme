@@ -1,0 +1,79 @@
+The data in this directory was obtained from the UCI Knowledge Discovery in Databases Archive. 
+
+This archive is accessible from kdd.ics.uci.edu.
+
+  ============================================================================
+  This is the UCI Repository Of Machine Learning Databases and Domain Theories
+                             4 December 1995
+              ftp.ics.uci.edu: pub/machine-learning-databases
+	     http://www.ics.uci.edu/~mlearn/MLRepository.html
+          Librarian: Patrick M. Murphy (ml-repository@ics.uci.edu)
+                  111 databases and domain theories (36MB)
+  ============================================================================
+
+This directory contains data sets and domain theories (the latter have been
+annotated as such in the following brief listing) that have been or can be
+used to evaluate learning algorithms. Each data file (*.data) contains
+individual records described in terms of attribute-value pairs.  The
+corresponding *.info file contains voluminous documentation.  (Some files
+_generate_ databases; they do not have *.data files.)
+
+In addition to data sets and domain theories, the "utilities/" directory
+contains utilities that you may find useful when using datasets in this
+repository.
+
+The contents of this repository can be viewed and remotely copied over
+the web.  The address is http://www.ics.uci.edu/~mlearn/MLRepository.html.  
+Alternatively, the contents of this repository can be remotely copied via 
+ftp to ftp.ics.uci.edu.  Enter "anonymous" for user id, and e-mail address 
+(user@host) for password.  These databases can be found by executing 
+"cd pub/machine-learning-databases".
+
+Notes:
+ 1. We're always looking for addition	al databases, which can be
+    written to the sub-directory named "/incoming". Please send yours, with 
+    documentation.  Thanks -- See DOC-REQUIREMENTS for suggested documentation 
+    procedures. Presently, most databases have the following format: 1 
+    instance per line, no spaces, commas separate attribute values, and 
+    missing values are denoted by "?".  Also, please notify the site librarian 
+    (ml-repository@ics.uci.edu) after making a donation.
+
+ 2. Ivan Bratko requested that the databases he donated from the Ljubljana
+    Oncology Institute (e.g., breast-cancer, lymphography, and primary-tumor)
+    have restricted access. We are allowed to share them with academic
+    institutions upon request. These databases (like several others) require
+    providing proper citations be made in published articles that use them.
+    Citation requirements are in each database's corresponding *.doc file.
+    To access any of these databases, send email to ml-repository@ics.uci.edu.
+    To aid you in deciding if you want any of these databases, the 
+    documentation files are available.
+
+ 3. An archive server may now be used to recieve via e-mail files in this
+    repository.  Installed on ics, it provides email access to files in
+    our anonymous ftp/uucp area (~ftp).  If people have no other access to
+    our archives, then they can send mail to:
+
+	archive-server@ics.uci.edu
+
+    Commands to the server may be given in the body.  Some commands are:
+
+	help
+	send <archive> <file>
+	find <archive> <string>
+
+    The help command replies with a useful help message.
+
+If you publish material based on databases obtained from this repository,
+then, in your acknowledgements, please note the assistance you received by
+using this repository.  Thanks -- this will help others to obtain the same
+data sets and replicate your experiments.  We suggest the following pseudo-APA
+reference format for referring to this repository (LaTeX'd):
+
+  Murphy,~P.~M., \& Aha,~D.~W. (1994). {\it UCI Repository of machine
+  learning databases} [http://www.ics.uci.edu/~mlearn/MLRepository.html]. 
+  Irvine, CA: University of California, Department of Information and Computer 
+  Science.
+
+Patrick M. Murphy (Repository Librarian)
+     
+----------------------------------------------------------------------

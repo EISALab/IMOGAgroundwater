@@ -1,0 +1,23 @@
+D/crossover////
+D/examples////
+D/functions////
+D/gui////
+D/itineraries////
+D/mutation////
+D/selection////
+D/util////
+/BinaryIndividualFunction.java/1.1.2.2/Tue Feb 24 20:56:47 2004//Tbasic3-0
+/DecisionVariable.java/1.1.2.1/Tue Mar 30 15:12:23 2004//Tbasic3-0
+/EMOConstrainedNsgaPopulation.java/1.1.2.4/Tue Mar 30 15:12:24 2004//Tbasic3-0
+/EMOConstrainedSOPopulation.java/1.1.2.3/Tue Mar 30 15:12:24 2004//Tbasic3-0
+/EMOFunction.java/1.1.2.2/Tue Feb 24 20:56:48 2004//Tbasic3-0
+/EMOMeasure.java/1.1.2.4/Tue Mar 30 15:12:25 2004//Tbasic3-0
+/EMOPopulation.java/1.1.2.7/Tue Mar 30 15:12:25 2004//Tbasic3-0
+/EMOUnconstrainedNsgaPopulation.java/1.1.2.6/Tue Mar 30 15:12:25 2004//Tbasic3-0
+/EMOUnconstrainedSOPopulation.java/1.1.2.3/Tue Mar 30 15:12:26 2004//Tbasic3-0
+/EvaluatePopulation.java/1.1.2.15/Tue Mar 30 15:12:26 2004//Tbasic3-0
+/GeneratePopulation.java/1.1.2.11/Tue Mar 30 15:12:27 2004//Tbasic3-0
+/InputParametersProp.java/1.1.2.2/Mon Mar  1 16:59:53 2004//Tbasic3-0
+/Parameters.java/1.1.2.6/Tue Mar 30 15:12:28 2004//Tbasic3-0
+/Property.java/1.1.2.2/Mon Mar  1 16:59:53 2004//Tbasic3-0
+/RealIndividualFunction.java/1.1.2.2/Tue Feb 24 20:56:49 2004//Tbasic3-0

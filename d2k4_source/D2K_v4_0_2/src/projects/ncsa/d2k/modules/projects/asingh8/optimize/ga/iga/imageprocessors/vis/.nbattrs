@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="IGASolutionDummyRankingWindow.java">
+        <attr name="class_dependency_java.awt.event.ActionListener" stringvalue="IGASolutionDummyRankingWindow.IGARankingView"/>
+        <attr name="class_dependency_ncsa.d2k.core.modules.UIModule" stringvalue="IGASolutionDummyRankingWindow"/>
+        <attr name="class_dependency_ncsa.d2k.userviews.swing.JUserPane" stringvalue="IGASolutionDummyRankingWindow.IGARankingView"/>
+    </fileobject>
+    <fileobject name="IGASolutionRankingWindowFCJPanelVar.java">
+        <attr name="class_dependency_java.awt.event.ActionListener" stringvalue="IGASolutionRankingWindowFCJPanelVar.IGARankingView"/>
+        <attr name="class_dependency_ncsa.d2k.core.modules.UIModule" stringvalue="IGASolutionRankingWindowFCJPanelVar"/>
+        <attr name="class_dependency_ncsa.d2k.userviews.swing.JUserPane" stringvalue="IGASolutionRankingWindowFCJPanelVar.IGARankingView"/>
+    </fileobject>
+    <fileobject name="IGASolutionRankingWindowFCJPanelVarPP.java">
+        <attr name="class_dependency_java.awt.event.ActionListener" stringvalue="IGASolutionRankingWindowFCJPanelVarPP.IGARankingView"/>
+        <attr name="class_dependency_ncsa.d2k.core.modules.UIModule" stringvalue="IGASolutionRankingWindowFCJPanelVarPP"/>
+        <attr name="class_dependency_ncsa.d2k.userviews.swing.JUserPane" stringvalue="IGASolutionRankingWindowFCJPanelVarPP.IGARankingView"/>
+    </fileobject>
+    <fileobject name="IGASolutionRankingWindowFCJPanelVar_dummy.java">
+        <attr name="class_dependency_java.awt.event.ActionListener" stringvalue="IGASolutionRankingWindowFCJPanelVar_dummy.IGARankingView"/>
+        <attr name="class_dependency_ncsa.d2k.core.modules.UIModule" stringvalue="IGASolutionRankingWindowFCJPanelVar_dummy"/>
+        <attr name="class_dependency_ncsa.d2k.userviews.swing.JUserPane" stringvalue="IGASolutionRankingWindowFCJPanelVar_dummy.IGARankingView"/>
+    </fileobject>
+    <fileobject name="IGASolutionRankingWindowFCJPanelWIPP.java">
+        <attr name="class_dependency_java.awt.event.ActionListener" stringvalue="IGASolutionRankingWindowFCJPanelWIPP.IGARankingView"/>
+        <attr name="class_dependency_ncsa.d2k.core.modules.UIModule" stringvalue="IGASolutionRankingWindowFCJPanelWIPP"/>
+        <attr name="class_dependency_ncsa.d2k.userviews.swing.JUserPane" stringvalue="IGASolutionRankingWindowFCJPanelWIPP.IGARankingView"/>
+    </fileobject>
+</attributes>

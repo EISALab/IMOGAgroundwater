@@ -1,0 +1,17 @@
+MAT
+MN	1	"material_1"
+MS	1	0
+OPAQ	1	1.000000
+MC	1	0	0	0
+MN	2	"material_2"
+MS	2	0
+OPAQ	2	1.000000
+MC	2	255	102	0
+MN	3	"material_3"
+MS	3	0
+OPAQ	3	1.000000
+MC	3	153	102	0
+MN	4	"material_4"
+MS	4	0
+OPAQ	4	1.000000
+MC	4	255	0	0

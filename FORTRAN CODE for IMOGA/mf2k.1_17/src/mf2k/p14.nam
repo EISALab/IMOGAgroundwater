@@ -1,0 +1,23 @@
+# MF2K NAME file
+# p14 WIPP transient model
+# Created 05/08/2003 - Thomas Lowry
+# Output Files
+LIST         40 p14.lst
+DATA         17 p14.hed
+DATA(BINARY) 19 p14.drw
+DATA(BINARY) 15 p14.bud
+#
+# Global Input Files
+DIS          41 p14.dis
+DATA         45 w13.hed
+DATA         47 culebra.ibd
+DATA         33 culebra.top
+DATA         34 culebra.bot
+DATA         30 Tupdate.mod
+#
+# Flow Process Input Files
+BAS6          1 transient.ba6
+BCF6         11 transient.bc6
+OC           42 p14.oc
+WEL          10 p14.wel
+LMG           8 transient.lmg

@@ -1,0 +1,24 @@
+/Makefile/1.1/Fri Mar  3 13:20:21 2006//
+/dssim_cond_1.par/1.2/Wed Jul  4 09:12:00 2007//
+/dssim_cond_2.par/1.2/Wed Jul  4 09:12:00 2007//
+/dssim_cond_3.par/1.2/Wed Jul  4 09:12:00 2007//
+/dssim_reference.par/1.2/Wed Jul  4 09:12:00 2007//
+/dssim_uncond.par/1.2/Wed Jul  4 09:12:00 2007//
+/sgsim_cond_1.par/1.2/Wed Jul  4 09:12:00 2007//
+/sgsim_cond_2.par/1.2/Wed Jul  4 09:12:00 2007//
+/sgsim_cond_3.par/1.2/Wed Jul  4 09:12:00 2007//
+/sgsim_reference.par/1.2/Wed Jul  4 09:12:00 2007//
+/sgsim_uncond.par/1.2/Wed Jul  4 09:12:00 2007//
+/visim_dssim_cond.eas/1.1/Fri Mar  3 12:49:53 2006//
+/visim_dssim_refmod.eas/1.1/Tue Mar  7 10:20:24 2006//
+/visim_dssim_volgeom.eas/1.1/Fri Mar  3 12:49:53 2006//
+/visim_dssim_volsum.eas/1.1/Fri Mar  3 12:49:54 2006//
+/visim_looms.par/1.2/Wed Jul  4 09:12:00 2007//
+/visim_sgsim_cond.eas/1.1/Fri Mar  3 12:42:39 2006//
+/visim_sgsim_refmod.eas/1.1/Tue Mar  7 10:20:24 2006//
+/visim_sgsim_volgeom.eas/1.1/Fri Mar  3 12:42:39 2006//
+/visim_sgsim_volsum.eas/1.1/Fri Mar  3 12:42:39 2006//
+/visim_target.eas/1.1/Fri Mar  3 12:42:39 2006//
+/visim_target_gauss.eas/1.1/Fri Mar  3 12:42:39 2006//
+/visim_target_tri.eas/1.1/Fri Mar  3 12:42:39 2006//
+D

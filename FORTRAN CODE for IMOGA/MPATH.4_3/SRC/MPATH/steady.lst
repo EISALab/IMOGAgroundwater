@@ -1,0 +1,265 @@
+                                  MODFLOW-2000
+      U.S. GEOLOGICAL SURVEY MODULAR FINITE-DIFFERENCE GROUND-WATER FLOW MODEL
+                           VERSION 1.17.01 09/22/2006
+
+
+ This model run combines GLOBAL and LIST output into this single file.
+
+ GLOBAL LISTING FILE: steady.lst
+                         UNIT   40
+
+ OPENING steady.hed
+ FILE TYPE:DATA(BINARY)   UNIT   17   STATUS:UNKNOWN
+ FORMAT:BINARY                 ACCESS:SEQUENTIAL          
+
+ OPENING steady.drw
+ FILE TYPE:DATA   UNIT   19   STATUS:UNKNOWN
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING steady.bud
+ FILE TYPE:DATA(BINARY)   UNIT   15   STATUS:UNKNOWN
+ FORMAT:BINARY                 ACCESS:SEQUENTIAL          
+#                                                                                                                                                                                                       
+# Global Input Files                                                                                                                                                                                    
+
+ OPENING steady.dis
+ FILE TYPE:DIS   UNIT   41   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING culebra.ihd
+ FILE TYPE:DATA   UNIT   45   STATUS:UNKNOWN
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING culebra.ibd
+ FILE TYPE:DATA   UNIT   47   STATUS:UNKNOWN
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING culebra.top
+ FILE TYPE:DATA   UNIT   33   STATUS:UNKNOWN
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING culebra.bot
+ FILE TYPE:DATA   UNIT   34   STATUS:UNKNOWN
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING Tupdate2.mod
+ FILE TYPE:DATA   UNIT   30   STATUS:UNKNOWN
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+#                                                                                                                                                                                                       
+# Flow Process Input Files                                                                                                                                                                              
+
+ OPENING steady.ba6
+ FILE TYPE:BAS6   UNIT    1   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING steady.bc6
+ FILE TYPE:BCF6   UNIT   11   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING steady.oc
+ FILE TYPE:OC   UNIT   42   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING steady.lmg
+ FILE TYPE:LMG   UNIT    8   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ THE FREE FORMAT OPTION HAS BEEN SELECTED
+
+ DISCRETIZATION INPUT DATA READ FROM UNIT   41
+ # MF2K DISCRETIZATION FILE
+ #
+ #
+ # NLAY NROW NCOL NPER TIMEUNITS LENUNITS
+    1 LAYERS       307 ROWS       224 COLUMNS
+    1 STRESS PERIOD(S) IN SIMULATION
+ MODEL TIME UNIT IS SECONDS
+ MODEL LENGTH UNIT IS METERS
+ THE GROUND-WATER TRANSPORT PROCESS IS INACTIVE
+
+ THE OBSERVATION PROCESS IS INACTIVE
+ THE SENSITIVITY PROCESS IS INACTIVE
+ THE PARAMETER-ESTIMATION PROCESS IS INACTIVE
+
+ MODE: FORWARD
+
+  Confining bed flag for each layer:
+   0
+
+     619443  ELEMENTS OF GX ARRAY USED OUT OF     619443
+      68768  ELEMENTS OF GZ ARRAY USED OUT OF      68768
+      68768  ELEMENTS OF IG ARRAY USED OUT OF      68768
+
+                     DELR =   100.000    
+
+                     DELC =   100.000    
+
+
+
+           TOP ELEVATION OF LAYER 1
+ READING ON UNIT   33 WITH FORMAT: (FREE)              
+
+
+
+             MODEL LAYER BOTTOM EL. FOR LAYER   1
+ READING ON UNIT   34 WITH FORMAT: (FREE)              
+
+
+ STRESS PERIOD     LENGTH       TIME STEPS     MULTIPLIER FOR DELT    SS FLAG
+ ----------------------------------------------------------------------------
+        1         86400.00          1                    1.000         SS
+
+ STEADY-STATE SIMULATION
+
+
+
+
+ LMG -- ALGEBRAIC MULTI-GRID SOLUTION PACKAGE, VERSION 1.2, 09/19/2002
+ STORAGE FACTOR FOR (A) AND (JA)=  3.000
+ STORAGE FACTOR FOR (IA), (U), AND (F)=  2.200
+ STORAGE FACTOR FOR (IG)=  5.400
+   1674752 ELEMENTS IN Z ARRAY ARE USED BY LMG
+   1894810 ELEMENTS IN IX ARRAY ARE USED BY LMG
+ SPACE ALLOCATED FOR [A] AND [JA]=  1372174
+ SPACE ALLOCATED FOR [U] AND [FRHS]=   151289
+ SPACE ALLOCATED FOR [IA]=   151289
+ SPACE ALLOCATED FOR [IG]=   371347
+
+          0  ELEMENTS OF X ARRAY USED OUT OF          1
+    1674752  ELEMENTS OF Z ARRAY USED OUT OF    1674752
+    1894810  ELEMENTS OF IX ARRAY USED OUT OF    1894810
+          0  ELEMENTS OF XHS ARRAY USED OUT OF          1
+
+
+
+                                    SOLUTION BY THE ALGEBRAIC MULTIGRID METHOD
+                                    ------------------------------------------
+                     MAXIMUM NUMBER OF CALLS TO AMG ROUTINE =        2
+                          MAXIMUM NUMBER OF CYCLES PER CALL =       50
+           SCALED L2 NORM OF RESIDUAL CRITERION FOR CLOSURE =    0.10000E-04
+                           CG-CORRECTION IS NOT ACTIVE: ICG =        0
+                                          DAMPING PARAMETER =    0.10000E+01
+                             PRINTING FROM SOLVER INCLUDES:
+                         RESIDUALS BEFORE AND AFTER CYCLING =        1
+ 
+ #T-Field 100m Uniform Grid                                                      
+ #May 8, 2003 - Thomas Lowry                                                     
+ THE FREE FORMAT OPTION HAS BEEN SELECTED
+    1 LAYERS       307 ROWS       224 COLUMNS
+    1 STRESS PERIOD(S) IN SIMULATION
+
+ BAS6 -- BASIC PACKAGE, VERSION 6, 1/11/2000 INPUT READ FROM UNIT    1
+          5 ELEMENTS IN IR ARRAY ARE USED BY BAS
+
+ BCF6 -- BLOCK-CENTERED FLOW PACKAGE, VERSION 6, 1/11/2000
+         INPUT READ FROM UNIT 11
+ STEADY-STATE SIMULATION
+ CELL-BY-CELL FLOWS WILL BE SAVED ON UNIT 15
+ HEAD AT CELLS THAT CONVERT TO DRY=   999.00    
+ WETTING CAPABILITY IS NOT ACTIVE
+      LAYER  LAYER-TYPE CODE     INTERBLOCK T
+      --------------------------------------------
+         1            0          0 -- HARMONIC    
+      68769 ELEMENTS IN RX ARRAY ARE USED BY BCF
+
+      68769  ELEMENTS OF RX ARRAY USED OUT OF      68769
+          0  ELEMENTS OF RZ ARRAY USED OUT OF          1
+          5  ELEMENTS OF IR ARRAY USED OUT OF          5
+1
+ #T-Field 100m Uniform Grid                                                      
+ #May 8, 2003 - Thomas Lowry                                                     
+
+
+
+                     BOUNDARY ARRAY FOR LAYER   1
+ READING ON UNIT   47 WITH FORMAT: (FREE)              
+
+ AQUIFER HEAD WILL BE SET TO -999.00     AT ALL NO-FLOW NODES (IBOUND=0).
+
+
+
+                       INITIAL HEAD FOR LAYER   1
+ READING ON UNIT   45 WITH FORMAT: (FREE)              
+
+ OUTPUT CONTROL IS SPECIFIED ONLY AT TIME STEPS FOR WHICH OUTPUT IS DESIRED
+ DRAWDOWN WILL BE SAVED WITH FORMAT: (10G11.4)           
+ COMPACT CELL-BY-CELL BUDGET FILES WILL BE WRITTEN
+ HEAD PRINT FORMAT CODE IS   0    DRAWDOWN PRINT FORMAT CODE IS   0
+ HEADS WILL BE SAVED ON UNIT   17    DRAWDOWNS WILL BE SAVED ON UNIT   19
+
+ COLUMN TO ROW ANISOTROPY =   1.00000    
+
+
+
+               TRANSMIS. ALONG ROWS FOR LAYER   1
+ READING ON UNIT   30 WITH FORMAT: (FREE)              
+1
+                            STRESS PERIOD NO.    1, LENGTH =   86400.00    
+                            -----------------------------------------------
+
+                              NUMBER OF TIME STEPS =     1
+
+                               MULTIPLIER FOR DELT =     1.000
+
+                            INITIAL TIME STEP SIZE =   86400.00    
+ 
+ SOLVING FOR HEAD 
+
+
+   AVERAGE ABSOLUTE VALUE OF THE RHS VECTOR=    0.12977E-03
+            MAXIMUM VALUE OF THE RHS VECTOR=    0.99900E+03
+          CLOSURE CRITERION FOR THE L2 NORM=    0.12977E-08
+
+
+
+ **************** CONVERGENCE *****************
+ L2-NORM OF RESIDUAL BEFORE CYCLING = 0.741D-02
+ L2-NORM OF RESIDUAL AFTER  CYCLING = 0.803D-09
+ CONVERGENCE FACTOR                 = 0.108D-06
+ CONVERGENCE FACTOR PER CYCLE       = 0.263D+00
+
+ OUTPUT CONTROL FOR STRESS PERIOD    1   TIME STEP   1
+    SAVE HEAD FOR ALL LAYERS
+    SAVE BUDGET
+ UBDSV2 SAVING "   CONSTANT HEAD" ON UNIT  15 AT TIME STEP  1, STRESS PERIOD   1
+ UBDSV1 SAVING "FLOW RIGHT FACE " ON UNIT  15 AT TIME STEP  1, STRESS PERIOD   1
+ UBDSV1 SAVING "FLOW FRONT FACE " ON UNIT  15 AT TIME STEP  1, STRESS PERIOD   1
+
+ HEAD WILL BE SAVED ON UNIT   17 AT END OF TIME STEP   1, STRESS PERIOD    1
+1
+  VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP  1 IN STRESS PERIOD   1
+  ------------------------------------------------------------------------------
+
+     CUMULATIVE VOLUMES      L**3       RATES FOR THIS TIME STEP      L**3/T
+     ------------------                 ------------------------
+
+           IN:                                      IN:
+           ---                                      ---
+             STORAGE =           0.0000               STORAGE =           0.0000
+       CONSTANT HEAD =          63.3503         CONSTANT HEAD =       7.3322E-04
+
+            TOTAL IN =          63.3503              TOTAL IN =       7.3322E-04
+
+          OUT:                                     OUT:
+          ----                                     ----
+             STORAGE =           0.0000               STORAGE =           0.0000
+       CONSTANT HEAD =          63.3503         CONSTANT HEAD =       7.3322E-04
+
+           TOTAL OUT =          63.3503             TOTAL OUT =       7.3322E-04
+
+            IN - OUT =      -1.9073E-05              IN - OUT =      -2.3283E-10
+
+ PERCENT DISCREPANCY =           0.00     PERCENT DISCREPANCY =           0.00
+
+
+
+
+
+
+          TIME SUMMARY AT END OF TIME STEP   1 IN STRESS PERIOD    1
+                    SECONDS     MINUTES      HOURS       DAYS        YEARS
+                    -----------------------------------------------------------
+   TIME STEP LENGTH  86400.      1440.0      24.000      1.0000     2.73785E-03
+ STRESS PERIOD TIME  86400.      1440.0      24.000      1.0000     2.73785E-03
+         TOTAL TIME  86400.      1440.0      24.000      1.0000     2.73785E-03
+1

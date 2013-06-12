@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAARdwgAAAAXAAAAAHg=" label="NB-class-MakeBestPredictions.itn">
+    <annotation><![CDATA[<HTML>
+</HTML>]]></annotation>
+    <module alias="C45-class-MakeBestPredictions" classname="ncsa.d2k.core.modules.agenda.NestedItineraryModule" xloc="121" yloc="146">
+      <input index="0" classname="java.lang.Object"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <input index="2" classname="java.lang.Object"/>
+      <output index="0" classname="java.lang.Object"/>
+      <itinerary label="C45-class-MakeBestPredictions">
+        <module alias="C45-class-MakeBestPredictions_CreateDTModel" classname="ncsa.d2k.modules.core.prediction.decisiontree.CreateDTModel" xloc="352" yloc="57">
+          <input index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeNode"/>
+          <input index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <output index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeModel">
+            <destination alias="C45-class-MakeBestPredictions_ModelPredict" index="1"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+        </module>
+        <module alias="C45-class-MakeBestPredictions_ModelPredict" classname="ncsa.d2k.modules.core.prediction.ModelPredict" xloc="514" yloc="24">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <input index="1" classname="ncsa.d2k.modules.PredictionModelModule"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable">
+            <destination alias="C45-class-MakeBestPredictions_FanOut1" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+        </module>
+        <module alias="C45-class-MakeBestPredictions_Pass unchanged object" classname="ncsa.d2k.modules.core.control.ObjectPasser" xloc="630" yloc="161">
+          <input index="0" classname="java.lang.Object"/>
+          <output index="0" classname="java.lang.Object"/>
+          <property name="output_Name" value="Table With All Predictions"/>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="input_Name" value="Object In"/>
+        </module>
+        <module alias="C45-class-MakeBestPredictions_NFoldTTables_inplace" classname="ncsa.d2k.modules.core.transform.table.NFoldTTables_inplace" xloc="4" yloc="14">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+          <input index="1" classname="java.lang.Object"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.TestTable">
+            <destination alias="C45-class-MakeBestPredictions_ModelPredict" index="0"/>
+          </output>
+          <output index="1" classname="ncsa.d2k.modules.core.datatype.table.TrainTable">
+            <destination alias="C45-class-MakeBestPredictions_C4.5TreeBuilder" index="0"/>
+          </output>
+          <output index="2" classname="java.lang.Integer">
+            <destination alias="C45-class-MakeBestPredictions_FanOut" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAADAAAAAAAAAAAAAAAA"/>
+          <property name="n" value="12"/>
+          <property name="seed" value="1234"/>
+        </module>
+        <module alias="C45-class-MakeBestPredictions_FanOut" classname="ncsa.d2k.core.modules.FanOutModule" xloc="104" yloc="170">
+          <input index="0" classname="java.lang.Integer"/>
+          <output index="0" classname="java.lang.Integer">
+            <destination alias="C45-class-MakeBestPredictions_MultiPusher" index="1"/>
+          </output>
+          <output index="1" classname="java.lang.Integer">
+            <destination alias="C45-class-MakeBestPredictions_SaveNthObject" index="1"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+        </module>
+        <module alias="C45-class-MakeBestPredictions_FanOut1" classname="ncsa.d2k.core.modules.FanOutModule" xloc="441" yloc="111">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable">
+            <destination alias="C45-class-MakeBestPredictions_NFoldTTables_inplace" index="1"/>
+          </output>
+          <output index="1" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable">
+            <destination alias="C45-class-MakeBestPredictions_SaveNthObject" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+        </module>
+        <module alias="C45-class-MakeBestPredictions_MultiPusher" classname="ncsa.d2k.modules.core.control.MultiPusher" xloc="160" yloc="96">
+          <input index="0" classname="java.lang.Object"/>
+          <input index="1" classname="java.lang.Integer"/>
+          <output index="0" classname="java.lang.Object">
+            <destination alias="C45-class-MakeBestPredictions_C4.5TreeBuilder" index="1"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="usePropNValue" value="false"/>
+          <property name="timesToFire" value="4"/>
+        </module>
+        <module alias="C45-class-MakeBestPredictions_SaveNthObject" classname="ncsa.d2k.modules.core.control.SaveNthObject" xloc="531" yloc="168">
+          <input index="0" classname="java.lang.Object"/>
+          <input index="1" classname="java.lang.Integer"/>
+          <output index="0" classname="java.lang.Object">
+            <destination alias="C45-class-MakeBestPredictions_Pass unchanged object" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="objectCount" value="4"/>
+          <property name="usePropObjectCount" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+        </module>
+        <module alias="C45-class-MakeBestPredictions_C4.5TreeBuilder" classname="ncsa.d2k.modules.projects.pgroves.modeloptimize.C45TreeBuilder" xloc="242" yloc="83">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <input index="1" classname="java.lang.Integer"/>
+          <output index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeNode">
+            <destination alias="C45-class-MakeBestPredictions_CreateDTModel" index="0"/>
+          </output>
+          <output index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+            <destination alias="C45-class-MakeBestPredictions_CreateDTModel" index="1"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="ordered" value="true"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+        </module>
+        <module alias="C45-class-MakeBestPredictions_ObjectBlocker" classname="ncsa.d2k.modules.core.control.ObjectBlocker" xloc="632" yloc="41">
+          <input index="0" classname="java.lang.Object"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAAA"/>
+        </module>
+      </itinerary>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="numberCopies" value="1"/>
+      <property name="allInputs" value="true"/>
+    </module>
+  </itinerary>
+</toolkit>

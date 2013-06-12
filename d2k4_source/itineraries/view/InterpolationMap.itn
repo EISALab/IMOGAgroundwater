@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAAIdwgAAAAFAAAABHQACUludCBBcnJheXNyABtuY3NhLmQyay5jb3JlLlJlc291cmNlRW50cnnV
+LiwgQgMm0gIAAkwADGNhY2hlZE9iamVjdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wAD29iamVjdENs
+YXNzTmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwcHQANG5jc2EuZDJrLm1vZHVsZXMucHJvamVj
+dHMucGdyb3Zlcy51dGlsLkludEFycmF5UHJvcHN0ABNGYWxzZUNvbG9yV2l0aFdlbGxzc3EAfgAE
+cHQAOG5jc2EuZDJrLm1vZHVsZXMucHJvamVjdHMucGdyb3Zlcy5icC5GYWxzZUNvbG9yV2l0aFdl
+bGxzdAAJU2hvd1BhbmVsc3EAfgAEcHQAL25jc2EuZDJrLm1vZHVsZXMucHJvamVjdHMucGdyb3Zl
+cy52aXMuU2hvd1BhbmVsdAAVUHJlZFRhYmxlVG9JbWFnZVRhYmxlc3EAfgAEcHQAOm5jc2EuZDJr
+Lm1vZHVsZXMucHJvamVjdHMucGdyb3Zlcy5icC5QcmVkVGFibGVUb0ltYWdlVGFibGV4" label="InterpolationMap.itn">
+    <annotation><![CDATA[<HTML>
+</HTML>]]></annotation>
+    <module alias="Int Array" classname="ncsa.d2k.modules.projects.pgroves.util.IntArrayProps" xloc="205" yloc="323">
+      <output index="0" classname="[I">
+        <destination alias="FalseColorWithWells" index="2"/>
+      </output>
+      <property name="int0" value="0"/>
+      <property name="debug" value="false"/>
+      <property name="int3" value="0"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="int2" value="0"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAA"/>
+      <property name="numIntsToUse" value="0"/>
+      <property name="int1" value="0"/>
+    </module>
+    <module alias="PredTableToImageTable" classname="ncsa.d2k.modules.projects.pgroves.bp.PredTableToImageTable" xloc="204" yloc="110">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable"/>
+      <input index="1" classname="java.lang.Integer"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.MutableTableImpl">
+        <destination alias="FalseColorWithWells" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+    </module>
+    <module alias="ShowPanel" classname="ncsa.d2k.modules.projects.pgroves.vis.ShowPanel" xloc="566" yloc="304">
+      <input index="0" classname="javax.swing.JPanel"/>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAAA"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAAA"/>
+      <property name="windowName" value="ShowPanel"/>
+    </module>
+    <module alias="FalseColorWithWells" classname="ncsa.d2k.modules.projects.pgroves.bp.FalseColorWithWells" xloc="359" yloc="242">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <input index="2" classname="[I"/>
+      <output index="0" classname="javax.swing.JPanel">
+        <destination alias="ShowPanel" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAwAAAAAAAAAAAAAAAHVxAH4AAwAAAAEAAAAA"/>
+    </module>
+  </itinerary>
+</toolkit>

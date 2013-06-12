@@ -1,0 +1,1929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAAqdwgAAAAcAAAAJHQAEENvbmNhdFRhYmxlQXJyYXlzcgAbbmNzYS5kMmsuY29yZS5SZXNvdXJj
+ZUVudHJ51S4sIEIDJtICAAJMAAxjYWNoZWRPYmplY3R0ABJMamF2YS9sYW5nL09iamVjdDtMAA9v
+YmplY3RDbGFzc05hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHB0ADduY3NhLmQyay5tb2R1bGVz
+LnByb2plY3RzLnBncm92ZXMudXRpbC5Db25jYXRUYWJsZUFycmF5dAARTi1Gb2xkIFRyYWluIFRl
+c3RzcQB+AARwdAA0bmNzYS5kMmsubW9kdWxlcy5jb3JlLnRyYW5zZm9ybS50YWJsZS5ORm9sZFRy
+YWluVGVzdHQAI1JlYWRFVF9DcmVhdGUgRGVsaW1pdGVkIEZpbGUgUGFyc2Vyc3EAfgAEcHQAOW5j
+c2EuZDJrLm1vZHVsZXMuY29yZS5pby5maWxlLmlucHV0LkNyZWF0ZURlbGltaXRlZFBhcnNlcnQA
+DVFLQmlhc0J5UHJvcHNzcQB+AARwdAAsbmNzYS5kMmsuY29yZS5tb2R1bGVzLmFnZW5kYS5JdGlu
+ZXJhcnlNb2R1bGV0AA9NIEFCUyBFdmFsdWF0b3JzcQB+AARwdAA9bmNzYS5kMmsubW9kdWxlcy5j
+b3JlLnByZWRpY3Rpb24uZXZhbHVhdG9ycy5NZWFuQWJzb2x1dGVFcnJvcnQAG0lCQmlhc0J5UHJv
+cHNfSW50RnJvbVByb3BzMXNxAH4ABHB0AC9uY3NhLmQyay5tb2R1bGVzLnByb2plY3RzLnBncm92
+ZXMudXRpbC5JbnRQcm9wc3QAHVJlYWRFVF9DaG9vc2UgQXR0cmlidXRlIFR5cGVzc3EAfgAEcHQA
+Pm5jc2EuZDJrLm1vZHVsZXMuY29yZS50cmFuc2Zvcm0uYXR0cmlidXRlLkNob29zZUF0dHJpYnV0
+ZVR5cGVzdAAPT2JqZWN0IENvbXBpbGVyc3EAfgAEcHQANG5jc2EuZDJrLm1vZHVsZXMucHJvamVj
+dHMucGdyb3Zlcy51dGlsLk9iamVjdHMyQXJyYXl0ABpJQkJpYXNCeVByb3BzX0ludEZyb21Qcm9w
+c3NxAH4ABHBxAH4AF3QADU1vZGVsIFByZWRpY3RzcQB+AARwdAAtbmNzYS5kMmsubW9kdWxlcy5j
+b3JlLnByZWRpY3Rpb24uTW9kZWxQcmVkaWN0dAAcSUJCaWFzQnlQcm9wc19HZW5lcmF0ZVN0cmlu
+Z3NxAH4ABHB0ADpuY3NhLmQyay5tb2R1bGVzLnByb2plY3RzLnBncm92ZXMudXRpbC5maWxlLkdl
+bmVyYXRlU3RyaW5ndAAWVW50cmFuc2Zvcm1QcmVkaWN0aW9uc3NxAH4ABHB0AD1uY3NhLmQyay5t
+b2R1bGVzLnByb2plY3RzLnBncm92ZXMudXRpbC5VbnRyYW5zZm9ybVByZWRpY3Rpb25zdAAQUUtN
+b2RlbEdlbmVyYXRvcnNxAH4ABHB0ACxuY3NhLmQyay5jb3JlLm1vZHVsZXMuYWdlbmRhLkl0aW5l
+cmFyeU1vZHVsZXQAHUlCQmlhc0J5UHJvcHNfR2VuZXJhdGVTdHJpbmcyc3EAfgAEcHEAfgAldAAP
+UGFyYW1ldHJpY1N0YXRzc3EAfgAEcHQAN25jc2EuZDJrLm1vZHVsZXMucHJvamVjdHMucGdyb3Zl
+cy5zdGF0cy5QYXJhbWV0cmljU3RhdHN0AB1JQkJpYXNCeVByb3BzX0dlbmVyYXRlU3RyaW5nMXNx
+AH4ABHBxAH4AJXQAGFJlYWRFVF9DaG9vc2UgQXR0cmlidXRlc3NxAH4ABHB0ADpuY3NhLmQyay5t
+b2R1bGVzLmNvcmUudHJhbnNmb3JtLmF0dHJpYnV0ZS5DaG9vc2VBdHRyaWJ1dGVzdAAIRVRDb3Bp
+ZXJzcQB+AARwdAAvbmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5wZ3JvdmVzLnV0aWwuRVRDb3Bp
+ZXJ0AAxUYWJsZSBWaWV3ZXJzcQB+AARwdAAlbmNzYS5kMmsubW9kdWxlcy5jb3JlLnZpcy5UYWJs
+ZVZpZXdlcnQADlNldFRyYWluT3JUZXN0c3EAfgAEcHQANG5jc2EuZDJrLm1vZHVsZXMuY29yZS50
+cmFuc2Zvcm0udGFibGUuU2V0VHJhaW5PclRlc3R0ABZSZWFkRVRfSW5wdXQgRmlsZSBOYW1lc3EA
+fgAEcHQAMm5jc2EuZDJrLm1vZHVsZXMuY29yZS5pby5maWxlLmlucHV0LklucHV0MUZpbGVOYW1l
+dAAeSUJCaWFzQnlQcm9wc19NZXJnZVBhcmFtZXRlcnMxc3EAfgAEcHQANm5jc2EuZDJrLm1vZHVs
+ZXMucHJvamVjdHMucGdyb3Zlcy51dGlsLk1lcmdlUGFyYW1ldGVyc3QAD1NldFRyYWluT3JUZXN0
+MXNxAH4ABHBxAH4APnQAC1RyaWdnZXJQdXNoc3EAfgAEcHQAKW5jc2EuZDJrLm1vZHVsZXMuY29y
+ZS5jb250cm9sLlRyaWdnZXJQdXNodAAdSUJCaWFzQnlQcm9wc19Eb3VibGVGcm9tUHJvcHNzcQB+
+AARwdAAybmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5wZ3JvdmVzLnV0aWwuRG91YmxlUHJvcHN0
+AAZSZWFkRVRzcQB+AARwdAAsbmNzYS5kMmsuY29yZS5tb2R1bGVzLmFnZW5kYS5JdGluZXJhcnlN
+b2R1bGV0AAZGYW5PdXRzcQB+AARwdAAibmNzYS5kMmsuY29yZS5tb2R1bGVzLkZhbk91dE1vZHVs
+ZXQAGlJlYWRFVF9QYXJzZSBGaWxlIFRvIFRhYmxlc3EAfgAEcHQANG5jc2EuZDJrLm1vZHVsZXMu
+Y29yZS5pby5maWxlLmlucHV0LlBhcnNlRmlsZVRvVGFibGV0AA1UYWJsZSBWaWV3ZXIyc3EAfgAE
+cHQAJW5jc2EuZDJrLm1vZHVsZXMuY29yZS52aXMuVGFibGVWaWV3ZXJ0AB5JQkJpYXNCeVByb3Bz
+X0NyZWF0ZVBhcmFtZXRlcjJzcQB+AARwdAA2bmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5wZ3Jv
+dmVzLnV0aWwuQ3JlYXRlUGFyYW1ldGVydAAdSUJCaWFzQnlQcm9wc19DcmVhdGVQYXJhbWV0ZXJz
+cQB+AARwcQB+AFt0AB5JQkJpYXNCeVByb3BzX0NyZWF0ZVBhcmFtZXRlcjFzcQB+AARwcQB+AFt0
+ABtNYWtlX2tOTi0wX01vZGVsX0lCTW9kZWxHZW5zcQB+AARwdABFbmNzYS5kMmsubW9kdWxlcy5w
+cm9qZWN0cy5wZ3JvdmVzLmluc3RhbmNlYmFzZWQuSW5zdGFuY2VCYXNlZE1vZGVsR2VudAAbT2Jq
+ZWN0QXJyYXlUb1ByaW1pdGl2ZUFycmF5c3EAfgAEcHQAQm5jc2EuZDJrLm1vZHVsZXMucHJvamVj
+dHMucGdyb3Zlcy51dGlsLk9iamVjdEFycmF5VG9QcmltaXRpdmVBcnJheXQAHUlCQmlhc0J5UHJv
+cHNfTWVyZ2VQYXJhbWV0ZXJzc3EAfgAEcHEAfgBEdAAOUmVhZFNlcmlhbGl6ZWRzcQB+AARwdAAs
+bmNzYS5kMmsuY29yZS5tb2R1bGVzLmFnZW5kYS5JdGluZXJhcnlNb2R1bGV4" label="QK-VerifyExactEstimates.itn">
+    <annotation><![CDATA[<HTML>
+</HTML>]]></annotation>
+    <module alias="FanOut" classname="ncsa.d2k.core.modules.FanOutModule" xloc="252" yloc="141">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+        <destination alias="TriggerPush" index="1"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+        <destination alias="QKModelGenerator" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAQAAAAE="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAQAAAAE="/>
+    </module>
+    <module alias="ReadET" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="19" yloc="450">
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+        <destination alias="ETCopier" index="0"/>
+      </output>
+      <itinerary label="ReadET">
+        <module alias="ReadET_Input File Name" classname="ncsa.d2k.modules.core.io.file.input.Input1FileName" xloc="94" yloc="58">
+          <output index="0" classname="java.lang.String">
+            <destination alias="ReadET_Create Delimited File Parser" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+          <property name="fileName" value="/home/dat/moire/bp/data/mich.csv"/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+        </module>
+        <module alias="ReadET_Choose Attribute Types" classname="ncsa.d2k.modules.core.transform.attribute.ChooseAttributeTypes" xloc="390" yloc="180">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table">
+            <destination alias="ReadET_Choose Attributes" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+          <property name="nominalColumns" binaryValue="rO0ABXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAA="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAbf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+          <property name="windowName" value="ReadET_Choose Attribute Types"/>
+          <property name="scalarColumns" binaryValue="rO0ABXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAZ0AAd3ZWxsX2lkdAAH
+eF9jb29yZHQAB3lfY29vcmR0AAd6X2Nvb3JkdAAHQmVuemVuZXQABEJURVg="/>
+          <property name="supressGui" value="true"/>
+        </module>
+        <module alias="ReadET_Create Delimited File Parser" classname="ncsa.d2k.modules.core.io.file.input.CreateDelimitedParser" xloc="151" yloc="114">
+          <input index="0" classname="java.lang.String"/>
+          <output index="0" classname="ncsa.d2k.modules.core.io.file.input.DelimitedFileParser">
+            <destination alias="ReadET_Parse File To Table" index="0"/>
+          </output>
+          <property name="typesRow" value="1"/>
+          <property name="hasSpecDelim" value="false"/>
+          <property name="labelsRow" value="0"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+          <property name="hasTypes" value="true"/>
+          <property name="hasLabels" value="true"/>
+        </module>
+        <module alias="ReadET_Choose Attributes" classname="ncsa.d2k.modules.core.transform.attribute.ChooseAttributes" xloc="511" yloc="203">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+            <destination alias="ReadET" index="1"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+          <property name="windowName" value="ReadET_Choose Attributes"/>
+          <property name="selectedInputs" binaryValue="rO0ABXVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAJ0AAd4X2Nvb3JkdAAH
+eV9jb29yZA=="/>
+          <property name="supressGui" value="false"/>
+          <property name="selectedOutputs" binaryValue="rO0ABXVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAF0AAdCZW56ZW5l"/>
+        </module>
+        <module alias="ReadET_Parse File To Table" classname="ncsa.d2k.modules.core.io.file.input.ParseFileToTable" xloc="294" yloc="153">
+          <input index="0" classname="ncsa.d2k.modules.core.io.file.input.FlatFileParser"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.MutableTable">
+            <destination alias="ReadET_Choose Attribute Types" index="0"/>
+          </output>
+          <property name="useBlanks" value="true"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAACf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+        </module>
+      </itinerary>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAA"/>
+    </module>
+    <module alias="M ABS Evaluator" classname="ncsa.d2k.modules.core.prediction.evaluators.MeanAbsoluteError" xloc="354" yloc="374">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable"/>
+      <input index="1" classname="java.lang.Integer"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table">
+        <destination alias="ParametricStats" index="0"/>
+      </output>
+      <output index="1" classname="java.lang.Double"/>
+      <property name="untransformFirst" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+      <property name="printResults" value="true"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAgAAAAAAAAAA"/>
+      <property name="crossValidate" value="true"/>
+    </module>
+    <module alias="Object Compiler" classname="ncsa.d2k.modules.projects.pgroves.util.Objects2Array" xloc="446" yloc="268">
+      <input index="0" classname="java.lang.Object"/>
+      <input index="1" classname="java.lang.Integer"/>
+      <output index="0" classname="[Ljava.lang.Object">
+        <destination alias="ObjectArrayToPrimitiveArray" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+    </module>
+    <module alias="Table Viewer" classname="ncsa.d2k.modules.core.vis.TableViewer" xloc="634" yloc="378">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <property name="maxFractionDigits" value="-1"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="windowName" value="Table Viewer"/>
+    </module>
+    <module alias="QKModelGenerator" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="371" yloc="29">
+      <input index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+      <input index="1" classname="java.lang.Object"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.pgroves.geostat.OrdinaryKrigingModel">
+        <destination alias="Model Predict" index="1"/>
+      </output>
+      <output index="1" classname="java.lang.Object">
+        <destination alias="UntransformPredictions" index="1"/>
+      </output>
+      <itinerary label="QKModelGenerator">
+        <module alias="QKModelGenerator_Apply Transformation" classname="ncsa.d2k.modules.core.transform.ApplyTransformation" xloc="442" yloc="215">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Transformation"/>
+          <input index="1" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+          <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table">
+            <destination alias="QKModelGenerator_OKModelGenerator" index="1"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+        </module>
+        <module alias="QKModelGenerator_Train Table" classname="ncsa.d2k.modules.core.control.ObjectPasser" xloc="26" yloc="109">
+          <input index="0" classname="java.lang.Object"/>
+          <output index="0" classname="java.lang.Object">
+            <destination alias="QKModelGenerator_FanOut4" index="0"/>
+          </output>
+          <property name="output_Name" value="Object Out"/>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+          <property name="input_Name" value="Train Table"/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+        </module>
+        <module alias="QKModelGenerator_FanOut" classname="ncsa.d2k.core.modules.FanOutModule" xloc="400" yloc="163">
+          <input index="0" classname="ncsa.d2k.modules.projects.pgroves.geostat.QuantileTransformation"/>
+          <output index="0" classname="ncsa.d2k.modules.projects.pgroves.geostat.QuantileTransformation">
+            <destination alias="QKModelGenerator_Reversible Quantile Transformation Object" index="0"/>
+          </output>
+          <output index="1" classname="ncsa.d2k.modules.projects.pgroves.geostat.QuantileTransformation">
+            <destination alias="QKModelGenerator_Apply Transformation" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAQAAAAE="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAQAAAAE="/>
+        </module>
+        <module alias="QKModelGenerator_FanOut4" classname="ncsa.d2k.core.modules.FanOutModule" xloc="138" yloc="114">
+          <input index="0" classname="java.lang.Object"/>
+          <output index="0" classname="java.lang.Object">
+            <destination alias="QKModelGenerator_MakeQuantileTransform" index="0"/>
+          </output>
+          <output index="1" classname="java.lang.Object">
+            <destination alias="QKModelGenerator_IBModelGen" index="0"/>
+          </output>
+          <output index="2" classname="java.lang.Object">
+            <destination alias="QKModelGenerator_Apply Transformation" index="1"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAADAAAAAQAAAAEAAAAB"/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAADAAAAAQAAAAEAAAAB"/>
+        </module>
+        <module alias="QKModelGenerator_SplitParameter3" classname="ncsa.d2k.modules.projects.pgroves.util.SplitParameter" xloc="35" yloc="474">
+          <input index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+          <output index="0" classname="ncsa.d2k.modules.datatype.parameter.impl.ParameterPointImpl">
+            <destination alias="QKModelGenerator_IBModelGen" index="1"/>
+          </output>
+          <output index="1" classname="ncsa.d2k.modules.datatype.parameter.impl.ParameterPointImpl">
+            <destination alias="QKModelGenerator_OKModelGenerator" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAQAAAAE="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAQAAAAE="/>
+          <property name="splitIndex" value="3"/>
+        </module>
+        <module alias="QKModelGenerator_OKModelGenerator" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="616" yloc="493">
+          <input index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+          <input index="1" classname="java.lang.Object"/>
+          <output index="0" classname="ncsa.d2k.modules.projects.pgroves.geostat.OrdinaryKrigingModel">
+            <destination alias="QKModelGenerator" index="3"/>
+          </output>
+          <itinerary label="QKModelGenerator_OKModelGenerator">
+            <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_Object Holder1" classname="ncsa.d2k.modules.core.control.ObjectHolder" xloc="224" yloc="496">
+              <input index="0" classname="java.lang.Object"/>
+              <input index="1" classname="java.lang.Object"/>
+              <output index="0" classname="java.lang.Object">
+                <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval" index="2"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+            </module>
+            <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_RawSemivariogram" classname="ncsa.d2k.modules.projects.pgroves.geostat.RawSemivariogram" xloc="364" yloc="236">
+              <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+              <input index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+              <output index="0" classname="ncsa.d2k.modules.datatype.table.basic.MutableTableImpl">
+                <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval" index="0"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="variogramOrder" value="2.0"/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAABP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+            </module>
+            <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OrdinaryKrigingModelGen" classname="ncsa.d2k.modules.projects.pgroves.geostat.OrdinaryKrigingModelGen" xloc="805" yloc="559">
+              <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+              <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+              <input index="2" classname="ncsa.d2k.modules.projects.pgroves.geostat.BivariateModel"/>
+              <output index="0" classname="ncsa.d2k.modules.projects.pgroves.geostat.OrdinaryKrigingModel">
+                <destination alias="QKModelGenerator_OKModelGenerator" index="1"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAARv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAwAAAAAAAAAAAAAAAHVxAH4AAwAAAAEAAAAB"/>
+            </module>
+            <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_FanOut" classname="ncsa.d2k.core.modules.FanOutModule" xloc="601" yloc="395">
+              <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+              <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table">
+                <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_Object Holder1" index="1"/>
+              </output>
+              <output index="1" classname="ncsa.d2k.modules.core.datatype.table.Table">
+                <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram" index="1"/>
+              </output>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAQAAAAE="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAQAAAAE="/>
+            </module>
+            <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="683" yloc="435">
+              <input index="0" classname="java.lang.Object"/>
+              <input index="1" classname="java.lang.Object"/>
+              <output index="0" classname="ncsa.d2k.modules.projects.pgroves.geostat.BivariateModel">
+                <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OrdinaryKrigingModelGen" index="2"/>
+              </output>
+              <itinerary label="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram">
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_TriggerPush1" classname="ncsa.d2k.modules.core.control.TriggerPush" xloc="627" yloc="527">
+                  <input index="0" classname="java.lang.Object"/>
+                  <input index="1" classname="java.lang.Object"/>
+                  <output index="0" classname="java.lang.Object">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_CreateParameter" index="1"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAZA=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAGQ="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_AutoVariogramParamSpace" classname="ncsa.d2k.modules.projects.pgroves.geostat.AutoVariogramParamSpace" xloc="121" yloc="241">
+                  <input index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+                  <input index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+                  <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterSpaceImpl">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_FanOut1" index="0"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+                  <property name="allParametersResolution" value="100"/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Object Holder1" classname="ncsa.d2k.modules.core.control.ObjectHolder" xloc="118" yloc="358">
+                  <input index="0" classname="java.lang.Object"/>
+                  <input index="1" classname="java.lang.Object"/>
+                  <output index="0" classname="java.lang.Object">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_AutoVariogramParamSpace" index="0"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Object Array Iterator" classname="ncsa.d2k.modules.projects.pgroves.util.Array2Objects" xloc="401" yloc="202">
+                  <input index="0" classname="[Ljava.lang.Object:"/>
+                  <output index="0" classname="java.lang.Object">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_FanOut" index="0"/>
+                  </output>
+                  <output index="1" classname="java.lang.Integer">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Object Compiler" index="1"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAZAAAAAE="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAZAAAAAE="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_VariogramResiduals" classname="ncsa.d2k.modules.projects.pgroves.geostat.VariogramResiduals" xloc="623" yloc="341">
+                  <input index="0" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable"/>
+                  <output index="0" classname="java.lang.Double">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_CreateParameter" index="0"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAZA=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAACf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAZA=="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_GetBestParameter" classname="ncsa.d2k.modules.projects.pgroves.optimize.GetBestParameter" xloc="1118" yloc="251">
+                  <input index="0" classname="[Lncsa.d2k.modules.core.datatype.parameter.ParameterPoint:"/>
+                  <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_FanOut4" index="0"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="objParameterIndex" value="9"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+                  <property name="isMaximizing" value="false"/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_SetTrain" classname="ncsa.d2k.modules.core.transform.table.SetTrainOrTest" xloc="466" yloc="22">
+                  <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+                  <output index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_FanOut2" index="0"/>
+                  </output>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+                  <property name="trainVsTest" value="true"/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_NumRandomParameters" classname="ncsa.d2k.modules.projects.pgroves.util.IntProps" xloc="187" yloc="503">
+                  <output index="0" classname="java.lang.Integer">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_TriggerPush" index="0"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+                  <property name="integer" value="100"/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Model Predict" classname="ncsa.d2k.modules.core.prediction.ModelPredict" xloc="504" yloc="306">
+                  <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+                  <input index="1" classname="ncsa.d2k.modules.PredictionModelModule"/>
+                  <output index="0" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_VariogramResiduals" index="0"/>
+                  </output>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAZA=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAABkv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAGQ="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_FanOut3" classname="ncsa.d2k.core.modules.FanOutModule" xloc="378" yloc="79">
+                  <input index="0" classname="java.lang.Object"/>
+                  <output index="0" classname="java.lang.Object">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_SetTrain" index="0"/>
+                  </output>
+                  <output index="1" classname="java.lang.Object">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_SetTest" index="0"/>
+                  </output>
+                  <output index="2" classname="java.lang.Object">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_AutoVariogramParamSpace" index="1"/>
+                  </output>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAADAAAAAQAAAAEAAAAB"/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAADAAAAAQAAAAEAAAAB"/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_CreateParameter" classname="ncsa.d2k.modules.projects.pgroves.util.CreateParameter" xloc="705" yloc="429">
+                  <input index="0" classname="java.lang.Number"/>
+                  <input index="1" classname="java.lang.String"/>
+                  <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterPointImpl">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_MergeParameters" index="1"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAZA=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAGQ="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_VariogramModelGenerator1" classname="ncsa.d2k.modules.projects.pgroves.geostat.VariogramModelGenerator" xloc="1180" yloc="180">
+                  <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+                  <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+                  <output index="0" classname="ncsa.d2k.modules.projects.pgroves.geostat.BivariateModel">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram" index="10"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Object Compiler" classname="ncsa.d2k.modules.projects.pgroves.util.Objects2Array" xloc="930" yloc="270">
+                  <input index="0" classname="java.lang.Object"/>
+                  <input index="1" classname="java.lang.Integer"/>
+                  <output index="0" classname="[Ljava.lang.Object">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_ObjectArrayToPrimitiveArray" index="0"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_FanOut2" classname="ncsa.d2k.core.modules.FanOutModule" xloc="546" yloc="44">
+                  <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+                  <output index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Trigger Push" index="0"/>
+                  </output>
+                  <output index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_VariogramModelGenerator1" index="0"/>
+                  </output>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAQAAAAE="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAQAAAAE="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Parameters" classname="ncsa.d2k.modules.core.control.ObjectPasser" xloc="29" yloc="432">
+                  <input index="0" classname="java.lang.Object"/>
+                  <output index="0" classname="java.lang.Object">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Object Holder1" index="0"/>
+                  </output>
+                  <property name="output_Name" value="Object Out"/>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                  <property name="input_Name" value="Object In"/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_VariogramModelGenerator" classname="ncsa.d2k.modules.projects.pgroves.geostat.VariogramModelGenerator" xloc="790" yloc="148">
+                  <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+                  <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+                  <output index="0" classname="ncsa.d2k.modules.projects.pgroves.geostat.BivariateModel">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Model Predict" index="1"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAZA=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAGP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAGQ="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Object Holder" classname="ncsa.d2k.modules.core.control.ObjectHolder" xloc="245" yloc="63">
+                  <input index="0" classname="java.lang.Object"/>
+                  <input index="1" classname="java.lang.Object"/>
+                  <output index="0" classname="java.lang.Object">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_FanOut3" index="0"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_GenerateString" classname="ncsa.d2k.modules.projects.pgroves.util.file.GenerateString" xloc="508" yloc="525">
+                  <output index="0" classname="java.lang.String">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_TriggerPush1" index="0"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="stringData" value="Residuals_Score"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_RandomParamGenerator" classname="ncsa.d2k.modules.projects.pgroves.optimize.RandomParamGenerator" xloc="278" yloc="224">
+                  <input index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterSpace"/>
+                  <input index="1" classname="java.lang.Integer"/>
+                  <output index="0" classname="[Lncsa.d2k.modules.core.datatype.parameter.impl.ParameterPointImpl">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Object Array Iterator" index="0"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAABv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+                  <property name="seed" value="215634"/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Trigger Push1" classname="ncsa.d2k.modules.core.control.TriggerPushB" xloc="666" yloc="109">
+                  <input index="0" classname="java.lang.Object"/>
+                  <input index="1" classname="java.lang.Object"/>
+                  <output index="0" classname="java.lang.Object">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Model Predict" index="0"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAZA=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAGQ="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Variogram Data" classname="ncsa.d2k.modules.core.control.ObjectPasser" xloc="70" yloc="44">
+                  <input index="0" classname="java.lang.Object"/>
+                  <output index="0" classname="java.lang.Object">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Object Holder" index="0"/>
+                  </output>
+                  <property name="output_Name" value="Object Out"/>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                  <property name="input_Name" value="Object In"/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_FanOut4" classname="ncsa.d2k.core.modules.FanOutModule" xloc="1181" yloc="574">
+                  <input index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+                  <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_VariogramModelGenerator1" index="1"/>
+                  </output>
+                  <output index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Object Holder" index="1"/>
+                  </output>
+                  <output index="2" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Object Holder1" index="1"/>
+                  </output>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAADAAAAAQAAAAEAAAAB"/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAADAAAAAQAAAAEAAAAB"/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_TriggerPush" classname="ncsa.d2k.modules.core.control.TriggerPush" xloc="370" yloc="376">
+                  <input index="0" classname="java.lang.Object"/>
+                  <input index="1" classname="java.lang.Object"/>
+                  <output index="0" classname="java.lang.Object">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_RandomParamGenerator" index="1"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_FanOut" classname="ncsa.d2k.core.modules.FanOutModule" xloc="553" yloc="184">
+                  <input index="0" classname="java.lang.Object"/>
+                  <output index="0" classname="java.lang.Object">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Trigger Push" index="1"/>
+                  </output>
+                  <output index="1" classname="java.lang.Object">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_VariogramModelGenerator" index="1"/>
+                  </output>
+                  <output index="2" classname="java.lang.Object">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_MergeParameters" index="0"/>
+                  </output>
+                  <output index="3" classname="java.lang.Object">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_TriggerPush1" index="1"/>
+                  </output>
+                  <output index="4" classname="java.lang.Object">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Trigger Push1" index="1"/>
+                  </output>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAAFAAAAZAAAAGQAAABkAAAAZAAAAGQ="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAAFAAAAZAAAAGQAAABkAAAAZAAA
+AGQ="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Trigger Push" classname="ncsa.d2k.modules.core.control.TriggerPushB" xloc="664" yloc="11">
+                  <input index="0" classname="java.lang.Object"/>
+                  <input index="1" classname="java.lang.Object"/>
+                  <output index="0" classname="java.lang.Object">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_VariogramModelGenerator" index="0"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAZA=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAGQ="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_ObjectArrayToPrimitiveArray" classname="ncsa.d2k.modules.projects.pgroves.util.ObjectArrayToPrimitiveArray" xloc="1015" yloc="331">
+                  <input index="0" classname="[Ljava.lang.Object:"/>
+                  <output index="0" classname="java.lang.Object">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_GetBestParameter" index="0"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+                  <property name="usePrimitiveArrays" value="false"/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_MergeParameters" classname="ncsa.d2k.modules.projects.pgroves.util.MergeParameters" xloc="828" yloc="348">
+                  <input index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+                  <input index="1" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+                  <output index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Object Compiler" index="0"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAZA=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAB///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAGQ="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_SetTest" classname="ncsa.d2k.modules.core.transform.table.SetTrainOrTest" xloc="473" yloc="110">
+                  <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+                  <output index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_Trigger Push1" index="0"/>
+                  </output>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+                  <property name="trainVsTest" value="false"/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_FanOut1" classname="ncsa.d2k.core.modules.FanOutModule" xloc="243" yloc="320">
+                  <input index="0" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterSpaceImpl"/>
+                  <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterSpaceImpl">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_RandomParamGenerator" index="0"/>
+                  </output>
+                  <output index="1" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterSpaceImpl">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram_OKModelGenerator_OptimizeVariogram_OptimizeVariogram_TriggerPush" index="1"/>
+                  </output>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAQAAAAE="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAQAAAAE="/>
+                </module>
+              </itinerary>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+            </module>
+            <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_Train Table" classname="ncsa.d2k.modules.core.control.ObjectPasser" xloc="100" yloc="81">
+              <input index="0" classname="java.lang.Object"/>
+              <output index="0" classname="java.lang.Object">
+                <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_FanOut1" index="0"/>
+              </output>
+              <property name="output_Name" value="Object Out"/>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="input_Name" value="Train Table"/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+            </module>
+            <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_SplitParameter1" classname="ncsa.d2k.modules.projects.pgroves.util.SplitParameter" xloc="58" yloc="596">
+              <input index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+              <output index="0" classname="ncsa.d2k.modules.datatype.parameter.impl.ParameterPointImpl">
+                <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_Object Holder1" index="0"/>
+              </output>
+              <output index="1" classname="ncsa.d2k.modules.datatype.parameter.impl.ParameterPointImpl">
+                <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_SplitParameter" index="0"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAQAAAAE="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAQAAAAE="/>
+              <property name="splitIndex" value="3"/>
+            </module>
+            <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_CalcDistanceMatrix" classname="ncsa.d2k.modules.projects.pgroves.instancebased.CalcDistanceMatrix" xloc="246" yloc="193">
+              <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+              <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.MutableTableImpl">
+                <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_RawSemivariogram" index="0"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAA///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+            </module>
+            <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="408" yloc="345">
+              <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+              <input index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+              <input index="2" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+              <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table">
+                <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_FanOut" index="0"/>
+              </output>
+              <itinerary label="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval">
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="375" yloc="118">
+                  <input index="0" classname="java.lang.Object"/>
+                  <output index="0" classname="ncsa.d2k.modules.core.datatype.table.MutableTable">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1" index="0"/>
+                  </output>
+                  <itinerary label="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable">
+                    <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_BinVariogramWithOutlierRemoval_SortTable_SortTable_ObjectArrayToPrimitiveArray" classname="ncsa.d2k.modules.projects.pgroves.util.ObjectArrayToPrimitiveArray" xloc="298" yloc="357">
+                      <input index="0" classname="[Ljava.lang.Object:"/>
+                      <output index="0" classname="java.lang.Object">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_BinVariogramWithOutlierRemoval_SortTable_SortTable_TriggerPush" index="0"/>
+                      </output>
+                      <property name="debug" value="false"/>
+                      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+                      <property name="usePrimitiveArrays" value="true"/>
+                    </module>
+                    <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_BinVariogramWithOutlierRemoval_SortTable_SortTable_Sort Column Index" classname="ncsa.d2k.modules.projects.pgroves.util.IntProps" xloc="46" yloc="400">
+                      <output index="0" classname="java.lang.Integer">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_BinVariogramWithOutlierRemoval_SortTable_SortTable_Object Compiler" index="0"/>
+                      </output>
+                      <property name="debug" value="false"/>
+                      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+                      <property name="integer" value="0"/>
+                    </module>
+                    <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_BinVariogramWithOutlierRemoval_SortTable_SortTable_MultiColumnSort" classname="ncsa.d2k.modules.projects.pgroves.util.MultiColumnSort" xloc="598" yloc="197">
+                      <input index="0" classname="[I"/>
+                      <input index="1" classname="ncsa.d2k.modules.core.datatype.table.MutableTable"/>
+                      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.MutableTable">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable" index="0"/>
+                      </output>
+                      <property name="debug" value="false"/>
+                      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAACw=="/>
+                      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAkv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAs="/>
+                    </module>
+                    <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_BinVariogramWithOutlierRemoval_SortTable_SortTable_Object Compiler" classname="ncsa.d2k.modules.projects.pgroves.util.Objects2Array" xloc="205" yloc="442">
+                      <input index="0" classname="java.lang.Object"/>
+                      <input index="1" classname="java.lang.Integer"/>
+                      <output index="0" classname="[Ljava.lang.Object">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_BinVariogramWithOutlierRemoval_SortTable_SortTable_ObjectArrayToPrimitiveArray" index="0"/>
+                      </output>
+                      <property name="debug" value="false"/>
+                      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+                    </module>
+                    <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_BinVariogramWithOutlierRemoval_SortTable_SortTable_FanOut" classname="ncsa.d2k.core.modules.FanOutModule" xloc="304" yloc="194">
+                      <input index="0" classname="java.lang.Object"/>
+                      <output index="0" classname="java.lang.Object">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_BinVariogramWithOutlierRemoval_SortTable_SortTable_TriggerPush" index="1"/>
+                      </output>
+                      <output index="1" classname="java.lang.Object">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_BinVariogramWithOutlierRemoval_SortTable_SortTable_MultiColumnSort" index="1"/>
+                      </output>
+                      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAACwAAAAs="/>
+                      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAACwAAAAs="/>
+                    </module>
+                    <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_BinVariogramWithOutlierRemoval_SortTable_SortTable_TriggerPush" classname="ncsa.d2k.modules.core.control.TriggerPush" xloc="478" yloc="313">
+                      <input index="0" classname="java.lang.Object"/>
+                      <input index="1" classname="java.lang.Object"/>
+                      <output index="0" classname="java.lang.Object">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_BinVariogramWithOutlierRemoval_SortTable_SortTable_MultiColumnSort" index="0"/>
+                      </output>
+                      <property name="debug" value="false"/>
+                      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAACw=="/>
+                      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAs="/>
+                    </module>
+                    <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_BinVariogramWithOutlierRemoval_SortTable_SortTable_Pass unchanged object" classname="ncsa.d2k.modules.core.control.ObjectPasser" xloc="76" yloc="171">
+                      <input index="0" classname="java.lang.Object"/>
+                      <output index="0" classname="java.lang.Object">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_BinVariogramWithOutlierRemoval_SortTable_SortTable_FanOut" index="0"/>
+                      </output>
+                      <property name="output_Name" value="Object Out"/>
+                      <property name="debug" value="false"/>
+                      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAACw=="/>
+                      <property name="input_Name" value="Object In"/>
+                      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAACw=="/>
+                    </module>
+                    <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_BinVariogramWithOutlierRemoval_SortTable_SortTable_IntFromProps1" classname="ncsa.d2k.modules.projects.pgroves.util.IntProps" xloc="61" yloc="543">
+                      <output index="0" classname="java.lang.Integer">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable_BinVariogramWithOutlierRemoval_SortTable_SortTable_Object Compiler" index="1"/>
+                      </output>
+                      <property name="debug" value="false"/>
+                      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+                      <property name="integer" value="1"/>
+                    </module>
+                  </itinerary>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SplitParameter" classname="ncsa.d2k.modules.projects.pgroves.util.SplitParameter" xloc="64" yloc="536">
+                  <input index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+                  <output index="0" classname="ncsa.d2k.modules.datatype.parameter.impl.ParameterPointImpl">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_RemoveVariogramOutliers" index="1"/>
+                  </output>
+                  <output index="1" classname="ncsa.d2k.modules.datatype.parameter.impl.ParameterPointImpl">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_Trigger Push" index="0"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAQAAAAE="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAQAAAAE="/>
+                  <property name="splitIndex" value="2"/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_Trigger Push" classname="ncsa.d2k.modules.core.control.TriggerPushB" xloc="490" yloc="425">
+                  <input index="0" classname="java.lang.Object"/>
+                  <input index="1" classname="java.lang.Object"/>
+                  <output index="0" classname="java.lang.Object">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1" index="1"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAACw=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAs="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="657" yloc="171">
+                  <input index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.TableImpl"/>
+                  <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+                  <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.MutableTableImpl">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_RemoveVariogramOutliers" index="3"/>
+                  </output>
+                  <itinerary label="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1">
+                    <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_Equi-Width Variogram Partition" classname="ncsa.d2k.modules.projects.pgroves.geostat.PartitionVariogram" xloc="17" yloc="13">
+                      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.TableImpl"/>
+                      <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+                      <output index="0" classname="[Lncsa.d2k.modules.core.datatype.table.basic.SubsetTableImpl">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_Object Array Iterator" index="0"/>
+                      </output>
+                      <property name="debug" value="false"/>
+                      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAACw=="/>
+                      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAs="/>
+                    </module>
+                    <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_ObjectArrayToPrimitiveArray" classname="ncsa.d2k.modules.projects.pgroves.util.ObjectArrayToPrimitiveArray" xloc="666" yloc="313">
+                      <input index="0" classname="[Ljava.lang.Object:"/>
+                      <output index="0" classname="java.lang.Object">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_ConcatTableArray" index="0"/>
+                      </output>
+                      <property name="debug" value="false"/>
+                      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAACw=="/>
+                      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAB///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAACw=="/>
+                      <property name="usePrimitiveArrays" value="false"/>
+                    </module>
+                    <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_Object Compiler" classname="ncsa.d2k.modules.projects.pgroves.util.Objects2Array" xloc="574" yloc="246">
+                      <input index="0" classname="java.lang.Object"/>
+                      <input index="1" classname="java.lang.Integer"/>
+                      <output index="0" classname="[Ljava.lang.Object">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_ObjectArrayToPrimitiveArray" index="0"/>
+                      </output>
+                      <property name="debug" value="false"/>
+                      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAACw=="/>
+                      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAs="/>
+                    </module>
+                    <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_ArrayToTable" classname="ncsa.d2k.modules.projects.pgroves.util.ArrayToTable" xloc="465" yloc="167">
+                      <input index="0" classname="[java.lang.Object:"/>
+                      <output index="0" classname="ncsa.d2k.modules.datatype.table.basic.MutableTableImpl">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_Object Compiler" index="0"/>
+                      </output>
+                      <property name="rowVsColumn" value="true"/>
+                      <property name="debug" value="false"/>
+                      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAB2Q=="/>
+                      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAADP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAB2Q=="/>
+                    </module>
+                    <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_Object Array Iterator" classname="ncsa.d2k.modules.projects.pgroves.util.Array2Objects" xloc="49" yloc="169">
+                      <input index="0" classname="[Ljava.lang.Object:"/>
+                      <output index="0" classname="java.lang.Object">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_FanOut3" index="0"/>
+                      </output>
+                      <output index="1" classname="java.lang.Integer">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_Object Compiler" index="1"/>
+                      </output>
+                      <property name="debug" value="false"/>
+                      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAB2QAAAAs="/>
+                      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAABf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAB2QAAAAs="/>
+                    </module>
+                    <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_ConcatTableArray" classname="ncsa.d2k.modules.projects.pgroves.util.ConcatTableArray" xloc="784" yloc="420">
+                      <input index="0" classname="[Lncsa.d2k.modules.core.datatype.table.Table:"/>
+                      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.MutableTableImpl">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1" index="1"/>
+                      </output>
+                      <property name="rowVsColumn" value="true"/>
+                      <property name="debug" value="false"/>
+                      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAACw=="/>
+                      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAACw=="/>
+                    </module>
+                    <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_IntFromProps" classname="ncsa.d2k.modules.projects.pgroves.util.IntProps" xloc="155" yloc="436">
+                      <output index="0" classname="java.lang.Integer">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_TriggerPush" index="0"/>
+                      </output>
+                      <property name="debug" value="false"/>
+                      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+                      <property name="integer" value="2"/>
+                    </module>
+                    <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_FanOut3" classname="ncsa.d2k.core.modules.FanOutModule" xloc="162" yloc="143">
+                      <input index="0" classname="java.lang.Object"/>
+                      <output index="0" classname="java.lang.Object">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_TriggerPush" index="1"/>
+                      </output>
+                      <output index="1" classname="java.lang.Object">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_NonParametricStatistics" index="0"/>
+                      </output>
+                      <output index="2" classname="java.lang.Object">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_TriggerPush2" index="1"/>
+                      </output>
+                      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAADAAAB2QAAAdkAAAHZ"/>
+                      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAACP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAADAAAB2QAAAdkAAAHZ"/>
+                    </module>
+                    <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_CopyDoubleVector" classname="ncsa.d2k.modules.projects.pgroves.util.CopyDoubleVector" xloc="347" yloc="163">
+                      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+                      <input index="1" classname="java.lang.Integer"/>
+                      <output index="0" classname="[D">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_ArrayToTable" index="0"/>
+                      </output>
+                      <property name="debug" value="false"/>
+                      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAB2Q=="/>
+                      <property name="rowVsCol" value="false"/>
+                      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAABf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAdk="/>
+                    </module>
+                    <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_NonParametricStatistics" classname="ncsa.d2k.modules.projects.pgroves.stats.NonParametricStats" xloc="240" yloc="87">
+                      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+                      <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+                      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.MutableTableImpl">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_CopyDoubleVector" index="0"/>
+                      </output>
+                      <property name="debug" value="false"/>
+                      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAB2Q=="/>
+                      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAWv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAdk="/>
+                    </module>
+                    <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_TriggerPush2" classname="ncsa.d2k.modules.core.control.TriggerPush" xloc="172" yloc="333">
+                      <input index="0" classname="java.lang.Object"/>
+                      <input index="1" classname="java.lang.Object"/>
+                      <output index="0" classname="java.lang.Object">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_NonParametricStatistics" index="1"/>
+                      </output>
+                      <property name="debug" value="false"/>
+                      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAB2Q=="/>
+                      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAdk="/>
+                    </module>
+                    <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="28" yloc="485">
+                      <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterPointImpl">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_TriggerPush2" index="0"/>
+                      </output>
+                      <itinerary label="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam">
+                        <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam_BinVariogram1_GenParam_GenParam_CreateParameter" classname="ncsa.d2k.modules.projects.pgroves.util.CreateParameter" xloc="327" yloc="231">
+                          <input index="0" classname="java.lang.Number"/>
+                          <input index="1" classname="java.lang.String"/>
+                          <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterPointImpl">
+                            <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam" index="0"/>
+                          </output>
+                          <property name="debug" value="false"/>
+                          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+                        </module>
+                        <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam_BinVariogram1_GenParam_GenParam_DoubleFromProps" classname="ncsa.d2k.modules.projects.pgroves.util.DoubleProps" xloc="89" yloc="191">
+                          <output index="0" classname="java.lang.Double">
+                            <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam_BinVariogram1_GenParam_GenParam_CreateParameter" index="0"/>
+                          </output>
+                          <property name="debug" value="false"/>
+                          <property name="double" value="1.0"/>
+                          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+                        </module>
+                        <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam_BinVariogram1_GenParam_GenParam_GenerateString" classname="ncsa.d2k.modules.projects.pgroves.util.file.GenerateString" xloc="103" yloc="284">
+                          <output index="0" classname="java.lang.String">
+                            <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_GenParam_BinVariogram1_GenParam_GenParam_CreateParameter" index="1"/>
+                          </output>
+                          <property name="debug" value="false"/>
+                          <property name="stringData" value="Param0"/>
+                          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+                        </module>
+                      </itinerary>
+                      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+                      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAA"/>
+                    </module>
+                    <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_TriggerPush" classname="ncsa.d2k.modules.core.control.TriggerPush" xloc="296" yloc="391">
+                      <input index="0" classname="java.lang.Object"/>
+                      <input index="1" classname="java.lang.Object"/>
+                      <output index="0" classname="java.lang.Object">
+                        <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogramWithOutlierRemoval_BinVariogram1_BinVariogram1_CopyDoubleVector" index="1"/>
+                      </output>
+                      <property name="debug" value="false"/>
+                      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAB2Q=="/>
+                      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAdk="/>
+                    </module>
+                  </itinerary>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_RemoveVariogramOutliers" classname="ncsa.d2k.modules.projects.pgroves.geostat.RemoveVariogramOutliers" xloc="180" yloc="344">
+                  <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+                  <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+                  <input index="2" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+                  <input index="3" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+                  <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.MutableTableImpl">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_FanOut5" index="0"/>
+                  </output>
+                  <output index="1" classname="ncsa.d2k.modules.core.datatype.table.Table">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval" index="2"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAACwAAAAE="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAADP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAABAAAAAAAAAAAAAAAAAAAAAB1cQB+AAMAAAACAAAACwAA
+AAE="/>
+                </module>
+                <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_FanOut5" classname="ncsa.d2k.core.modules.FanOutModule" xloc="396" yloc="389">
+                  <input index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.MutableTableImpl"/>
+                  <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.MutableTableImpl">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_SortTable" index="0"/>
+                  </output>
+                  <output index="1" classname="ncsa.d2k.modules.core.datatype.table.basic.MutableTableImpl">
+                    <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval_OKModelGenerator_BinVariogramWithOutlierRemoval_BinVariogramWithOutlierRemoval_Trigger Push" index="1"/>
+                  </output>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAACwAAAAs="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAACwAAAAs="/>
+                </module>
+              </itinerary>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAwAAAAAAAAAAAAAAAHVxAH4AAwAAAAEAAAAA"/>
+            </module>
+            <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_SplitParameter" classname="ncsa.d2k.modules.projects.pgroves.util.SplitParameter" xloc="448" yloc="663">
+              <input index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+              <output index="0" classname="ncsa.d2k.modules.datatype.parameter.impl.ParameterPointImpl">
+                <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OrdinaryKrigingModelGen" index="1"/>
+              </output>
+              <output index="1" classname="ncsa.d2k.modules.datatype.parameter.impl.ParameterPointImpl">
+                <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OptimizeVariogram" index="0"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAQAAAAE="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAQAAAAE="/>
+              <property name="splitIndex" value="3"/>
+            </module>
+            <module alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_FanOut1" classname="ncsa.d2k.core.modules.FanOutModule" xloc="179" yloc="318">
+              <input index="0" classname="java.lang.Object"/>
+              <output index="0" classname="java.lang.Object">
+                <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_CalcDistanceMatrix" index="0"/>
+              </output>
+              <output index="1" classname="java.lang.Object">
+                <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_RawSemivariogram" index="1"/>
+              </output>
+              <output index="2" classname="java.lang.Object">
+                <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_OrdinaryKrigingModelGen" index="0"/>
+              </output>
+              <output index="3" classname="java.lang.Object">
+                <destination alias="QKModelGenerator_OKModelGenerator_OKModelGenerator_BinVariogramWithOutlierRemoval" index="1"/>
+              </output>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAAEAAAAAQAAAAEAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAAEAAAAAQAAAAEAAAABAAAAAQ=="/>
+            </module>
+          </itinerary>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+        </module>
+        <module alias="QKModelGenerator_IBModelGen" classname="ncsa.d2k.modules.projects.pgroves.instancebased.InstanceBasedModelGen" xloc="196" yloc="215">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+          <output index="0" classname="ncsa.d2k.modules.projects.pgroves.instancebased.InverseDistanceWeightingModel">
+            <destination alias="QKModelGenerator_MakeQuantileTransform" index="1"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="threadCount" value="1"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAABv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+          <property name="scaleInputs" value="true"/>
+          <property name="makeModelAvailable" value="false"/>
+        </module>
+        <module alias="QKModelGenerator_MakeQuantileTransform" classname="ncsa.d2k.modules.projects.pgroves.geostat.MakeQuantileTransform" xloc="277" yloc="43">
+          <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+          <input index="1" classname="ncsa.d2k.modules.PredictionModelModule"/>
+          <output index="0" classname="ncsa.d2k.modules.projects.pgroves.geostat.QuantileTransformation">
+            <destination alias="QKModelGenerator_FanOut" index="0"/>
+          </output>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAACv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+        </module>
+        <module alias="QKModelGenerator_Reversible Quantile Transformation Object" classname="ncsa.d2k.modules.core.control.ObjectPasser" xloc="516" yloc="70">
+          <input index="0" classname="java.lang.Object"/>
+          <output index="0" classname="java.lang.Object">
+            <destination alias="QKModelGenerator" index="4"/>
+          </output>
+          <property name="output_Name" value="Object Out"/>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+          <property name="input_Name" value="Object In"/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+        </module>
+      </itinerary>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAgAAAAAAAAAA"/>
+    </module>
+    <module alias="ConcatTableArray" classname="ncsa.d2k.modules.projects.pgroves.util.ConcatTableArray" xloc="799" yloc="226">
+      <input index="0" classname="[Lncsa.d2k.modules.core.datatype.table.Table:"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.MutableTableImpl"/>
+      <property name="rowVsColumn" value="true"/>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+    <module alias="N-Fold Train Test" classname="ncsa.d2k.modules.core.transform.table.NFoldTrainTest" xloc="189" yloc="454">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.TrainTable"/>
+      <output index="1" classname="ncsa.d2k.modules.core.datatype.table.TestTable"/>
+      <output index="2" classname="java.lang.Integer">
+        <destination alias="Object Compiler" index="1"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAADAAAAAAAAAAAAAAAA"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAADAAAAAAAAAAAAAAAA"/>
+      <property name="seed" value="0"/>
+      <property name="numberFolds" value="36"/>
+    </module>
+    <module alias="SetTrainOrTest" classname="ncsa.d2k.modules.core.transform.table.SetTrainOrTest" xloc="234" yloc="224">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+        <destination alias="Model Predict" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+      <property name="trainVsTest" value="false"/>
+    </module>
+    <module alias="QKBiasByProps" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="63" yloc="48">
+      <output index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+      <itinerary label="QKBiasByProps">
+        <module alias="QKBiasByProps_MergeParameters2" classname="ncsa.d2k.modules.projects.pgroves.util.MergeParameters" xloc="529" yloc="313">
+          <input index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+          <input index="1" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+          <output index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+          <property name="debug" value="false"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+        </module>
+        <module alias="QKBiasByProps_OKBiasByProps" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="93" yloc="447">
+          <output index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint">
+            <destination alias="QKBiasByProps_MergeParameters2" index="1"/>
+          </output>
+          <itinerary label="QKBiasByProps_OKBiasByProps">
+            <module alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_Default Parameter Point1" classname="ncsa.d2k.modules.core.prediction.GetDefaultParamPoint" xloc="314" yloc="6">
+              <input index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterSpace"/>
+              <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint">
+                <destination alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_MergeParameters" index="0"/>
+              </output>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+            </module>
+            <module alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_MergeParameters" classname="ncsa.d2k.modules.projects.pgroves.util.MergeParameters" xloc="456" yloc="74">
+              <input index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+              <input index="1" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+              <output index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint">
+                <destination alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_MergeParameters1" index="0"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+            </module>
+            <module alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_MergeParameterSpaces" classname="ncsa.d2k.modules.projects.pgroves.util.MergeParameterSpaces" xloc="164" yloc="267">
+              <input index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterSpace"/>
+              <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterSpace"/>
+              <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterSpaceImpl">
+                <destination alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_Default Parameter Point" index="0"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+            </module>
+            <module alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_Variogram Param Space" classname="ncsa.d2k.modules.projects.pgroves.geostat.VariogramParamSpace" xloc="44" yloc="338">
+              <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterSpace">
+                <destination alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_MergeParameterSpaces" index="1"/>
+              </output>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+              <property name="currentSpace" binaryValue="rO0ABXNyAEBuY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUucGFyYW1ldGVyLmltcGwuUGFy
+YW1ldGVyU3BhY2VJbXBsZRQO1/7qA7gCAANJAAludW1TcGFjZXNbAA5wYXJhbWV0ZXJDb3VudHQA
+AltJWwADcmVzcQB+AAF4cgA7bmNzYS5kMmsubW9kdWxlcy5jb3JlLmRhdGF0eXBlLnRhYmxlLmJh
+c2ljLkV4YW1wbGVUYWJsZUltcGzK3t8Hk4cCSgIACFsADGlucHV0Q29sdW1uc3EAfgABWwAKaW5w
+dXROYW1lc3QAE1tMamF2YS9sYW5nL1N0cmluZztbAANpbnN0ADRbTG5jc2EvZDJrL21vZHVsZXMv
+Y29yZS9kYXRhdHlwZS90YWJsZS9iYXNpYy9Db2x1bW47WwANb3V0cHV0Q29sdW1uc3EAfgABWwAL
+b3V0cHV0TmFtZXNxAH4AA1sABG91dHNxAH4ABFsAB3Rlc3RTZXRxAH4AAVsACHRyYWluU2V0cQB+
+AAF4cgA6bmNzYS5kMmsubW9kdWxlcy5jb3JlLmRhdGF0eXBlLnRhYmxlLmJhc2ljLlN1YnNldFRh
+YmxlSW1wbPQ2I9Spqn+/AgABWwAGc3Vic2V0cQB+AAF4cgA7bmNzYS5kMmsubW9kdWxlcy5jb3Jl
+LmRhdGF0eXBlLnRhYmxlLmJhc2ljLk11dGFibGVUYWJsZUltcGwd6qDekZ1LAwIAAUwAD3RyYW5z
+Zm9ybWF0aW9uc3QAFUxqYXZhL3V0aWwvQXJyYXlMaXN0O3hyADRuY3NhLmQyay5tb2R1bGVzLmNv
+cmUuZGF0YXR5cGUudGFibGUuYmFzaWMuVGFibGVJbXBsAFs5XSd+004CAANbAAdjb2x1bW5zcQB+
+AARMAAdjb21tZW50dAASTGphdmEvbGFuZy9TdHJpbmc7TAAFbGFiZWxxAH4ACXhyAD5uY3NhLmQy
+ay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuRGVmYXVsdE1pc3NpbmdWYWx1ZXNUYWJsZc1h
+FmXqF+tcAgAIWgAVZGVmYXVsdE1pc3NpbmdCb29sZWFuQgASZGVmYXVsdE1pc3NpbmdCeXRlQwAS
+ZGVmYXVsdE1pc3NpbmdDaGFyRAAUZGVmYXVsdE1pc3NpbmdEb3VibGVJABFkZWZhdWx0TWlzc2lu
+Z0ludFsAF2RlZmF1bHRNaXNzaW5nQnl0ZUFycmF5dAACW0JbABdkZWZhdWx0TWlzc2luZ0NoYXJB
+cnJheXQAAltDTAAUZGVmYXVsdE1pc3NpbmdTdHJpbmdxAH4ACXhwAAAAAAAAAAAAAAAAAAAAAHVy
+AAJbQqzzF/gGCFTgAgAAeHAAAAABAHVyAAJbQ7AmZrDiXYSsAgAAeHAAAAABAAB0AAE/dXIANFtM
+bmNzYS5kMmsubW9kdWxlcy5jb3JlLmRhdGF0eXBlLnRhYmxlLmJhc2ljLkNvbHVtbjtrR/cz+7Fm
+NAIAAHhwAAAACXNyADduY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuYmFzaWMu
+RG91YmxlQ29sdW1urr+2vrr9auoCAAREAANtYXhEAANtaW5bAAVlbXB0eXQAAltaWwAIaW50ZXJu
+YWx0AAJbRHhyAD5uY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuYmFzaWMuTWlz
+c2luZ1ZhbHVlc0NvbHVtbucDpQ17ODYfAgACSQAQbnVtTWlzc2luZ1ZhbHVlc1sAB21pc3Npbmdx
+AH4AFnhyADluY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuYmFzaWMuQWJzdHJh
+Y3RDb2x1bW79CAiJgxdCcAIABVoACWlzTm9taW5hbFoACGlzU2NhbGFySQAEdHlwZUwAB2NvbW1l
+bnRxAH4ACUwABWxhYmVscQB+AAl4cAABAAAAAnB0ABJOdWdnZXQgQ29lZmZpY2llbnQAAAAAdXIA
+AltaV48gORS4XeICAAB4cAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAdXEAfgAcAAAAAwAAAHVyAAJb
+RD6mjBSrY1oeAgAAeHAAAAADAAAAAAAAAABAWQAAAAAAAH/4AAAAAAAAc3EAfgAVAAEAAAACcHQA
+FVNwaGVyaWNhbCBDb2VmZmljaWVudAAAAAB1cQB+ABwAAAADAAAAAAAAAAAAAAAAAAAAAAAAAHVx
+AH4AHAAAAAMAAAB1cQB+AB8AAAADAAAAAAAAAABAWQAAAAAAAAAAAAAAAAAAc3EAfgAVAAEAAAAC
+cHQAD1NwaGVyaWNhbCBSYW5nZQAAAAB1cQB+ABwAAAADAAAAAAAAAAAAAAAAAAAAAAAAAHVxAH4A
+HAAAAAMAAAB1cQB+AB8AAAADAAAAAAAAAABAWQAAAAAAAAAAAAAAAAAAc3EAfgAVAAEAAAACcHQA
+F0V4cG9uZW50aWFsIENvZWZmaWNpZW50AAAAAHVxAH4AHAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAA
+dXEAfgAcAAAAAwAAAHVxAH4AHwAAAAMAAAAAAAAAAEBZAAAAAAAAAAAAAAAAAABzcQB+ABUAAQAA
+AAJwdAARRXhwb25lbnRpYWwgUmFuZ2UAAAAAdXEAfgAcAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAB1
+cQB+ABwAAAADAAAAdXEAfgAfAAAAAwAAAAAAAAAAQFkAAAAAAAAAAAAAAAAAAHNxAH4AFQABAAAA
+AnB0ABRHYXVzc2lhbiBDb2VmZmljaWVudAAAAAB1cQB+ABwAAAADAAAAAAAAAAAAAAAAAAAAAAAA
+AHVxAH4AHAAAAAMAAAB1cQB+AB8AAAADAAAAAAAAAABAWQAAAAAAAAAAAAAAAAAAc3EAfgAVAAEA
+AAACcHQADkdhdXNzaWFuIFJhbmdlAAAAAHVxAH4AHAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAdXEA
+fgAcAAAAAwAAAHVxAH4AHwAAAAMAAAAAAAAAAEBZAAAAAAAAAAAAAAAAAABzcQB+ABUAAQAAAAJw
+dAARUG93ZXIgQ29lZmZpY2llbnQAAAAAdXEAfgAcAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAB1cQB+
+ABwAAAADAAAAdXEAfgAfAAAAAwAAAAAAAAAAQFkAAAAAAAAAAAAAAAAAAHNxAH4AFQABAAAAAnB0
+AA5Qb3dlciBFeHBvbmVudAAAAAB1cQB+ABwAAAADAAAAAAAAAAAAAAAAAAAAAAAAAHVxAH4AHAAA
+AAMAAAB1cQB+AB8AAAADAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAcHBzcgATamF2YS51dGlsLkFy
+cmF5TGlzdHiB0h2Zx2GdAwABSQAEc2l6ZXhwAAAAAHcEAAAACnh1cgACW0lNumAmduqypQIAAHhw
+AAAAAwAAAAAAAAABAAAAAnVxAH4ASwAAAAB1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtH
+AgAAeHAAAAAAcHVxAH4ASwAAAAB1cQB+AE4AAAAAcHVxAH4ASwAAAAB1cQB+AEsAAAAAAAAAAXVx
+AH4ASwAAAAEAAAAJdXEAfgBLAAAACQAAA+gAAAPoAAAD6AAAA+gAAAPoAAAD6AAAA+gAAAPoAAAA
+Cg=="/>
+            </module>
+            <module alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_Binning Param" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="69" yloc="124">
+              <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterPointImpl">
+                <destination alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_MergeParameters" index="1"/>
+              </output>
+              <itinerary label="QKBiasByProps_OKBiasByProps_OKBiasByProps_Binning Param">
+                <module alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_Binning Param_OKBiasByProps_Binning Param_GenParam_DoubleFromProps" classname="ncsa.d2k.modules.projects.pgroves.util.DoubleProps" xloc="89" yloc="191">
+                  <output index="0" classname="java.lang.Double">
+                    <destination alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_Binning Param_OKBiasByProps_Binning Param_GenParam_CreateParameter" index="0"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="double" value="12.0"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+                </module>
+                <module alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_Binning Param_OKBiasByProps_Binning Param_GenParam_CreateParameter" classname="ncsa.d2k.modules.projects.pgroves.util.CreateParameter" xloc="327" yloc="231">
+                  <input index="0" classname="java.lang.Number"/>
+                  <input index="1" classname="java.lang.String"/>
+                  <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterPointImpl">
+                    <destination alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_Binning Param" index="0"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+                </module>
+                <module alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_Binning Param_OKBiasByProps_Binning Param_GenParam_GenerateString" classname="ncsa.d2k.modules.projects.pgroves.util.file.GenerateString" xloc="103" yloc="284">
+                  <output index="0" classname="java.lang.String">
+                    <destination alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_Binning Param_OKBiasByProps_Binning Param_GenParam_CreateParameter" index="1"/>
+                  </output>
+                  <property name="debug" value="false"/>
+                  <property name="stringData" value="Num Bins"/>
+                  <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+                  <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+                </module>
+              </itinerary>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAA"/>
+            </module>
+            <module alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_Outlier Removal Param Space" classname="ncsa.d2k.modules.projects.pgroves.geostat.OutlierRemovalParamSpace" xloc="40" yloc="40">
+              <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterSpace">
+                <destination alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_Default Parameter Point1" index="0"/>
+              </output>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+              <property name="currentSpace" binaryValue="rO0ABXNyAEBuY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUucGFyYW1ldGVyLmltcGwuUGFy
+YW1ldGVyU3BhY2VJbXBsZRQO1/7qA7gCAANJAAludW1TcGFjZXNbAA5wYXJhbWV0ZXJDb3VudHQA
+AltJWwADcmVzcQB+AAF4cgA7bmNzYS5kMmsubW9kdWxlcy5jb3JlLmRhdGF0eXBlLnRhYmxlLmJh
+c2ljLkV4YW1wbGVUYWJsZUltcGzK3t8Hk4cCSgIACFsADGlucHV0Q29sdW1uc3EAfgABWwAKaW5w
+dXROYW1lc3QAE1tMamF2YS9sYW5nL1N0cmluZztbAANpbnN0ADRbTG5jc2EvZDJrL21vZHVsZXMv
+Y29yZS9kYXRhdHlwZS90YWJsZS9iYXNpYy9Db2x1bW47WwANb3V0cHV0Q29sdW1uc3EAfgABWwAL
+b3V0cHV0TmFtZXNxAH4AA1sABG91dHNxAH4ABFsAB3Rlc3RTZXRxAH4AAVsACHRyYWluU2V0cQB+
+AAF4cgA6bmNzYS5kMmsubW9kdWxlcy5jb3JlLmRhdGF0eXBlLnRhYmxlLmJhc2ljLlN1YnNldFRh
+YmxlSW1wbPQ2I9Spqn+/AgABWwAGc3Vic2V0cQB+AAF4cgA7bmNzYS5kMmsubW9kdWxlcy5jb3Jl
+LmRhdGF0eXBlLnRhYmxlLmJhc2ljLk11dGFibGVUYWJsZUltcGwd6qDekZ1LAwIAAUwAD3RyYW5z
+Zm9ybWF0aW9uc3QAFUxqYXZhL3V0aWwvQXJyYXlMaXN0O3hyADRuY3NhLmQyay5tb2R1bGVzLmNv
+cmUuZGF0YXR5cGUudGFibGUuYmFzaWMuVGFibGVJbXBsAFs5XSd+004CAANbAAdjb2x1bW5zcQB+
+AARMAAdjb21tZW50dAASTGphdmEvbGFuZy9TdHJpbmc7TAAFbGFiZWxxAH4ACXhyAD5uY3NhLmQy
+ay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuRGVmYXVsdE1pc3NpbmdWYWx1ZXNUYWJsZc1h
+FmXqF+tcAgAIWgAVZGVmYXVsdE1pc3NpbmdCb29sZWFuQgASZGVmYXVsdE1pc3NpbmdCeXRlQwAS
+ZGVmYXVsdE1pc3NpbmdDaGFyRAAUZGVmYXVsdE1pc3NpbmdEb3VibGVJABFkZWZhdWx0TWlzc2lu
+Z0ludFsAF2RlZmF1bHRNaXNzaW5nQnl0ZUFycmF5dAACW0JbABdkZWZhdWx0TWlzc2luZ0NoYXJB
+cnJheXQAAltDTAAUZGVmYXVsdE1pc3NpbmdTdHJpbmdxAH4ACXhwAAAAAAAAAAAAAAAAAAAAAHVy
+AAJbQqzzF/gGCFTgAgAAeHAAAAABAHVyAAJbQ7AmZrDiXYSsAgAAeHAAAAABAAB0AAE/dXIANFtM
+bmNzYS5kMmsubW9kdWxlcy5jb3JlLmRhdGF0eXBlLnRhYmxlLmJhc2ljLkNvbHVtbjtrR/cz+7Fm
+NAIAAHhwAAAAAnNyADduY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuYmFzaWMu
+RG91YmxlQ29sdW1urr+2vrr9auoCAAREAANtYXhEAANtaW5bAAVlbXB0eXQAAltaWwAIaW50ZXJu
+YWx0AAJbRHhyAD5uY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuYmFzaWMuTWlz
+c2luZ1ZhbHVlc0NvbHVtbucDpQ17ODYfAgACSQAQbnVtTWlzc2luZ1ZhbHVlc1sAB21pc3Npbmdx
+AH4AFnhyADluY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuYmFzaWMuQWJzdHJh
+Y3RDb2x1bW79CAiJgxdCcAIABVoACWlzTm9taW5hbFoACGlzU2NhbGFySQAEdHlwZUwAB2NvbW1l
+bnRxAH4ACUwABWxhYmVscQB+AAl4cAABAAAAAnB0ABBDaGFuZ2UgVGhyZXNob2xkAAAAAHVyAAJb
+WlePIDkUuF3iAgAAeHAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAHVxAH4AHAAAAAMAAAB1cgACW0Q+
+powUq2NaHgIAAHhwAAAAAwAAAAAAAAAAP/AAAAAAAAA/qZmZmZmZmnNyADRuY3NhLmQyay5tb2R1
+bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuYmFzaWMuSW50Q29sdW1uL20rbBZq4xoCAARJAANtYXhJ
+AANtaW5bAAVlbXB0eXEAfgAWWwAIaW50ZXJuYWxxAH4AAXhxAH4AGAABAAAAAHB0ABpNYXhpbXVt
+IE91dGxpZXJzIHRvIFJlbW92ZQAAAAB1cQB+ABwAAAADAAAAAAAAAAAAAAB1cQB+ABwAAAADAAAA
+dXIAAltJTbpgJnbqsqUCAAB4cAAAAAMAAAABAAAADwAAAABwcHNyABNqYXZhLnV0aWwuQXJyYXlM
+aXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAAAdwQAAAAKeHVxAH4AJgAAAAMAAAAAAAAAAQAAAAJ1
+cQB+ACYAAAAAdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHB1cQB+ACYA
+AAAAdXEAfgAsAAAAAHB1cQB+ACYAAAAAdXEAfgAmAAAAAAAAAAF1cQB+ACYAAAABAAAAAnVxAH4A
+JgAAAAIAAABkAAAADw=="/>
+            </module>
+            <module alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_Default Parameter Point" classname="ncsa.d2k.modules.core.prediction.GetDefaultParamPoint" xloc="347" yloc="221">
+              <input index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterSpace"/>
+              <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint">
+                <destination alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_MergeParameters1" index="1"/>
+              </output>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+            </module>
+            <module alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_Neighborhood Param Space" classname="ncsa.d2k.modules.projects.pgroves.geostat.NeighborhoodParamSpace" xloc="22" yloc="190">
+              <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterSpace">
+                <destination alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_MergeParameterSpaces" index="0"/>
+              </output>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+              <property name="currentSpace" binaryValue="rO0ABXNyAEBuY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUucGFyYW1ldGVyLmltcGwuUGFy
+YW1ldGVyU3BhY2VJbXBsZRQO1/7qA7gCAANJAAludW1TcGFjZXNbAA5wYXJhbWV0ZXJDb3VudHQA
+AltJWwADcmVzcQB+AAF4cgA7bmNzYS5kMmsubW9kdWxlcy5jb3JlLmRhdGF0eXBlLnRhYmxlLmJh
+c2ljLkV4YW1wbGVUYWJsZUltcGzK3t8Hk4cCSgIACFsADGlucHV0Q29sdW1uc3EAfgABWwAKaW5w
+dXROYW1lc3QAE1tMamF2YS9sYW5nL1N0cmluZztbAANpbnN0ADRbTG5jc2EvZDJrL21vZHVsZXMv
+Y29yZS9kYXRhdHlwZS90YWJsZS9iYXNpYy9Db2x1bW47WwANb3V0cHV0Q29sdW1uc3EAfgABWwAL
+b3V0cHV0TmFtZXNxAH4AA1sABG91dHNxAH4ABFsAB3Rlc3RTZXRxAH4AAVsACHRyYWluU2V0cQB+
+AAF4cgA6bmNzYS5kMmsubW9kdWxlcy5jb3JlLmRhdGF0eXBlLnRhYmxlLmJhc2ljLlN1YnNldFRh
+YmxlSW1wbPQ2I9Spqn+/AgABWwAGc3Vic2V0cQB+AAF4cgA7bmNzYS5kMmsubW9kdWxlcy5jb3Jl
+LmRhdGF0eXBlLnRhYmxlLmJhc2ljLk11dGFibGVUYWJsZUltcGwd6qDekZ1LAwIAAUwAD3RyYW5z
+Zm9ybWF0aW9uc3QAFUxqYXZhL3V0aWwvQXJyYXlMaXN0O3hyADRuY3NhLmQyay5tb2R1bGVzLmNv
+cmUuZGF0YXR5cGUudGFibGUuYmFzaWMuVGFibGVJbXBsAFs5XSd+004CAANbAAdjb2x1bW5zcQB+
+AARMAAdjb21tZW50dAASTGphdmEvbGFuZy9TdHJpbmc7TAAFbGFiZWxxAH4ACXhyAD5uY3NhLmQy
+ay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuRGVmYXVsdE1pc3NpbmdWYWx1ZXNUYWJsZc1h
+FmXqF+tcAgAIWgAVZGVmYXVsdE1pc3NpbmdCb29sZWFuQgASZGVmYXVsdE1pc3NpbmdCeXRlQwAS
+ZGVmYXVsdE1pc3NpbmdDaGFyRAAUZGVmYXVsdE1pc3NpbmdEb3VibGVJABFkZWZhdWx0TWlzc2lu
+Z0ludFsAF2RlZmF1bHRNaXNzaW5nQnl0ZUFycmF5dAACW0JbABdkZWZhdWx0TWlzc2luZ0NoYXJB
+cnJheXQAAltDTAAUZGVmYXVsdE1pc3NpbmdTdHJpbmdxAH4ACXhwAAAAAAAAAAAAAAAAAAAAAHVy
+AAJbQqzzF/gGCFTgAgAAeHAAAAABAHVyAAJbQ7AmZrDiXYSsAgAAeHAAAAABAAB0AAE/dXIANFtM
+bmNzYS5kMmsubW9kdWxlcy5jb3JlLmRhdGF0eXBlLnRhYmxlLmJhc2ljLkNvbHVtbjtrR/cz+7Fm
+NAIAAHhwAAAAA3NyADduY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuYmFzaWMu
+RG91YmxlQ29sdW1urr+2vrr9auoCAAREAANtYXhEAANtaW5bAAVlbXB0eXQAAltaWwAIaW50ZXJu
+YWx0AAJbRHhyAD5uY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuYmFzaWMuTWlz
+c2luZ1ZhbHVlc0NvbHVtbucDpQ17ODYfAgACSQAQbnVtTWlzc2luZ1ZhbHVlc1sAB21pc3Npbmdx
+AH4AFnhyADluY3NhLmQyay5tb2R1bGVzLmNvcmUuZGF0YXR5cGUudGFibGUuYmFzaWMuQWJzdHJh
+Y3RDb2x1bW79CAiJgxdCcAIABVoACWlzTm9taW5hbFoACGlzU2NhbGFySQAEdHlwZUwAB2NvbW1l
+bnRxAH4ACUwABWxhYmVscQB+AAl4cAABAAAAAnB0AAZSYWRpdXMAAAAAdXIAAltaV48gORS4XeIC
+AAB4cAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAdXEAfgAcAAAAAwAAAHVyAAJbRD6mjBSrY1oeAgAA
+eHAAAAADAAAAAAAAAABAWQAAAAAAAEB8IAAAAAAAc3IANG5jc2EuZDJrLm1vZHVsZXMuY29yZS5k
+YXRhdHlwZS50YWJsZS5iYXNpYy5JbnRDb2x1bW4vbStsFmrjGgIABEkAA21heEkAA21pblsABWVt
+cHR5cQB+ABZbAAhpbnRlcm5hbHEAfgABeHEAfgAYAAEAAAAAcHQAGE1pbmltdW0gTnVtYmVyIE5l
+aWdoYm9ycwAAAAB1cQB+ABwAAAADAAAAAAAAAAAAAAB1cQB+ABwAAAADAAAAdXIAAltJTbpgJnbq
+sqUCAAB4cAAAAAMAAAABAAAADwAAAANzcQB+ACEAAQAAAABwdAAYTWF4aW11bSBOdW1iZXIgTmVp
+Z2hib3JzAAAAAHVxAH4AHAAAAAMAAAAAAAAAAAAAAHVxAH4AHAAAAAMAAAB1cQB+ACYAAAADAAAA
+BQAAAGQAAAAPcHBzcgATamF2YS51dGlsLkFycmF5TGlzdHiB0h2Zx2GdAwABSQAEc2l6ZXhwAAAA
+AHcEAAAACnh1cQB+ACYAAAADAAAAAAAAAAEAAAACdXEAfgAmAAAAAHVyABNbTGphdmEubGFuZy5T
+dHJpbmc7rdJW5+kde0cCAAB4cAAAAABwdXEAfgAmAAAAAHVxAH4AMQAAAABwdXEAfgAmAAAAAHVx
+AH4AJgAAAAAAAAABdXEAfgAmAAAAAQAAAAN1cQB+ACYAAAADAAAAZAAAAA8AAAAK"/>
+            </module>
+            <module alias="QKBiasByProps_OKBiasByProps_OKBiasByProps_MergeParameters1" classname="ncsa.d2k.modules.projects.pgroves.util.MergeParameters" xloc="588" yloc="122">
+              <input index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+              <input index="1" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+              <output index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint">
+                <destination alias="QKBiasByProps_OKBiasByProps" index="5"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+            </module>
+          </itinerary>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAA"/>
+        </module>
+        <module alias="QKBiasByProps_IBBiasByProps" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="87" yloc="256">
+          <output index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint">
+            <destination alias="QKBiasByProps_MergeParameters2" index="0"/>
+          </output>
+          <itinerary label="QKBiasByProps_IBBiasByProps">
+            <module alias="QKBiasByProps_IBBiasByProps_IBBiasByProps_GenerateString" classname="ncsa.d2k.modules.projects.pgroves.util.file.GenerateString" xloc="104" yloc="117">
+              <output index="0" classname="java.lang.String">
+                <destination alias="QKBiasByProps_IBBiasByProps_IBBiasByProps_CreateParameter" index="1"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="stringData" value="Neighborhood Size"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+            </module>
+            <module alias="QKBiasByProps_IBBiasByProps_IBBiasByProps_MergeParameters" classname="ncsa.d2k.modules.projects.pgroves.util.MergeParameters" xloc="503" yloc="190">
+              <input index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+              <input index="1" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+              <output index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint">
+                <destination alias="QKBiasByProps_IBBiasByProps_IBBiasByProps_MergeParameters1" index="0"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+            </module>
+            <module alias="QKBiasByProps_IBBiasByProps_IBBiasByProps_MergeParameters1" classname="ncsa.d2k.modules.projects.pgroves.util.MergeParameters" xloc="634" yloc="305">
+              <input index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+              <input index="1" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint"/>
+              <output index="0" classname="ncsa.d2k.modules.datatype.parameter.ParameterPoint">
+                <destination alias="QKBiasByProps_IBBiasByProps" index="2"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+            </module>
+            <module alias="QKBiasByProps_IBBiasByProps_IBBiasByProps_CreateParameter1" classname="ncsa.d2k.modules.projects.pgroves.util.CreateParameter" xloc="263" yloc="267">
+              <input index="0" classname="java.lang.Number"/>
+              <input index="1" classname="java.lang.String"/>
+              <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterPointImpl">
+                <destination alias="QKBiasByProps_IBBiasByProps_IBBiasByProps_MergeParameters" index="1"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+            </module>
+            <module alias="QKBiasByProps_IBBiasByProps_IBBiasByProps_GenerateString2" classname="ncsa.d2k.modules.projects.pgroves.util.file.GenerateString" xloc="113" yloc="528">
+              <output index="0" classname="java.lang.String">
+                <destination alias="QKBiasByProps_IBBiasByProps_IBBiasByProps_CreateParameter2" index="1"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="stringData" value="Zero Distance Substitution"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+            </module>
+            <module alias="QKBiasByProps_IBBiasByProps_IBBiasByProps_IntFromProps1" classname="ncsa.d2k.modules.projects.pgroves.util.IntProps" xloc="121" yloc="249">
+              <output index="0" classname="java.lang.Integer">
+                <destination alias="QKBiasByProps_IBBiasByProps_IBBiasByProps_CreateParameter1" index="0"/>
+              </output>
+              <property name="debug" value="true"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+              <property name="integer" value="2"/>
+            </module>
+            <module alias="QKBiasByProps_IBBiasByProps_IBBiasByProps_CreateParameter" classname="ncsa.d2k.modules.projects.pgroves.util.CreateParameter" xloc="281" yloc="88">
+              <input index="0" classname="java.lang.Number"/>
+              <input index="1" classname="java.lang.String"/>
+              <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterPointImpl">
+                <destination alias="QKBiasByProps_IBBiasByProps_IBBiasByProps_MergeParameters" index="0"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+            </module>
+            <module alias="QKBiasByProps_IBBiasByProps_IBBiasByProps_IntFromProps" classname="ncsa.d2k.modules.projects.pgroves.util.IntProps" xloc="107" yloc="48">
+              <output index="0" classname="java.lang.Integer">
+                <destination alias="QKBiasByProps_IBBiasByProps_IBBiasByProps_CreateParameter" index="0"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+              <property name="integer" value="5"/>
+            </module>
+            <module alias="QKBiasByProps_IBBiasByProps_IBBiasByProps_GenerateString1" classname="ncsa.d2k.modules.projects.pgroves.util.file.GenerateString" xloc="116" yloc="322">
+              <output index="0" classname="java.lang.String">
+                <destination alias="QKBiasByProps_IBBiasByProps_IBBiasByProps_CreateParameter1" index="1"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="stringData" value="Distance Weighting Power"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+            </module>
+            <module alias="QKBiasByProps_IBBiasByProps_IBBiasByProps_CreateParameter2" classname="ncsa.d2k.modules.projects.pgroves.util.CreateParameter" xloc="315" yloc="486">
+              <input index="0" classname="java.lang.Number"/>
+              <input index="1" classname="java.lang.String"/>
+              <output index="0" classname="ncsa.d2k.modules.core.datatype.parameter.impl.ParameterPointImpl">
+                <destination alias="QKBiasByProps_IBBiasByProps_IBBiasByProps_MergeParameters1" index="1"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+            </module>
+            <module alias="QKBiasByProps_IBBiasByProps_IBBiasByProps_DoubleFromProps" classname="ncsa.d2k.modules.projects.pgroves.util.DoubleProps" xloc="113" yloc="445">
+              <output index="0" classname="java.lang.Double">
+                <destination alias="QKBiasByProps_IBBiasByProps_IBBiasByProps_CreateParameter2" index="0"/>
+              </output>
+              <property name="debug" value="false"/>
+              <property name="double" value="0.01"/>
+              <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+              <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+            </module>
+          </itinerary>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAA"/>
+        </module>
+      </itinerary>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAA"/>
+    </module>
+    <module alias="ReadSerialized" classname="ncsa.d2k.core.modules.agenda.ItineraryModule" xloc="47" yloc="108">
+      <output index="0" classname="java.lang.Object">
+        <destination alias="TriggerPush" index="0"/>
+      </output>
+      <itinerary label="ReadSerialized">
+        <module alias="ReadSerialized_Input Serialized Object" classname="ncsa.d2k.modules.core.io.file.input.InputSerializedObject" xloc="220" yloc="191">
+          <input index="0" classname="java.lang.String"/>
+          <output index="0" classname="java.lang.Object">
+            <destination alias="ReadSerialized" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAQv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+        </module>
+        <module alias="ReadSerialized_Input File Name" classname="ncsa.d2k.modules.core.io.file.input.Input1FileName" xloc="65" yloc="156">
+          <output index="0" classname="java.lang.String">
+            <destination alias="ReadSerialized_Input Serialized Object" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+          <property name="fileName" value="/home/dat/moire/bp/data/results/benzeneBestParam_041104-expnugget.ser"/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+        </module>
+      </itinerary>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAA"/>
+    </module>
+    <module alias="ObjectArrayToPrimitiveArray" classname="ncsa.d2k.modules.projects.pgroves.util.ObjectArrayToPrimitiveArray" xloc="614" yloc="258">
+      <input index="0" classname="[Ljava.lang.Object:"/>
+      <output index="0" classname="java.lang.Object">
+        <destination alias="ConcatTableArray" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="usePrimitiveArrays" value="false"/>
+    </module>
+    <module alias="Model Predict" classname="ncsa.d2k.modules.core.prediction.ModelPredict" xloc="424" yloc="141">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+      <input index="1" classname="ncsa.d2k.modules.PredictionModelModule"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable">
+        <destination alias="UntransformPredictions" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAs///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+    </module>
+    <module alias="ETCopier" classname="ncsa.d2k.modules.projects.pgroves.util.ETCopier" xloc="107" yloc="276">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.ExampleTableImpl"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.ExampleTableImpl">
+        <destination alias="SetTrainOrTest1" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.datatype.table.basic.ExampleTableImpl">
+        <destination alias="SetTrainOrTest" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAQAAAAE="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAQAAAAE="/>
+    </module>
+    <module alias="UntransformPredictions" classname="ncsa.d2k.modules.projects.pgroves.util.UntransformPredictions" xloc="535" yloc="164">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.PredictionTableImpl"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.table.ReversibleTransformation"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable">
+        <destination alias="Table Viewer2" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAi///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+    </module>
+    <module alias="SetTrainOrTest1" classname="ncsa.d2k.modules.core.transform.table.SetTrainOrTest" xloc="125" yloc="170">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+        <destination alias="FanOut" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAI///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+      <property name="trainVsTest" value="true"/>
+    </module>
+    <module alias="TriggerPush" classname="ncsa.d2k.modules.core.control.TriggerPush" xloc="253" yloc="42">
+      <input index="0" classname="java.lang.Object"/>
+      <input index="1" classname="java.lang.Object"/>
+      <output index="0" classname="java.lang.Object">
+        <destination alias="QKModelGenerator" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+    </module>
+    <module alias="Table Viewer2" classname="ncsa.d2k.modules.core.vis.TableViewer" xloc="797" yloc="109">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <property name="maxFractionDigits" value="-1"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="windowName" value="Table Viewer"/>
+    </module>
+    <module alias="ParametricStats" classname="ncsa.d2k.modules.projects.pgroves.stats.ParametricStats" xloc="519" yloc="414">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.TableImpl">
+        <destination alias="Table Viewer" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+    </module>
+  </itinerary>
+</toolkit>

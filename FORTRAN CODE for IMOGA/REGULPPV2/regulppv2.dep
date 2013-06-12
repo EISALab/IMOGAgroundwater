@@ -1,0 +1,5 @@
+# Microsoft Developer Studio Generated Dependency File, included by regulppv2.mak
+
+.\kt3dV_ppv_orig.F : \
+	".\kt3d.inc"\
+	

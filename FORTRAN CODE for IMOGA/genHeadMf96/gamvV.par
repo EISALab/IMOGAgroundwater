@@ -1,0 +1,17 @@
+                  Parameters for GAMV
+                  *******************
+
+START OF PARAMETERS:
+freyberg_obs.prn               \file with data
+2   3   0                         \   columns for X, Y, Z coordinates
+1   6                         \   number of varables,column numbers
+-100.0     1.0e21                \   trimming limits
+HydCondVar.out                          \file for variogram output
+40                                \number of lags
+200                               \lag separation distance
+200                               \lag tolerance
+1                                 \number of directions
+0.0 180.0 1000.0   0.0  90.0  50000.0  \azm,atol,bandh,dip,dtol,bandv
+0                                 \standardize sills? (0=no, 1=yes)
+1                                 \number of variograms
+1   1   1                         \tail var., head var., variogram type

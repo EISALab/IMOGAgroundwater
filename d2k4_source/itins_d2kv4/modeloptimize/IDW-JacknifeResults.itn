@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAAjdwgAAAAUAAAAGnQABkZhbk91dHNyABtuY3NhLmQyay5jb3JlLlJlc291cmNlRW50cnnVLiwg
+QgMm0gIAAkwADGNhY2hlZE9iamVjdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wAD29iamVjdENsYXNz
+TmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwcHQAIm5jc2EuZDJrLmNvcmUubW9kdWxlcy5GYW5P
+dXRNb2R1bGV0ABBDb25jYXRUYWJsZUFycmF5c3EAfgAEcHQAN25jc2EuZDJrLm1vZHVsZXMucHJv
+amVjdHMucGdyb3Zlcy51dGlsLkNvbmNhdFRhYmxlQXJyYXl0ABpSZWFkRVRfUGFyc2UgRmlsZSBU
+byBUYWJsZXNxAH4ABHB0ADRuY3NhLmQyay5tb2R1bGVzLmNvcmUuaW8uZmlsZS5pbnB1dC5QYXJz
+ZUZpbGVUb1RhYmxldAAjUmVhZEVUX0NyZWF0ZSBEZWxpbWl0ZWQgRmlsZSBQYXJzZXJzcQB+AARw
+dAA5bmNzYS5kMmsubW9kdWxlcy5jb3JlLmlvLmZpbGUuaW5wdXQuQ3JlYXRlRGVsaW1pdGVkUGFy
+c2VydAAbSUJCaWFzQnlQcm9wc19JbnRGcm9tUHJvcHMxc3EAfgAEcHQAL25jc2EuZDJrLm1vZHVs
+ZXMucHJvamVjdHMucGdyb3Zlcy51dGlsLkludFByb3BzdAARTi1Gb2xkIFRyYWluIFRlc3RzcQB+
+AARwdAA0bmNzYS5kMmsubW9kdWxlcy5jb3JlLnRyYW5zZm9ybS50YWJsZS5ORm9sZFRyYWluVGVz
+dHQAD09iamVjdCBDb21waWxlcnNxAH4ABHB0ADRuY3NhLmQyay5tb2R1bGVzLnByb2plY3RzLnBn
+cm92ZXMudXRpbC5PYmplY3RzMkFycmF5dAALVHJpZ2dlclB1c2hzcQB+AARwdAApbmNzYS5kMmsu
+bW9kdWxlcy5jb3JlLmNvbnRyb2wuVHJpZ2dlclB1c2h0AAxUYWJsZSBWaWV3ZXJzcQB+AARwdAAl
+bmNzYS5kMmsubW9kdWxlcy5jb3JlLnZpcy5UYWJsZVZpZXdlcnQAG09iamVjdEFycmF5VG9Qcmlt
+aXRpdmVBcnJheXNxAH4ABHB0AEJuY3NhLmQyay5tb2R1bGVzLnByb2plY3RzLnBncm92ZXMudXRp
+bC5PYmplY3RBcnJheVRvUHJpbWl0aXZlQXJyYXl0AB1JQkJpYXNCeVByb3BzX01lcmdlUGFyYW1l
+dGVyc3NxAH4ABHB0ADZuY3NhLmQyay5tb2R1bGVzLnByb2plY3RzLnBncm92ZXMudXRpbC5NZXJn
+ZVBhcmFtZXRlcnN0AA1Nb2RlbCBQcmVkaWN0c3EAfgAEcHQALW5jc2EuZDJrLm1vZHVsZXMuY29y
+ZS5wcmVkaWN0aW9uLk1vZGVsUHJlZGljdHQAHElCQmlhc0J5UHJvcHNfR2VuZXJhdGVTdHJpbmdz
+cQB+AARwdAA6bmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5wZ3JvdmVzLnV0aWwuZmlsZS5HZW5l
+cmF0ZVN0cmluZ3QAHUlCQmlhc0J5UHJvcHNfRG91YmxlRnJvbVByb3Bzc3EAfgAEcHQAMm5jc2Eu
+ZDJrLm1vZHVsZXMucHJvamVjdHMucGdyb3Zlcy51dGlsLkRvdWJsZVByb3BzdAAKSUJNb2RlbEdl
+bnNxAH4ABHB0AEVuY3NhLmQyay5tb2R1bGVzLnByb2plY3RzLnBncm92ZXMuaW5zdGFuY2ViYXNl
+ZC5JbnN0YW5jZUJhc2VkTW9kZWxHZW50ABpJQkJpYXNCeVByb3BzX0ludEZyb21Qcm9wc3NxAH4A
+BHBxAH4AFHQAHUlCQmlhc0J5UHJvcHNfQ3JlYXRlUGFyYW1ldGVyc3EAfgAEcHQANm5jc2EuZDJr
+Lm1vZHVsZXMucHJvamVjdHMucGdyb3Zlcy51dGlsLkNyZWF0ZVBhcmFtZXRlcnQAHklCQmlhc0J5
+UHJvcHNfQ3JlYXRlUGFyYW1ldGVyMnNxAH4ABHBxAH4AN3QAHUlCQmlhc0J5UHJvcHNfR2VuZXJh
+dGVTdHJpbmcyc3EAfgAEcHEAfgAsdAAeSUJCaWFzQnlQcm9wc19DcmVhdGVQYXJhbWV0ZXIxc3EA
+fgAEcHEAfgA3dAAbTWFrZV9rTk4tMF9Nb2RlbF9JQk1vZGVsR2Vuc3EAfgAEcHQARW5jc2EuZDJr
+Lm1vZHVsZXMucHJvamVjdHMucGdyb3Zlcy5pbnN0YW5jZWJhc2VkLkluc3RhbmNlQmFzZWRNb2Rl
+bEdlbnQAHUlCQmlhc0J5UHJvcHNfR2VuZXJhdGVTdHJpbmcxc3EAfgAEcHEAfgAsdAAWUmVhZEVU
+X0lucHV0IEZpbGUgTmFtZXNxAH4ABHB0ADJuY3NhLmQyay5tb2R1bGVzLmNvcmUuaW8uZmlsZS5p
+bnB1dC5JbnB1dDFGaWxlTmFtZXQAHklCQmlhc0J5UHJvcHNfTWVyZ2VQYXJhbWV0ZXJzMXNxAH4A
+BHBxAH4AJnQAGFJlYWRFVF9DaG9vc2UgQXR0cmlidXRlc3NxAH4ABHB0ADpuY3NhLmQyay5tb2R1
+bGVzLmNvcmUudHJhbnNmb3JtLmF0dHJpYnV0ZS5DaG9vc2VBdHRyaWJ1dGVzdAAdUmVhZEVUX0No
+b29zZSBBdHRyaWJ1dGUgVHlwZXNzcQB+AARwdAA+bmNzYS5kMmsubW9kdWxlcy5jb3JlLnRyYW5z
+Zm9ybS5hdHRyaWJ1dGUuQ2hvb3NlQXR0cmlidXRlVHlwZXN4" label="IDW-JacknifeResults.itn">
+    <annotation><![CDATA[<HTML>
+</HTML>]]></annotation>
+    <module alias="FanOut" classname="ncsa.d2k.core.modules.FanOutModule" xloc="250" yloc="173">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.TrainTable"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.TrainTable">
+        <destination alias="TriggerPush" index="1"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.datatype.table.TrainTable">
+        <destination alias="IBModelGen" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA="/>
+    </module>
+    <module alias="IBModelGen" classname="ncsa.d2k.modules.projects.pgroves.instancebased.InstanceBasedModelGen" xloc="476" yloc="45">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.parameter.ParameterPoint"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.pgroves.instancebased.InverseDistanceWeightingModel">
+        <destination alias="Model Predict" index="1"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="threadCount" value="1"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAGQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAALv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAABk="/>
+      <property name="scaleInputs" value="true"/>
+      <property name="makeModelAvailable" value="false"/>
+    </module>
+    <module alias="ObjectArrayToPrimitiveArray" classname="ncsa.d2k.modules.projects.pgroves.util.ObjectArrayToPrimitiveArray" xloc="613" yloc="204">
+      <input index="0" classname="[Ljava.lang.Object:"/>
+      <output index="0" classname="java.lang.Object">
+        <destination alias="ConcatTableArray" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAA///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+      <property name="usePrimitiveArrays" value="false"/>
+    </module>
+    <module alias="Model Predict" classname="ncsa.d2k.modules.core.prediction.ModelPredict" xloc="475" yloc="222">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+      <input index="1" classname="ncsa.d2k.modules.PredictionModelModule"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable">
+        <destination alias="Object Compiler" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAGQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAMv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAABk="/>
+    </module>
+    <module alias="Table Viewer" classname="ncsa.d2k.modules.core.vis.TableViewer" xloc="849" yloc="107">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <property name="maxFractionDigits" value="-1"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="windowName" value="Table Viewer"/>
+    </module>
+    <module alias="Object Compiler" classname="ncsa.d2k.modules.projects.pgroves.util.Objects2Array" xloc="559" yloc="285">
+      <input index="0" classname="java.lang.Object"/>
+      <input index="1" classname="java.lang.Integer"/>
+      <output index="0" classname="[Ljava.lang.Object">
+        <destination alias="ObjectArrayToPrimitiveArray" index="0"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAMf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+    </module>
+    <module alias="N-Fold Train Test" classname="ncsa.d2k.modules.core.transform.table.NFoldTrainTest" xloc="90" yloc="271">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.TrainTable">
+        <destination alias="FanOut" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.datatype.table.TestTable">
+        <destination alias="Model Predict" index="0"/>
+      </output>
+      <output index="2" classname="java.lang.Integer">
+        <destination alias="Object Compiler" index="1"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAADAAAAGQAAABkAAAAB"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAADAAAAGQAAABkAAAAB"/>
+      <property name="seed" value="0"/>
+      <property name="numberFolds" value="25"/>
+    </module>
+    <module alias="ConcatTableArray" classname="ncsa.d2k.modules.projects.pgroves.util.ConcatTableArray" xloc="742" yloc="149">
+      <input index="0" classname="[Lncsa.d2k.modules.core.datatype.table.Table:"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.MutableTableImpl">
+        <destination alias="Table Viewer" index="0"/>
+      </output>
+      <property name="rowVsColumn" value="true"/>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAFv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+    </module>
+    <module alias="TriggerPush" classname="ncsa.d2k.modules.core.control.TriggerPush" xloc="253" yloc="42">
+      <input index="0" classname="java.lang.Object"/>
+      <input index="1" classname="java.lang.Object"/>
+      <output index="0" classname="java.lang.Object">
+        <destination alias="IBModelGen" index="1"/>
+      </output>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAGQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAJv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAABk="/>
+    </module>
+  </itinerary>
+</toolkit>

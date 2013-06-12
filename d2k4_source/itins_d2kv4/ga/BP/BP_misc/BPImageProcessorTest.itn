@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AABHdwgAAABfAAAAJ3QAIEJQSW1hZ2VQcm9jZXNzb3JfSW5wdXQgRmlsZSBOYW1lc3IAG25jc2Eu
+ZDJrLmNvcmUuUmVzb3VyY2VFbnRyedUuLCBCAybSAgACTAAMY2FjaGVkT2JqZWN0dAASTGphdmEv
+bGFuZy9PYmplY3Q7TAAPb2JqZWN0Q2xhc3NOYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHBwdAAy
+bmNzYS5kMmsubW9kdWxlcy5jb3JlLmlvLmZpbGUuaW5wdXQuSW5wdXQxRmlsZU5hbWV0ACRCUElt
+YWdlUHJvY2Vzc29yX1BhcnNlIEZpbGUgVG8gVGFibGVzcQB+AARwdAA0bmNzYS5kMmsubW9kdWxl
+cy5jb3JlLmlvLmZpbGUuaW5wdXQuUGFyc2VGaWxlVG9UYWJsZXQAJkdlbmVyYXRlIEJQIElHQSBH
+V01vbml0b3JpbmdQb3B1bGF0aW9uc3EAfgAEcHQAXm5jc2EuZDJrLm1vZHVsZXMucHJvamVjdHMu
+bWJhYmJhci5vcHRpbWl6ZS5nYS5pZ2EuZXhhbXBsZXMuR2VuZXJhdGVCUF9JR0FfTW9uaXRvcmlu
+Z1BvcHVsYXRpb250ABxDcmVhdGUgRGVsaW1pdGVkIEZpbGUgUGFyc2Vyc3EAfgAEcHQAOW5jc2Eu
+ZDJrLm1vZHVsZXMuY29yZS5pby5maWxlLmlucHV0LkNyZWF0ZURlbGltaXRlZFBhcnNlcnQAIUJQ
+SW1hZ2VQcm9jZXNzb3JfSW5wdXQgRmlsZSBOYW1lMnNxAH4ABHBxAH4ACHQADVRhYmxlIFZpZXdl
+cjNzcQB+AARwdAAlbmNzYS5kMmsubW9kdWxlcy5jb3JlLnZpcy5UYWJsZVZpZXdlcnQAIUJQSW1h
+Z2VQcm9jZXNzb3JfSW5wdXQgRmlsZSBOYW1lMXNxAH4ABHBxAH4ACHQADVRhYmxlIFZpZXdlcjJz
+cQB+AARwdAAlbmNzYS5kMmsubW9kdWxlcy5jb3JlLnZpcy5UYWJsZVZpZXdlcnQAE1BhcnNlIEZp
+bGUgVG8gVGFibGVzcQB+AARwdAA0bmNzYS5kMmsubW9kdWxlcy5jb3JlLmlvLmZpbGUuaW5wdXQu
+UGFyc2VGaWxlVG9UYWJsZXQADVRhYmxlIFZpZXdlcjFzcQB+AARwcQB+ABt0AAxUYWJsZSBWaWV3
+ZXJzcQB+AARwcQB+ABt0ABtNdWx0aXBsZUZhbHNlQ29sb3JXaXRoV2VsbHNzcQB+AARwdABibmNz
+YS5kMmsubW9kdWxlcy5wcm9qZWN0cy5tYmFiYmFyLm9wdGltaXplLmdhLmlnYS5pbWFnZXByb2Nl
+c3NvcnMudXRpbC5NdWx0aXBsZUZhbHNlQ29sb3JXaXRoV2VsbHN0ACNCUEltYWdlUHJvY2Vzc29y
+X0NvbnZlcnRKUGFuZWxUb1BOR3NxAH4ABHB0AFluY3NhLmQyay5tb2R1bGVzLnByb2plY3RzLm1i
+YWJiYXIub3B0aW1pemUuZ2EuaWdhLmltYWdlcHJvY2Vzc29ycy51dGlsLkNvbnZlcnRKUGFuZWxU
+b1BOR3QAGUlHQTogUHJlcCBCUCBJbWFnZSBUYWJsZXNzcQB+AARwdABkbmNzYS5kMmsubW9kdWxl
+cy5wcm9qZWN0cy5tYmFiYmFyLm9wdGltaXplLmdhLmlnYS5pbWFnZXByb2Nlc3NvcnMuQlBJbWFn
+ZVByb2Nlc3Nvci5CUFByZXBJbWFnZVRhYmxlc3QALklHQTogU29sdXRpb25zIFJhbmtpbmcgU2Vj
+dGlvbiAoSlBhbmVsIGZvcm1hdClzcQB+AARwdABWbmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5t
+YmFiYmFyLm9wdGltaXplLmdhLmlnYS52aXMuSUdBU29sdXRpb25SYW5raW5nV2luZG93RkNKUGFu
+ZWx0AC1CUEltYWdlUHJvY2Vzc29yX0NyZWF0ZSBEZWxpbWl0ZWQgRmlsZSBQYXJzZXJzcQB+AARw
+dAA5bmNzYS5kMmsubW9kdWxlcy5jb3JlLmlvLmZpbGUuaW5wdXQuQ3JlYXRlRGVsaW1pdGVkUGFy
+c2VydAAeQlBJbWFnZVByb2Nlc3Nvcl9UYWJsZSBWaWV3ZXIzc3EAfgAEcHQAJW5jc2EuZDJrLm1v
+ZHVsZXMuY29yZS52aXMuVGFibGVWaWV3ZXJ0AB5CUEltYWdlUHJvY2Vzc29yX1RhYmxlIFZpZXdl
+cjJzcQB+AARwcQB+ADR0AB5CUEltYWdlUHJvY2Vzc29yX1RhYmxlIFZpZXdlcjFzcQB+AARwcQB+
+ADR0ABBJbnB1dCBGaWxlIE5hbWUyc3EAfgAEcHQAMm5jc2EuZDJrLm1vZHVsZXMuY29yZS5pby5m
+aWxlLmlucHV0LklucHV0MUZpbGVOYW1ldAAQSW5wdXQgRmlsZSBOYW1lMXNxAH4ABHBxAH4AO3QA
+FFBhcnNlIEZpbGUgVG8gVGFibGUyc3EAfgAEcHEAfgAedAAUUGFyc2UgRmlsZSBUbyBUYWJsZTFz
+cQB+AARwcQB+AB50AB1DcmVhdGUgRGVsaW1pdGVkIEZpbGUgUGFyc2VyMnNxAH4ABHBxAH4AEXQA
+HUNyZWF0ZSBEZWxpbWl0ZWQgRmlsZSBQYXJzZXIxc3EAfgAEcHEAfgARdAAZSW50ZXJwb2xhdGVF
+eGVjX0JpbmFyeUluZHNxAH4ABHB0AGBuY3NhLmQyay5tb2R1bGVzLnByb2plY3RzLm1iYWJiYXIu
+b3B0aW1pemUuZ2EuaWdhLmltYWdlcHJvY2Vzc29ycy51dGlsLkludGVycG9sYXRlRXhlY19CaW5h
+cnlJbmR0ABdCUEltYWdlUHJvY2Vzc29yX0Zhbk91dHNxAH4ABHB0ACJuY3NhLmQyay5jb3JlLm1v
+ZHVsZXMuRmFuT3V0TW9kdWxldAAPSW5wdXQgRmlsZSBOYW1lc3EAfgAEcHEAfgA7dAAlQlBJbWFn
+ZVByb2Nlc3Nvcl9QYXJzZSBGaWxlIFRvIFRhYmxlMnNxAH4ABHBxAH4AC3QAJUJQSW1hZ2VQcm9j
+ZXNzb3JfUGFyc2UgRmlsZSBUbyBUYWJsZTFzcQB+AARwcQB+AAt0ACpCUEltYWdlUHJvY2Vzc29y
+X0lHQTogUHJlcCBCUCBJbWFnZSBUYWJsZXNzcQB+AARwdABkbmNzYS5kMmsubW9kdWxlcy5wcm9q
+ZWN0cy5tYmFiYmFyLm9wdGltaXplLmdhLmlnYS5pbWFnZXByb2Nlc3NvcnMuQlBJbWFnZVByb2Nl
+c3Nvci5CUFByZXBJbWFnZVRhYmxlc3QALkJQSW1hZ2VQcm9jZXNzb3JfQ3JlYXRlIERlbGltaXRl
+ZCBGaWxlIFBhcnNlcjJzcQB+AARwcQB+ADF0AB9CUEltYWdlUHJvY2Vzc29yX1Nob3dQYW5lbFRh
+Ymxlc3EAfgAEcHQAVW5jc2EuZDJrLm1vZHVsZXMucHJvamVjdHMubWJhYmJhci5vcHRpbWl6ZS5n
+YS5pZ2EuaW1hZ2Vwcm9jZXNzb3JzLnV0aWwuU2hvd1BhbmVsVGFibGV0AB1CUEltYWdlUHJvY2Vz
+c29yX1RhYmxlIFZpZXdlcnNxAH4ABHBxAH4ANHQALkJQSW1hZ2VQcm9jZXNzb3JfQ3JlYXRlIERl
+bGltaXRlZCBGaWxlIFBhcnNlcjFzcQB+AARwcQB+ADF0ADdCUEltYWdlUHJvY2Vzc29yX0dlbmVy
+YXRlIEJQIElHQSBHV01vbml0b3JpbmdQb3B1bGF0aW9uc3EAfgAEcHQAXm5jc2EuZDJrLm1vZHVs
+ZXMucHJvamVjdHMubWJhYmJhci5vcHRpbWl6ZS5nYS5pZ2EuZXhhbXBsZXMuR2VuZXJhdGVCUF9J
+R0FfTW9uaXRvcmluZ1BvcHVsYXRpb250ACpCUEltYWdlUHJvY2Vzc29yX0ludGVycG9sYXRlRXhl
+Y19CaW5hcnlJbmRzcQB+AARwdABgbmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5tYmFiYmFyLm9w
+dGltaXplLmdhLmlnYS5pbWFnZXByb2Nlc3NvcnMudXRpbC5JbnRlcnBvbGF0ZUV4ZWNfQmluYXJ5
+SW5kdAAsQlBJbWFnZVByb2Nlc3Nvcl9NdWx0aXBsZUZhbHNlQ29sb3JXaXRoV2VsbHNzcQB+AARw
+dABibmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5tYmFiYmFyLm9wdGltaXplLmdhLmlnYS5pbWFn
+ZXByb2Nlc3NvcnMudXRpbC5NdWx0aXBsZUZhbHNlQ29sb3JXaXRoV2VsbHN0AChCUEltYWdlUHJv
+Y2Vzc29yX0lHQTogQlAgSW1hZ2UgUHJvY2Vzc29yc3EAfgAEcHQAY25jc2EuZDJrLm1vZHVsZXMu
+cHJvamVjdHMubWJhYmJhci5vcHRpbWl6ZS5nYS5pZ2EuaW1hZ2Vwcm9jZXNzb3JzLkJQSW1hZ2VQ
+cm9jZXNzb3IuQlBJbWFnZVByb2Nlc3Nvcng=" label="BPImageProcessorTest.itn">
+    <annotation><![CDATA[<p>
+      
+    </p>]]></annotation>
+    <module alias="Parse File To Table1" classname="ncsa.d2k.modules.core.io.file.input.ParseFileToTable" xloc="127" yloc="214">
+      <input index="0" classname="ncsa.d2k.modules.core.io.file.input.FlatFileParser"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.MutableTable">
+        <destination alias="Table Viewer1" index="0"/>
+      </output>
+      <property name="useBlanks" value="true"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAUP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+    </module>
+    <module alias="IGA: Prep BP Image Tables" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.imageprocessors.BPImageProcessor.BPPrepImageTables" xloc="291" yloc="26">
+      <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <input index="2" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="IGA: Solutions Ranking Section (JPanel format)" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.datatype.table.Table">
+        <destination alias="Table Viewer3" index="0"/>
+      </output>
+      <output index="2" classname="ncsa.d2k.modules.core.datatype.table.Table">
+        <destination alias="MultipleFalseColorWithWells" index="0"/>
+      </output>
+      <output index="3" classname="ncsa.d2k.modules.core.datatype.table.Table">
+        <destination alias="InterpolateExec_BinaryInd" index="0"/>
+      </output>
+      <property name="YPixelWidth" value="10.0"/>
+      <property name="YMin" value="440.0"/>
+      <property name="XMin" value="1360.0"/>
+      <property name="debug" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAAEAAAAAAAAAAAAAAAAAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAAAAAP+D3yr1AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAwAAAAAAAAAAAAAAAHVxAH4AAwAAAAQAAAAAAAAAAAAA
+AAAAAAAA"/>
+      <property name="XPixelWidth" value="10.0"/>
+    </module>
+    <module alias="Parse File To Table" classname="ncsa.d2k.modules.core.io.file.input.ParseFileToTable" xloc="73" yloc="100">
+      <input index="0" classname="ncsa.d2k.modules.core.io.file.input.FlatFileParser"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.MutableTable">
+        <destination alias="Table Viewer" index="0"/>
+      </output>
+      <property name="useBlanks" value="true"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAARv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+    </module>
+    <module alias="Create Delimited File Parser" classname="ncsa.d2k.modules.core.io.file.input.CreateDelimitedParser" xloc="0" yloc="166">
+      <input index="0" classname="java.lang.String"/>
+      <output index="0" classname="ncsa.d2k.modules.core.io.file.input.DelimitedFileParser">
+        <destination alias="Parse File To Table" index="0"/>
+      </output>
+      <property name="typesRow" value="1"/>
+      <property name="hasSpecDelim" value="false"/>
+      <property name="labelsRow" value="0"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAR///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+      <property name="hasTypes" value="true"/>
+      <property name="hasLabels" value="true"/>
+    </module>
+    <module alias="Parse File To Table2" classname="ncsa.d2k.modules.core.io.file.input.ParseFileToTable" xloc="299" yloc="343">
+      <input index="0" classname="ncsa.d2k.modules.core.io.file.input.FlatFileParser"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.MutableTable">
+        <destination alias="Table Viewer2" index="0"/>
+      </output>
+      <property name="useBlanks" value="true"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAARv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+    </module>
+    <module alias="Table Viewer" classname="ncsa.d2k.modules.core.vis.TableViewer" xloc="196" yloc="63">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table">
+        <destination alias="IGA: Prep BP Image Tables" index="1"/>
+      </output>
+      <property name="maxFractionDigits" value="-1"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+      <property name="windowName" value="Table Viewer"/>
+    </module>
+    <module alias="Table Viewer1" classname="ncsa.d2k.modules.core.vis.TableViewer" xloc="204" yloc="144">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table">
+        <destination alias="IGA: Prep BP Image Tables" index="2"/>
+      </output>
+      <property name="maxFractionDigits" value="-1"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+      <property name="windowName" value="Table Viewer1"/>
+    </module>
+    <module alias="IGA: Solutions Ranking Section (JPanel format)" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.vis.IGASolutionRankingWindowFCJPanel" xloc="554" yloc="108">
+      <input index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <input index="2" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.imageprocessors.util.FalseColorPanelArray"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="userImageMin" value="0.0"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAwAAAAAAAAAAAAAAAHVxAH4AAwAAAAEAAAAA"/>
+      <property name="windowName" value="IGA: Solutions Ranking Section (JPanel format)"/>
+      <property name="userImageMax" value="0.0"/>
+    </module>
+    <module alias="Input File Name" classname="ncsa.d2k.modules.core.io.file.input.Input1FileName" xloc="0" yloc="228">
+      <output index="0" classname="java.lang.String">
+        <destination alias="Create Delimited File Parser" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="fileName" value="C:\Program Files\D2K Basic\IGA_Table.csv"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+    </module>
+    <module alias="InterpolateExec_BinaryInd" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.imageprocessors.util.InterpolateExec_BinaryInd" xloc="406" yloc="309">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.TableImpl"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.table.basic.TableImpl"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.TableImpl">
+        <destination alias="MultipleFalseColorWithWells" index="1"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.datatype.table.basic.TableImpl">
+        <destination alias="MultipleFalseColorWithWells" index="2"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAgAAAAAAAAAA"/>
+    </module>
+    <module alias="Create Delimited File Parser2" classname="ncsa.d2k.modules.core.io.file.input.CreateDelimitedParser" xloc="229" yloc="261">
+      <input index="0" classname="java.lang.String"/>
+      <output index="0" classname="ncsa.d2k.modules.core.io.file.input.DelimitedFileParser">
+        <destination alias="Parse File To Table2" index="0"/>
+      </output>
+      <property name="typesRow" value="1"/>
+      <property name="hasSpecDelim" value="false"/>
+      <property name="labelsRow" value="0"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAWv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+      <property name="hasTypes" value="true"/>
+      <property name="hasLabels" value="true"/>
+    </module>
+    <module alias="MultipleFalseColorWithWells" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.imageprocessors.util.MultipleFalseColorWithWells" xloc="422" yloc="113">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <input index="2" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.imageprocessors.util.FalseColorPanelArray">
+        <destination alias="IGA: Solutions Ranking Section (JPanel format)" index="2"/>
+      </output>
+      <property name="debug" value="true"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAwAAAAAAAAAAAAAAAHVxAH4AAwAAAAEAAAAA"/>
+      <property name="numGridCols" value="132"/>
+      <property name="numGridRows" value="88"/>
+    </module>
+    <module alias="Generate BP IGA GWMonitoringPopulation" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.examples.GenerateBP_IGA_MonitoringPopulation" xloc="1" yloc="2">
+      <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+        <destination alias="IGA: Prep BP Image Tables" index="0"/>
+      </output>
+      <property name="targetFitness" value="0.01"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="worstFitness" value="1.0"/>
+      <property name="numberGenerations" value="10"/>
+      <property name="numExpectedHumanRankingSessions" value="10"/>
+      <property name="numIndivsForUserRanking" value="20"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAACv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+      <property name="bestFitness" value="0.0"/>
+      <property name="populationSize" value="10"/>
+      <property name="chromosomeSize" value="36"/>
+    </module>
+    <module alias="Table Viewer3" classname="ncsa.d2k.modules.core.vis.TableViewer" xloc="578" yloc="23">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table">
+        <destination alias="IGA: Solutions Ranking Section (JPanel format)" index="1"/>
+      </output>
+      <property name="maxFractionDigits" value="-1"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="windowName" value="Table Viewer3"/>
+    </module>
+    <module alias="Create Delimited File Parser1" classname="ncsa.d2k.modules.core.io.file.input.CreateDelimitedParser" xloc="48" yloc="280">
+      <input index="0" classname="java.lang.String"/>
+      <output index="0" classname="ncsa.d2k.modules.core.io.file.input.DelimitedFileParser">
+        <destination alias="Parse File To Table1" index="0"/>
+      </output>
+      <property name="typesRow" value="1"/>
+      <property name="hasSpecDelim" value="false"/>
+      <property name="labelsRow" value="0"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAb///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+      <property name="hasTypes" value="true"/>
+      <property name="hasLabels" value="true"/>
+    </module>
+    <module alias="Input File Name1" classname="ncsa.d2k.modules.core.io.file.input.Input1FileName" xloc="0" yloc="330">
+      <output index="0" classname="java.lang.String">
+        <destination alias="Create Delimited File Parser1" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="fileName" value="C:\Program Files\D2K Basic\mich.csv"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+    </module>
+    <module alias="Input File Name2" classname="ncsa.d2k.modules.core.io.file.input.Input1FileName" xloc="200" yloc="342">
+      <output index="0" classname="java.lang.String">
+        <destination alias="Create Delimited File Parser2" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="fileName" value="C:\Program Files\D2K Basic\BP_IGA_exec_interp_inputfile.txt"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+    </module>
+    <module alias="Table Viewer2" classname="ncsa.d2k.modules.core.vis.TableViewer" xloc="416" yloc="390">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table">
+        <destination alias="InterpolateExec_BinaryInd" index="1"/>
+      </output>
+      <property name="maxFractionDigits" value="-1"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+      <property name="windowName" value="Table Viewer2"/>
+    </module>
+  </itinerary>
+</toolkit>

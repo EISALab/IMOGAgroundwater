@@ -1,0 +1,12 @@
+                  Parameters for BACKTR
+                  *********************
+
+START OF PARAMETERS:
+Gaussian.txt                \file with data
+1                             \  column with Gaussian variable
+-1.0e21   1.0e21              \  trimming limits
+backtrWIPP9.out                    \file for output
+WIPPtrans9.trn          \file with input transformation table
+-3.0 3.0                      \minimum and maximum data value
+2    2.0                      \lower tail option and parameter
+2    2.0                      \upper tail option and parameter

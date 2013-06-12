@@ -1,0 +1,7 @@
+Length	Label	Start	Stop	Type
+int	String	int	int	String
+3	sepal-length	1	3	double
+3	sepal-width	4	6	double
+3	petal-length	7	9	double
+3	petal-width	10	12	double
+15	flower-type	13	27	String

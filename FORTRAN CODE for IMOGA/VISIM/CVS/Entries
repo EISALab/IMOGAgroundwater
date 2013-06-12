@@ -1,0 +1,33 @@
+/Makefile/1.39/Tue Jun 19 20:37:42 2007//
+/README/1.6/Fri May 11 17:48:49 2007//
+/make_all/1.1/Fri Jun  8 08:44:08 2007//
+/visim.f/1.42/Thu Sep 28 14:05:00 2006//
+/visim.inc/1.38/Wed Jun 20 09:47:49 2007//
+/visim_101_101_1_2000_199.inc/1.2/Wed Jun 20 09:47:49 2007//
+/visim_101_101_1_805_199.inc/1.2/Wed Jun 20 09:47:49 2007//
+/visim_201_201_1_805_199.inc/1.2/Wed Jun 20 09:47:49 2007//
+/visim_401_401_1_805_199.inc/1.2/Wed Jun 20 09:47:49 2007//
+/visim_51_51_1_2000_199.inc/1.2/Wed Jun 20 09:47:49 2007//
+/visim_51_51_2_805_199.inc/1.2/Wed Jun 20 09:47:49 2007//
+/visim_51_51_51_805_199.inc/1.2/Wed Jun 20 09:47:49 2007//
+/visim_condtab.f/1.27/Thu Oct 19 11:02:48 2006//
+/visim_cov_data2data.f/1.3/Thu Nov  4 15:33:16 2004//
+/visim_cov_data2vol.f/1.7/Wed Mar 22 14:27:24 2006//
+/visim_cov_vol2vol.f/1.6/Tue Aug 15 18:04:43 2006//
+/visim_ctable.f/1.1/Mon Jun  7 19:46:35 2004//
+/visim_getz.f/1.1/Mon Jun  7 19:46:35 2004//
+/visim_krige.f/1.6/Thu Sep 15 06:04:35 2005//
+/visim_krige_volume.f/1.30/Fri May 11 23:35:24 2007//
+/visim_makepar.f/1.6/Tue Aug 29 17:52:54 2006//
+/visim_nhoodvol.f/1.16/Wed Jul  4 08:48:02 2007//
+/visim_randpath.f/1.17/Fri Mar  3 12:38:17 2006//
+/visim_readpar.f/1.28/Fri Jun 22 10:16:20 2007//
+/visim_setup_krgvar.f/1.1/Mon Jun  7 19:46:35 2004//
+/visim_simu.f/1.12/Wed Sep  6 11:33:05 2006//
+/visim_srchnd.f/1.2/Thu Jun 17 20:37:44 2004//
+/visim_trans.f/1.1/Mon Jun  7 19:46:35 2004//
+/visim_visim.f/1.32/Tue May  8 11:08:43 2007//
+D/bin////
+D/doc////
+D/gslib////
+D/visim_examples////

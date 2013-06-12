@@ -1,0 +1,25 @@
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dV.F(33) : warning 197 - Variable OUTP has been declared but not used
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dV.F(224) : warning 242 - Variable RADSQD has been given a value but never used
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dV.F(512) : warning 242 - Variable FIRST has been given a value but never used
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dV.F(514) : warning 242 - Variable OUTP has been given a value but never used
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dV.F(708) : warning 242 - Variable SECJ has been given a value but never used
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dV.F(995) : warning 242 - Variable KADIM has been given a value but never used
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dV.F(996) : warning 242 - Variable KSDIM has been given a value but never used
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dV.F(1079) : warning 179 - Comparing floating point quantities for inequality may give misleading results
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dV.F(1163) : warning 179 - Comparing floating point quantities for inequality may give misleading results
+WARNING the following symbols are missing:
+CHKNAM                                   C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\lgotemp@.obj
+                                              (C:\DOCUMENTS AND SETTINGS\ABHISHEK SINGH\DESKTOP\RESEARCH\PHD\IGAWORK\FORTRAN CODE FOR D2K INVERSEIGA\KT3D\KT3DV.F)
+SETROT                                   C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\lgotemp@.obj
+                                              (C:\DOCUMENTS AND SETTINGS\ABHISHEK SINGH\DESKTOP\RESEARCH\PHD\IGAWORK\FORTRAN CODE FOR D2K INVERSEIGA\KT3D\KT3DV.F)
+SETSUPR                                  C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\lgotemp@.obj
+                                              (C:\DOCUMENTS AND SETTINGS\ABHISHEK SINGH\DESKTOP\RESEARCH\PHD\IGAWORK\FORTRAN CODE FOR D2K INVERSEIGA\KT3D\KT3DV.F)
+PICKSUP                                  C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\lgotemp@.obj
+                                              (C:\DOCUMENTS AND SETTINGS\ABHISHEK SINGH\DESKTOP\RESEARCH\PHD\IGAWORK\FORTRAN CODE FOR D2K INVERSEIGA\KT3D\KT3DV.F)
+SRCHSUPR                                 C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\lgotemp@.obj
+                                              (C:\DOCUMENTS AND SETTINGS\ABHISHEK SINGH\DESKTOP\RESEARCH\PHD\IGAWORK\FORTRAN CODE FOR D2K INVERSEIGA\KT3D\KT3DV.F)
+KTSOL                                    C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\lgotemp@.obj
+                                              (C:\DOCUMENTS AND SETTINGS\ABHISHEK SINGH\DESKTOP\RESEARCH\PHD\IGAWORK\FORTRAN CODE FOR D2K INVERSEIGA\KT3D\KT3DV.F)
+COVA3                                    C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\lgotemp@.obj
+                                              (C:\DOCUMENTS AND SETTINGS\ABHISHEK SINGH\DESKTOP\RESEARCH\PHD\IGAWORK\FORTRAN CODE FOR D2K INVERSEIGA\KT3D\KT3DV.F)
+Creating executable: C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\KT3D\kt3dV.EXE

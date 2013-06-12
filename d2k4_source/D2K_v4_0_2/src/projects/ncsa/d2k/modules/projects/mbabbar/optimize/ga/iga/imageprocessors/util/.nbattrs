@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="ShowBPPanelTable.java">
+        <attr name="class_dependency_java.io.Serializable" stringvalue="ShowBPPanelTable;ShowBPPanelTable.PanelView"/>
+        <attr name="class_dependency_java.awt.event.ActionListener" stringvalue="ShowBPPanelTable.PanelView"/>
+        <attr name="class_dependency_ncsa.d2k.userviews.swing.JUserPane" stringvalue="ShowBPPanelTable.PanelView"/>
+        <attr name="class_dependency_ncsa.d2k.core.modules.UIModule" stringvalue="ShowBPPanelTable"/>
+    </fileobject>
+</attributes>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAARdwgAAAAKAAAAC3QABkZhbk91dHNyABtuY3NhLmQyay5jb3JlLlJlc291cmNlRW50cnnVLiwg
+QgMm0gIAAkwADGNhY2hlZE9iamVjdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wAD29iamVjdENsYXNz
+TmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwcHQAIm5jc2EuZDJrLmNvcmUubW9kdWxlcy5GYW5P
+dXRNb2R1bGV0AA1Db25uZWN0IFRvIERCc3EAfgAEcHQAKG5jc2EuZDJrLm1vZHVsZXMuY29yZS5p
+by5zcWwuQ29ubmVjdFRvREJ0AAdGYW5PdXQyc3EAfgAEcHEAfgAIdAAHRmFuT3V0MXNxAH4ABHBx
+AH4ACHQAHFNRTCBHZXQgUnVsZSBBc3NvYyBGcm9tIEN1YmVzcQB+AARwdABHbmNzYS5kMmsubW9k
+dWxlcy5jb3JlLmRpc2NvdmVyeS5ydWxlYXNzb2NpYXRpb24uU1FMR2V0UnVsZUFzc29jRnJvbUN1
+YmV0AApTUUwgSFRyZWUxc3EAfgAEcHQAOW5jc2EuZDJrLm1vZHVsZXMuY29yZS50cmFuc2Zvcm0u
+c3VtbWFyaXphdGlvbi5OZXdTUUxIVHJlZXQAD1J1bGUgVmlzdWFsaXplcnNxAH4ABHB0ADduY3Nh
+LmQyay5tb2R1bGVzLmNvcmUuZGlzY292ZXJ5LnJ1bGVhc3NvY2lhdGlvbi5SdWxlVmlzdAASU1FM
+IEJpbiBBdHRyaWJ1dGVzc3EAfgAEcHQAO25jc2EuZDJrLm1vZHVsZXMuY29yZS50cmFuc2Zvcm0u
+YmlubmluZy5OZXdTUUxCaW5BdHRyaWJ1dGVzdAALQnVpbGQgUXVlcnlzcQB+AARwdAAnbmNzYS5k
+MmsubW9kdWxlcy5jb3JlLmlvLnNxbC5CdWlsZFF1ZXJ5dAAHRmFuT3V0NHNxAH4ABHB0ACJuY3Nh
+LmQyay5jb3JlLm1vZHVsZXMuRmFuT3V0TW9kdWxldAARUnVsZSBBc3NvYyBSZXBvcnRzcQB+AARw
+dAA/bmNzYS5kMmsubW9kdWxlcy5jb3JlLmRpc2NvdmVyeS5ydWxlYXNzb2NpYXRpb24uUnVsZUFz
+c29jUmVwb3J0eA==" label="New SQL-HTree.itn">
+    <annotation><![CDATA[<p>
+      <b>Rule Association Using HTree Algorithm</b>
+    </p>
+    <p>
+      Rule association is an unsupervised learning approach that seeks to 
+      discover signifcant relationships among attributes in a data set. The 
+      visualization of these relationships are represented at two levels, 
+      structural and quantitative. At the structural level, the model will 
+      indicate which attributes are locally dependent on one another. At the 
+      quantitative level, the model will offer some numeric measure of support 
+      and confidence for these relationships. Rule association has also been 
+      called market basket analysis because of its application to the retail 
+      sales domain.
+    </p>
+    <p>
+      Two of the main quantitative measures are support and confidence. Given 
+      if X, then Y. Support is the percent of the number of records that 
+      contain both X and Y out of the total number of records. Confidence is 
+      the percent of the number of records taht contain both X and Y out of 
+      the number of records that contain X.
+    </p>
+    <p>
+      This itinerary select a database table and data fields, filters data (if 
+      necessary), groups data (binning data) (if necessary), constructs a cube 
+      based on the HTree algorithm, explores the cube data to generate rules. 
+      The visualization is a graphical display of the rules generated or a 
+      table view of the rules.
+    </p>
+    <p>
+      <b>Modules with Properties</b>
+    </p>
+    <p>
+      The following modules have properties that may need to be adjusted. The 
+      properties can be changed by double clicking on the given module.
+    </p>
+    <p>
+      1 - <b><i>Connect To DB</i></b>:
+    </p>
+    <p>
+      This module establishes a connection to a database. It has many 
+      properties that need to be specified.
+    </p>
+    <p>
+      2 - <b><i>Available Tables Input</i></b>:
+    </p>
+    <p>
+      This module retrieves the list of available database tables.
+    </p>
+    <p>
+      3 -<b><i> SQL HTree</i></b>:
+    </p>
+    <p>
+      This module computes a cube table from a selected database table.
+    </p>
+    <p>
+      4 - <b><i>SQL Get Rule Assoc From Cube</i></b>:
+    </p>
+    <p>
+      This module extracts association rules from a cube table.
+    </p>
+    <p>
+      <b>Modules without Properties or User Interfaces</b>
+    </p>
+    <p>
+      1 - <b><i>Available Attributes Input</i></b>:
+    </p>
+    <p>
+      This module retrieves the list of available fields in the selected table.
+    </p>
+    <p>
+      <b>Execution</b>
+    </p>
+    <p>
+      Execute the itinerary by clicking on the &quot;Run&quot; button. As the itinerary 
+      runs, the following windows will open for user input.
+    </p>
+    <p>
+      1 - <b><i>Select Table</i></b>:
+    </p>
+    <p>
+      This module allows users to select a database table.
+    </p>
+    <p>
+      2 - <b><i>Select Attributes</i></b>:
+    </p>
+    <p>
+      This module allows users to select the attributes to use in constructing 
+      rules.
+    </p>
+    <p>
+      3 - <b><i>SQL Filter Construction</i></b>:
+    </p>
+    <p>
+      This module helps the user to construct a filtering expression and 
+      subset the data. This module is optional. If the data set does not need 
+      to be filtered, this module does not have to be included in the 
+      itinerary.
+    </p>
+    <p>
+      4 - <b><i>SQL Bin Columns</i></b>:
+    </p>
+    <p>
+      This module allows the user to interactively do data binning. This 
+      module is optional. If the data set does not need binning, this module 
+      does not have to be included in the itinerary.
+    </p>
+    <p>
+      5 - <b><i>Rule Assoc Report</i></b>:
+    </p>
+    <p>
+      This module displays the association rules in a table form.
+    </p>
+    <p>
+      <b>Results</b>
+    </p>
+    <p>
+      Once execution has completed the status bar will disappear. The pane of 
+      the Generated Visualization Session Pane and the Generated Models 
+      Session Pane will turn red when visualization and model glpyhs have been 
+      created.
+    </p>
+    <p>
+      1 - <b><i>Rule Visualizer</i></b>:
+    </p>
+    <p>
+      This module provides a visual representation of the association rules 
+      encapsulated in the Rule Table.
+    </p>]]></annotation>
+    <module alias="FanOut4" classname="ncsa.d2k.core.modules.FanOutModule" xloc="456" yloc="276">
+      <input index="0" classname="ncsa.d2k.modules.core.discovery.ruleassociation.RuleTable"/>
+      <output index="0" classname="ncsa.d2k.modules.core.discovery.ruleassociation.RuleTable">
+        <destination alias="Rule Visualizer" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.discovery.ruleassociation.RuleTable">
+        <destination alias="Rule Assoc Report" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAQAAAAE="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAABtv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAQAAAAE="/>
+    </module>
+    <module alias="FanOut2" classname="ncsa.d2k.core.modules.FanOutModule" xloc="272" yloc="110">
+      <input index="0" classname="[Ljava.lang.String;"/>
+      <output index="0" classname="[Ljava.lang.String;">
+        <destination alias="SQL HTree1" index="2"/>
+      </output>
+      <output index="1" classname="[Ljava.lang.String;">
+        <destination alias="SQL Bin Attributes" index="2"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAQAAAAE="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAABpv//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAQAAAAE="/>
+    </module>
+    <module alias="Rule Visualizer" classname="ncsa.d2k.modules.core.discovery.ruleassociation.RuleVis" xloc="550" yloc="179">
+      <input index="0" classname="ncsa.d2k.modules.core.discovery.ruleassociation.RuleTable"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAAA"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAAA"/>
+    </module>
+    <module alias="FanOut" classname="ncsa.d2k.core.modules.FanOutModule" xloc="98" yloc="29">
+      <input index="0" classname="ncsa.d2k.modules.core.io.sql.DBConnection"/>
+      <output index="0" classname="ncsa.d2k.modules.core.io.sql.DBConnection">
+        <destination alias="Build Query" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.io.sql.DBConnection">
+        <destination alias="SQL HTree1" index="0"/>
+      </output>
+      <output index="2" classname="ncsa.d2k.modules.core.io.sql.DBConnection">
+        <destination alias="SQL Bin Attributes" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAADAAAAAQAAAAEAAAAB"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAC/v//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAADAAAAAQAAAAEAAAAB"/>
+    </module>
+    <module alias="SQL HTree1" classname="ncsa.d2k.modules.core.transform.summarization.NewSQLHTree" xloc="408" yloc="19">
+      <input index="0" classname="ncsa.d2k.modules.core.io.sql.ConnectionWrapper"/>
+      <input index="1" classname="java.lang.String"/>
+      <input index="2" classname="[Ljava.lang.String;"/>
+      <input index="3" classname="java.lang.String"/>
+      <input index="4" classname="ncsa.d2k.modules.core.datatype.table.transformations.BinTransform"/>
+      <output index="0" classname="ncsa.d2k.modules.core.io.sql.ConnectionWrapper">
+        <destination alias="SQL Get Rule Assoc From Cube" index="0"/>
+      </output>
+      <output index="1" classname="java.lang.String">
+        <destination alias="SQL Get Rule Assoc From Cube" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAQAAAAE="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAff///////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAdXEAfgADAAAAAgAA
+AAEAAAAB"/>
+      <property name="maxRuleSize" value="5"/>
+      <property name="support" value="10.0"/>
+    </module>
+    <module alias="Rule Assoc Report" classname="ncsa.d2k.modules.core.discovery.ruleassociation.RuleAssocReport" xloc="524" yloc="325">
+      <input index="0" classname="ncsa.d2k.modules.core.discovery.ruleassociation.RuleTable"/>
+      <property name="displayCount" value="true"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAAA"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAAA"/>
+    </module>
+    <module alias="Connect To DB" classname="ncsa.d2k.modules.core.io.sql.ConnectToDB" xloc="6" yloc="14">
+      <output index="0" classname="ncsa.d2k.modules.core.io.sql.DBConnection">
+        <destination alias="FanOut" index="0"/>
+      </output>
+      <property name="password" value="testmining"/>
+      <property name="dbVendor" value=""/>
+      <property name="dbInstance" value="oracle2"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+      <property name="username" value="disted_mgr"/>
+      <property name="url" value="jdbc:oracle:thin:@sol.ncsa.uiuc.edu:1521:oracle2"/>
+      <property name="supressGui" value="false"/>
+      <property name="driver" value="oracle.jdbc.driver.OracleDriver"/>
+      <property name="machine" value="sol.ncsa.uiuc.edu"/>
+      <property name="port" value="1521"/>
+    </module>
+    <module alias="Build Query" classname="ncsa.d2k.modules.core.io.sql.BuildQuery" xloc="144" yloc="142">
+      <input index="0" classname="ncsa.d2k.modules.io.input.sql.ConnectionWrapper"/>
+      <output index="0" classname="java.lang.String">
+        <destination alias="FanOut1" index="0"/>
+      </output>
+      <output index="1" classname="[Ljava.lang.String;">
+        <destination alias="FanOut2" index="0"/>
+      </output>
+      <output index="2" classname="java.lang.String">
+        <destination alias="SQL HTree1" index="3"/>
+      </output>
+      <output index="3" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+        <destination alias="SQL Bin Attributes" index="3"/>
+      </output>
+      <property name="includeMissingValues" value="true"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAAEAAAAAQAAAAEAAAABAAAAAQ=="/>
+      <property name="lastExpression" value=""/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAAEAAAAAQAAAAEAAAABAAAAAQ=="/>
+      <property name="queryCondition" value=""/>
+      <property name="dataTableOnly" value="true"/>
+      <property name="supressGui" value="false"/>
+      <property name="dataCubeOnly" value="false"/>
+    </module>
+    <module alias="FanOut1" classname="ncsa.d2k.core.modules.FanOutModule" xloc="269" yloc="67">
+      <input index="0" classname="java.lang.String"/>
+      <output index="0" classname="java.lang.String">
+        <destination alias="SQL HTree1" index="1"/>
+      </output>
+      <output index="1" classname="java.lang.String">
+        <destination alias="SQL Bin Attributes" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAQAAAAE="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAQAAAAE="/>
+    </module>
+    <module alias="SQL Get Rule Assoc From Cube" classname="ncsa.d2k.modules.core.discovery.ruleassociation.SQLGetRuleAssocFromCube" xloc="509" yloc="71">
+      <input index="0" classname="ncsa.d2k.modules.core.io.sql.ConnectionWrapper"/>
+      <input index="1" classname="java.lang.String"/>
+      <output index="0" classname="ncsa.d2k.modules.core.discovery.ruleassociation.RuleTable">
+        <destination alias="FanOut4" index="0"/>
+      </output>
+      <property name="minConfidence" value="50.0"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAE="/>
+      <property name="minSupport" value="0.05"/>
+      <property name="threshold" value="10.0"/>
+    </module>
+    <module alias="SQL Bin Attributes" classname="ncsa.d2k.modules.core.transform.binning.NewSQLBinAttributes" xloc="331" yloc="218">
+      <input index="0" classname="ncsa.d2k.modules.core.io.sql.ConnectionWrapper"/>
+      <input index="1" classname="java.lang.String"/>
+      <input index="2" classname="[Ljava.lang.String;"/>
+      <input index="3" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.transformations.BinTransform">
+        <destination alias="SQL HTree1" index="4"/>
+      </output>
+      <property name="newColumn" value="false"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAABAAAAAAAAAAAAAAAAAAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+      <property name="supressGui" value="false"/>
+      <property name="savedBins" binaryValue="rO0ABXVyADhbTG5jc2EuZDJrLm1vZHVsZXMuY29yZS50cmFuc2Zvcm0uYmlubmluZy5CaW5EZXNj
+cmlwdG9yO7tpifeLslBXAgAAeHAAAAAcc3IAPG5jc2EuZDJrLm1vZHVsZXMuY29yZS50cmFuc2Zv
+cm0uYmlubmluZy5OdW1lcmljQmluRGVzY3JpcHRvcml9qPZD2AstAgACRAADbWF4RAADbWlueHIA
+NW5jc2EuZDJrLm1vZHVsZXMuY29yZS50cmFuc2Zvcm0uYmlubmluZy5CaW5EZXNjcmlwdG9y09Ql
+pNb0uC8CAANJAA1jb2x1bW5fbnVtYmVyTAAFbGFiZWx0ABJMamF2YS9sYW5nL1N0cmluZztMAARu
+YW1lcQB+AAR4cAAAAAB0AAhDQVJTLk1QR3QADFsuLi4gOiAxOC40XUAyZmZmZmZm//AAAAAAAABz
+cQB+AAIAAAAAcQB+AAZ0AA0oMTguNCA6IDI3LjhdQDvMzMzMzMxAMmZmZmZmZnNxAH4AAgAAAABx
+AH4ABnQADSgyNy44IDogMzcuMl1AQpmZmZmZmUA7zMzMzMzMc3EAfgACAAAAAHEAfgAGdAAMKDM3
+LjIgOiAuLi5df/AAAAAAAABAQpmZmZmZmXNxAH4AAgAAAAF0AA5DQVJTLkNZTElOREVSU3QADFsu
+Li4gOiA0LjI1XUARAAAAAAAA//AAAAAAAABzcQB+AAIAAAABcQB+AA90AAwoNC4yNSA6IDUuNV1A
+FgAAAAAAAEARAAAAAAAAc3EAfgACAAAAAXEAfgAPdAAMKDUuNSA6IDYuNzVdQBsAAAAAAABAFgAA
+AAAAAHNxAH4AAgAAAAFxAH4AD3QADCg2Ljc1IDogLi4uXX/wAAAAAAAAQBsAAAAAAABzcQB+AAIA
+AAACdAAQQ0FSUy5DVUJJQ0lOQ0hFU3QADlsuLi4gOiAxNjQuNzVdQGSYAAAAAAD/8AAAAAAAAHNx
+AH4AAgAAAAJxAH4AGHQAECgxNjQuNzUgOiAyNjEuNV1AcFgAAAAAAEBkmAAAAAAAc3EAfgACAAAA
+AnEAfgAYdAAQKDI2MS41IDogMzU4LjI1XUB2ZAAAAAAAQHBYAAAAAABzcQB+AAIAAAACcQB+ABh0
+AA4oMzU4LjI1IDogLi4uXX/wAAAAAAAAQHZkAAAAAABzcQB+AAIAAAADdAAPQ0FSUy5IT1JTRVBP
+V0VSdAAKWy4uLiA6IDkyXUBXAAAAAAAA//AAAAAAAABzcQB+AAIAAAADcQB+ACF0AAooOTIgOiAx
+MzhdQGFAAAAAAABAVwAAAAAAAHNxAH4AAgAAAANxAH4AIXQACygxMzggOiAxODRdQGcAAAAAAABA
+YUAAAAAAAHNxAH4AAgAAAANxAH4AIXQACygxODQgOiAuLi5df/AAAAAAAABAZwAAAAAAAHNxAH4A
+AgAAAAR0AA5DQVJTLldFSUdIVExCU3QAEFsuLi4gOiAyLDQ5NC43NV1Ao32AAAAAAP/wAAAAAAAA
+c3EAfgACAAAABHEAfgAqdAAUKDIsNDk0Ljc1IDogMywzNzYuNV1AqmEAAAAAAECjfYAAAAAAc3EA
+fgACAAAABHEAfgAqdAAUKDMsMzc2LjUgOiA0LDI1OC4yNV1AsKJAAAAAAECqYQAAAAAAc3EAfgAC
+AAAABHEAfgAqdAAQKDQsMjU4LjI1IDogLi4uXX/wAAAAAAAAQLCiQAAAAABzcQB+AAIAAAAFdAAS
+Q0FSUy5USU1FX1RPX1NJWFRZdAANWy4uLiA6IDEyLjI1XUAogAAAAAAA//AAAAAAAABzcQB+AAIA
+AAAFcQB+ADN0AA4oMTIuMjUgOiAxNi41XUAwgAAAAAAAQCiAAAAAAABzcQB+AAIAAAAFcQB+ADN0
+AA4oMTYuNSA6IDIwLjc1XUA0wAAAAAAAQDCAAAAAAABzcQB+AAIAAAAFcQB+ADN0AA0oMjAuNzUg
+OiAuLi5df/AAAAAAAABANMAAAAAAAHNxAH4AAgAAAAZ0AAlDQVJTLllFQVJ0AA1bLi4uIDogMSw5
+NzRdQJ7YAAAAAAD/8AAAAAAAAHNxAH4AAgAAAAZxAH4APHQADygxLDk3NCA6IDEsOTc3XUCe5AAA
+AAAAQJ7YAAAAAABzcQB+AAIAAAAGcQB+ADx0AA8oMSw5NzcgOiAxLDk4MF1AnvAAAAAAAECe5AAA
+AAAAc3EAfgACAAAABnEAfgA8dAANKDEsOTgwIDogLi4uXX/wAAAAAAAAQJ7wAAAAAAA="/>
+    </module>
+  </itinerary>
+</toolkit>

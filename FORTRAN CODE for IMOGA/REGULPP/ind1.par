@@ -1,0 +1,27 @@
+                  Parameters for GAMV
+                  *******************
+
+START OF PARAMETERS:
+wfallf.dat                       \file with data
+1   2   0                          \   columns for X, Y, Z coordinates
+1   7                             \   number of variables,column numbers
+-1.0e21     1.0e21                 \   trimming limits
+wfallfind.var                    \file for variogram output
+20                                 \number of lags
+25.00                              \lag separation distance
+12.5                                 \lag tolerance
+1                                  \number of directions
+0.0 180.0 1600.0   0.0  90.0  50.0  \azm,atol,bandh,dip,dtol,bandv
+0                                  \standardize sills? (0=no, 1=yes)
+11                                 \number of variograms
+1   1   9  22.0                     \tail var., head var., variogram type
+1   1   9  28.0                     \tail var., head var., variogram type
+1   1   9  34.0                     \tail var., head var., variogram type
+1   1   9  38.0                     \tail var., head var., variogram type
+1   1   9  43.0                     \tail var., head var., variogram type
+1   1   9  46.0                     \tail var., head var., variogram type
+1   1   9  50.0                       \tail var., head var., variogram type
+1   1   9  56.0                     \tail var., head var., variogram type
+1   1   9  64.0                     \tail var., head var., variogram type
+1   1   9  78.0                      \tail var., head var., variogram type
+1   1   9 100.0                      \tail var., head var., variogram type

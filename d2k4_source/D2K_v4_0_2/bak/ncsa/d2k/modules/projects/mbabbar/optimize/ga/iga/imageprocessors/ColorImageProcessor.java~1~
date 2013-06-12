@@ -1,0 +1,225 @@
+package ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.imageprocessors;
+
+import ncsa.d2k.core.modules.*;
+import ncsa.d2k.modules.core.optimize.ga.*;
+import ncsa.d2k.modules.core.datatype.table.*;
+import ncsa.d2k.modules.core.datatype.table.basic.*;
+import ncsa.d2k.modules.core.optimize.ga.emo.*;
+import ncsa.d2k.modules.core.optimize.ga.nsga.*;
+import ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.*;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.awt.geom.*;
+import java.awt.image.*;
+import javax.imageio.*;
+import java.io.*;
+import java.util.*;
+import javax.swing.*;
+
+/**
+	Processes images/GUI applets for population by invoking the <code>imageProcessor</code> method.
+*/
+public class ColorImageProcessor extends ImageProcessingModule 	{
+
+	//////////////////////////////////
+	// Info methods
+	//////////////////////////////////
+                /**
+		This method returns the names of the various inputs.
+
+		@return the name of the indexed input.
+	*/
+	public String getOutputName (int index) {
+		switch (index) {
+			case 0: return "IGA Nsga Population";
+			case 1: return "Table";
+                        default: return "No such output";
+		}
+}
+
+	/**
+		This method returns the names of the various inputs.
+
+		@return the name of the indexed input.
+	*/
+	public String getInputName (int index) {
+		switch (index) {
+			case 0: return "IGA Nsga Population";
+			case 1: return "Table";
+                        default: return "No such input";
+		}
+	}
+
+	/**
+		This method returns the description of the various inputs.
+
+		@return the description of the indexed input.
+	*/
+	public String getOutputInfo (int index) {
+		switch (index) {
+			case 0: return "<?xml version=\"1.0\" encoding=\"UTF-8\"?><D2K>  <Info common=\"population\">    <Text> population. </Text>  </Info></D2K>";
+			case 1: return "<?xml version=\"1.0\" encoding=\"UTF-8\"?><D2K>  <Info common=\"Table\">    <Text>The table with population info: quantitative objectives, selected individuals,  images/applets info for selected individuals. </Text>  </Info></D2K>";
+                        default: return "No such output";
+		}
+}
+
+	/**
+		This method returns the description of the various inputs.
+
+		@return the description of the indexed input.
+	*/
+	public String getInputInfo (int index) {
+		switch (index) {
+			case 0: return "<?xml version=\"1.0\" encoding=\"UTF-8\"?><D2K>  <Info common=\"population\">    <Text> population. </Text>  </Info></D2K>";
+			case 1: return "<?xml version=\"1.0\" encoding=\"UTF-8\"?><D2K>  <Info common=\"Table\">    <Text>The table with quantitative fitnesses and updated individuals after passing through a selection filter. </Text>  </Info></D2K>";
+                        default: return "No such input";
+		}
+	}
+
+	/**
+		This method returns the description of the module.
+		@return the description of the module.
+	*/
+	public String getModuleInfo () {
+		return "<?xml version=\"1.0\" encoding=\"UTF-8\"?><D2K>  <Info common=\"Image Processing Module\">    <Text> This takes in the population and table of selected individuals and processes them to create relevant images for them. </Text>  </Info></D2K>";
+	}
+
+	/**
+	 * Return the human readable name of the module.
+	 * @return the human readable name of the module.
+	 */
+	public String getModuleName() {
+		return "IGA: Color Image Processor";
+	}
+
+	/**
+		Process Images that are color icons for the selected individuals in the population.
+		@param popul: the population.
+                @param populTable: Table with selected individuals.
+	*/
+	public void imageProcessor (Population pop, Table popTable){
+
+          IGANsgaPopulation popul = (IGANsgaPopulation) pop;
+          MutableTable populTable = (MutableTable) popTable;
+          IGANsgaSolution [] ind = new IGANsgaSolution[popul.size()];
+          for (int i = 0; i < popul.size(); i++) {
+              ind[i] = (IGANsgaSolution) popul.getMember(i);
+          }
+          int numSolutions = ind.length;
+
+          // obtain the number or index of the column that stores selection flags.
+          int selectionColumnIndex = populTable.getNumColumns() - 1;
+
+          // add new column to table to store image information
+          populTable.addColumn(new String[numSolutions]);
+          populTable.setColumnLabel("Image Files", populTable.getNumColumns() - 1);
+
+          // create and update images.
+          for (int i =0; i < populTable.getNumRows(); i++){
+
+              if (populTable.getBoolean(i, selectionColumnIndex) == true ){
+
+                // obtain the genes for this chromosome. This problem has 3 numTraits or 3 decision variables
+                double [] genes;
+                genes = (double []) ((Individual) ind[i]).getGenes ();
+
+                // convert genes to respective RGB values
+                int [] genesToRgb = new int [3];
+                for(int k = 0 ; k < 3 ; k++){
+                   Double db = new Double ((genes[k]- 4.0)*256.0/(5.0-4.0));
+                   genesToRgb [k] = db.intValue();
+                }
+             //   System.out.println("RGB: "+ genesToRgb [0]+ " " + genesToRgb [1] + " " + genesToRgb [2]);
+
+                // create image for this gene
+                ColorCanvas colorCanvas = new ColorCanvas (genesToRgb[0],genesToRgb[1],genesToRgb[2]);
+
+                // save image for this gene
+                Integer genValue = new Integer (popul.getCurrentGeneration());
+                Integer indivValue = new Integer (i);
+                String fileName = new String ("Gen_" + genValue.toString() +"_indiv_"+indivValue.toString() +".png");
+                colorCanvas.saveImageToFile(fileName);
+
+                // update image file name in the table
+                populTable.setString(fileName, i,populTable.getNumColumns() - 1);
+              }
+              else{
+                // update image file name to be null in the table.
+                populTable.setString("null", i,populTable.getNumColumns() - 1);
+              }
+
+          }
+
+
+
+        }
+
+        public class ColorCanvas extends Canvas {
+            private JFrame frame;
+            public CanvasPane canvas;
+            private Graphics2D graphic;
+            private Color backgroundColour;
+            private Image canvasImage;
+
+            int rc , gc , bc;
+
+            public ColorCanvas(int rcl, int gcl, int bcl) {
+
+                rc = rcl;
+                gc = gcl;
+                bc = bcl;
+                frame = new JFrame();
+                canvas = new CanvasPane();
+
+                canvas.setPreferredSize(new Dimension(200, 200));
+                backgroundColour = Color.white;
+                frame.setContentPane(canvas);
+                frame.pack();
+                Dimension size = canvas.getSize();
+                canvasImage = canvas.createImage(size.width, size.height);
+                graphic = (Graphics2D)canvasImage.getGraphics();
+                graphic.setColor(backgroundColour);
+                graphic.fillRect(0, 0, size.width, size.height);
+
+                Integer redValue = new Integer (rc);
+                Integer greenValue = new Integer (gc);
+                Integer blueValue = new Integer (bc);
+                String title = new String ("red : " + redValue.toString() + ",  green : " + greenValue.toString()+ ",  blue : "+ blueValue.toString() );
+                graphic.setColor(Color.black);
+                graphic.drawString(title, 10, 10 );
+                graphic.setColor(new Color(rc, gc, bc));
+                graphic.fillRect(50,50,100,100);
+            }
+
+
+
+            public void saveImageToFile(String name) {
+              try {
+              ImageIO.write((RenderedImage)canvasImage, "png", new File(name));
+              }
+              catch (IOException ioe) {
+                ioe.printStackTrace();
+              }
+
+            }
+
+
+            private class CanvasPane extends JPanel
+            {
+                public void paint(Graphics g)
+                {
+                    g.drawImage(canvasImage, 0, 0, null);
+                }
+            }
+
+        }
+}
+
+
+
+
+
+
+
+

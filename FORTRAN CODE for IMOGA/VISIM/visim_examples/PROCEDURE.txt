@@ -1,0 +1,10 @@
+1) create WIPP-extra.txt file with the boundary points
+2) Use WIPPcombined.prn to krige values at extra boundary points - create WIPPkt3d-extra.out file
+    Use jacknife mode - WIPPkt3d.par file
+3) Append output from WIPPkt3d-extra.out file to WIPPcombined.prn to create WIPPcombinedextra.prn
+4) Use WIPPcombined.prn to krige the entire domain
+    Use WIPPkt3d2.par
+    Output is wippkt3d-krige.out
+5) Use SGSIM with WIPPcombinedextra.prns as data file
+    wippkt3d-krige.out as LVM file
+6) Simulations are created in WIPPsimDirect.out

@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gamv1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ABHISH~1\LOCALS~1\Temp\RSP5B.tmp" with contents
+[
+/check:bounds /compile_only /dbglibs /debug:full /nologo /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" /pdbfile:"Debug/DF60.PDB" 
+"C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\REGULPP\regulPP.f"
+]
+Creating temporary file "C:\DOCUME~1\ABHISH~1\LOCALS~1\Temp\RSP5C.tmp" with contents
+[
+kernel32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/regulPP.pdb" /debug /machine:I386 /out:"Debug/regulPP.exe" /pdbtype:sept 
+".\Debug\ACORNI.OBJ"
+".\Debug\BACKTR.OBJ"
+".\Debug\BEYOND.OBJ"
+".\Debug\BLUE.OBJ"
+".\Debug\CHKNAM.OBJ"
+".\Debug\CHKTITLE.OBJ"
+".\Debug\COVA3.OBJ"
+".\Debug\DLOCATE.OBJ"
+".\Debug\DPOWINT.OBJ"
+".\Debug\DSORTEM.OBJ"
+".\Debug\GAUINV.OBJ"
+".\Debug\GCUM.OBJ"
+".\Debug\GETINDX.OBJ"
+".\Debug\GETZ.OBJ"
+".\Debug\GREEN.OBJ"
+".\Debug\HEXA.OBJ"
+".\Debug\KSOL.OBJ"
+".\Debug\KTSOL.OBJ"
+".\Debug\LOCATE.OBJ"
+".\Debug\NSCORE.OBJ"
+".\Debug\NUMTEXT.OBJ"
+".\Debug\ORDREL.OBJ"
+".\Debug\PICKSUPR.OBJ"
+".\Debug\POWINT.OBJ"
+".\Debug\PSFILL.OBJ"
+".\Debug\PSLINE.OBJ"
+".\Debug\PSTEXT.OBJ"
+".\Debug\RAND.OBJ"
+".\Debug\RED.OBJ"
+".\Debug\regulPP.obj"
+".\Debug\RESC.OBJ"
+".\Debug\SCAL.OBJ"
+".\Debug\SETROT.OBJ"
+".\Debug\SETSUPR.OBJ"
+".\Debug\SORTEM.OBJ"
+".\Debug\SQDIST.OBJ"
+".\Debug\SRCHSUPR.OBJ"
+".\Debug\STRLEN.OBJ"
+]
+Creating command line "link.exe @C:\DOCUME~1\ABHISH~1\LOCALS~1\Temp\RSP5C.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\REGULPP\regulPP.f
+Linking...
+
+
+
+<h3>Results</h3>
+regulPP.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,104 @@
+"BP data set, 36 monitoring wells with 36 sampling locations"				
+Porosity of the field
+0.35		
+Total number of Monitoring wells					
+36
+Minimum number of wells required in solution (should be greater than number of paramters fit in model)
+5
+Large fitness values for Root Mean Square fitnesses, when # of wells is lesser than number of parameters fitted for the interpolation model
+100000	
+Flag 1: whether penalties for local spatial errors is calculated or not, 0(false) or 1(if penalty is based on all grid points) or 2(if penalty is based on only well location errors)
+2
+Flag 2 (used when Flag 1 > 0): "1" if Penalty is added to cost, "2" if penalty is added to RMS errors, "3" if ALL penalties are added to all objectives, and "4" if both benzene and totbtex penalties are added to cost but only benzene penalty added to benzene RMS and only totbtex penalty added to totbtex RMS. 
+2
+Maximum allowable benzene concentration error (microgram/litre of water)
+10
+Maximum allowable Total Btex concentration error(microgram/litre of water)
+1000
+Allowable relative errors at different grid points for benzene 
+0.10
+Allowable relative errors at different grid points for total btex 
+0.1
+Penalty weight for benzene (linear penalty function) 
+10
+Penalty weight for total btex
+100					
+Flag 3:for PRINTING OUTPUT of interpolation to output file (1 for true and 0 for false)	
+1
+Flag 4: If fitnesses are scaled (0: false, 1: true)
+1
+Max fitness for cost fitness
+36
+Max fitness for benzene error scaling (used for scaling fitnesses)
+100
+Max fitness for tot btex error scaling (used for scaling fitnesses)
+100
+Max Penalty for benzene error penalty scaling (used for scaling fitnesses)
+1
+Max Penalty for tot btex error penalty scaling (used for scaling fitnesses)
+1
+Radius used for Standard Inverse Distance Weighting
+450
+Unestimated Points Penalty: large integer surrogate fitness constant (Df)
+1
+Unestimated Points Penalty: Scaling variable for penalty associated with unestimated points (Is)
+1
+Unestimated Points Penalty: maximum value of this 'unestimated points' penalty for scaling (max_unestimated_points_scale)
+1
+Output file name for fitness information without scaling
+realFitness.txt									
+Input file	name with genes information				
+genes_interp_archive.txt									
+Outputfile name for fitness 1					
+fitness21.txt									
+Outputfile name for fitness 2					
+fitness22.txt									
+Outputfile name for fitness 3					
+fitness23.txt									
+! number	of columns in data				
+6									
+well_id:	equal to the well number of a sample point
+x_coord:	equal to y coordinate 
+y_coord:	equal to x coordinate 
+z_coord								
+Benzene_conc								
+total-benzene_conc								
+1	2630	800	110	1	1			
+2	2360	910	110	351	645			
+3	2290	1090	110	3.1	47.2			
+4	2240	840	110	39.5	445.5			
+5	2310	550	110	46.5	1068.5			
+6	1990	550	110	8.7	971.9			
+7	2020	680	110	144.5	1400.3			
+8	2020	720	110	1	1			
+9	2120	1020	110	60.5	200.85			
+10	2520	1190	110	4.5	487.5			
+11	2220	440	110	1	1			
+12	2010	1070	110	340.5	988
+13	2260	1300	110	1	1
+14	2420	1310	110	1	1
+15	1900	910	110	10.8	24.8
+16	1780	620	110	1	2.05
+17	1800	710	110	1	1
+18	1800	820	110	57	203.3
+19	1680	900	110	57	170.05
+20	1740	990	110	1	1
+21	1760	1080	110	34.6	39.5
+22	2130	1200	110	1	1
+23	1870	570	110	1	27.95
+24	1560	1010	110	1	1
+25	1520	860	110	1	1
+26	1360	610	110	1	1
+27	1600	1110	110	1	1
+28	1680	880	110	81.5	81.5
+29	2630	980	110	1	1
+30	2670	920	110	1	1
+31	2590	890	110	3.8	560.3
+32	2590	870	110	1	1
+33	2580	910	110	1	194.55
+34	1960	1170	110	8	129.8
+35	1770	1170	110	1	1
+36	1520	890	110	1	1
+
+
+

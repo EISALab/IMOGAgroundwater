@@ -1,0 +1,98 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mf2k - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ABHISH~1\LOCALS~1\Temp\RSP3E6.tmp" with contents
+[
+kernel32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/mf2k.pdb" /debug /machine:I386 /out:"Debug/mf2k.exe" /pdbtype:sept 
+".\Debug\ctime.obj"
+".\Debug\daf1.obj"
+".\Debug\de45.obj"
+".\Debug\glo1bas6.obj"
+".\Debug\gutsdaf.obj"
+".\Debug\gwf1bas6.obj"
+".\Debug\gwf1bcf6.obj"
+".\Debug\gwf1chd6.obj"
+".\Debug\gwf1drn6.obj"
+".\Debug\gwf1drt1.obj"
+".\Debug\gwf1ets1.obj"
+".\Debug\gwf1evt6.obj"
+".\Debug\gwf1fhb1.obj"
+".\Debug\gwf1gag5.obj"
+".\Debug\gwf1ghb6.obj"
+".\Debug\gwf1hfb6.obj"
+".\Debug\gwf1huf2.obj"
+".\Debug\gwf1ibs6.obj"
+".\Debug\gwf1lak3.obj"
+".\Debug\gwf1lpf1.obj"
+".\Debug\gwf1mnw1.obj"
+".\Debug\gwf1rch6.obj"
+".\Debug\gwf1res1.obj"
+".\Debug\gwf1riv6.obj"
+".\Debug\gwf1sfr2.obj"
+".\Debug\gwf1str6.obj"
+".\Debug\gwf1sub1.obj"
+".\Debug\gwf1wel6.obj"
+".\Debug\hufutl2.obj"
+".\Debug\hydmod.obj"
+".\Debug\lmg1.obj"
+".\Debug\lmt6.obj"
+".\Debug\memchk.obj"
+".\Debug\mf2k.obj"
+".\Debug\mhc1.obj"
+".\Debug\obs1adv2.obj"
+".\Debug\obs1bas6.obj"
+".\Debug\obs1drn6.obj"
+".\Debug\obs1drt1.obj"
+".\Debug\obs1ghb6.obj"
+".\Debug\obs1riv6.obj"
+".\Debug\obs1str6.obj"
+".\Debug\para-non.obj"
+".\Debug\parutl1.obj"
+".\Debug\pcg2.obj"
+".\Debug\pes1bas6.obj"
+".\Debug\pes1gau1.obj"
+".\Debug\rtedaf.obj"
+".\Debug\sen1bas6.obj"
+".\Debug\sen1chd6.obj"
+".\Debug\sen1drn6.obj"
+".\Debug\sen1drt1.obj"
+".\Debug\sen1ets1.obj"
+".\Debug\sen1evt6.obj"
+".\Debug\sen1ghb6.obj"
+".\Debug\sen1hfb6.obj"
+".\Debug\sen1huf2.obj"
+".\Debug\sen1lpf1.obj"
+".\Debug\sen1rch6.obj"
+".\Debug\sen1riv6.obj"
+".\Debug\sen1str6.obj"
+".\Debug\sen1wel6.obj"
+".\Debug\sip5.obj"
+".\Debug\sor5.obj"
+".\Debug\utl6.obj"
+".\Debug\amg1r6.obj"
+".\Debug\gmg1.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ABHISH~1\LOCALS~1\Temp\RSP3E6.tmp"
+<h3>Output Window</h3>
+Linking...
+mf2k.obj : error LNK2001: unresolved external symbol _GMG1DA@0
+gmg1.obj : error LNK2001: unresolved external symbol _MF2KGMG_ALLOCATE@36
+gmg1.obj : error LNK2001: unresolved external symbol _MF2KGMG_ASSEMBLE@40
+gmg1.obj : error LNK2001: unresolved external symbol _MF2KGMG_EVAL@28
+gmg1.obj : error LNK2001: unresolved external symbol _MF2KGMG_UPDATE@8
+dfor.lib(DFORMAIN.OBJ) : error LNK2001: unresolved external symbol _MAIN__
+Debug/mf2k.exe : fatal error LNK1120: 6 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+mf2k.exe - 7 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

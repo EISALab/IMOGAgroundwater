@@ -1,0 +1,83 @@
+self: i have forgotten the main file
+
+self: where is it located?
+
+meghna : ncsa.d2k.d2k
+
+self: ok
+
+self: which jar/zip file is it in
+
+meghna : its in one of the classes.zip files
+
+self: ok
+
+meghna : either classes.zip or classes_g.zip
+
+self: ok
+
+self: i am seeing
+
+meghna : when u browse for main file thru the netbeans project manager
+
+meghna : it should itself show it to you
+
+meghna : hopefully...
+
+meghna : ok
+
+self: no i have to set a main file
+
+self: in netbeans
+
+self: thats why i need to find it
+
+self: the classes files have some sql and oracle stuff
+
+meghna : i am not sure how netbeans visualizes .zip files.... but in jbuilder, when i want to set the main file, I can click on the browse button next to the entry box for main class
+
+self: yeah i can search for main class...
+
+meghna : when i click on it, it shows me all diff files that are part of libraries or zip files in the d2k project
+
+self: yes thats how it is in netbeans
+
+meghna : it should be in the ncsa folder then
+
+self: but i dont see any ncsa.d2k.d2k
+
+self: ok let me look
+
+meghna : look for the ncsa folder...
+
+self: found it
+
+self: it was in the ncsa folder
+
+meghna : yes
+
+self: inside the d2k.jar file
+
+meghna : ok
+
+meghna : there is one more issue..
+
+meghna : if u ever face a problem with DefaultMissingValuesTable.class file, while running d2k
+
+meghna : let me know
+
+meghna : this problem occurs when u load an itinerary that uses this class
+
+self: what is tht?
+
+meghna : keep aside this problem
+
+meghna : u might never face it
+
+meghna : but if u do.. let me know
+
+meghna : i have a temporary fix
+
+self: ok will try to remember that
+
+meghna : but alg group needs to find a permanent fix

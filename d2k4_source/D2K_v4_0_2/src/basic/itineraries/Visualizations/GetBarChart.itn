@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAAIdwgAAAALAAAABnQADFNlbGVjdCBUYWJsZXNyABtuY3NhLmQyay5jb3JlLlJlc291cmNlRW50
+cnnVLiwgQgMm0gIAAkwADGNhY2hlZE9iamVjdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wAD29iamVj
+dENsYXNzTmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwcHQAKG5jc2EuZDJrLm1vZHVsZXMuY29y
+ZS5pby5zcWwuU2VsZWN0VGFibGV0AAxCYXIgQ2hhcnQgMkRzcQB+AARwdAAkbmNzYS5kMmsubW9k
+dWxlcy5jb3JlLnZpcy5CYXJDaGFydDJEdAAWQXZhaWxhYmxlIFRhYmxlcyBJbnB1dHNxAH4ABHB0
+ADFuY3NhLmQyay5tb2R1bGVzLmNvcmUuaW8uc3FsLkF2YWlsYWJsZVRhYmxlc0lucHV0dAAIVlRW
+aWV3ZXJzcQB+AARwdAAibmNzYS5kMmsubW9kdWxlcy5jb3JlLnZpcy5WVFZpZXdlcnQADUNvbm5l
+Y3QgVG8gREJzcQB+AARwdAAobmNzYS5kMmsubW9kdWxlcy5jb3JlLmlvLnNxbC5Db25uZWN0VG9E
+QnQAG1NRTCBHZXQgQmFyIENoYXJ0IEZyb20gQ3ViZXNxAH4ABHB0AERuY3NhLmQyay5tb2R1bGVz
+LmNvcmUudHJhbnNmb3JtLnN1bW1hcml6YXRpb24uU1FMR2V0QmFyQ2hhcnRGcm9tQ3ViZXg=" label="GetBarChart.itn">
+    <annotation><![CDATA[<p>
+      <b>GetBarChart</b>
+    </p>
+    <p>
+      This itinerary allows the user to select a database cube table and one 
+      or more attributes. A 2D Bar Chart is generated showing the count of 
+      occurrences for each of the selected attributes, as maintained in the 
+      cube table.
+    </p>
+    <p>
+      Modules with Properties
+    </p>
+    <p>
+      The following modules have properties that may need to be adjusted. The 
+      properties can be changed by double clicking on the given module. Refer 
+      to the individual module descriptions for additional information on the 
+      properties for each module.
+    </p>
+    <p>
+      <b><i>1 - Connect To DB:</i></b>
+    </p>
+    <p>
+      This module establishes a connection to a database. It has many 
+      properties that need to be specified.
+    </p>
+    <p>
+      <b><i>2 - Available Tables Input:</i></b>
+    </p>
+    <p>
+      This module retrieves the list of available database cube tables which 
+      are configured to contain the attribute counts. The property <i>List 
+      Data Tables</i> should be set to false, and the property <i>List Data 
+      Cubes</i> should be set to true.
+    </p>
+    <p>
+      <b>Execution</b>
+    </p>
+    <p>
+      Execute the itinerary by clicking on the &quot;Run&quot; button. As the itinerary 
+      runs, the following windows will open for user input.
+    </p>
+    <p>
+      <b><i>1 - Select Table:</i></b>
+    </p>
+    <p>
+      This module allows the user to select a database table.
+    </p>
+    <p>
+      <b><i>2 - SQL Get Bar Chart From Cube:</i></b>
+    </p>
+    <p>
+      This module allows the user to select attributes for charting. A 2D Bar 
+      Chart will be created for eash attribute selected by the user.
+    </p>
+    <p>
+      <b>Results</b>
+    </p>
+    <p>
+      After the itinerary execution is complete the status bar will disappear. 
+      The pane of the Generated Visualization Session Pane will turn red 
+      indicating one or more visualizations have been created.
+    </p>
+    <p>
+      <b><i>1 - Bar Chart 2D</i></b>
+    </p>
+    <p>
+      This module provides a visual representation of the attribute statistics 
+      for the specified data cube table. In this itinerary, the statistics are 
+      the count of occurrences.
+    </p>]]></annotation>
+    <module alias="Available Tables Input" classname="ncsa.d2k.modules.core.io.sql.AvailableTablesInput" xloc="116" yloc="164">
+      <input index="0" classname="ncsa.d2k.modules.core.io.sql.ConnectionWrapper"/>
+      <output index="0" classname="ncsa.d2k.modules.core.io.sql.ConnectionWrapper">
+        <destination alias="SQL Get Bar Chart From Cube" index="0"/>
+      </output>
+      <output index="1" classname="java.util.Vector">
+        <destination alias="Select Table" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA="/>
+      <property name="dataTableOnly" value="false"/>
+      <property name="dataCubeOnly" value="true"/>
+    </module>
+    <module alias="Bar Chart 2D" classname="ncsa.d2k.modules.core.vis.BarChart2D" xloc="538" yloc="76">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <property name="characters" value="50"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAAA"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAAA"/>
+      <property name="labelsColumn" value="0"/>
+      <property name="YIncrement" value="15"/>
+      <property name="XIncrement" value="5"/>
+      <property name="heightsColumn" value="1"/>
+    </module>
+    <module alias="Select Table" classname="ncsa.d2k.modules.core.io.sql.SelectTable" xloc="256" yloc="168">
+      <input index="0" classname="java.util.Vector"/>
+      <output index="0" classname="java.lang.String">
+        <destination alias="SQL Get Bar Chart From Cube" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="supressGui" value="false"/>
+    </module>
+    <module alias="Connect To DB" classname="ncsa.d2k.modules.core.io.sql.ConnectToDB" xloc="12" yloc="164">
+      <output index="0" classname="ncsa.d2k.modules.core.io.sql.DBConnection">
+        <destination alias="Available Tables Input" index="0"/>
+      </output>
+      <property name="password" value=""/>
+      <property name="dbVendor" value=""/>
+      <property name="dbInstance" value=""/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAA"/>
+      <property name="username" value=""/>
+      <property name="url" value="jdbc:oracle:thin:@sol.ncsa.uiuc.edu:1521:oracle2"/>
+      <property name="supressGui" value="false"/>
+      <property name="driver" value=""/>
+      <property name="machine" value=""/>
+      <property name="port" value=""/>
+    </module>
+    <module alias="SQL Get Bar Chart From Cube" classname="ncsa.d2k.modules.core.transform.summarization.SQLGetBarChartFromCube" xloc="348" yloc="76">
+      <input index="0" classname="ncsa.d2k.modules.core.io.sql.ConnectionWrapper"/>
+      <input index="1" classname="java.lang.String"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table">
+        <destination alias="Bar Chart 2D" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+      <property name="book" value="false"/>
+      <property name="supressGui" value="false"/>
+    </module>
+  </itinerary>
+</toolkit>

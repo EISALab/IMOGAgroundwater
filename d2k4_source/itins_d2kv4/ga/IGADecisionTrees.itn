@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAAjdwgAAAANAAAADnQAGkNyZWF0ZSBEZWNpc2lvbiBUcmVlIE1vZGVsc3IAG25jc2EuZDJrLmNv
+cmUuUmVzb3VyY2VFbnRyedUuLCBCAybSAgACTAAMY2FjaGVkT2JqZWN0dAASTGphdmEvbGFuZy9P
+YmplY3Q7TAAPb2JqZWN0Q2xhc3NOYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHBwdAA7bmNzYS5k
+MmsubW9kdWxlcy5jb3JlLnByZWRpY3Rpb24uZGVjaXNpb250cmVlLkNyZWF0ZURUTW9kZWx0ABhQ
+cmVkaWN0aW9uTW9kZWxFdmFsdWF0b3JzcQB+AARwdABEbmNzYS5kMmsubW9kdWxlcy5jb3JlLnBy
+ZWRpY3Rpb24uZXZhbHVhdG9ycy5QcmVkaWN0aW9uTW9kZWxFdmFsdWF0b3J0AAZGYW5PdXRzcQB+
+AARwdAAibmNzYS5kMmsuY29yZS5tb2R1bGVzLkZhbk91dE1vZHVsZXQAMklHQTogUHV0IGRhdGEg
+aW50byBQb3AgZnJvbSBNb2RlbCAoRGVjaXNpb24gVHJlZXMpc3EAfgAEcHQASm5jc2EuZDJrLm1v
+ZHVsZXMucHJvamVjdHMuYXNpbmdoOC5vcHRpbWl6ZS5nYS5pZ2EucHJlZGljdG9ycy5QdXRUYWJs
+ZWluUG9wdAARQzQuNSBUcmVlIEJ1aWxkZXJzcQB+AARwdABAbmNzYS5kMmsubW9kdWxlcy5jb3Jl
+LnByZWRpY3Rpb24uZGVjaXNpb250cmVlLmM0NS5DNDVUcmVlQnVpbGRlcnQAEEM0LjUgVHJlZSBQ
+cnVuZXJzcQB+AARwdAA/bmNzYS5kMmsubW9kdWxlcy5jb3JlLnByZWRpY3Rpb24uZGVjaXNpb250
+cmVlLmM0NS5DNDVUcmVlUHJ1bmVydAAoRGVsaW1pdGVkRmlsZVRvVGFibGVJbXBsX0lucHV0IEZp
+bGUgTmFtZXNxAH4ABHB0ADJuY3NhLmQyay5tb2R1bGVzLmNvcmUuaW8uZmlsZS5pbnB1dC5JbnB1
+dDFGaWxlTmFtZXQAK0lHQTogUHJlcGFyZSBkYXRhIGZvciBNb2RlbCAoRGVjaXNpb24gVHJlZSlz
+cQB+AARwdABQbmNzYS5kMmsubW9kdWxlcy5wcm9qZWN0cy5hc2luZ2g4Lm9wdGltaXplLmdhLmln
+YS5wcmVkaWN0b3JzLlByZXBhcmVEYXRhZm9yTW9kZWx0ACREZWxpbWl0ZWRGaWxlVG9UYWJsZUlt
+cGxfVGFibGVWaWV3ZXJzcQB+AARwdAAlbmNzYS5kMmsubW9kdWxlcy5jb3JlLnZpcy5UYWJsZVZp
+ZXdlcnQADFJlYWRGbGF0RmlsZXNxAH4ABHB0ADBuY3NhLmQyay5tb2R1bGVzLmNvcmUuaW8uZmls
+ZS5pbnB1dC5SZWFkRmxhdEZpbGV0ACxEZWxpbWl0ZWRGaWxlVG9UYWJsZUltcGxfUGFyc2UgRmls
+ZSBUbyBUYWJsZXNxAH4ABHB0ADRuY3NhLmQyay5tb2R1bGVzLmNvcmUuaW8uZmlsZS5pbnB1dC5Q
+YXJzZUZpbGVUb1RhYmxldAAXUHJlZGljdGlvbk1vZGVsU2VsZWN0b3JzcQB+AARwdAA4bmNzYS5k
+MmsubW9kdWxlcy5jb3JlLnByZWRpY3Rpb24uUHJlZGljdGlvbk1vZGVsU2VsZWN0b3J0AAxNb2Rl
+bFByZWRpY3RzcQB+AARwdAAtbmNzYS5kMmsubW9kdWxlcy5jb3JlLnByZWRpY3Rpb24uTW9kZWxQ
+cmVkaWN0dAA1RGVsaW1pdGVkRmlsZVRvVGFibGVJbXBsX0NyZWF0ZSBEZWxpbWl0ZWQgRmlsZSBQ
+YXJzZXJzcQB+AARwdAA5bmNzYS5kMmsubW9kdWxlcy5jb3JlLmlvLmZpbGUuaW5wdXQuQ3JlYXRl
+RGVsaW1pdGVkUGFyc2VyeA==" label="IGADecisionTrees.itn">
+    <annotation><![CDATA[<?xml version="1.0" encoding="UTF-8"?><D2K>  <Info>    <Text>Creates a C4.5 Decision Tree.  The outputs are treated as nominal values.       <BR />    </Text>    <Text>       <BR />    </Text>    <Text>The training data is split into subsets of training and testing N times, and a tree is built for each training set.  Only the tree that is the most accurate at predicting the testing results is kept.       <BR />    </Text>    <Text>The value of N is a property of NFoldTTables.       <BR />    </Text>    <Text>       <BR />    </Text>    <Text>After the best model is selected, the entire dataset is then run through the model and visualized in DecisionTreeVis.  The tallies in the nodes of DecisionTreeVis reflect the frequencies of the entire dataset, not the data that the tree was trained with.  PredictionTableReport prints some useful statistics about the accuracy of the DecisionTreeModel on the entire dataset. </Text>    <Text> </Text>  </Info></D2K>]]></annotation>
+    <module alias="IGA: Put data into Pop from Model (Decision Trees)" classname="ncsa.d2k.modules.projects.asingh8.optimize.ga.iga.predictors.PutTableinPop" xloc="757" yloc="234">
+      <input index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.IGANsgaPopulation"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable"/>
+      <output index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.IGANsgaPopulation"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+    </module>
+    <module alias="FanOut" classname="ncsa.d2k.core.modules.FanOutModule" xloc="296" yloc="111">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+        <destination alias="C4.5 Tree Builder" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+        <destination alias="C4.5 Tree Pruner" index="1"/>
+      </output>
+      <output index="2" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+        <destination alias="Create Decision Tree Model" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAADAAAAAAAAAAAAAAAA"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAADAAAAAAAAAAAAAAAA"/>
+    </module>
+    <module alias="C4.5 Tree Pruner" classname="ncsa.d2k.modules.core.prediction.decisiontree.c45.C45TreePruner" xloc="460" yloc="8">
+      <input index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeNode"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+      <output index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeNode">
+        <destination alias="Create Decision Tree Model" index="0"/>
+      </output>
+      <property name="ordered" value="true"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+    </module>
+    <module alias="Create Decision Tree Model" classname="ncsa.d2k.modules.core.prediction.decisiontree.CreateDTModel" xloc="554" yloc="23">
+      <input index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeNode"/>
+      <input index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+      <output index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeModel">
+        <destination alias="ModelPredict" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+    </module>
+    <module alias="IGA: Prepare data for Model (Decision Tree)" classname="ncsa.d2k.modules.projects.asingh8.optimize.ga.iga.predictors.PrepareDataforModel" xloc="15" yloc="121">
+      <input index="0" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.IGANsgaPopulation"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+        <destination alias="FanOut" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable">
+        <destination alias="ModelPredict" index="0"/>
+      </output>
+      <output index="2" classname="ncsa.d2k.modules.projects.mbabbar.optimize.ga.IGANsgaPopulation">
+        <destination alias="IGA: Put data into Pop from Model (Decision Trees)" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAADAAAAAAAAAAAAAAAA"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAADAAAAAAAAAAAAAAAA"/>
+    </module>
+    <module alias="C4.5 Tree Builder" classname="ncsa.d2k.modules.core.prediction.decisiontree.c45.C45TreeBuilder" xloc="308" yloc="13">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+      <output index="0" classname="ncsa.d2k.modules.core.prediction.decisiontree.DecisionTreeNode">
+        <destination alias="C4.5 Tree Pruner" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="minimumRatioPerLeaf" value="0.0010"/>
+    </module>
+    <module alias="ModelPredict" classname="ncsa.d2k.modules.core.prediction.ModelPredict" xloc="665" yloc="162">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+      <input index="1" classname="ncsa.d2k.modules.PredictionModelModule"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.PredictionTable">
+        <destination alias="IGA: Put data into Pop from Model (Decision Trees)" index="1"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+    </module>
+  </itinerary>
+</toolkit>

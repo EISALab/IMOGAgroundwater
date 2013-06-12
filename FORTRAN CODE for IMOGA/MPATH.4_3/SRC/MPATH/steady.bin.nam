@@ -1,0 +1,15 @@
+# steady.bin.nam          
+LIST     40     steady.bin.lst
+DIS     41      steady.dis
+BAS6     1      steady.ba6
+BCF6     11     steady.bc6
+OC     42       steady.bin.oc
+LMG     8       steady.lmg
+data     45     culebra.ihd
+data     47     culebra.ibd
+data     33     culebra.top
+data     34     culebra.bot
+data     30     Tupdate.mod
+data(binary)     17     steady.bin.hed
+data     19     steady.drw
+data(binary)     15     steady.bin.bud

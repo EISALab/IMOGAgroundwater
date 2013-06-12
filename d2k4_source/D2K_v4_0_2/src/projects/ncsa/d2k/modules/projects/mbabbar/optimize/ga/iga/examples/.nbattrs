@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="IGAGenerateEC6Population.java">
+        <attr name="class_dependency_ncsa.d2k.modules.core.optimize.ga.PopulationPrep" stringvalue="IGAGenerateEC6Population"/>
+    </fileobject>
+    <fileobject name="IGAGenerateMOP4ColorPopulation.java">
+        <attr name="class_dependency_ncsa.d2k.modules.core.optimize.ga.PopulationPrep" stringvalue="IGAGenerateMOP4ColorPopulation"/>
+    </fileobject>
+</attributes>

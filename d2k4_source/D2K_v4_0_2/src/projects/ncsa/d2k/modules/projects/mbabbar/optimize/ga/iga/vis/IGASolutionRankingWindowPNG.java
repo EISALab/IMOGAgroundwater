@@ -1,0 +1,539 @@
+package ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.vis;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.io.*;
+import javax.swing.*;
+import ncsa.d2k.core.modules.*;
+import ncsa.d2k.core.modules.*;
+import ncsa.d2k.modules.core.datatype.table.*;
+import ncsa.d2k.modules.core.datatype.table.basic.*;
+import ncsa.d2k.modules.core.io.file.output.*;
+import ncsa.d2k.modules.core.vis.widgets.*;
+import ncsa.d2k.userviews.swing.*;
+
+import javax.swing.JScrollPane;
+import javax.swing.border.Border;
+import javax.swing.ImageIcon;
+import javax.swing.AbstractAction;
+import javax.swing.Action;
+import javax.swing.JToolBar;
+import javax.swing.JButton;
+import java.net.*;
+import javax.imageio.*;
+import java.io.*;
+import java.util.*;
+import java.awt.image.BufferedImage ;
+
+import ncsa.d2k.core.modules.*;
+import ncsa.d2k.userviews.swing.*;
+import ncsa.d2k.modules.core.optimize.ga.emo.*;
+import ncsa.d2k.modules.core.datatype.table.*;
+import ncsa.d2k.modules.core.datatype.table.basic.*;
+import ncsa.d2k.modules.core.io.file.output.*;
+import ncsa.d2k.modules.core.vis.widgets.*;
+import ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.*;
+//import ncsa.d2k.modules.projects.clutter.*;
+import ncsa.d2k.modules.core.optimize.ga.nsga.*;
+
+/**
+ * This module displays the selected individuals for comparative rating.
+ *
+ * @author Meghna Babbar
+ */
+public class IGASolutionRankingWindowPNG extends UIModule {
+
+////////////////////////////////////////////////////////////////////////////////
+// Module methods                                                             //
+////////////////////////////////////////////////////////////////////////////////
+
+   public UserView createUserView() {
+      return new IGARankingView();
+   }
+
+   /**
+    * Not used by this module.
+    */
+   public String[] getFieldNameMapping() {
+      return null;
+   }
+
+   public String getInputInfo(int i) {
+      if (i == 0)
+         return "The <i>IGA NSGA Population</i>.";
+      else if (i == 1)
+         return "The <i>Table</i> that contains individuals selected from tradeoff plots";
+      return "No such output";
+   }
+
+   public String getInputName(int i) {
+      if (i == 0)
+         return "Multiobjective IGA NSGA Population";
+      else if (i == 1)
+         return "Table";
+      return "No such output";
+   }
+
+   public String[] getInputTypes() {
+      return new String[] { "ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation",
+         "ncsa.d2k.modules.core.datatype.table.Table"
+      };
+   }
+
+   public String getModuleInfo() {
+      StringBuffer sb = new StringBuffer("<p>Overview: ");
+      sb.append("This module displays the figures and pictures related to individuals in a population for ranking.");
+      return sb.toString();
+   }
+
+   public String getModuleName() {
+      return "IGA: Solutions Ranking Section (PNG format)";
+   }
+
+   public String getOutputInfo(int i) {
+      if (i == 0)
+         return "The <i>IGA NSGA Population</i> after updating its ranks and qualitative information.";
+      return "No such input";
+   }
+
+   public String getOutputName(int i) {
+      if (i == 0)
+         return "Multiobjective IGA NSGA Population";
+      return "No such input";
+   }
+
+   public String[] getOutputTypes() {
+      return new String[] {
+        "ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.IGANsgaPopulation"
+      };
+   }
+////////////////////////////////////////////////////////////////////////////////
+// user view                                                                  //
+////////////////////////////////////////////////////////////////////////////////
+
+   /**
+    * This class uses a <code>TableMatrix</code> to display the
+    * <code>Table</code>.
+    */
+   public class IGARankingView extends JUserPane implements ActionListener {
+
+      TableMatrix matrix;
+      /** the table with data */
+     // protected Table table = null;
+      /** a reference to our parent module */
+      protected IGASolutionRankingWindowPNG parent;
+      /** Back button */
+      protected JButton back; //ok;
+      /** Next button */
+      protected JButton next1, next2; // cancel;
+      /** Quit button */
+      protected JButton quit; //;
+      /** JButton Panel for back, quit and next buttons */
+      protected JPanel buttonPanel; // = new JPanel(new FlowLayout(FlowLayout.CENTER));
+      /** panels to display cardlayout of pictures */
+      protected CardLayout pictureCardLayout; // = new CardLayout();
+      protected JPanel pictureCardPanel; // = new JPanel();
+      /** integer to traverse the cards in a sequence and not in a circle (for cardlayout) */
+      protected int cardSequence =0;
+
+      /** multiple panels to hold groupd of pictures for ranking */
+      protected JPanel [] picturePanel;
+      /** number of panels that will hold all groups of four of all the selected individuals */
+      protected int numPanels = 0;
+      /** array storing ids of individuals that need to be ranked */
+      protected int [] picIndivIds;
+      /** array storing ranks of individuals gathered from various ranking panels */
+      protected int [] rankIndivs ;
+      /** total number of pictures being evaluated */
+      int totalPics;
+
+       /** the maximum number of generations of the current population */
+      private int maxGen = 0;
+
+      /** the current generation of the current population */
+      private int currentGen = 0;
+
+      /** the current population */
+      private IGANsgaPopulation currentPop;
+      private MutableTable currentPopTable;
+
+      // which objectives out of all the objectives are qualitative.
+      // This array has size 'number of objectives', and if objective #1 is qualitative
+      // then qualObjs[1] = true.
+      boolean [] qualObjs;
+
+      boolean tableArrivedFlag = false;
+      boolean popArrivedFlag = false;
+      /**
+         Initialize the view.  Insert all components into the view.
+         @param mod The IGASolutionRankingWindowPNG module that owns us
+         */
+      public void initView(ViewModule mod) {
+        removeAll();
+        currentPop = (IGANsgaPopulation)pullInput(0);
+        System.out.println("initview: NSGA POP INPUT ACCEPTED");
+        currentPopTable = (MutableTable)pullInput(1);
+        System.out.println("initview: MutableTable INPUT ACCEPTED");
+
+        parent = (IGASolutionRankingWindowPNG)mod;
+        createPicturesPanel();
+
+     }
+
+      public Object getMenu() {
+         return null;
+      }
+
+      /**
+         Called whenever inputs arrive to the module.
+         @param input the Object that is the input
+         @param idx the index of the input
+         */
+      public void setInput(Object input, int idx) {
+
+
+            if(idx == 0) {
+              currentPop = (IGANsgaPopulation) input;
+              popArrivedFlag = true ;
+              System.out.println("setinput : NSGA POP INPUT ACCEPTED");
+            }
+            else if (idx == 1) {
+              currentPopTable = (MutableTable)input;
+              tableArrivedFlag = true ;
+              System.out.println("setinput : MutableTable INPUT ACCEPTED");
+            }
+
+            synchronized (this) {
+                if ((popArrivedFlag == true) && (tableArrivedFlag == true)){
+                  removeAll();
+                  createPicturesPanel();
+                  popArrivedFlag = false ;
+                  tableArrivedFlag = false ;
+                }
+            }
+
+      }
+
+      protected void createPicturesPanel( ) {
+               // obtaining number of panels required for holding all pictures in groups of four.
+         totalPics = 0;
+         for (int i =0; i < currentPopTable.getNumRows(); i++){
+            if (currentPopTable.getBoolean(i,currentPopTable.getNumColumns()-2) == true)
+                totalPics ++;
+         }
+         System.out.println("TOTAL NUMBER OF PICS : " + totalPics);
+         picIndivIds = new int [totalPics];
+         rankIndivs = new int [totalPics];
+         numPanels = totalPics / 4;
+         if (numPanels*4 < totalPics){
+            numPanels++ ;
+         }
+
+         // obtaining ids of individuals that have been tagged for ranking in the selection column
+         int j = 0;
+         for (int i =0; i < currentPopTable.getNumRows(); i++){
+            if (currentPopTable.getBoolean(i,currentPopTable.getNumColumns()-2) == true){
+                picIndivIds [j] = i;
+                rankIndivs [j] = 1;
+                j++;
+            }
+         }
+
+
+         //Create picture panels
+         buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER));
+         pictureCardLayout = new CardLayout();
+         pictureCardPanel = new JPanel();
+         createPictures();
+
+         // Create Button Panel
+         float h,s,b;
+         h = 0.219F;
+         s = 0.141F;
+         b = 0.823F;
+         buttonPanel.setBackground(Color.getHSBColor(h,s,b));
+         buttonPanel.setBorder(BorderFactory.createLineBorder(Color.white,2));
+         back = new JButton("Back");
+         back.setEnabled(false);
+         back.addActionListener(new AbstractAction() {
+            public void actionPerformed(ActionEvent e) {
+              next2.setEnabled(true);
+              ((CardLayout)pictureCardPanel.getLayout()).previous(pictureCardPanel);
+            //  System.out.println("Back pressed, cardSequence : "+ cardSequence);
+              cardSequence--;
+              if (cardSequence <= 0)
+                  back.setEnabled(false);
+            }
+         });
+         buttonPanel.add(back);
+
+         quit = new JButton("Quit");
+         quit.addActionListener(new AbstractAction() {
+            public void actionPerformed(ActionEvent e) {
+              viewCancel();
+            }
+         });
+         buttonPanel.add(quit);
+
+
+         next1 = new JButton("End Ranking Session");
+         next1.addActionListener(new AbstractAction() {
+            public void actionPerformed(ActionEvent e) {
+
+              ///////////////////////////////////////////////////
+              // UPDATE FITNESSES HERE IN THE POPULATION DATA STRUCTURE BEFORE PUSHING POPULATION
+
+              for (int m = 0; m < totalPics ; m++){
+                 // System.out.println("Individual Id : "+ picIndivIds[m] + ", Rank : "+ rankIndivs[m]);
+                  IGANsgaSolution nis = (IGANsgaSolution) (currentPop.getMember(picIndivIds[m]));
+                  boolean [] qualObjs ;
+                  qualObjs = (boolean[]) (currentPop.getIgaQualObj());
+                  for ( int n = 0; n < currentPop.getNumObjectives(); n++) {
+                      if ( qualObjs[n] == true ){
+                          nis.setObjective(n , (double) rankIndivs[m]);
+                      }
+                  }
+                  nis.setRankedIndivFlag(true);
+
+                  // add the human ranked IGANsgaSolution to the archive of human ranked individuals
+                  if (nis instanceof MONumericIndividual) {
+                      currentPop.addHumanRankedIndivToArchive ((MONumericIndividual)nis);
+                  }
+                  else {
+                      currentPop.addHumanRankedIndivToArchive ((MOBinaryIndividual)nis);
+                  }
+              }
+
+              ///////////////////////////////////////////////////
+
+                pushOutput(currentPop, 0);
+                viewDone("Done");
+            }
+        });
+        buttonPanel.add(next1);
+
+        next2 = new JButton("Continue Ranking");
+        next2.addActionListener(new AbstractAction() {
+            public void actionPerformed(ActionEvent e) {
+                 back.setEnabled(true);
+               //  System.out.println("Continue Ranking pressed, cardSequence : "+ cardSequence);
+                 ((CardLayout)pictureCardPanel.getLayout()).next(pictureCardPanel);
+                 cardSequence ++;
+                 if (cardSequence >= numPanels-1)
+                    next2.setEnabled(false);
+            }
+        });
+        buttonPanel.add(next2);
+
+        // add button Panel and Picture Panels to the parent
+        add(buttonPanel, BorderLayout.SOUTH);
+        add(pictureCardPanel, BorderLayout.CENTER);
+        revalidate();
+        repaint();
+
+      }
+      protected void createPictures( ) {
+
+        int counter = 0;
+
+        // instantiating number of picture panels that will hold the groups of pictures.
+        picturePanel = new JPanel[numPanels];
+        String [] picPanelStrings = new String [numPanels];
+        pictureCardPanel.setLayout(pictureCardLayout);
+
+        for (int k =0; k < numPanels; k++) {
+                float h,s,b;
+                h = 0.609F;
+                s = 0.130F;
+                b = 1.000F;
+
+                picturePanel[k] = new JPanel();
+                picPanelStrings[k] = new String("Picture" + k);
+                picturePanel[k].setLayout(new GridLayout(2,2));
+    // *************************************************************************
+                JPanel [][] rankPicture = new JPanel[numPanels][4];
+                JLabel [][] picture = new JLabel[numPanels][4] ;
+                JScrollPane [][] pictureScrollPane = new JScrollPane[numPanels][4];
+                JPanel [][] rankButtonPanel = new JPanel[numPanels][4];
+                JRadioButton[][] radioButton = new JRadioButton [numPanels][4];
+                ButtonGroup [][] rbg = new ButtonGroup [numPanels][4];
+                 // 'Details' button to see further detail information on that individual
+                JButton [][] DetailButton = new JButton [numPanels][4] ;
+
+
+                for (int i =0; i<4; i++){
+
+                    rankPicture[k][i] = new JPanel();
+                    // ADD IMAGES HERE
+                      BufferedImage solutionim = new BufferedImage(200,200,BufferedImage.TYPE_4BYTE_ABGR_PRE);
+                      try {
+                       // solutionim = ImageIO.read(new File("canvas.png"));
+                          if ( (counter) < picIndivIds.length){
+                              solutionim = ImageIO.read(new File(currentPopTable.getString(picIndivIds[counter],currentPopTable.getNumColumns()-1)));
+                              System.out.println("Image File : "+ currentPopTable.getString(picIndivIds[counter],currentPopTable.getNumColumns()-1));
+
+                          }
+                          else{
+                              solutionim = null ;
+                          }
+                      }
+                      catch (IOException ioe) {
+                        ioe.printStackTrace();
+                      }
+                      ImageIcon image = new ImageIcon (solutionim);
+                      picture[k][i] = new JLabel(image);
+                      pictureScrollPane[k][i] = new JScrollPane(picture[k][i]);
+                    ////////////////////////////////////////
+
+                      picture[k][i].setSize(new Dimension(400,200));
+                      pictureScrollPane[k][i].setMinimumSize (new Dimension (450, 250));
+                      pictureScrollPane[k][i].setPreferredSize (new Dimension (450, 250));
+
+                      rankButtonPanel[k][i] = new JPanel();
+                      rankButtonPanel[k][i].setLayout(new GridLayout(1,5));
+                      Integer buttonPanelID;
+
+                      rbg[k][i] = new ButtonGroup();
+                      radioButton[k][i] = new JRadioButton("1 (Best)");
+                      buttonPanelID =  new Integer(counter);
+                      radioButton[k][i].setActionCommand(buttonPanelID.toString());
+                      rankButtonPanel[k][i].add(radioButton[k][i]);
+                      rbg[k][i].add (radioButton[k][i]);
+                      radioButton[k][i].addActionListener(new AbstractAction() {
+                            public void actionPerformed(ActionEvent e) {
+                              String activePicId = new String(e.getActionCommand());
+                            //  System.out.println("activePicId is :::::::::: "+ activePicId);
+                              int picId = Integer.parseInt(activePicId);
+                              rankIndivs[picId] = 1;
+                            }
+                      });
+                      radioButton[k][i].setSelected(true);
+
+                      //////////////////////////////////////////////////////////////
+
+                      radioButton[k][i] = new JRadioButton("2");
+                      buttonPanelID =  new Integer(counter);
+                      radioButton[k][i].setActionCommand(buttonPanelID.toString());
+                      rankButtonPanel[k][i].add(radioButton[k][i]);
+                      rbg[k][i].add (radioButton[k][i]);
+                      radioButton[k][i].addActionListener(new AbstractAction() {
+                            public void actionPerformed(ActionEvent e) {
+                              String activePicId = new String(e.getActionCommand());
+                             // System.out.println("activePicId is :::::::::: "+ activePicId);
+                              int picId = Integer.parseInt(activePicId);
+                              rankIndivs[picId] = 2;
+                            }
+                      });
+
+                      //////////////////////////////////////////////////////////////
+
+                      radioButton[k][i] = new JRadioButton("3");
+                      buttonPanelID =  new Integer(counter);
+                      radioButton[k][i].setActionCommand(buttonPanelID.toString());
+                      rankButtonPanel[k][i].add(radioButton[k][i]);
+                      rbg[k][i].add (radioButton[k][i]);
+                      radioButton[k][i].addActionListener(new AbstractAction() {
+                            public void actionPerformed(ActionEvent e) {
+                              String activePicId = new String(e.getActionCommand());
+                              //System.out.println("activePicId is :::::::::: "+ activePicId);
+                              int picId = Integer.parseInt(activePicId);
+                              rankIndivs[picId] = 3;
+                            }
+                      });
+
+                      //////////////////////////////////////////////////////////////
+
+                      radioButton[k][i] = new JRadioButton("4");
+                      buttonPanelID =  new Integer(counter);
+                      radioButton[k][i].setActionCommand(buttonPanelID.toString());
+                      rankButtonPanel[k][i].add(radioButton[k][i]);
+                      rbg[k][i].add (radioButton[k][i]);
+                      radioButton[k][i].addActionListener(new AbstractAction() {
+                            public void actionPerformed(ActionEvent e) {
+                              String activePicId = new String(e.getActionCommand());
+                             // System.out.println("activePicId is :::::::::: "+ activePicId);
+                              int picId = Integer.parseInt(activePicId);
+                              rankIndivs[picId] = 4;
+                            }
+                      });
+
+                      //////////////////////////////////////////////////////////////
+
+                      radioButton[k][i] = new JRadioButton("5 (Worst)");
+                      buttonPanelID =  new Integer(counter);
+                      radioButton[k][i].setActionCommand(buttonPanelID.toString());
+                      rankButtonPanel[k][i].add(radioButton[k][i]);
+                      rbg[k][i].add (radioButton[k][i]);
+                      radioButton[k][i].addActionListener(new AbstractAction() {
+                            public void actionPerformed(ActionEvent e) {
+                              String activePicId = new String(e.getActionCommand());
+                             // System.out.println("activePicId is :::::::::: "+ activePicId);
+                              int picId = Integer.parseInt(activePicId);
+                              rankIndivs[picId] = 5;
+                            }
+                      });
+
+                      //////////////////////////////////////////////////////////////
+
+
+                      // 'Details' button to see further detail information on that individual
+                      DetailButton[k][i] = new JButton(" Details>> ");
+                      DetailButton[k][i].setBackground(Color.getHSBColor(h,s,b));
+
+                      rankButtonPanel[k][i].setBorder(BorderFactory.createLineBorder(Color.white,2));
+                      rankPicture[k][i].add(DetailButton[k][i], BorderLayout.NORTH);
+                      rankPicture[k][i].add(pictureScrollPane[k][i], BorderLayout.CENTER);
+                      rankPicture[k][i].add(rankButtonPanel[k][i], BorderLayout.SOUTH);
+                      rankPicture[k][i].setMinimumSize (new Dimension (450, 320));
+                      rankPicture[k][i].setPreferredSize (new Dimension (450, 320));
+                      rankPicture[k][i].setBorder(BorderFactory.createLineBorder(Color.white,2));
+
+                      counter ++ ;
+                }
+          // *************************************************************************
+                h = 0.168F;
+                s = 0.208F;
+                b = 0.979F;
+                for (int i=0; i<4; i++){
+                  rankPicture[k][i].setBackground(Color.getHSBColor(h,s,b));
+                  picturePanel[k].add(rankPicture[k][i]);
+                }
+
+                // adding picture panel to Jpanel with cardlayout.
+                pictureCardPanel.add(picPanelStrings[k],picturePanel[k]);
+               // System.out.println("picture panel added : "+ picPanelStrings[k]);
+
+        } // k loop for numPanels
+      }
+      /**
+         Perform any clean up to the table and call the finish() method
+         on the VerticalTableViewer module.  Since all cells are
+         uneditable in this implementation, we simply call the finish()
+         method.  A subclass may want to juggle the contents of the table,
+         however.
+         */
+      protected void finishUp() {
+       //  pushOutput(table, 0);
+         viewDone("Done");
+      }
+
+      /**
+         This is the ActionListener for the ok and cancel buttons.  The
+         finishUp() method is called if ok is pressed.  The viewCancel()
+         method of the VerticalTableViewer module is called if cancel is
+         pressed.
+         @param e the ActionEvent
+         */
+      public void actionPerformed(ActionEvent e) {
+         Object src = e.getSource();
+    /*     if(src == back)
+            finishUp();
+         else if(src == quit)
+            parent.viewCancel();
+         else if(src == next)
+            finishUp();
+            */
+      }
+
+   }
+}

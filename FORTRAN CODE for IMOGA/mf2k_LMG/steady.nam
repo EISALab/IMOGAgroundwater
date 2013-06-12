@@ -1,0 +1,21 @@
+# MF2K NAME file
+#
+# Output Files
+LIST         40 steady.lst
+DATA         17 steady.hed
+DATA         19 steady.drw
+DATA(BINARY) 15 steady.bud
+#
+# Global Input Files
+DIS          41 steady.dis
+DATA         45 steady2.ihd
+DATA         47 culebra.ibd
+DATA         33 culebra.top
+DATA         34 culebra.bot
+DATA         30 Tupdate2.mod
+#
+# Flow Process Input Files
+BAS6          1 steady.ba6
+BCF6         11 steady.bc6
+OC           42 steady.oc
+LMG           8 steady.lmg

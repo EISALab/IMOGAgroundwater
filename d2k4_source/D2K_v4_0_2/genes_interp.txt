@@ -1,0 +1,11 @@
+4
+36
+1
+Totbtex_conc_ppb_interpolatedgrid_Ind3
+0  0  1  1  1  1  1  0  0  1  0  1  0  0  0  0  1  1  0  0  1  0  1  0  0  0  0  1  1  0  1  0  0  1  1  0  
+Totbtex_conc_ppb_interpolatedgrid_Ind5
+1  1  1  0  1  1  1  1  0  0  0  1  0  0  0  0  0  1  0  0  0  1  0  1  0  0  0  0  0  0  1  0  0  0  1  0  
+Totbtex_conc_ppb_interpolatedgrid_Ind12
+0  0  1  1  0  1  1  0  1  1  1  1  0  0  0  1  1  0  0  0  1  1  0  0  0  0  0  0  0  0  1  0  0  0  1  0  
+Totbtex_conc_ppb_interpolatedgrid_Ind15
+0  1  0  0  1  1  0  1  0  1  1  1  0  1  0  0  0  0  1  0  0  1  0  1  0  1  0  0  0  1  1  0  0  0  0  0  

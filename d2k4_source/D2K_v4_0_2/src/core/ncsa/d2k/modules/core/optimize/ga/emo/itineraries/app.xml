@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<application label="EMO" about="EMO 1.0 beta" xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="d2ksl.xsd">
+  <step label="Decision Variables" type="0">
+    <description><![CDATA[<html>
+  <head>
+
+  </head>
+  <body>
+    <p>
+      Decision variables are a set of variable quantities that completely 
+      describe the decisions to be made. In an optimization problem, these are 
+      the variables that are altered by the algorithm to create the best set 
+      or sets of solutions that satisfy all objectives and constraints.
+    </p>
+  </body>
+</html>
+]]></description>
+    <item label="Define Decision Variables" step="Decision Variables" xsi:type="itineraryItemType">
+      <description><![CDATA[<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Overview: Define the decision variables in EMO.
+    </p>
+    <p>
+      Detailed Description: An interface to input the decision variables in 
+      EMO. In addition to specifying the number of decision variables, the 
+      user can specify the name, minimum, maximum, and precision of each of 
+      the variables.
+    </p>
+    <p>
+      The variables can be read from a file. The file must be comma-delimited, 
+      with one variable specified on each line of the file. There must be four 
+      values on each line (in this order): the name, the minimum value, the 
+      maximum value, and the precision.
+    </p>
+    <p>
+      The population can be seeded with values for the decision variables. 
+      These seeded values are read in from a file. The file must be 
+      comma-delimited, with one individual in the population fully described 
+      on one line. Thus, the number of values on one line must equal the 
+      number of decision variables used in the problem. In addition, the 
+      values must appear in the same order as the variables are defined.
+    </p>
+  </body>
+</html>
+]]></description>
+      <notes/>
+      <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAAIdwgAAAADAAAAAXQAGURlZmluZSBEZWNpc2lvbiBWYXJpYWJsZXNzcgAbbmNzYS5kMmsuY29y
+ZS5SZXNvdXJjZUVudHJ51S4sIEIDJtICAAJMAAxjYWNoZWRPYmplY3R0ABJMamF2YS9sYW5nL09i
+amVjdDtMAA9vYmplY3RDbGFzc05hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHB0AEFuY3NhLmQy
+ay5tb2R1bGVzLmNvcmUub3B0aW1pemUuZ2EuZW1vLmd1aS5EZWZpbmVEZWNpc2lvblZhcmlhYmxl
+c3g=" label="">
+        <annotation><![CDATA[<p>
+      Overview: Define the decision variables in EMO.
+    </p>
+    <p>
+      Detailed Description: An interface to input the decision variables in 
+      EMO. In addition to specifying the number of decision variables, the 
+      user can specify the name, minimum, maximum, and precision of each of 
+      the variables.
+    </p>
+    <p>
+      The variables can be read from a file. The file must be comma-delimited, 
+      with one variable specified on each line of the file. There must be four 
+      values on each line (in this order): the name, the minimum value, the 
+      maximum value, and the precision.
+    </p>
+    <p>
+      The population can be seeded with values for the decision variables. 
+      These seeded values are read in from a file. The file must be 
+      comma-delimited, with one individual in the population fully described 
+      on one line. Thus, the number of values on one line must equal the 
+      number of decision variables used in the problem. In addition, the 
+      values must appear in the same order as the variables are defined.
+    </p>]]></annotation>
+        <module alias="Define Decision Variables" classname="ncsa.d2k.modules.core.optimize.ga.emo.gui.DefineDecisionVariables" xloc="65" yloc="110">
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAA"/>
+          <property name="windowName" value="Define Decision Variables"/>
+          <property name="supressGui" value="false"/>
+        </module>
+      </itinerary>
+      <output name="EMOParameters"/>
+    </item>
+  </step>
+  <step label="Fitness Function" type="0">
+    <description><![CDATA[<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Fitness functions are the various objective functions that numerically 
+      describe the objectives of the problem. Fitness functions can be 
+      maximized or minimized and are defined in terms of the decision 
+      variables.
+    </p>
+  </body>
+</html>
+]]></description>
+    <item label="Define New Variable" step="Fitness Function" xsi:type="itineraryItemType">
+      <description><![CDATA[<html>
+  
+
+  <head>
+
+  </head>
+  <body>
+    <p>
+      Define a new variable to be used in the calculation of fitness functions.
+    </p>
+  </body>
+</html>
+]]></description>
+      <notes/>
+      <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAAIdwgAAAADAAAAAXQAE0RlZmluZSBOZXcgVmFyaWFibGVzcgAbbmNzYS5kMmsuY29yZS5SZXNv
+dXJjZUVudHJ51S4sIEIDJtICAAJMAAxjYWNoZWRPYmplY3R0ABJMamF2YS9sYW5nL09iamVjdDtM
+AA9vYmplY3RDbGFzc05hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHB0ADtuY3NhLmQyay5tb2R1
+bGVzLmNvcmUub3B0aW1pemUuZ2EuZW1vLmd1aS5EZWZpbmVOZXdWYXJpYWJsZXg=" label="">
+        <annotation><![CDATA[<HTML>
+</HTML>]]></annotation>
+        <module alias="Define New Variable" classname="ncsa.d2k.modules.core.optimize.ga.emo.gui.DefineNewVariable" xloc="121" yloc="144">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+          <property name="windowName" value="Define New Variable"/>
+          <property name="supressGui" value="false"/>
+        </module>
+      </itinerary>
+      <input name="EMOParameters"/>
+      <output name="EMOParameters"/>
+    </item>
+    <item label="Set Fitness Function by Formula" step="Fitness Function" xsi:type="itineraryItemType">
+      <description><![CDATA[<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Overview: Define functions to be used in the calculation of fitness 
+      functions.
+    </p>
+    <p>
+      Detailed Description: Define the fitness functions that are calculated 
+      by copying the decision variables into a Table and performing 
+      transformations on the Table. This module provides a GUI used to specify 
+      expression strings. These expressions are interpreted as operations on 
+      existing attributes in the table and are used to construct new 
+      attributes. When the GUI is dismissed, the information needed to 
+      construct these new attributes is encapsulated in a Transformation 
+      object that is applied when evaluating a population.
+    </p>
+    <p>
+      The available operations on numeric attributes are addition, 
+      subtraction, multiplication, division, and modulus. The operations 
+      available on boolean attributes are AND and OR.
+    </p>
+  </body>
+</html>
+]]></description>
+      <notes/>
+      <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAAIdwgAAAADAAAAAXQAGERlZmluZSBGaXRuZXNzIEZ1bmN0aW9uc3NyABtuY3NhLmQyay5jb3Jl
+LlJlc291cmNlRW50cnnVLiwgQgMm0gIAAkwADGNhY2hlZE9iamVjdHQAEkxqYXZhL2xhbmcvT2Jq
+ZWN0O0wAD29iamVjdENsYXNzTmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwcHQAQG5jc2EuZDJr
+Lm1vZHVsZXMuY29yZS5vcHRpbWl6ZS5nYS5lbW8uZ3VpLkRlZmluZUZpdG5lc3NGdW5jdGlvbnN4
+" label="">
+        <annotation><![CDATA[<p>
+      Overview: Define functions to be used in the calculation of fitness 
+      functions.
+    </p>
+    <p>
+      Detailed Description: Define the fitness functions that are calculated 
+      by copying the decision variables into a Table and performing 
+      transformations on the Table. This module provides a GUI used to specify 
+      expression strings. These expressions are interpreted as operations on 
+      existing attributes in the table and are used to construct new 
+      attributes. When the GUI is dismissed, the information needed to 
+      construct these new attributes is encapsulated in a Transformation 
+      object that is applied when evaluating a population.
+    </p>
+    <p>
+      The available operations on numeric attributes are addition, 
+      subtraction, multiplication, division, and modulus. The operations 
+      available on boolean attributes are AND and OR.
+    </p>]]></annotation>
+        <module alias="Define Fitness Functions" classname="ncsa.d2k.modules.core.optimize.ga.emo.gui.DefineFitnessFunctions" xloc="155" yloc="141">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+          <property name="windowName" value="Define Fitness Functions"/>
+          <property name="supressGui" value="false"/>
+        </module>
+      </itinerary>
+      <input name="EMOParameters"/>
+      <output name="EMOParameters"/>
+    </item>
+    <item label="Set Fitness Function by Executable" step="Fitness Function" xsi:type="itineraryItemType">
+      <description><![CDATA[<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Overview: Input fitness functions that are calculated by an executable.
+    </p>
+    <p>
+      Detailed Description: Input all the properties needed to call an 
+      executable to evaluate the fitness functions for a population.
+    </p>
+    <p>
+      The executable, input file, and output file must all be located in the 
+      installation directory for EMO.  First, input the name of the fitness 
+      function. Next, input the path to the executable. Next, input the paths 
+      to the input and output files.
+    </p>
+    <p>
+      Finally, choose whether the fitness function is minimizing or maximizing.
+    </p>
+    <p>
+      An executable must read the genes in from a file and write out a file 
+      containing the values of the fitness functions. The format of the input 
+      file is fixed. The first line contains the size of the population. The 
+      second line contains the number of traits. Every following line will 
+      contain the values for an individual, space-delimited.
+    </p>
+    <p>
+      The output file must also follow a specific format. Each row of the file 
+      must contain the value for this fitness function on the associated 
+      individual in the genes file. Order is preserved.
+    </p>
+  </body>
+</html>
+]]></description>
+      <notes/>
+      <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAAIdwgAAAADAAAAAXQAHkRlZmluZUV4dGVybmFsRml0bmVzc0Z1bmN0aW9uc3NyABtuY3NhLmQy
+ay5jb3JlLlJlc291cmNlRW50cnnVLiwgQgMm0gIAAkwADGNhY2hlZE9iamVjdHQAEkxqYXZhL2xh
+bmcvT2JqZWN0O0wAD29iamVjdENsYXNzTmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwcHQASG5j
+c2EuZDJrLm1vZHVsZXMuY29yZS5vcHRpbWl6ZS5nYS5lbW8uZ3VpLkRlZmluZUV4dGVybmFsRml0
+bmVzc0Z1bmN0aW9uc3g=" label="">
+        <annotation><![CDATA[<p>
+      Overview: Input fitness functions that are calculated by an executable.
+    </p>
+    <p>
+      Detailed Description: Input all the properties needed to call an 
+      executable to evaluate the fitness functions for a population.
+    </p>
+    <p>
+      First, input the name of the fitness function. Next, input the path to 
+      the executable. Next, input the paths to the input and output files.
+    </p>
+    <p>
+      Finally, choose whether the fitness function is minimizing or maximizing.
+    </p>
+    <p>
+      An executable must read the genes in from a file and write out a file 
+      containing the values of the fitness functions. The format of the input 
+      file is fixed. The first line contains the size of the population. The 
+      second line contains the number of traits. Every following line will 
+      contain the values for an individual, space-delimited.
+    </p>
+    <p>
+      The output file must also follow a specific format. Each row of the file 
+      must contain the value for this fitness function on the associated 
+      individual in the genes file. Order is preserved.
+    </p>]]></annotation>
+        <module alias="DefineExternalFitnessFunctions" classname="ncsa.d2k.modules.core.optimize.ga.emo.gui.DefineExternalFitnessFunctions" xloc="144" yloc="109">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+          <property name="windowName" value="DefineExternalFitnessFunctions"/>
+          <property name="supressGui" value="false"/>
+        </module>
+      </itinerary>
+      <input name="EMOParameters"/>
+      <output name="EMOParameters"/>
+    </item>
+  </step>
+  <step label="Constraints" type="0">
+    <description><![CDATA[<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      These are the expressions that define various restrictions or 
+      limitations placed on the designs. They can either involve restrictions 
+      on the values of one or more of the decision variables, or on some 
+      functions of these decision variables.
+    </p>
+  </body>
+</html>
+]]></description>
+    <item label="Define New Variable" step="Constraints" xsi:type="itineraryItemType">
+      <description><![CDATA[<html>
+  Define a new variable to use in the calculation of constraints.
+
+  <head>
+
+  </head>
+  <body>
+  </body>
+</html>
+]]></description>
+      <notes/>
+      <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAAIdwgAAAADAAAAAXQAE0RlZmluZSBOZXcgVmFyaWFibGVzcgAbbmNzYS5kMmsuY29yZS5SZXNv
+dXJjZUVudHJ51S4sIEIDJtICAAJMAAxjYWNoZWRPYmplY3R0ABJMamF2YS9sYW5nL09iamVjdDtM
+AA9vYmplY3RDbGFzc05hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHB0ADtuY3NhLmQyay5tb2R1
+bGVzLmNvcmUub3B0aW1pemUuZ2EuZW1vLmd1aS5EZWZpbmVOZXdWYXJpYWJsZXg=" label="">
+        <annotation><![CDATA[<HTML>
+</HTML>]]></annotation>
+        <module alias="Define New Variable" classname="ncsa.d2k.modules.core.optimize.ga.emo.gui.DefineNewVariable" xloc="121" yloc="144">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+          <property name="windowName" value="Define New Variable"/>
+          <property name="supressGui" value="false"/>
+        </module>
+      </itinerary>
+      <input name="EMOParameters"/>
+      <output name="EMOParameters"/>
+    </item>
+    <item label="Specify Constraints by Formula" step="Constraints" xsi:type="itineraryItemType">
+      <description><![CDATA[<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Overview: Define functions to be used in the calculation of constraint 
+      functions.
+    </p>
+    <p>
+      Detailed Description: Define the constraint functions that are 
+      calculated by performing transformations on a Table. This module 
+      provides a GUI used to specify expression strings. These expressions are 
+      interpreted as operations on existing attributes in the table and are 
+      used to construct new attributes. When the GUI is dismissed, the 
+      information needed to construct these new attributes is encapsulated in 
+      a Transformation object that is applied when evaluating a population.
+    </p>
+    <p>
+      The available operations on numeric attributes are addition, 
+      subtraction, multiplication, division, and modulus. The operations 
+      available on boolean attributes are AND and OR.
+    </p>
+  </body>
+</html>
+]]></description>
+      <notes/>
+      <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAAIdwgAAAADAAAAAnQAJURlZmluZSBDb25zdHJhaW50IFZpb2xhdGlvbiBGdW5jdGlvbnNzcgAb
+bmNzYS5kMmsuY29yZS5SZXNvdXJjZUVudHJ51S4sIEIDJtICAAJMAAxjYWNoZWRPYmplY3R0ABJM
+amF2YS9sYW5nL09iamVjdDtMAA9vYmplY3RDbGFzc05hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4
+cHB0AExuY3NhLmQyay5tb2R1bGVzLmNvcmUub3B0aW1pemUuZ2EuZW1vLmd1aS5EZWZpbmVDb25z
+dHJhaW50VmlvbGF0aW9uRnVuY3Rpb25zdAAbRGVmaW5lIENvbnN0cmFpbnQgRnVuY3Rpb25zc3EA
+fgAEcHQAQ25jc2EuZDJrLm1vZHVsZXMuY29yZS5vcHRpbWl6ZS5nYS5lbW8uZ3VpLkRlZmluZUNv
+bnN0cmFpbnRGdW5jdGlvbnN4" label="">
+        <annotation><![CDATA[<p>
+      Overview: Define functions to be used in the calculation of constraint 
+      violation functions.
+    </p>
+    <p>
+      Detailed Description: Define the constraint violation functions that are 
+      calculated by performing transformations on a Table. This module 
+      provides a GUI used to specify expression strings. These expressions are 
+      interpreted as operations on existing attributes in the table and are 
+      used to construct new attributes. When the GUI is dismissed, the 
+      information needed to construct these new attributes is encapsulated in 
+      a Transformation object that is applied when evaluating a population.
+    </p>
+    <p>
+      The available operations on numeric attributes are addition, 
+      subtraction, multiplication, division, and modulus. The operations 
+      available on boolean attributes are AND and OR.
+    </p>]]></annotation>
+        <module alias="Define Constraint Functions" classname="ncsa.d2k.modules.core.optimize.ga.emo.gui.DefineConstraintFunctions" xloc="152" yloc="116">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+          <property name="windowName" value="Define Constraint Functions"/>
+          <property name="supressGui" value="false"/>
+        </module>
+      </itinerary>
+      <input name="EMOParams"/>
+      <output name="EMOParams"/>
+    </item>
+    <item label="Specify Constraints by Executable" step="Constraints" xsi:type="itineraryItemType">
+      <description><![CDATA[<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Overview: Input constraint functions that are calculated by an 
+      executable.
+    </p>
+    <p>
+      Detailed Description: Input all the properties needed to call an 
+      executable to evaluate the constraint violation functions for a 
+      population.
+    </p>
+    <p>
+      The executable, input file, and output file must all be located in the 
+      EMO installation directory.  First, input the name of the constraint. 
+      Next, input the path to the executable. Next, input the paths to the 
+      input and output files. Finally, input a weight to assign to this 
+      constraint.&quot;;
+    </p>
+    <p>
+      An executable must read the genes in from a file and write out a file 
+      containing the values of the fitness functions. The format of the input 
+      file is fixed. The first line contains the size of the population. The 
+      second line contains the number of traits. Every following line should 
+      contain the values for an individual, space-delimited.
+    </p>
+    <p>
+      The output file must also follow a specific format. Each row of the file 
+      must contain the value for this constraint violation function on the 
+      associated individual in the genes file. Order is preserved.
+    </p>
+  </body>
+</html>
+]]></description>
+      <notes/>
+      <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAAIdwgAAAADAAAAAXQAGURlZmluZUV4dGVybmFsQ29uc3RyYWludHNzcgAbbmNzYS5kMmsuY29y
+ZS5SZXNvdXJjZUVudHJ51S4sIEIDJtICAAJMAAxjYWNoZWRPYmplY3R0ABJMamF2YS9sYW5nL09i
+amVjdDtMAA9vYmplY3RDbGFzc05hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHB0AENuY3NhLmQy
+ay5tb2R1bGVzLmNvcmUub3B0aW1pemUuZ2EuZW1vLmd1aS5EZWZpbmVFeHRlcm5hbENvbnN0cmFp
+bnRzeA==" label="">
+        <annotation><![CDATA[<p>
+      Overview: Input constraint violation functions that are calculated by an 
+      executable.
+    </p>
+    <p>
+      Detailed Description: Input all the properties needed to call an 
+      executable to evaluate the constraint violation functions for a 
+      population.
+    </p>
+    <p>
+      First, input the name of the constraint. Next, input the path to the 
+      executable. Next, input the paths to the input and output files. 
+      Finally, input a weight to assign to this constraint.&quot;;
+    </p>
+    <p>
+      An executable must read the genes in from a file and write out a file 
+      containing the values of the fitness functions. The format of the input 
+      file is fixed. The first line contains the size of the population. The 
+      second line contains the number of traits. Every following line should 
+      contain the values for an individual, space-delimited.
+    </p>
+    <p>
+      The output file must also follow a specific format. Each row of the file 
+      must contain the value for this constraint violation function on the 
+      associated individual in the genes file. Order is preserved.
+    </p>]]></annotation>
+        <module alias="DefineExternalConstraints" classname="ncsa.d2k.modules.core.optimize.ga.emo.gui.DefineExternalConstraints" xloc="121" yloc="128">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+          <property name="windowName" value="DefineExternalConstraints"/>
+          <property name="supressGui" value="false"/>
+        </module>
+      </itinerary>
+      <input name="EMOParameters"/>
+      <output name="EMOParameters"/>
+    </item>
+  </step>
+  <step label="GA Parameters" type="2">
+    <description><![CDATA[<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      These are the various parameters related to the genetic algorithm 
+      settings. The best selection for these settings can change from problem 
+      to problem, and thus affect the performance of the algorithm. 
+      Recommended values suggest by the software are encouraged to be used by 
+      the novice. Below is a brief description of some of these parameters 
+      that users can adjust according to their application.
+    </p>
+    <p>
+      Number of Non-Dominated Solutions: These are the desired number of 
+      equally competent designs that can arise in the final set of optimal 
+      solutions, when there is more than one objective in a problem. Solutions 
+      in this set can be better than other solutions in some objectives but 
+      could perform worse on other objectives, and hence are called 
+      non-dominated solutions.
+    </p>
+    <p>
+      Starting Population Size: This is the size of an initial random set of 
+      designs that the genetic algorithm uses to begin its search from. Larger 
+      population sizes are recommended for optimal performance of the 
+      algorithm, though the software calculates a good starting value based on 
+      the number of desired non-dominated solutions.
+    </p>
+    <p>
+      Maximum Number of Generations: This is the maximum limit on the number 
+      of cycles that the genetic algorithm is expected to loop through while 
+      evaluating populations of designs and creating new designs. The genetic 
+      algorithm is expected to converge to a final set of optimal solutions by 
+      the end of this loop. Recommended value for this parameter is highly 
+      suggested to be used, unless there are computational limits faced by the 
+      user.
+    </p>
+    <p>
+      Tournament Size: This is the number of designs in the population that 
+      compete with each other to create new designs. This parameter is not 
+      used if any other selection technique other than Tournament Selection is 
+      used.
+    </p>
+    <p>
+      Probability of Crossover: This is the probability that a specific site 
+      on the chromosome (that defines the string of decision variables) will 
+      be crossovered/exchanged with the same corresponding site on the 
+      chromosome of another design. Recommended value is suggested to be used.
+    </p>
+    <p>
+      Probability of Mutation: This is the probability that a specific site on 
+      the chromosome will be randomly changed or mutated to a different value. 
+      Recommended value is suggested to be used.
+    </p>
+    <p>
+      Generation Gap: This is the fraction of the population that is changed 
+      at each generation.
+    </p>
+  </body>
+</html>
+]]></description>
+    <item label="Input GA Parameters" step="GA Parameters" xsi:type="itineraryItemType">
+      <description><![CDATA[<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Input all the parameters to run the GA.
+    </p>
+  </body>
+</html>
+]]></description>
+      <notes/>
+      <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAAIdwgAAAADAAAAAXQAD0lucHV0UGFyYW1ldGVyc3NyABtuY3NhLmQyay5jb3JlLlJlc291cmNl
+RW50cnnVLiwgQgMm0gIAAkwADGNhY2hlZE9iamVjdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wAD29i
+amVjdENsYXNzTmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwcHQAOW5jc2EuZDJrLm1vZHVsZXMu
+Y29yZS5vcHRpbWl6ZS5nYS5lbW8uZ3VpLklucHV0UGFyYW1ldGVyc3g=" label="">
+        <annotation><![CDATA[<p>
+      Input all the parameters to run the GA.
+    </p>]]></annotation>
+        <module alias="InputParameters" classname="ncsa.d2k.modules.core.optimize.ga.emo.gui.InputParameters" xloc="72" yloc="139">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAgAAAAAAAAAA"/>
+          <property name="windowName" value="InputParameters"/>
+        </module>
+      </itinerary>
+      <input name="EMOParameters"/>
+      <output name="EMOParameters"/>
+    </item>
+  </step>
+  <step label="Run" type="4">
+    <description><![CDATA[<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Run the genetic algorithm with the specified parameters.
+    </p>
+  </body>
+</html>
+]]></description>
+    <item label="Run Single Objective GA" step="Run" xsi:type="itineraryItemType">
+      <description><![CDATA[<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Run a GA with a single objective.
+    </p>
+  </body>
+</html>
+]]></description>
+      <notes/>
+      <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAARdwgAAAAJAAAACHQAEkV2YWx1YXRlUG9wdWxhdGlvbnNyABtuY3NhLmQyay5jb3JlLlJlc291
+cmNlRW50cnnVLiwgQgMm0gIAAkwADGNhY2hlZE9iamVjdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wA
+D29iamVjdENsYXNzTmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwcHQAOG5jc2EuZDJrLm1vZHVs
+ZXMuY29yZS5vcHRpbWl6ZS5nYS5lbW8uRXZhbHVhdGVQb3B1bGF0aW9udAAQTWVhc3VyZSBTdWNj
+ZXNzMXNxAH4ABHB0ADBuY3NhLmQyay5tb2R1bGVzLmNvcmUub3B0aW1pemUuZ2EuZW1vLkVNT01l
+YXN1cmV0ABJHZW5lcmF0ZVBvcHVsYXRpb25zcQB+AARwdAA4bmNzYS5kMmsubW9kdWxlcy5jb3Jl
+Lm9wdGltaXplLmdhLmVtby5HZW5lcmF0ZVBvcHVsYXRpb250ABBQZXJmb3JtU2VsZWN0aW9uc3EA
+fgAEcHQAQG5jc2EuZDJrLm1vZHVsZXMuY29yZS5vcHRpbWl6ZS5nYS5lbW8uc2VsZWN0aW9uLlBl
+cmZvcm1TZWxlY3Rpb250AA9QZXJmb3JtTXV0YXRpb25zcQB+AARwdAA+bmNzYS5kMmsubW9kdWxl
+cy5jb3JlLm9wdGltaXplLmdhLmVtby5tdXRhdGlvbi5QZXJmb3JtTXV0YXRpb250AA9Qb3B1bGF0
+aW9uRmFuSW5zcQB+AARwdAA6bmNzYS5kMmsubW9kdWxlcy5jb3JlLm9wdGltaXplLmdhLmVtby51
+dGlsLlBvcHVsYXRpb25GYW5JbnQAEFBlcmZvcm1Dcm9zc292ZXJzcQB+AARwdABAbmNzYS5kMmsu
+bW9kdWxlcy5jb3JlLm9wdGltaXplLmdhLmVtby5jcm9zc292ZXIuUGVyZm9ybUNyb3Nzb3ZlcnQA
+BVNPVmlzc3EAfgAEcHQAL25jc2EuZDJrLm1vZHVsZXMuY29yZS5vcHRpbWl6ZS5nYS5lbW8uZ3Vp
+LlNPVmlzeA==" label="">
+        <annotation><![CDATA[<p>
+      Run a GA with a single objective.
+    </p>]]></annotation>
+        <module alias="PerformSelection" classname="ncsa.d2k.modules.core.optimize.ga.emo.selection.PerformSelection" xloc="473" yloc="242">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+            <destination alias="PerformCrossover" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+        </module>
+        <module alias="PerformCrossover" classname="ncsa.d2k.modules.core.optimize.ga.emo.crossover.PerformCrossover" xloc="558" yloc="301">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+            <destination alias="PerformMutation" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+        </module>
+        <module alias="Measure Success1" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOMeasure" xloc="295" yloc="253">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+            <destination alias="PerformSelection" index="0"/>
+          </output>
+          <output index="1" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA="/>
+          <property name="debugging" value="false"/>
+        </module>
+        <module alias="SOVis" classname="ncsa.d2k.modules.core.optimize.ga.emo.gui.SOVis" xloc="282" yloc="385">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+            <destination alias="Measure Success1" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAADAAAAAAAAAAAAAAAA"/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAADAAAAAAAAAAAAAAAA"/>
+          <property name="windowName" value="SOVis"/>
+        </module>
+        <module alias="PerformMutation" classname="ncsa.d2k.modules.core.optimize.ga.emo.mutation.PerformMutation" xloc="672" yloc="292">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+            <destination alias="PopulationFanIn" index="1"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+        </module>
+        <module alias="GeneratePopulation" classname="ncsa.d2k.modules.core.optimize.ga.emo.GeneratePopulation" xloc="40" yloc="166">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+            <destination alias="PopulationFanIn" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+        </module>
+        <module alias="EvaluatePopulation" classname="ncsa.d2k.modules.core.optimize.ga.emo.EvaluatePopulation" xloc="151" yloc="347">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+            <destination alias="SOVis" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+        </module>
+        <module alias="PopulationFanIn" classname="ncsa.d2k.modules.core.optimize.ga.emo.util.PopulationFanIn" xloc="64" yloc="268">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+          <input index="1" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+            <destination alias="EvaluatePopulation" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA="/>
+        </module>
+      </itinerary>
+      <input name="EMOParameters"/>
+      <output name="EMOParameters"/>
+    </item>
+    <item label="Run Multi Objective GA" step="Run" xsi:type="itineraryItemType">
+      <description><![CDATA[<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Run a GA with mulitple objectives.
+    </p>
+  </body>
+</html>
+]]></description>
+      <notes/>
+      <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAARdwgAAAAKAAAACnQAEFBlcmZvcm1TZWxlY3Rpb25zcgAbbmNzYS5kMmsuY29yZS5SZXNvdXJj
+ZUVudHJ51S4sIEIDJtICAAJMAAxjYWNoZWRPYmplY3R0ABJMamF2YS9sYW5nL09iamVjdDtMAA9v
+YmplY3RDbGFzc05hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHB0AEBuY3NhLmQyay5tb2R1bGVz
+LmNvcmUub3B0aW1pemUuZ2EuZW1vLnNlbGVjdGlvbi5QZXJmb3JtU2VsZWN0aW9udAAQUGVyZm9y
+bUNyb3Nzb3ZlcnNxAH4ABHB0AEBuY3NhLmQyay5tb2R1bGVzLmNvcmUub3B0aW1pemUuZ2EuZW1v
+LmNyb3Nzb3Zlci5QZXJmb3JtQ3Jvc3NvdmVydAAPUG9wdWxhdGlvbkZhbkluc3EAfgAEcHQAOm5j
+c2EuZDJrLm1vZHVsZXMuY29yZS5vcHRpbWl6ZS5nYS5lbW8udXRpbC5Qb3B1bGF0aW9uRmFuSW50
+ABROb25Eb21pbmF0aW9uRWxpdGlzbXNxAH4ABHB0ADtuY3NhLmQyay5tb2R1bGVzLmNvcmUub3B0
+aW1pemUuZ2EubnNnYS5Ob25Eb21pbmF0aW9uRWxpdGlzbXQAEkV2YWx1YXRlUG9wdWxhdGlvbnNx
+AH4ABHB0ADhuY3NhLmQyay5tb2R1bGVzLmNvcmUub3B0aW1pemUuZ2EuZW1vLkV2YWx1YXRlUG9w
+dWxhdGlvbnQAD1BlcmZvcm1NdXRhdGlvbnNxAH4ABHB0AD5uY3NhLmQyay5tb2R1bGVzLmNvcmUu
+b3B0aW1pemUuZ2EuZW1vLm11dGF0aW9uLlBlcmZvcm1NdXRhdGlvbnQAEkdlbmVyYXRlUG9wdWxh
+dGlvbnNxAH4ABHB0ADhuY3NhLmQyay5tb2R1bGVzLmNvcmUub3B0aW1pemUuZ2EuZW1vLkdlbmVy
+YXRlUG9wdWxhdGlvbnQAD1BhcmFtZXRlcnNGYW5JbnNxAH4ABHB0ADpuY3NhLmQyay5tb2R1bGVz
+LmNvcmUub3B0aW1pemUuZ2EuZW1vLnV0aWwuUGFyYW1ldGVyc0ZhbkludAAFTU9WaXNzcQB+AARw
+dAAvbmNzYS5kMmsubW9kdWxlcy5jb3JlLm9wdGltaXplLmdhLmVtby5ndWkuTU9WaXN0AA9NZWFz
+dXJlIFN1Y2Nlc3NzcQB+AARwdAAwbmNzYS5kMmsubW9kdWxlcy5jb3JlLm9wdGltaXplLmdhLmVt
+by5FTU9NZWFzdXJleA==" label="">
+        <annotation><![CDATA[<p>
+      Run a GA with mulitple objectives.
+    </p>]]></annotation>
+        <module alias="PerformSelection" classname="ncsa.d2k.modules.core.optimize.ga.emo.selection.PerformSelection" xloc="641" yloc="266">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+            <destination alias="PerformCrossover" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+        </module>
+        <module alias="PerformCrossover" classname="ncsa.d2k.modules.core.optimize.ga.emo.crossover.PerformCrossover" xloc="765" yloc="255">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+            <destination alias="PerformMutation" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+        </module>
+        <module alias="PerformMutation" classname="ncsa.d2k.modules.core.optimize.ga.emo.mutation.PerformMutation" xloc="918" yloc="251">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+            <destination alias="PopulationFanIn" index="1"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+        </module>
+        <module alias="NonDominationElitism" classname="ncsa.d2k.modules.core.optimize.ga.nsga.NonDominationElitism" xloc="306" yloc="27">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.NsgaPopulation"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.NsgaPopulation">
+            <destination alias="MOVis" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAABkA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAABkA=="/>
+        </module>
+        <module alias="Measure Success" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOMeasure" xloc="503" yloc="203">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+            <destination alias="PerformSelection" index="0"/>
+          </output>
+          <output index="1" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters">
+            <destination alias="ParametersFanIn" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA="/>
+          <property name="debugging" value="false"/>
+        </module>
+        <module alias="ParametersFanIn" classname="ncsa.d2k.modules.core.optimize.ga.emo.util.ParametersFanIn" xloc="151" yloc="347">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+          <input index="1" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters">
+            <destination alias="GeneratePopulation" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAABA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAQ="/>
+        </module>
+        <module alias="GeneratePopulation" classname="ncsa.d2k.modules.core.optimize.ga.emo.GeneratePopulation" xloc="249" yloc="227">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.Parameters"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+            <destination alias="PopulationFanIn" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+        </module>
+        <module alias="EvaluatePopulation" classname="ncsa.d2k.modules.core.optimize.ga.emo.EvaluatePopulation" xloc="173" yloc="19">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.emo.EMOPopulation">
+            <destination alias="NonDominationElitism" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+        </module>
+        <module alias="MOVis" classname="ncsa.d2k.modules.core.optimize.ga.emo.gui.MOVis" xloc="464" yloc="35">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+            <destination alias="Measure Success" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAADAAABjwAAAAAAAAAA"/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAADAAABjwAAAAAAAAAA"/>
+          <property name="windowName" value="MOVis"/>
+        </module>
+        <module alias="PopulationFanIn" classname="ncsa.d2k.modules.core.optimize.ga.emo.util.PopulationFanIn" xloc="53" yloc="23">
+          <input index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+          <input index="1" classname="ncsa.d2k.modules.core.optimize.ga.Population"/>
+          <output index="0" classname="ncsa.d2k.modules.core.optimize.ga.Population">
+            <destination alias="EvaluatePopulation" index="0"/>
+          </output>
+          <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAABkA=="/>
+          <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAZA="/>
+        </module>
+      </itinerary>
+      <input name="EMOParameters"/>
+    </item>
+  </step>
+</application>

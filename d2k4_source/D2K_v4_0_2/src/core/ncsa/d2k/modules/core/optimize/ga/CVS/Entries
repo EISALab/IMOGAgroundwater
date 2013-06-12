@@ -1,0 +1,29 @@
+D/crossover////
+D/emo////
+D/examples////
+D/mutation////
+D/niching////
+D/nsga////
+D/selection////
+/AssignFitness.java/1.3.2.1/Tue Jun  8 13:08:00 2004//Tbasic3-0
+/BinaryIndividual.java/1.2.2.2/Tue Jun  8 13:08:01 2004//Tbasic3-0
+/ConstrainedPopulation.java/1.1.2.1/Thu Feb  5 17:06:16 2004//Tbasic3-0
+/ConstrainedSOPopulation.java/1.1.2.3/Thu Feb 12 21:43:35 2004//Tbasic3-0
+/ConvergenceDisplay.java/1.3.2.1/Tue Jun  8 13:08:01 2004//Tbasic3-0
+/EvaluateModule.java/1.2.2.1/Tue Jun  8 13:08:01 2004//Tbasic3-0
+/GAFieldSelection.java/1.4.2.1/Tue Jun  8 13:08:02 2004//Tbasic3-0
+/GAFieldSelectionPrep.java/1.4/Mon Jul 15 20:41:06 2002//Tbasic3-0
+/GenPopulationPrep.java/1.2.2.1/Tue Jun  8 13:08:02 2004//Tbasic3-0
+/Individual.java/1.2/Thu Mar  6 22:59:42 2003//Tbasic3-0
+/IntIndividual.java/1.3.2.1/Tue Jun  8 13:08:02 2004//Tbasic3-0
+/LinePlot.java/1.1.2.1/Tue Mar 30 15:14:06 2004//Tbasic3-0
+/MeasureModule.java/1.3/Fri Jan 17 17:25:06 2003//Tbasic3-0
+/NumericIndividual.java/1.2.2.1/Tue Jun  8 13:08:02 2004//Tbasic3-0
+/PopToVTWhenDone.java/1.4/Mon Jul 15 20:41:06 2002//Tbasic3-0
+/Population.java/1.3.2.1/Tue Jun  8 13:08:03 2004//Tbasic3-0
+/PopulationGenesToTable.java/1.1.2.2/Thu Mar 25 01:14:27 2004//Tbasic3-0
+/PopulationPrep.java/1.2/Mon Jul 15 20:41:07 2002//Tbasic3-0
+/PopulationToVT.java/1.4/Mon Jul 15 20:41:07 2002//Tbasic3-0
+/PrintPopulation.java/1.2/Mon Jul 15 20:41:07 2002//Tbasic3-0
+/SOPopulation.java/1.5.2.2/Tue Jun  8 13:08:03 2004//Tbasic3-0
+/package.html/1.1/Fri Mar  8 20:40:04 2002//Tbasic3-0

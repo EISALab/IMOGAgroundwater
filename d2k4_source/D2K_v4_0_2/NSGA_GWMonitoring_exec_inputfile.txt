@@ -1,0 +1,5 @@
+Fitnessid,exepathname,inputfilename,numoutputfiles,outputfilename1,outputfilename2
+integer,string,string,integer,string,string
+0,BP_IGA_pop_exec.exe,genes.txt,2,fitness1.txt,fitness3.txt
+
+

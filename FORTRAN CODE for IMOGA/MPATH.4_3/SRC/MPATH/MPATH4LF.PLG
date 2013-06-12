@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MPATH4LF - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ABHISH~1\LOCALS~1\Temp\RSPA6F.tmp" with contents
+[
+/check:bounds /compile_only /dbglibs /debug:full /nologo /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" /pdbfile:"Debug/DF60.PDB" 
+"C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\MPATH.4_3\SRC\MPATH\BUDGETRD.FOR"
+]
+Creating temporary file "C:\DOCUME~1\ABHISH~1\LOCALS~1\Temp\RSPA70.tmp" with contents
+[
+kernel32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/MPATH4LF.pdb" /debug /machine:I386 /out:"Debug/MPATH4LF.exe" /pdbtype:sept 
+".\Debug\BUDGETRD.OBJ"
+".\Debug\DIS2.OBJ"
+".\Debug\FLOWDATA.OBJ"
+".\Debug\MPATH4LF.OBJ"
+".\Debug\MPDATIN.OBJ"
+".\Debug\MPDRIVE.OBJ"
+".\Debug\MPINIT.OBJ"
+".\Debug\MPMOVE.OBJ"
+".\Debug\PRS.OBJ"
+".\Debug\STARTLOC.OBJ"
+".\Debug\SYSLF.OBJ"
+".\Debug\UTILMF.OBJ"
+".\Debug\utilmp.obj"
+".\Debug\WRITPTS.OBJ"
+]
+Creating command line "link.exe @C:\DOCUME~1\ABHISH~1\LOCALS~1\Temp\RSPA70.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+C:\Documents and Settings\Abhishek Singh\Desktop\research\phd\IGAWork\FORTRAN CODE for D2K InverseIGA\MPATH.4_3\SRC\MPATH\BUDGETRD.FOR
+Linking...
+
+
+
+<h3>Results</h3>
+MPATH4LF.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

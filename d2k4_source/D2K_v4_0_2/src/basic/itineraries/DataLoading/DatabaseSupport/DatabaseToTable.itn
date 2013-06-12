@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="item.xsd">
+  <itinerary annotation="rO0ABXQKKDxwPg0KICAgICAgPGI+RGF0YWJhc2VUb1RhYmxlPC9iPg0KICAgIDwvcD4NCiAgICA8
+cD4NCiAgICAgIFRoaXMgaXRpbmVyYXJ5IHJldHJpZXZlcyBhIGRhdGEgc2V0IGZyb20gYSBkYXRh
+YmFzZSBhbmQgc3RvcmVzIGl0IGluIGEgDQogICAgICB0YWJsZSwgc28gdGhhdCBpdCBjYW4gYmUg
+dXNlZCBpbiB0aGUgc2FtZSB3YXkgb3RoZXIgbW9kdWxlcyB1c2UgdGFibGVzLiANCiAgICAgIFRo
+aXMgaXRpbmVyYXJ5IGNhbiBiZSB1c2VkIGFzIGEgbmVzdGVkIG1vZHVsZS4NCiAgICA8L3A+DQog
+ICAgPHA+DQogICAgICA8Yj5Nb2R1bGVzIHdpdGggUHJvcGVydGllczwvYj4NCiAgICA8L3A+DQog
+ICAgPHA+DQogICAgICBUaGUgZm9sbG93aW5nIG1vZHVsZXMgaGF2ZSBwcm9wZXJ0aWVzIHRoYXQg
+bWF5IG5lZWQgdG8gYmUgYWRqdXN0ZWQuIFRoZSANCiAgICAgIHByb3BlcnRpZXMgY2FuIGJlIGNo
+YW5nZWQgYnkgZG91YmxlIGNsaWNraW5nIG9uIHRoZSBnaXZlbiBtb2R1bGUuDQogICAgPC9wPg0K
+ICAgIDxwPg0KICAgICAgPGI+PGk+MSAtIENvbm5lY3RUb0RCOiA8L2k+PC9iPg0KICAgIDwvcD4N
+CiAgICA8cD4NCiAgICAgIFRoaXMgbW9kdWxlIGVzdGFibGlzaGVzIGEgY29ubmVjdGlvbiB0byBh
+IGRhdGFiYXNlLiBTZWUgdGhlIENvbXBvbmVudCANCiAgICAgIEluZm8gZm9yIGEgZGVzY3JpcHRp
+b24gb2YgdGhlIHByb3BlcnRpZXMgZm9yIHRoaXMgbW9kdWxlLg0KICAgIDwvcD4NCiAgICA8cD4N
+CiAgICAgIDxiPjxpPjIgLSBBdmFpbGFibGVUYWJsZXNJbnB1dDo8L2k+PC9iPg0KICAgIDwvcD4N
+CiAgICA8cD4NCiAgICAgIFRoaXMgbW9kdWxlIHJldHJpZXZlcyBhIGxpc3Qgb2YgdGFibGVzIGZy
+b20gdGhlIGRhdGFiYXNlLiBUaGUgcHJvcGVydGllcyANCiAgICAgIGFzc29jaWF0ZWQgd2l0aCB0
+aGlzIHRhYmxlIG5hcnJvdyB0aGUgbnVtYmVyIG9mIHRhYmxlcyBkaXNwbGF5ZWQuIElmIDxpPiAN
+CiAgICAgIExpc3QgRGF0YSBUYWJsZXM8L2k+IGlzIHRydWUgdGhlbiBvbmx5IGRhdGEgdGFibGVz
+IHdpbGwgYmUgc2hvd24uIElmIDxpPiANCiAgICAgIExpc3QgRGF0YSBDdWJlczwvaT4gaXMgdHJ1
+ZSwgdGhlbiBvbmx5IGRhdGEgY3ViZXMgd2lsbCBiZSBzaG93bi4NCiAgICA8L3A+DQogICAgPHA+
+DQogICAgICA8Yj5Nb2R1bGVzIHdpdGhvdXQgUHJvcGVydGllcyBvciBVc2VyIEludGVyZmFjZXM8
+L2I+DQogICAgPC9wPg0KICAgIDxwPg0KICAgICAgPGI+PGk+MSAtIEF2YWlsYWJsZUZpZWxkc0lu
+cHV0OjwvaT48L2I+DQogICAgPC9wPg0KICAgIDxwPg0KICAgICAgVGhpcyBtb2R1bGUgcmV0cmll
+dmVzIGEgbGlzdCBvZiBmaWVsZHMgZnJvbSB0aGUgZGF0YWJhc2UgdGFibGUuDQogICAgPC9wPg0K
+ICAgIDxwPg0KICAgICAgPGI+PGk+MiAtIFJlYWRRdWVyeVJlc3VsdHM6PC9pPjwvYj4NCiAgICA8
+L3A+DQogICAgPHA+DQogICAgICBUaGlzIG1vZHVsZSBleGVjdXRlcyB0aGUgcXVlcnkgY29uZGl0
+aW9uIGFuZCByZXRyaWV2ZXMgdGhlIHNwZWNpZmllZCANCiAgICAgIGRhdGEgZnJvbSB0aGUgZGF0
+YWJhc2UuDQogICAgPC9wPg0KICAgIDxwPg0KICAgICAgPGI+RXhlY3V0aW9uPC9iPg0KICAgIDwv
+cD4NCiAgICA8cD4NCiAgICAgIDxiPjxpPjEgLSBDb25uZWN0VG9EQjo8L2k+PC9iPg0KICAgIDwv
+cD4NCiAgICA8cD4NCiAgICAgIFRoaXMgbW9kdWxlIGVzdGFibGlzaGVzIGEgY29ubmVjdGlvbiB0
+byBhIGRhdGFiYXNlLg0KICAgIDwvcD4NCiAgICA8cD4NCiAgICAgIDxiPjxpPjIgLSBTZWxlY3RU
+YWJsZTo8L2k+PC9iPg0KICAgIDwvcD4NCiAgICA8cD4NCiAgICAgIFRoaXMgbW9kdWxlIHByZXNl
+bnRzIGEgdXNlciBpbnRlcmZhY2UgZm9yIHVzZXJzIHRvIHNlbGVjdCBhIGRhdGFiYXNlIA0KICAg
+ICAgdGFibGUuDQogICAgPC9wPg0KICAgIDxwPg0KICAgICAgPGI+PGk+MyAtIFNlbGVjdEZpZWxk
+czo8L2k+PC9iPg0KICAgIDwvcD4NCiAgICA8cD4NCiAgICAgIFRoaXMgbW9kdWxlIHByZXNlbnRz
+IGEgdXNlciBpbnRlcmZhY2UgZm9yIHVzZXJzIHRvIHNlbGVjdCB0aGUgYXR0cmlidXRlcyANCiAg
+ICAgIGRlc2lyZWQgZm9yIHRoZSBjb21wdXRhdGlvbnMuDQogICAgPC9wPg0KICAgIDxwPg0KICAg
+ICAgPGI+PGk+NCAtIFNRTEZpbHRlckNvbnN0cnVjdGlvbjo8L2k+PC9iPg0KICAgIDwvcD4NCiAg
+ICA8cD4NCiAgICAgIFRoaXMgbW9kdWxlIHByZXNlbnRzIGEgdXNlciBpbnRlcmZhY2UgdG8gY29u
+c3RydWN0IGEgZmlsdGVyIGV4cHJlc3Npb24gDQogICAgICBmb3Igc3BlY2lmeWluZyBhIHF1ZXJ5
+IGNvbmRpdGlvbi4NCiAgICA8L3A+DQogICAgPHA+DQogICAgICA8Yj48aT41IC0gVGFibGVWaWV3
+ZXI6PC9pPjwvYj4NCiAgICA8L3A+DQogICAgPHA+DQogICAgICBUaGlzIG1vZHVsZSBwcmVzZW50
+cyBhIHVzZXIgaW50ZXJmYWNlIHRoYXQgZGlzcGxheXMgdGhlIGNvbnRlbnRzIG9mIHRoZSANCiAg
+ICAgIHRhYmxlLg0KICAgIDwvcD4NCiAgICA8cD4NCiAgICAgIDxiPlJlc3VsdHM8L2I+DQogICAg
+PC9wPg0KICAgIDxwPg0KICAgICAgVGhlIHRhYmxlIHJldHJpZXZlZCBjYW4gYmUgdXNlZCBieSBv
+dGhlciBtb2R1bGVzIHRoYXQgaW5wdXQgYSB0YWJsZS4NCiAgICA8L3A+" resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAARdwgAAAAXAAAACnQAFEF2YWlsYWJsZVRhYmxlc0lucHV0c3IAG25jc2EuZDJrLmNvcmUuUmVz
+b3VyY2VFbnRyedUuLCBCAybSAgACTAAMY2FjaGVkT2JqZWN0dAASTGphdmEvbGFuZy9PYmplY3Q7
+TAAPb2JqZWN0Q2xhc3NOYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHBwdAAxbmNzYS5kMmsubW9k
+dWxlcy5jb3JlLmlvLnNxbC5BdmFpbGFibGVUYWJsZXNJbnB1dHQAC1RhYmxlVmlld2Vyc3EAfgAE
+cHQAJW5jc2EuZDJrLm1vZHVsZXMuY29yZS52aXMuVGFibGVWaWV3ZXJ0ABBSZWFkUXVlcnlSZXN1
+bHRzc3EAfgAEcHQALW5jc2EuZDJrLm1vZHVsZXMuY29yZS5pby5zcWwuUmVhZFF1ZXJ5UmVzdWx0
+c3QAFVNRTEZpbHRlckNvbnN0cnVjdGlvbnNxAH4ABHB0ADtuY3NhLmQyay5tb2R1bGVzLmNvcmUu
+dHJhbnNmb3JtLnRhYmxlLlNRTEZpbHRlckNvbnN0cnVjdGlvbnQAC1NlbGVjdFRhYmxlc3EAfgAE
+cHQAKG5jc2EuZDJrLm1vZHVsZXMuY29yZS5pby5zcWwuU2VsZWN0VGFibGV0AAdGYW5PdXQxc3EA
+fgAEcHQAIm5jc2EuZDJrLmNvcmUubW9kdWxlcy5GYW5PdXRNb2R1bGV0AAZGYW5PdXRzcQB+AARw
+cQB+ABd0AAtDb25uZWN0VG9EQnNxAH4ABHB0AChuY3NhLmQyay5tb2R1bGVzLmNvcmUuaW8uc3Fs
+LkNvbm5lY3RUb0RCdAAaQXZhaWxhYmxlIEF0dHJpYnV0ZXMgSW5wdXRzcQB+AARwdAA1bmNzYS5k
+MmsubW9kdWxlcy5jb3JlLmlvLnNxbC5BdmFpbGFibGVBdHRyaWJ1dGVzSW5wdXR0ABFTZWxlY3Qg
+QXR0cmlidXRlc3NxAH4ABHB0AC1uY3NhLmQyay5tb2R1bGVzLmNvcmUuaW8uc3FsLlNlbGVjdEF0
+dHJpYnV0ZXN4" label="DatabaseToTable.itn">
+    <module alias="AvailableTablesInput" classname="ncsa.d2k.modules.core.io.sql.AvailableTablesInput" xloc="103" yloc="18">
+      <input index="0" classname="ncsa.d2k.modules.core.io.sql.ConnectionWrapper"/>
+      <output index="0" classname="ncsa.d2k.modules.core.io.sql.ConnectionWrapper">
+        <destination alias="Available Attributes Input" index="0"/>
+      </output>
+      <output index="1" classname="java.util.Vector">
+        <destination alias="SelectTable" index="0"/>
+      </output>
+      <property name="dataCubeOnly" value="false"/>
+      <property name="outputCounts"><![CDATA[rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA=]]></property>
+      <property name="moduleStatistics"><![CDATA[rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA=]]></property>
+      <property name="dataTableOnly" value="true"/>
+    </module>
+    <module alias="TableViewer" classname="ncsa.d2k.modules.core.vis.TableViewer" xloc="626" yloc="236">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <property name="maxFractionDigits" value="-1"/>
+      <property name="outputCounts"><![CDATA[rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA==]]></property>
+      <property name="moduleStatistics"><![CDATA[rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA==]]></property>
+    </module>
+    <module alias="ReadQueryResults" classname="ncsa.d2k.modules.core.io.sql.ReadQueryResults" xloc="609" yloc="154">
+      <input index="0" classname="ncsa.d2k.modules.core.io.sql.ConnectionWrapper"/>
+      <input index="1" classname="[Ljava.lang.String;"/>
+      <input index="2" classname="java.lang.String"/>
+      <input index="3" classname="java.lang.String"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.TableImpl">
+        <destination alias="TableViewer" index="0"/>
+      </output>
+      <property name="outputCounts"><![CDATA[rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA==]]></property>
+      <property name="moduleStatistics"><![CDATA[rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAABAAAAAAAAAAAAAAAAAAAAAB1cQB+AAMAAAABAAAAAA==]]></property>
+    </module>
+    <module alias="SQLFilterConstruction" classname="ncsa.d2k.modules.core.transform.table.SQLFilterConstruction" xloc="515" yloc="20">
+      <input index="0" classname="ncsa.d2k.modules.io.input.sql.ConnectionWrapper"/>
+      <input index="1" classname="java.lang.String"/>
+      <output index="0" classname="java.lang.String">
+        <destination alias="ReadQueryResults" index="3"/>
+      </output>
+      <property name="includeMissingValues" value="true"/>
+      <property name="lastExpression" value=""/>
+      <property name="outputCounts"><![CDATA[rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA==]]></property>
+      <property name="moduleStatistics"><![CDATA[rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAgAAAAAAAAAAdXEAfgADAAAAAQAAAAA=]]></property>
+      <property name="queryCondition" value=""/>
+      <property name="supressGui" value="false"/>
+    </module>
+    <module alias="SelectTable" classname="ncsa.d2k.modules.core.io.sql.SelectTable" xloc="227" yloc="102">
+      <input index="0" classname="java.util.Vector"/>
+      <output index="0" classname="java.lang.String">
+        <destination alias="FanOut" index="0"/>
+      </output>
+      <property name="selectedTable" value="IRIS"/>
+      <property name="outputCounts"><![CDATA[rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA==]]></property>
+      <property name="moduleStatistics"><![CDATA[rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA==]]></property>
+      <property name="supressGui" value="false"/>
+    </module>
+    <module alias="FanOut1" classname="ncsa.d2k.core.modules.FanOutModule" xloc="473" yloc="26">
+      <input index="0" classname="ncsa.d2k.modules.core.io.sql.ConnectionWrapper"/>
+      <output index="0" classname="ncsa.d2k.modules.core.io.sql.ConnectionWrapper">
+        <destination alias="SQLFilterConstruction" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.io.sql.ConnectionWrapper">
+        <destination alias="ReadQueryResults" index="0"/>
+      </output>
+      <property name="outputCounts"><![CDATA[rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAAAAAAA=]]></property>
+      <property name="moduleStatistics"><![CDATA[rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAAAAAAA=]]></property>
+    </module>
+    <module alias="FanOut" classname="ncsa.d2k.core.modules.FanOutModule" xloc="320" yloc="110">
+      <input index="0" classname="java.lang.String"/>
+      <output index="0" classname="java.lang.String">
+        <destination alias="SQLFilterConstruction" index="1"/>
+      </output>
+      <output index="1" classname="java.lang.String">
+        <destination alias="ReadQueryResults" index="2"/>
+      </output>
+      <output index="2" classname="java.lang.String">
+        <destination alias="Available Attributes Input" index="1"/>
+      </output>
+      <property name="outputCounts"><![CDATA[rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAADAAAAAAAAAAAAAAAA]]></property>
+      <property name="moduleStatistics"><![CDATA[rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAADAAAAAAAAAAAAAAAA]]></property>
+    </module>
+    <module alias="ConnectToDB" classname="ncsa.d2k.modules.core.io.sql.ConnectToDB" xloc="6" yloc="18">
+      <output index="0" classname="ncsa.d2k.modules.core.io.sql.DBConnection">
+        <destination alias="AvailableTablesInput" index="0"/>
+      </output>
+      <property name="url" value="jdbc:oracle:thin:@sol.ncsa.uiuc.edu:1521:oracle2"/>
+      <property name="port" value="1521"/>
+      <property name="machine" value="sol.ncsa.uiuc.edu"/>
+      <property name="moduleStatistics"><![CDATA[rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAA]]></property>
+      <property name="username" value="disted_mgr"/>
+      <property name="outputCounts"><![CDATA[rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA==]]></property>
+      <property name="supressGui" value="false"/>
+      <property name="password" value="testmining"/>
+      <property name="driver" value="oracle.jdbc.driver.OracleDriver"/>
+      <property name="dbInstance" value="oracle2"/>
+    </module>
+    <module alias="Available Attributes Input" classname="ncsa.d2k.modules.core.io.sql.AvailableAttributesInput" xloc="287" yloc="21">
+      <input index="0" classname="ncsa.d2k.modules.io.input.sql.ConnectionWrapper"/>
+      <input index="1" classname="java.lang.String"/>
+      <output index="0" classname="ncsa.d2k.modules.core.io.sql.ConnectionWrapper">
+        <destination alias="FanOut1" index="0"/>
+      </output>
+      <output index="1" classname="java.util.Vector">
+        <destination alias="Select Attributes" index="0"/>
+      </output>
+      <property name="outputCounts"><![CDATA[rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAAA]]></property>
+      <property name="moduleStatistics"><![CDATA[rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAA=]]></property>
+    </module>
+    <module alias="Select Attributes" classname="ncsa.d2k.modules.core.io.sql.SelectAttributes" xloc="470" yloc="110">
+      <input index="0" classname="java.util.Vector"/>
+      <output index="0" classname="[Ljava.lang.String;">
+        <destination alias="ReadQueryResults" index="1"/>
+      </output>
+      <property name="selectedAttributes"><![CDATA[rO0ABXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAV0AAxTRVBBTF9MRU5H
+VEh0AAtTRVBBTF9XSURUSHQADFBFVEFMX0xFTkdUSHQAC1BFVEFMX1dJRFRIdAALRkxPV0VSX1RZ
+UEU=]]></property>
+      <property name="outputCounts"><![CDATA[rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA==]]></property>
+      <property name="moduleStatistics"><![CDATA[rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA==]]></property>
+      <property name="supressGui" value="false"/>
+    </module>
+  </itinerary>
+</toolkit>

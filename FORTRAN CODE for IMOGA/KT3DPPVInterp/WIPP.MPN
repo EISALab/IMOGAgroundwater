@@ -1,0 +1,6 @@
+MAIN                 70 WIPP-S.MP
+DIS                   9 steady.dis
+HEAD(BINARY)     1 steady.hed
+BUDGET               2 steady.bud
+ENDPOINT              3 WIPPEND.TXT
+PATHLINE               4 WIPPPATH.TXT

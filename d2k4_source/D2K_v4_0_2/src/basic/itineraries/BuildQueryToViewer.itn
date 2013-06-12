@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<toolkit xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:noNamespaceSchemaLocation="itinerary.xsd">
+  <itinerary resman="rO0ABXNyAB1uY3NhLmQyay5jb3JlLlJlc291cmNlTWFuYWdlcqx9TOX90gE5AgAAeHIAE2phdmEu
+dXRpbC5IYXNodGFibGUTuw8lIUrkuAMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAA
+AAARdwgAAAAFAAAABXQABkZhbk91dHNyABtuY3NhLmQyay5jb3JlLlJlc291cmNlRW50cnnVLiwg
+QgMm0gIAAkwADGNhY2hlZE9iamVjdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wAD29iamVjdENsYXNz
+TmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwcHQAIm5jc2EuZDJrLmNvcmUubW9kdWxlcy5GYW5P
+dXRNb2R1bGV0ABBSZWFkUXVlcnlSZXN1bHRzc3EAfgAEcHQALW5jc2EuZDJrLm1vZHVsZXMuY29y
+ZS5pby5zcWwuUmVhZFF1ZXJ5UmVzdWx0c3QAC0Nvbm5lY3RUb0RCc3EAfgAEcHQAKG5jc2EuZDJr
+Lm1vZHVsZXMuY29yZS5pby5zcWwuQ29ubmVjdFRvREJ0AAtUYWJsZVZpZXdlcnNxAH4ABHB0ACVu
+Y3NhLmQyay5tb2R1bGVzLmNvcmUudmlzLlRhYmxlVmlld2VydAALQnVpbGQgUXVlcnlzcQB+AARw
+dAAnbmNzYS5kMmsubW9kdWxlcy5jb3JlLmlvLnNxbC5CdWlsZFF1ZXJ5eA==" label="BuildQueryToViewer.itn">
+    <annotation><![CDATA[<p>
+      <b>DatabaseToTable</b>
+    </p>
+    <p>
+      This itinerary retrieves a data set from a database and stores it in a 
+      table, so that it can be used in the same way other modules use tables. 
+      This itinerary can be used as a nested module.
+    </p>
+    <p>
+      <b>Modules with Properties</b>
+    </p>
+    <p>
+      The following modules have properties that may need to be adjusted. The 
+      properties can be changed by double clicking on the given module.
+    </p>
+    <p>
+      <b><i>1 - ConnectToDB: </i></b>
+    </p>
+    <p>
+      This module establishes a connection to a database. See the Component 
+      Info for a description of the properties for this module.
+    </p>
+    <p>
+      <b><i>2 - AvailableTablesInput:</i></b>
+    </p>
+    <p>
+      This module retrieves a list of tables from the database. The properties 
+      associated with this table narrow the number of tables displayed. If <i> 
+      List Data Tables</i> is true then only data tables will be shown. If <i> 
+      List Data Cubes</i> is true, then only data cubes will be shown.
+    </p>
+    <p>
+      <b>Modules without Properties or User Interfaces</b>
+    </p>
+    <p>
+      <b><i>1 - AvailableFieldsInput:</i></b>
+    </p>
+    <p>
+      This module retrieves a list of fields from the database table.
+    </p>
+    <p>
+      <b><i>2 - ReadQueryResults:</i></b>
+    </p>
+    <p>
+      This module executes the query condition and retrieves the specified 
+      data from the database.
+    </p>
+    <p>
+      <b>Execution</b>
+    </p>
+    <p>
+      <b><i>1 - ConnectToDB:</i></b>
+    </p>
+    <p>
+      This module establishes a connection to a database.
+    </p>
+    <p>
+      <b><i>2 - SelectTable:</i></b>
+    </p>
+    <p>
+      This module presents a user interface for users to select a database 
+      table.
+    </p>
+    <p>
+      <b><i>3 - SelectFields:</i></b>
+    </p>
+    <p>
+      This module presents a user interface for users to select the attributes 
+      desired for the computations.
+    </p>
+    <p>
+      <b><i>4 - SQLFilterConstruction:</i></b>
+    </p>
+    <p>
+      This module presents a user interface to construct a filter expression 
+      for specifying a query condition.
+    </p>
+    <p>
+      <b><i>5 - TableViewer:</i></b>
+    </p>
+    <p>
+      This module presents a user interface that displays the contents of the 
+      table.
+    </p>
+    <p>
+      <b>Results</b>
+    </p>
+    <p>
+      The table retrieved can be used by other modules that input a table.
+    </p>]]></annotation>
+    <module alias="FanOut" classname="ncsa.d2k.core.modules.FanOutModule" xloc="109" yloc="127">
+      <input index="0" classname="ncsa.d2k.modules.core.io.sql.DBConnection"/>
+      <output index="0" classname="ncsa.d2k.modules.core.io.sql.DBConnection">
+        <destination alias="ReadQueryResults" index="0"/>
+      </output>
+      <output index="1" classname="ncsa.d2k.modules.core.io.sql.DBConnection">
+        <destination alias="Build Query" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAACAAAAAQAAAAE="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAACgP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAACAAAAAQAAAAE="/>
+    </module>
+    <module alias="ConnectToDB" classname="ncsa.d2k.modules.core.io.sql.ConnectToDB" xloc="6" yloc="21">
+      <output index="0" classname="ncsa.d2k.modules.core.io.sql.DBConnection">
+        <destination alias="FanOut" index="0"/>
+      </output>
+      <property name="password" value="testmining"/>
+      <property name="dbInstance" value="oracle2"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAHVxAH4AAwAAAAEAAAAB"/>
+      <property name="windowName" value="ConnectToDB"/>
+      <property name="username" value="disted_mgr"/>
+      <property name="url" value="jdbc:oracle:thin:@sol.ncsa.uiuc.edu:1521:oracle2"/>
+      <property name="supressGui" value="false"/>
+      <property name="driver" value="oracle.jdbc.driver.OracleDriver"/>
+      <property name="machine" value="sol.ncsa.uiuc.edu"/>
+      <property name="port" value="1521"/>
+    </module>
+    <module alias="TableViewer" classname="ncsa.d2k.modules.core.vis.TableViewer" xloc="543" yloc="136">
+      <input index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.Table"/>
+      <property name="maxFractionDigits" value="-1"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAA=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAABAAAAAA=="/>
+      <property name="windowName" value="TableViewer"/>
+    </module>
+    <module alias="Build Query" classname="ncsa.d2k.modules.core.io.sql.BuildQuery" xloc="187" yloc="27">
+      <input index="0" classname="ncsa.d2k.modules.io.input.sql.ConnectionWrapper"/>
+      <output index="0" classname="java.lang.String">
+        <destination alias="ReadQueryResults" index="2"/>
+      </output>
+      <output index="1" classname="[Ljava.lang.String;">
+        <destination alias="ReadQueryResults" index="1"/>
+      </output>
+      <output index="2" classname="java.lang.String">
+        <destination alias="ReadQueryResults" index="3"/>
+      </output>
+      <output index="3" classname="ncsa.d2k.modules.core.datatype.table.ExampleTable"/>
+      <property name="includeMissingValues" value="true"/>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAAEAAAAAQAAAAEAAAABAAAAAA=="/>
+      <property name="lastExpression" value=" EA.EMPNO == EMPLOYEE.EMPNO"/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAAAAP//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAAAQAAAAB1cQB+AAMAAAAEAAAAAQAAAAEAAAABAAAAAA=="/>
+      <property name="windowName" value="Build Query"/>
+      <property name="queryCondition" value=" EA.EMPNO = EMPLOYEE.EMPNO"/>
+      <property name="dataTableOnly" value="true"/>
+      <property name="supressGui" value="false"/>
+      <property name="dataCubeOnly" value="false"/>
+    </module>
+    <module alias="ReadQueryResults" classname="ncsa.d2k.modules.core.io.sql.ReadQueryResults" xloc="425" yloc="137">
+      <input index="0" classname="ncsa.d2k.modules.core.io.sql.ConnectionWrapper"/>
+      <input index="1" classname="[Ljava.lang.String;"/>
+      <input index="2" classname="java.lang.String"/>
+      <input index="3" classname="java.lang.String"/>
+      <output index="0" classname="ncsa.d2k.modules.core.datatype.table.basic.TableImpl">
+        <destination alias="TableViewer" index="0"/>
+      </output>
+      <property name="outputCounts" binaryValue="rO0ABXVyAAJbSU26YCZ26rKlAgAAeHAAAAABAAAAAQ=="/>
+      <property name="moduleStatistics" binaryValue="rO0ABXNyAB5uY3NhLmQyay5jb3JlLk1vZHVsZVN0YXRpc3RpY3MwYKp4I/Te/AIAB0kACml0ZXJh
+dGlvbnNKAAdydW50aW1lSgAJc3RhcnR0aW1lSQAFc3RhdGVJAAt0aW1lc0NhdWdodFsACmlucHV0
+RmxhZ3N0AAJbSVsAC291dHB1dENvdW50cQB+AAF4cAAAAAAAAAAAAAABCf//////////AAAAAAAA
+AAB1cgACW0lNumAmduqypQIAAHhwAAAABAAAAAAAAAAAAAAAAAAAAAB1cQB+AAMAAAABAAAAAQ=="/>
+    </module>
+  </itinerary>
+</toolkit>

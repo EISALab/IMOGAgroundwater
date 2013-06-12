@@ -1,0 +1,226 @@
+package ncsa.d2k.modules.projects.pgroves.vis.falsecolor;
+
+import java.awt.*;
+import java.awt.image.*;
+import javax.swing.*;
+import javax.swing.event.*;
+import ncsa.d2k.modules.projects.i2k.display.*;
+import ncsa.d2k.modules.projects.i2k.common.*;
+
+import ncsa.d2k.modules.projects.pgroves.bp.*;
+
+/**
+	Applies a false, or pseudo, coloring to a grayscale image. 
+
+	@author pgroves
+	@date 01/21/04
+	*/
+
+public class FalseColorPanel extends JPanel /*implements ActionListener*/{
+	
+	private boolean debug = true;
+
+	FalseColorMap colorMap;
+	ColorBarWidget colorBar;
+	SliderControlPanel controls;
+	//ImagePanel iPan;
+	ImageObject originalImage;
+	double[] range;
+
+	int bandIndex = 0;
+
+	/**all the stuff that isn't the image(s) being viewed*/
+	JPanel controlPanel;
+
+	/** holds the color bar and sliders */
+	JPanel colorControlPanel;
+	
+	/** selection between types of color map */
+	//JComboBox colorMapChooser;
+
+	BufferedImage colorImage;
+	JPanel imagePanel;
+	
+	/**
+		Does the main work of creating the entire false color vis
+		panel from an ImageObject. This is the method that
+		should be used directly
+		
+	*/	
+
+	public FalseColorPanel(ImageObject img){
+
+		originalImage = img;
+
+		this.setLayout(new BoxLayout(this, BoxLayout.X_AXIS));
+		
+		controlPanel = new JPanel();
+		controlPanel.setLayout(new BoxLayout(controlPanel, BoxLayout.Y_AXIS));
+		controlPanel.add(Box.createVerticalStrut(10));
+
+		
+		colorControlPanel = new JPanel();
+		colorControlPanel.setLayout(
+			new BoxLayout(colorControlPanel, BoxLayout.X_AXIS));
+		
+		range = this.getRange(img, bandIndex);
+		colorMap = new LinearColorMap(range[0], range[1]);
+		
+		colorBar = new ColorBarWidget(range[0], range[1], colorMap);
+		colorControlPanel.add(colorBar);
+
+		controls = new SliderControlPanel(this);
+		colorControlPanel.add(controls);
+
+		controlPanel.add(colorControlPanel);
+		controlPanel.add(Box.createVerticalStrut(10));
+		this.add(controlPanel);
+
+		/*try{
+		ImageObject fcImg=this.createFalseColorImg(img, bandIndex, colorMap);
+		iPan = (ImagePanel)SimpleImagePanel.getImagePanel(fcImg);
+		
+		iPan.SetImageObject(fcImg);
+		this.add(iPan);
+		}catch(Exception e){
+			e.printStackTrace();
+		}*/
+		this.initImagePanel(img);
+		this.add(imagePanel);
+	}
+
+
+	/** this method assumes it will receive an int between 0 and 100
+	representing the percentage of the way up the slider has been set */
+	public void setSliderMin(int smn){
+		double adjustedMin = range[0];
+		adjustedMin +=  (range[1] - range[0]) * ((double)smn / 100.0d);
+			
+		System.out.println("Slider Min:"+smn+" adjusted:"+adjustedMin);
+		colorMap.setMinIntensity(adjustedMin);
+		colorBar.setSliderMin(adjustedMin);
+		refresh();
+	}
+	/** this method assumes it will receive an int between 0 and 100
+	representing the percentage of the way up the slider has been set */
+	public void setSliderMax(int smx){
+		double adjustedMax = range[0];
+		adjustedMax +=  (range[1] - range[0]) * ((double)smx / 100.0d);
+		
+		System.out.println("Slider Max:"+smx+" adjusted:"+adjustedMax);
+		colorMap.setMaxIntensity(adjustedMax);
+		colorBar.setSliderMax(adjustedMax);
+		refresh();
+	}
+
+	/**
+		repaints the false color images after settings have been changed
+	*/
+	private void refresh(){
+		try{
+		iPan.BuildImagePanel(
+			createFalseColorImg(originalImage, bandIndex, colorMap));
+		}catch(Exception e){
+		}
+		this.repaint();
+	}
+		
+
+
+	/**
+		Creates a false color image from a single given band in the given
+		image.
+
+		@param img Any image object
+		@param band The index of the band to create the new image from.
+						Use 0 if the image is grayscale
+		@param colorInfo the color map with the information of how to map
+								the grayscale values to colors				
+		@return A 3-band image of bytes				
+	*/
+
+	public ImageObject createFalseColorImg(ImageObject img, int band, 
+		FalseColorMap colorInfo){
+
+		System.out.println("Starting False Color Img Gen");
+		ImageObject colorImg = 
+			new ImageObject(img.numrows,img.numcols,3,"INT");
+
+		int imgLength = (int)img.size;
+		Color c;
+		double val=0.0d;
+		
+		for(int i=0; i<imgLength; i++) {
+			val=getValue(img, i);
+			c = colorInfo.getColor(val);
+
+			colorImg.imageInt[3*i] = c.getRed();
+			colorImg.imageInt[3*i+1] = c.getGreen();
+			colorImg.imageInt[3*i+2] = c.getBlue();
+		}
+
+		System.out.println("Endign False Color Img Gen");
+		return colorImg;
+	}
+	
+	/** Simply casts the value from the native type of the ImageObject
+		to a <code>double</code>.
+	*/		
+	public double getValue(ImageObject inImObj, int index) {
+		double val;
+		if(inImObj.sampType.equalsIgnoreCase("BYTE"))
+			val = (double)inImObj.image[index];
+		else if(inImObj.sampType.equalsIgnoreCase("SHORT"))
+			val = (double)inImObj.imageShort[index];
+		else if(inImObj.sampType.equalsIgnoreCase("INT"))
+			val = (double)inImObj.imageInt[index];
+		else if(inImObj.sampType.equalsIgnoreCase("LONG"))
+			val = (double)inImObj.imageLong[index];
+		else if(inImObj.sampType.equalsIgnoreCase("FLOAT"))
+			val = (double)inImObj.imageFloat[index];
+		else if(inImObj.sampType.equalsIgnoreCase("DOUBLE"))
+			val = (double)inImObj.imageDouble[index];
+		else {
+			System.err.println("Invalid Data Type");
+		return 0;
+		}
+		return val;
+	}	
+	
+	/**
+		finds the min and max of the intensity values of a particular
+		band in an image. Will return the range as <code>double</code>'s,
+		regardless of the primitive type of the image.
+
+		@param img the ImageObject to scan
+		@param bandIndex the band index of img to scan
+
+		@return a double array where [0] is the min and [1] is the max
+	*/
+
+	public double[] getRange(ImageObject img, int bandIndex){
+		
+		double[] range = new double[2];
+		int min = 0;
+		int max = 1;
+		range[min]=Double.MAX_VALUE;
+		range[max]=Double.MIN_VALUE;
+
+		double val;
+		for(int i=0; i<img.size; i++){
+			val = this.getValue(img, i);
+			if(val<range[min]){
+				range[min]=val;
+			}
+			if(val>range[max]){
+				range[max]=val;
+			}
+		}
+		if(debug){
+			System.out.println(" Min:"+range[min]+" Max:"+range[max]);
+		}
+		return range;
+	}
+
+}//FalseColor
+		

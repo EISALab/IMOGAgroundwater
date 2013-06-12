@@ -1,0 +1,29 @@
+                  Parameters for KT3D1
+                  *******************
+
+START OF PARAMETERS:
+d:\f1new\f1ga\f1gama1.txt              \file with data
+1   2   0    3     0             \   columns for X, Y, Z, var, sec var
+-1.0e21   1.0e21                 \   trimming limits
+0                                \option: 0=grid, 1=cross, 2=jackknife
+xvk.dat                          \file with jackknife data
+1   2   0    3    0              \   columns for X,Y,Z,vr and sec var
+1                                \debugging level: 0,1,2,3
+kt3d.dbg                         \file for debugging output
+f1ga1cb.out                         \file for kriged output
+16   50.3125    100.625                  \nx,xmn,xsiz
+16   50.3125    100.625                  \ny,ymn,ysiz
+1    0.5    1.0                  \nz,zmn,zsiz
+6    6      1                    \x,y and z block discretization
+1    25                           \min, max data for kriging
+0                                \max per octant (0-> not used)
+600.0  600.0  2.0                 \maximum search radii
+ 0.0   0.0   0.0                 \angles for search ellipsoid
+1     2.302                      \0=SK,1=OK,2=non-st SK,3=exdrift
+0 0 0 0 0 0 0 0 0                \drift: x,y,z,xx,yy,zz,xy,xz,zy
+0                                \0, variable; 1, estimate trend
+extdrift.dat                     \gridded file with drift/mean
+4                                \  column number in gridded file
+1    0.0                         \nst, nugget effect
+2    750.  0.0   0.0   0.0        \it,cc,ang1,ang2,ang3
+         70.  70.  70.        \a_hmax, a_hmin, a_vert

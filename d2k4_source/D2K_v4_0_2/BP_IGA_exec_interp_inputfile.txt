@@ -1,0 +1,6 @@
+Fitnessid,exepathname,inputfilename,numoutputfiles,outputfilename1
+integer,string,string,integer,string
+0,BP_IGA.exe,genes_interp.txt,1,Totbtex_conc_ppb_interpolatedgrid
+
+
+

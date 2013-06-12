@@ -1,0 +1,284 @@
+package ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.imageprocessors.util;
+
+
+import ncsa.d2k.core.modules.*;
+import ncsa.d2k.modules.projects.pgroves.vis.falsecolor.*;
+import ncsa.d2k.modules.core.optimize.ga.*;
+import ncsa.d2k.modules.core.datatype.table.*;
+import ncsa.d2k.modules.core.datatype.table.basic.*;
+import ncsa.d2k.modules.core.optimize.ga.emo.*;
+import ncsa.d2k.modules.core.optimize.ga.nsga.*;
+import ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.*;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.awt.geom.*;
+import java.awt.image.*;
+import javax.imageio.*;
+import java.io.*;
+import java.util.*;
+import javax.swing.*;
+
+
+
+/** This module takes in a gene Table (that has information on the genes that have been interpolated to
+ *  create the images for various attributes), a JPanel image Table (that has the JPanels), a population Table
+ *  (that has the information related to the population, and this table is passed between different IGA modules),
+ *  and the fourth input which is the IGANsgaPopulation. This modules create PNG files from the images stored in
+ *  the JPanel table.
+*/
+
+public class ConvertJPanelToPNG extends ncsa.d2k.core.modules.ComputeModule implements java.io.Serializable {
+
+	//////////////////////
+	//d2k Props
+	////////////////////
+
+	boolean debug=false;
+
+	/////////////////////////
+	/// other fields
+	////////////////////////
+
+        MutableTableImpl geneTable ;
+        //MutableTableImpl imageJPanelTable ;
+        FalseColorPanelArray falseColPanArr;
+        //FalseColorPanel [] [] falseColPan ;
+        MutableTable popTable;
+        IGANsgaPopulation pop;
+
+
+	////////////////////////////////
+	//D2K Property get/set methods
+	///////////////////////////////
+	public void setDebug(boolean b){
+		debug=b;
+	}
+	public boolean getDebug(){
+		return debug;
+	}
+
+	//////////////////////////////////
+	// Info methods
+	//////////////////////////////////
+
+	/**
+		This method returns the description of the module.
+		@return the description of the module.
+	*/
+
+	public String getModuleInfo () {
+		return "<html>  <head>      </head>  <body>  This module creates PNG files from the JPanel images stored in an input JPanel Table.  </body></html>";
+	}
+
+        /**
+		This method returns the description of the various inputs.
+		@return the description of the indexed input.
+	*/
+	public String getInputInfo(int index) {
+		switch (index) {
+			case 0: return "A TableImpl data structure that contains the chromosomes that have been evaluated by the interpolation program ";
+			case 1: return "A JPanel array that contains JPanel images of the designs for their corresponding attributes";
+			case 2: return "A TableImpl data structure that contains the population of all designs, some which are to be evaluated by the human ";
+			case 3: return "IGA NsgaPopulation";
+			default: return "No such input";
+		}
+	}
+
+	/**
+		This method returns an array of strings that contains the data types for the inputs.
+		@return the data types of all inputs.
+	*/
+	public String[] getInputTypes () {
+		//String[] types = {"ncsa.d2k.modules.core.optimize.ga.emo.NsgaPopulation",
+                  //                "ncsa.d2k.modules.core.datatype.table.basic.TableImpl"};
+                String[] types = {"ncsa.d2k.modules.core.datatype.table.basic.TableImpl",
+                                  "ncsa.d2k.modules.projects.mbabbar.optimize.ga.iga.imageprocessors.util.FalseColorPanelArray",
+                                  "ncsa.d2k.modules.core.datatype.table.basic.TableImpl",
+                                  "ncsa.d2k.modules.core.optimize.ga.Population"};
+		return types;
+	}
+
+	/**
+		This method returns the description of the outputs.
+		@return the description of the indexed output.
+	*/
+	public String getOutputInfo (int index) {
+		switch (index) {
+                        case 0: return"IGA NsgaPopulation.";
+			case 1: return "A TableImpl data structure that contains the population of all individuals, some of which were evaluated by the interpolation program.";
+			default: return "No such output";
+		}
+	}
+
+	/**
+		This method returns an array of strings that contains the data types for the outputs.
+		@return the data types of all outputs.
+	*/
+	public String[] getOutputTypes () {
+		//String[] types = {"ncsa.d2k.modules.core.optimize.ga.emo.NsgaPopulation",
+                      //            "ncsa.d2k.modules.core.datatype.table.basic.TableImpl"};
+                String[] types = {"ncsa.d2k.modules.core.optimize.ga.Population",
+                                  "ncsa.d2k.modules.core.datatype.table.basic.TableImpl"
+                                  };
+
+                return types;
+	}
+
+	/**
+	 * Return the human readable name of the module.
+	 * @return the human readable name of the module.
+	 */
+	public String getModuleName() {
+		return "ConvertJPanelToPNG";
+	}
+
+	/**
+	 * Return the human readable name of the indexed input.
+	 * @param index the index of the input.
+	 * @return the human readable name of the indexed input.
+	 */
+	public String getInputName(int index) {
+		switch(index) {
+			case 0:
+				return "Genes Table";
+                        case 1:
+				return "JPanel Image Array";
+                        case 2:
+				return "Population Table";
+                        case 3:
+				return "IGA Nsga Population";
+			default: return "NO SUCH INPUT!";
+		}
+	}
+
+	/**
+	 * Return the human readable name of the indexed output.
+	 * @param index the index of the output.
+	 * @return the human readable name of the indexed output.
+	 */
+	public String getOutputName(int index) {
+		switch(index) {
+                        case 0:
+				return "IGA Nsga Population";
+			case 1:
+				return "Population Table";
+
+			default: return "NO SUCH OUTPUT!";
+		}
+	}
+
+        //////////////////////////
+	///d2k control methods
+	//////////////////////////
+
+	public boolean isReady(){
+		return super.isReady();
+	}
+	public void endExecution(){
+		wipeFields();
+		super.endExecution();
+	}
+	public void beginExecution(){
+		wipeFields();
+		super.beginExecution();
+	}
+	public void wipeFields(){
+            geneTable = null;
+            falseColPanArr = null;
+            popTable = null;
+            pop = null;
+	}
+
+
+	/////////////////////
+	//work methods
+	////////////////////
+
+        /**
+		does it.
+	*/
+       public void doit () throws Exception {
+
+          // pull in inputs
+          geneTable = (MutableTableImpl) this.pullInput(0);
+          falseColPanArr = (FalseColorPanelArray) this.pullInput(1);
+          popTable = (MutableTableImpl) this.pullInput(2);
+          pop = (IGANsgaPopulation) this.pullInput(3);
+
+          // obtain generation number
+          Integer gen = new Integer(pop.getCurrentGeneration());
+          // variable to get the chromosome ID for every design
+          Integer geneId; // = new Integer();
+
+          // add new column to poptable to store image information
+          int originalPopTableNumCols = popTable.getNumColumns();
+          int numSolutions = popTable.getNumRows();
+          for (int j=0; j< falseColPanArr.falColPan[0].length; j++) {
+              popTable.addColumn(new StringColumn(numSolutions));
+              popTable.setColumnLabel("Image Files", popTable.getNumColumns() - 1);
+          }
+          // loop over all individuals
+          for (int i=0; i< falseColPanArr.falColPan.length; i++){
+              // read chromosome ID from table
+              geneId = new Integer(geneTable.getInt(i,0));
+              // loop over all images for any attribute to create corresponding png files
+              for (int j=0; j< falseColPanArr.falColPan[i].length; j++) {
+                  // Integer for attribute ID
+                  Integer attribId = new Integer(j);
+                  // obtain a FalseColorPanel
+                  //FalseColorPanel falseColPan = (FalseColorPanel) imageJPanelTable.getObject(i,j);
+                  // create a file name to store the FalseColorPanel in a PNG file
+                  String filename = new String("Gen_"+gen.toString()+"_indiv_"+geneId.toString()
+                                                +"_attrib_"+attribId.toString()+".png");
+                  // save FalseColorPanel to PNG file
+                  this.saveJPanelToPNG(falseColPanArr.falColPan[i][j],filename);
+
+                  // update popTable with the PNG file names
+                  popTable.setString(filename,geneId.intValue(),originalPopTableNumCols+j);
+              }
+          }
+
+          // setting the filenames for other individuals (that were not evaluated by human) to 'null'
+          for (int i=0; i< popTable.getNumRows(); i++){
+            if (popTable.getBoolean(i, originalPopTableNumCols-1) == false ){
+              for (int j=0; j< falseColPanArr.falColPan[0].length; j++) {
+                  // update popTable with the "null" file names
+                  popTable.setString("null",i,originalPopTableNumCols+j);
+              }
+            }
+          }
+
+          // push outputs
+          this.pushOutput (pop, 0);
+          this.pushOutput (popTable, 1);
+
+       }
+
+       public void saveJPanelToPNG (FalseColorPanel jFCpanel, String name) {
+
+                // Create a buffered image in which to draw
+               // BufferedImage jpBImage = new BufferedImage (200,200,BufferedImage.TYPE_BYTE_GRAY);
+                BufferedImage jpBImage = new BufferedImage (200,200, BufferedImage.TYPE_INT_RGB);
+                // Create a graphics contents on the buffered image
+                Graphics2D g2d = jpBImage.createGraphics();
+                jFCpanel.paintComponents(g2d);
+                g2d.dispose();
+
+                try {
+                  ImageIO.write(jpBImage, "png", new File(name));
+                }
+                catch (IOException ioe) {
+                  ioe.printStackTrace();
+               }
+        }
+
+
+}//ConvertJPanelToPNG
+
+
+
+
+
+
+

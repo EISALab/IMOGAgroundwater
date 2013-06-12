@@ -1,0 +1,5 @@
+5K-60P: Used to test whether sampling is applicable
+other sets (except 6K-120P): used to show slow down in the algorithm
+	for patterned data at k = 5.
+all sets (except 5K-60P): used to show slow down in the algorithm for
+	patterned data at k = 50.

@@ -1,0 +1,74 @@
+head print format 0
+head save unit 17
+head save format (10G11.4)
+drawdown save unit 19
+compact budget files
+
+period 1 step 1
+ save drawdown
+ 
+period 1 step 2
+ save drawdown
+ 
+period 1 step 3
+ save drawdown
+ 
+period 2 step 1
+ save drawdown
+ 
+period 2 step 2
+ save drawdown
+ 
+period 2 step 3
+ save drawdown
+ 
+period 2 step 4
+ save drawdown
+ 
+period 2 step 5
+ save drawdown
+ 
+period 2 step 6
+ save drawdown
+ 
+period 2 step 7
+ save drawdown
+ 
+period 2 step 8
+ save drawdown
+ 
+period 3 step 1
+ save drawdown
+
+period 3 step 2
+ save drawdown
+
+period 3 step 3
+ save drawdown
+
+period 4 step 1
+ save drawdown
+
+period 4 step 2
+ save drawdown
+
+period 4 step 3
+ save drawdown
+
+period 4 step 4
+ save drawdown
+
+period 4 step 5
+ save drawdown
+
+period 4 step 6
+ save drawdown
+
+period 4 step 7
+ save drawdown
+
+period 4 step 8
+ save drawdown
+
+period 5 step 1
+ save  head
